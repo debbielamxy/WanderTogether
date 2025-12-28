@@ -4,6 +4,8 @@ from datetime import datetime
 import pandas as pd
 from collections import Counter
 import os
+from google.oauth2 import service_account
+import gspread
 
 app = Flask(__name__)
 
@@ -190,6 +192,38 @@ LOG_HEADER = [
 ]
 
 
+def _get_sheets_client():
+    key_json = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON')
+    spreadsheet_id = os.getenv('GOOGLE_SHEETS_SPREADSHEET_ID')
+    if not key_json or not spreadsheet_id:
+        return None, None
+    info = json.loads(key_json)
+    creds = service_account.Credentials.from_service_account_info(
+        info,
+        scopes=['https://www.googleapis.com/auth/spreadsheets']
+    )
+    client = gspread.authorize(creds)
+    return client, spreadsheet_id
+
+
+def _append_submission_to_sheet(header, row):
+    try:
+        client, spreadsheet_id = _get_sheets_client()
+        if not client:
+            return
+        sh = client.open_by_key(spreadsheet_id)
+        try:
+            ws = sh.worksheet('submissions')
+        except Exception:
+            ws = sh.add_worksheet(title='submissions', rows=1, cols=max(len(header), len(row)))
+        first = ws.row_values(1)
+        if not first:
+            ws.append_row(header)
+        ws.append_row(row)
+    except Exception:
+        pass
+
+
 def ensure_log_header():
     import os
     from pathlib import Path
@@ -292,6 +326,7 @@ def submit_matches():
         writer.writerow(row)
 
     # redirect back to input with a success message
+    _append_submission_to_sheet(LOG_HEADER, row)
     return redirect('/?msg=Match+Submitted')
 
 
