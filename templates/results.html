@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Recommendations</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      :root{ --bg:#f7f8fb; --card:#fff; --muted:#6b7280; --accent:#2b6cb0; --high:#16a34a; --mid:#f59e0b; --low:#ef4444; --field:#334155; --answer:#0f172a; --compat-high:#1e40af; --compat-mid:#6366f1; --compat-low:#6b7280 }
+      body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;background:var(--bg);color:#0f172a;margin:0;padding:20px}
+      .container{max-width:980px;margin:16px auto}
+      h1{font-size:20px;margin:0 0 12px}
+      .msg{background:#eef6ff;border-left:4px solid var(--accent);padding:10px;border-radius:6px;margin-bottom:12px;color:#0b4a6f}
+      .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+      .card{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 1px 6px rgba(2,6,23,0.06);display:flex;gap:12px}
+      .left{flex:0 0 36px;display:flex;align-items:flex-start}
+      .content{flex:1}
+      .name{font-size:16px;font-weight:600;margin:0}
+      .bio{font-size:13px;color:var(--muted);margin-top:8px}
+      .meta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+      .meta{font-size:13px;color:var(--muted)}
+      .badge{font-size:12px;padding:4px 8px;border-radius:999px;color:#fff;display:inline-block}
+      /* Trust badge colors */
+      .trust-high{background:var(--high)}
+      .trust-mid{background:var(--mid)}
+      .trust-low{background:var(--low)}
+      /* Compatibility badge colors (distinct from trust) */
+      .compat-high{background:var(--compat-high)}
+      .compat-mid{background:var(--compat-mid)}
+      .compat-low{background:var(--compat-low)}
+      label.match-row{display:flex;align-items:flex-start;gap:10px}
+      input[type=checkbox]{width:20px;height:20px;margin-top:4px}
+      button{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
+      .small{font-size:13px;color:var(--muted)}
+    </style>
+  </head>
+  <body>
+    <h1>Top Recommended Travel Buddies</h1>
+    {% if message %}
+      <div class="msg">{{ message }}</div>
+    {% endif %}
+    <div class="container">
+      {# maps to display friendly labels for budget, pace and style (handles numeric or coded values) #}
+      {% set budget_map = {1:'Average',2:'Backpacking',3:'Occasional splurging',4:'Comfort',5:'Luxurious', 'average':'Average','backpacking':'Backpacking','occasional_splurging':'Occasional splurging','comfort':'Comfort','luxury':'Luxurious'} %}
+      {% set pace_map = {1:'Relaxed itinerary',2:'Packed itinerary',3:'Spontaneous/No itinerary',4:'Flexible', 'relaxed_itinerary':'Relaxed itinerary','packed_itinerary':'Packed itinerary','spontaneous':'Spontaneous/No itinerary','flexible':'Flexible'} %}
+      {% set style_map = {'average':'Average','backpacking':'Backpacking','occasional_splurging':'Occasional splurging','comfort':'Comfort','luxury':'Luxurious'} %}
+      <div style="margin-bottom:10px" class="small">Trust Score: Reliability and rating of the user based on past interactions.</div>
+      <div class="msg small" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+        <div style="display:flex;gap:8px;align-items:center">
+          <div class="badge trust-low">&lt;0.4</div>
+          <div style="font-size:13px;color:var(--muted)">Match with caution</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <div class="badge trust-mid">0.4–0.7</div>
+          <div style="font-size:13px;color:var(--muted)">Moderate reliability</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <div class="badge trust-high">≥0.7</div>
+          <div style="font-size:13px;color:var(--muted)">High reliability</div>
+        </div>
+      </div>
+      <div style="font-size:13px;color:var(--muted);margin-top:8px">Compatibility Score: How well the profile matches to yours (does not include trust). Use this alongside Trust Score to decide.</div>
+      <div class="msg small" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:8px">
+        <div style="display:flex;gap:8px;align-items:center">
+          <div class="badge compat-low">&lt;0.4</div>
+          <div style="font-size:13px;color:var(--muted)">Low compatibility</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <div class="badge compat-mid">0.4–0.7</div>
+          <div style="font-size:13px;color:var(--muted)">Moderate compatibility</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <div class="badge compat-high">≥0.7</div>
+          <div style="font-size:13px;color:var(--muted)">High compatibility</div>
+        </div>
+      </div>
+      <!-- user's profile intentionally hidden on this page per request -->
+
+    <form id="matchesForm" action="/submit_matches" method="post">
+      <!-- user hidden fields (included once) -->
+      <input type="hidden" name="name" value="{{ user.name }}" />
+      <input type="hidden" name="age" value="{{ user.age }}" />
+      <input type="hidden" name="gender" value="{{ user.gender }}" />
+      <input type="hidden" name="budget" value="{{ user.budget }}" />
+      <input type="hidden" name="travel_budget" value="{{ user.travel_budget if user.travel_budget is defined else user.budget }}" />
+      <input type="hidden" name="cleanliness" value="{{ user.cleanliness }}" />
+      <input type="hidden" name="dietary" value="{{ user.dietary }}" />
+      <input type="hidden" name="alcohol" value="{{ user.alcohol }}" />
+      <input type="hidden" name="smoking" value="{{ user.smoking }}" />
+      <input type="hidden" name="fitness" value="{{ user.fitness }}" />
+      <input type="hidden" name="pace" value="{{ user.pace }}" />
+      <input type="hidden" name="pace_text" value="{{ user.pace_text }}" />
+      <input type="hidden" name="style" value="{{ user.style }}" />
+      {% for it in user.interests %}
+        <input type="hidden" name="interests" value="{{ it }}" />
+      {% endfor %}
+      {% for s in user.sleep %}
+        <input type="hidden" name="sleep" value="{{ s }}" />
+      {% endfor %}
+      <input type="hidden" name="bio" value="{{ user.bio }}" />
+
+      <div class="grid" style="grid-template-columns:repeat(2,1fr);">
+      {% for alg, scores in algorithms.items() %}
+        <div class="card alg">
+          {% if scores and scores|length > 0 %}
+            {% set p, sc, compat = scores[0] %}
+            <label class="match-row">
+              <div class="left">
+                <input type="checkbox" name="selected" value="{{ alg }}::{{ p.id }}::{{ '%.4f'|format(sc) }}">
+              </div>
+              <div class="content">
+                {# compute score values early for reuse #}
+                {% set trust_val = (p.trust if p.trust is defined else 0.5) %}
+                {% set compat_val = compat if compat is defined else 0.0 %}
+                {# hidden fields to capture the recommended candidate name and id for this algorithm #}
+                {# sanitize name to avoid showing embedded numeric id suffixes like 'Name 163' #}
+                {% set name_parts = p.name.split() %}
+                {% if name_parts and name_parts[-1].isdigit() %}
+                  {% set display_name = name_parts[:-1] | join(' ') %}
+                {% else %}
+                  {% set display_name = p.name %}
+                {% endif %}
+                <input type="hidden" name="algorithm{{ loop.index }}_recommendation_name" value="{{ display_name }}">
+                <input type="hidden" name="algorithm{{ loop.index }}_recommendation_id" value="{{ p.id }}">
+                <input type="hidden" name="algorithm{{ loop.index }}_recommendation_compatibility" value="{{ '%.4f'|format(compat_val) }}">
+                <input type="hidden" name="algorithm{{ loop.index }}_recommendation_trust" value="{{ '%.4f'|format(trust_val) }}">
+                <div class="name">
+                  {{ display_name }}
+                  <span style="font-weight:400;font-size:13px;color:var(--muted);margin-left:8px">· Age: {{ p.age if p.age is defined else '—' }}</span>
+                  {# Trust badge inline #}
+                  {% if trust_val >= 0.7 %}
+                    <span class="badge trust-high" style="margin-left:10px">Trust: {{ '%.2f'|format(trust_val) }}</span>
+                  {% elif trust_val >= 0.4 %}
+                    <span class="badge trust-mid" style="margin-left:10px">Trust: {{ '%.2f'|format(trust_val) }}</span>
+                  {% else %}
+                    <span class="badge trust-low" style="margin-left:10px">Trust: {{ '%.2f'|format(trust_val) }}</span>
+                  {% endif %}
+
+                  {# Compatibility badge inline with distinct hues #}
+                  {% if compat_val >= 0.7 %}
+                    <span class="badge compat-high" style="margin-left:8px">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
+                  {% elif compat_val >= 0.4 %}
+                    <span class="badge compat-mid" style="margin-left:8px">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
+                  {% else %}
+                    <span class="badge compat-low" style="margin-left:8px">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
+                  {% endif %}
+                </div>
+
+                {# Age + Gender row (above bio) #}
+                <div class="meta-row" style="margin-top:8px;gap:12px;align-items:center">
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Age:</span> <span style="color:var(--answer);margin-left:6px">{{ p.age if p.age is defined else '—' }}</span></div>
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Gender:</span> <span style="color:var(--answer);margin-left:6px">{% if p.gender %}{{ p.gender | capitalize }}{% else %}—{% endif %}</span></div>
+                </div>
+                <div class="bio"><span style="color:var(--field);font-weight:600">Bio:</span> <span style="color:var(--answer);margin-left:6px">{{ p.bio }}</span></div>
+
+                <div style="margin-top:8px">
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Interests:</span> <span style="color:var(--answer);margin-left:6px">{% if p.interests %}{{ p.interests | join(', ') }}{% else %}—{% endif %}</span></div>
+                  {% set raw_budget = p.budget if p.budget is defined else (p.get('budget') if p.get('budget') is defined else '') %}
+                  {% set budget_display = budget_map.get(raw_budget, budget_map.get(raw_budget|string, raw_budget)) %}
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Budget:</span> <span style="color:var(--answer);margin-left:6px">{{ budget_display }}</span></div>
+                  {% set raw_pace = p.pace if p.pace is defined else (p.get('pace') if p.get('pace') is defined else p.get('pace_text','')) %}
+                  {% set pace_display = pace_map.get(raw_pace, pace_map.get(raw_pace|string, raw_pace)) %}
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Pace:</span> <span style="color:var(--answer);margin-left:6px">{{ pace_display }}</span></div>
+                  {% set raw_style = p.style if p.style is defined else p.get('style','') %}
+                  {% set style_display = style_map.get(raw_style, style_map.get(raw_style|string, raw_style)) %}
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Style:</span> <span style="color:var(--answer);margin-left:6px">{{ style_display }}</span></div>
+                </div>
+
+                <div style="margin-top:8px">
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Sleeping:</span> <span style="color:var(--answer);margin-left:6px">{% if p.get('sleep') %}{{ p.sleep | join(', ') }}{% else %}—{% endif %}</span></div>
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Smoking:</span> <span style="color:var(--answer);margin-left:6px">{% if p.get('smoking') %}{{ p.smoking }}{% else %}—{% endif %}</span></div>
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Alcohol:</span> <span style="color:var(--answer);margin-left:6px">{% if p.get('alcohol') %}{{ p.alcohol }}{% else %}—{% endif %}</span></div>
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Dietary:</span> <span style="color:var(--answer);margin-left:6px">{% if p.get('dietary') %}{{ p.dietary }}{% else %}—{% endif %}</span></div>
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Cleanliness:</span> <span style="color:var(--answer);margin-left:6px">{% if p.get('cleanliness') %}{{ p.cleanliness }}{% else %}—{% endif %}</span></div>
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Fitness:</span> <span style="color:var(--answer);margin-left:6px">{% if p.get('fitness') %}{{ p.fitness }}{% else %}—{% endif %}</span></div>
+                </div>
+              </div>
+            </label>
+          {% else %}
+            <div class="small">No candidate found</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+      </div>
+
+      <div style="margin-top:18px">
+        <button type="submit">Submit Matches</button>
+      </div>
+    </form>
+
+    <script>
+      document.getElementById('matchesForm').addEventListener('submit', function(e){
+        const checked = document.querySelectorAll('input[name="selected"]:checked');
+        if(checked.length < 1 || checked.length > 4){
+          e.preventDefault();
+          alert('Please select between 1 and 4 candidates before submitting.');
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>WanderTogether — Find Your Travel Buddy</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <style>
+            :root{ --bg:#f7f8fb; --card:#fff; --muted:#666; --accent:#2b6cb0 }
+            body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:#111; margin:0}
+            .container{max-width:980px;margin:28px auto;padding:20px}
+            h1{font-weight:600;margin:0 0 18px}
+            form{display:grid;grid-template-columns:1fr;gap:12px}
+            .card{background:var(--card);border-radius:10px;padding:14px;box-shadow:0 1px 2px rgba(16,24,40,0.03)}
+            .row{display:flex;gap:12px}
+            .col{flex:1}
+            .col.age{flex:0 0 90px}
+            label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+            input[type="text"], input[type="number"], select{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ef;background:#fff;box-sizing:border-box}
+            .multi{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
+            .small{font-size:13px;color:var(--muted)}
+            .actions{text-align:right}
+            button{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
+            .weights{margin-top:18px;font-size:13px;color:var(--muted)}
+            .radio-group{display:flex;gap:12px;align-items:center}
+            .field-inline{display:flex;gap:12px;align-items:center}
+            @media (min-width:720px){form{grid-template-columns:1fr 380px}}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Enter your travel profile</h1>
+                        {% if message %}
+                            <div style="margin-bottom:12px;background:#eef6ff;border-left:4px solid #2b6cb0;padding:10px;border-radius:6px;color:#0b4a6f">{{ message }}</div>
+                        {% endif %}
+            <form action="/recommend" method="post">
+                <div class="card">
+                    <div style="margin-bottom:8px">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="name" />
+                    </div>
+
+                    <div class="row" style="margin-top:8px;align-items:center">
+                        <div class="col age">
+                            <label for="age">Age</label>
+                            <input id="age" type="number" name="age" min="18" max="100" value="30" />
+                        </div>
+                        <div class="col">
+                            <label>Gender</label>
+                            <div class="radio-group">
+                                <label style="margin:0"><input type="radio" name="gender" value="female" style="margin-right:6px">Female</label>
+                                <label style="margin:0"><input type="radio" name="gender" value="male" style="margin-right:6px">Male</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:12px;align-items:flex-end">
+                        <div class="col">
+                            <label>Travel Budget</label>
+                            <select name="style">  
+                                <option value="average">Average</option>
+                                <option value="backpacking">Backpacking</option>
+                                <option value="occasional_splurging">Occasional splurging</option>
+                                <option value="comfort">Comfort</option>
+                                <option value="luxury">Luxurious</option>
+                            </select>
+                        </div>
+                        <div class="col" style="max-width:240px">
+                            <label>Travelling Pace</label>
+                            <select name="pace_text">
+                                <option value="relaxed_itinerary">Relaxed itinerary</option>
+                                <option value="packed_itinerary">Packed itinerary</option>
+                                <option value="spontaneous">Spontaneous/No itinerary</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:12px">
+                        <label>Interests</label>
+                        <div class="multi">
+                            {% for it in interest_choices %}
+                                <label style="display:flex;align-items:center"><input type="checkbox" name="interests" value="{{ it }}" style="margin-right:8px"> <span class="small">{{ it }}</span></label>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div style="margin-top:12px">
+                        <label>Sleeping Habits</label>
+                        <div class="row">
+                            <label><input type="checkbox" name="sleep" value="snoring"> Snoring</label>
+                            <label><input type="checkbox" name="sleep" value="light"> Light sleeper</label>
+                            <label><input type="checkbox" name="sleep" value="heavy"> Heavy sleeper</label>
+                            <label><input type="checkbox" name="sleep" value="early"> Early sleeper</label>
+                            <label><input type="checkbox" name="sleep" value="late"> Late sleeper</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <label>Bio</label>
+                        <input type="text" name="bio" placeholder="Optional. More about yourself." />
+                    </div>
+
+                    <div style="margin-top:12px">
+                        <label>Cleanliness & Living Habits</label>
+                        <select name="cleanliness">
+                            <option value="average">Average</option>
+                            <option value="neat">Neat</option>
+                            <option value="messy">Messy</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-top:12px">
+                        <label>Dietary Restrictions</label>
+                        <select name="dietary">
+                            <option value="none">None</option>
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="vegan">Vegan</option>
+                            <option value="halal">Halal</option>
+                            <option value="keto">Keto</option>
+                            <option value="gluten-free">Gluten-free</option>
+                            <option value="lactose-intolerant">Lactose-intolerant</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-top:12px">
+                        <label>Alcohol</label>
+                        <select name="alcohol">
+                            <option value="no">No</option>
+                            <option value="social">Social</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-top:12px">
+                        <label>Smoking / Vaping</label>
+                        <select name="smoking">
+                            <option value="no">No</option>
+                            <option value="outside">Only outside</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-top:12px">
+                        <label>Physical Fitness</label>
+                        <select name="fitness">
+                            <option value="walk">Prefer walking</option>
+                            <option value="mixed">Mix of walking and transport</option>
+                            <option value="transport">Prefer transport</option>
+                        </select>
+                    </div>
+
+                    <div class="actions" style="margin-top:18px">
+                        <button type="submit">Get Recommendations</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
