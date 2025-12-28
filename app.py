@@ -4,8 +4,8 @@ from datetime import datetime
 import pandas as pd
 from collections import Counter
 import os
-from google.oauth2 import service_account
-import gspread
+import psycopg2
+from psycopg2.extras import execute_values
 
 app = Flask(__name__)
 
@@ -192,36 +192,67 @@ LOG_HEADER = [
 ]
 
 
-def _get_sheets_client():
-    key_json = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON')
-    spreadsheet_id = os.getenv('GOOGLE_SHEETS_SPREADSHEET_ID')
-    if not key_json or not spreadsheet_id:
-        return None, None
-    info = json.loads(key_json)
-    creds = service_account.Credentials.from_service_account_info(
-        info,
-        scopes=['https://www.googleapis.com/auth/spreadsheets']
-    )
-    client = gspread.authorize(creds)
-    return client, spreadsheet_id
-
-
-def _append_submission_to_sheet(header, row):
+def _get_db_conn():
+    dsn = os.getenv('DATABASE_URL')
+    if not dsn:
+        return None
     try:
-        client, spreadsheet_id = _get_sheets_client()
-        if not client:
-            return
-        sh = client.open_by_key(spreadsheet_id)
-        try:
-            ws = sh.worksheet('submissions')
-        except Exception:
-            ws = sh.add_worksheet(title='submissions', rows=1, cols=max(len(header), len(row)))
-        first = ws.row_values(1)
-        if not first:
-            ws.append_row(header)
-        ws.append_row(row)
+        conn = psycopg2.connect(dsn)
+        conn.autocommit = True
+        return conn
     except Exception:
-        pass
+        return None
+
+
+def _ensure_db():
+    conn = _get_db_conn()
+    if not conn:
+        return
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            CREATE TABLE IF NOT EXISTS submissions (
+                id SERIAL PRIMARY KEY,
+                created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+                user_name TEXT,
+                algorithm1_recommendation_name TEXT,
+                algorithm1_recommendation_id TEXT,
+                algorithm1_compatibility TEXT,
+                algorithm1_trust TEXT,
+                algorithm1_matched_successfully TEXT,
+                algorithm2_recommendation_name TEXT,
+                algorithm2_recommendation_id TEXT,
+                algorithm2_compatibility TEXT,
+                algorithm2_trust TEXT,
+                algorithm2_matched_successfully TEXT,
+                algorithm3_recommendation_name TEXT,
+                algorithm3_recommendation_id TEXT,
+                algorithm3_compatibility TEXT,
+                algorithm3_trust TEXT,
+                algorithm3_matched_successfully TEXT,
+                algorithm4_recommendation_name TEXT,
+                algorithm4_recommendation_id TEXT,
+                algorithm4_compatibility TEXT,
+                algorithm4_trust TEXT,
+                algorithm4_matched_successfully TEXT
+            )
+            """
+        )
+    conn.close()
+
+
+def _insert_submission_row(header, row):
+    conn = _get_db_conn()
+    if not conn:
+        return
+    cols = ','.join(header)
+    placeholders = ','.join(['%s'] * len(row))
+    sql = f"INSERT INTO submissions ({cols}) VALUES ({placeholders})"
+    try:
+        with conn.cursor() as cur:
+            cur.execute(sql, row)
+    finally:
+        conn.close()
 
 
 def ensure_log_header():
@@ -326,7 +357,8 @@ def submit_matches():
         writer.writerow(row)
 
     # redirect back to input with a success message
-    _append_submission_to_sheet(LOG_HEADER, row)
+    _ensure_db()
+    _insert_submission_row(LOG_HEADER, row)
     return redirect('/?msg=Match+Submitted')
 
 
