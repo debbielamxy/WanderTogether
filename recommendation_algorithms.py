@@ -60,11 +60,13 @@ def categorical_similarity(user_val, profile_val):
 def demographics_score(user, profile):
     # gender match (if available) and age proximity
     score = 0.0
-    # gender
+    # gender - only count if same gender, since survey shows most prefer same-gender
     ug = user.get('gender')
     pg = profile.get('gender')
     if ug is not None and pg is not None:
-        score += 1.0 if str(ug).lower() == str(pg).lower() else 0.0
+        if str(ug).lower() == str(pg).lower():
+            score += 1.0  # same gender match
+        # different gender gets 0 points (not penalized, but not rewarded)
     # age proximity
     ua = user.get('age')
     pa = profile.get('age')
@@ -102,15 +104,18 @@ def detect_outdoors_from_text(text):
 
 
 def demographics_strict(user, profile):
-    """Stricter demographics score prioritizing gender match and close age proximity.
+    """Stricter demographics score prioritizing same-gender match and close age proximity.
+    Based on survey data: most respondents prefer same-gender companions for safety.
 
-    Returns a value in [0,1] where gender match counts more than age proximity.
+    Returns a value in [0,1] where same-gender match counts more than age proximity.
     """
     gender_score = 0.0
     ug = user.get('gender')
     pg = profile.get('gender')
     if ug is not None and pg is not None:
-        gender_score = 1.0 if str(ug).lower() == str(pg).lower() else 0.0
+        if str(ug).lower() == str(pg).lower():
+            gender_score = 1.0  # same gender - full points
+        # different gender gets 0 points (not penalized)
 
     age_score = 0.0
     ua = user.get('age')
@@ -126,7 +131,7 @@ def demographics_strict(user, profile):
         else:
             age_score = 0.0
 
-    # heavier weight on gender (70%) vs age (30%) for safety-focused algorithm
+    # heavier weight on same-gender (70%) vs age (30%) for safety-focused algorithm
     return 0.7 * gender_score + 0.3 * age_score
 
 def base_score(user, profile, w, bio_mode='none'):

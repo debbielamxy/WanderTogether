@@ -67,7 +67,7 @@ def load_survey_weights(csv_path='WanderTogether_ A Survey on Travel Companion M
         'pace': ['Similar travel pace (e.g., relaxed vs. fast-paced)'],
         'interests': ['Shared interests (e.g., hiking, food, history)', ' Shared interests (e.g., hiking, food, history)'],
         'style': ['Same travel style (e.g., backpacking vs. luxury)'],
-        'gender': ['Same gender', 'Different gender'],
+        'gender': ['Same gender'],  # Only count same-gender preferences
         'age': ['Similar age group'],
         'sleep': ['Matching sleep schedules']
     }
