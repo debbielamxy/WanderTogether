@@ -224,9 +224,9 @@ def compute_algorithms(user, weights, profiles):
     # Algorithm 3: Safety Stress-Test (prioritizes gender and age heavily)
     # This algorithm uses a stricter demographics function and enforces a trust gate
     W3 = {
-        'pace':0.05, 'budget':0.05, 'interests':0.07, 'style':0.05,
-        'sleep':0.16, 'smoking':0.10, 'alcohol':0.06, 'dietary':0.06, 'cleanliness':0.05, 'fitness':0.05,
-        'bio':0.16, 'demographics':0.19
+        'pace':0.03, 'budget':0.03, 'interests':0.05, 'style':0.03,
+        'sleep':0.10, 'smoking':0.06, 'alcohol':0.04, 'dietary':0.04, 'cleanliness':0.03, 'fitness':0.03,
+        'bio':0.10, 'demographics':0.46 
     }
     TRUST_GATE = 0.7
     alg3 = []
