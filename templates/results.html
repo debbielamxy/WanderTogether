@@ -35,6 +35,9 @@
   </head>
   <body>
     <h1>Top Recommended Travel Buddies</h1>
+    <div class="msg small" style="background:#f8fafc;border-left:4px solid #94a3b8;color:#475569">
+      This is to evaluate the most preferred matching algorithm - there is no right or wrong answer. Simply choose the companion(s) you would genuinely like to travel with.
+    </div>
     {% if message %}
       <div class="msg">{{ message }}</div>
     {% endif %}
@@ -126,22 +129,24 @@
                 <div class="name">
                   {{ display_name }}
                   <span style="font-weight:400;font-size:13px;color:var(--muted);margin-left:8px">· Age: {{ p.age if p.age is defined else '—' }}</span>
-                  {# Trust badge inline #}
+                </div>
+                <div style="margin-top:6px;display:flex;gap:8px;flex-wrap:wrap">
+                  {# Trust badge #}
                   {% if trust_val >= 0.7 %}
-                    <span class="badge trust-high" style="margin-left:10px">Trust: {{ '%.2f'|format(trust_val) }}</span>
+                    <span class="badge trust-high">Trust: {{ '%.2f'|format(trust_val) }}</span>
                   {% elif trust_val >= 0.4 %}
-                    <span class="badge trust-mid" style="margin-left:10px">Trust: {{ '%.2f'|format(trust_val) }}</span>
+                    <span class="badge trust-mid">Trust: {{ '%.2f'|format(trust_val) }}</span>
                   {% else %}
-                    <span class="badge trust-low" style="margin-left:10px">Trust: {{ '%.2f'|format(trust_val) }}</span>
+                    <span class="badge trust-low">Trust: {{ '%.2f'|format(trust_val) }}</span>
                   {% endif %}
 
-                  {# Compatibility badge inline with distinct hues #}
+                  {# Compatibility badge #}
                   {% if compat_val >= 0.7 %}
-                    <span class="badge compat-high" style="margin-left:8px">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
+                    <span class="badge compat-high">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
                   {% elif compat_val >= 0.4 %}
-                    <span class="badge compat-mid" style="margin-left:8px">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
+                    <span class="badge compat-mid">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
                   {% else %}
-                    <span class="badge compat-low" style="margin-left:8px">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
+                    <span class="badge compat-low">Compatibility: {{ '%.2f'|format(compat_val) }}</span>
                   {% endif %}
                 </div>
 
