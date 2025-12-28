@@ -12,41 +12,53 @@ app = Flask(__name__)
 
 # Canonical interest choices shown on the form
 INTEREST_CHOICES = [
-    # Culture & History
-    'Culture & History',
-
-    'Museums & Galleries',
+    # Culture & Exploration
     'Historical Sites',
-    'Local Traditions',
+    'Museums & Art',
+    'Local Culture',
+    'Architecture',
     'Religious Sites',
-    'Photography',
+    'Festivals & Events',
 
-    # Nature & Outdoors
-    'Hiking & Trekking',
-    'Wildlife & Safaris',
+    # Nature & Adventure
+    'Hiking & Nature',
+    'Beaches & Coast',
+    'Wildlife & Animals',
     'National Parks',
-    'Beaches & Islands',
-    'Gardens & Florals',
+    'Mountains & Scenery',
+    'Camping & Outdoors',
 
-    # Food & Drink
+    # Food & Culinary
     'Street Food',
     'Fine Dining',
-    'Coffee & Cafes',
-    'Wine & Spirits',
-    'Cooking Classes',
+    'Food Markets',
+    'Cooking Experiences',
+    'Wine & Drinks',
+    'Coffee Culture',
 
-    # Activity & Adventure
-    'Extreme Sports',
+    # Activities & Sports
     'Water Sports',
-    'Wellness & Yoga',
-    'Theme Parks',
-    'Camping',
+    'Adventure Sports',
+    'Winter Sports',
+    'Cycling',
+    'Photography',
+    'Wellness & Spa',
 
-    # Urban & Lifestyle
+    # Urban & Social
     'Shopping',
-    'Nightlife',
-    'Concerts & Events',
-    'Slow Living'
+    'Nightlife & Bars',
+    'Live Music & Concerts',
+    'Art Galleries',
+    'City Exploration',
+    'Local Markets',
+
+    # Travel Styles
+    'Road Trips',
+    'Backpacking',
+    'Luxury Travel',
+    'Volunteer Work',
+    'Digital Nomad',
+    'Slow Travel'
 ]
 
 
