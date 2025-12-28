@@ -137,7 +137,7 @@ def parse_user_form(form):
     # mapping: backpacking=1, economical=1, midrange/average=2, comfort=2, luxury=3
     if style in ('backpacking', 'economical'):
         travel_budget = 1
-    elif style in ('midrange', 'average', 'comfort', 'occasional_splurging'):
+    elif style in ('midrange', 'average', 'comfort', 'occasional_splurging', 'occasional_splurge'):
         travel_budget = 2
     elif style in ('luxury',):
         travel_budget = 3

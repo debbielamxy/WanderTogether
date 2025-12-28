@@ -46,7 +46,7 @@
   {
     "id": 3,
     "name": "Olivia-Rose Olsen",
-    "budget": 1,
+    "budget": 2,
     "pace": 1,
     "interests": [
       "Slow Living",
@@ -1277,7 +1277,7 @@
   {
     "id": 54,
     "name": "Nora-Rose Lee",
-    "budget": 3,
+    "budget": 2,
     "pace": 2,
     "interests": [
       "Fine Dining",
@@ -1328,7 +1328,7 @@
   {
     "id": 56,
     "name": "Jayden-James Zimmer",
-    "budget": 3,
+    "budget": 2,
     "pace": 3,
     "interests": [
       "Photography",
@@ -1569,7 +1569,7 @@
   {
     "id": 66,
     "name": "Ava-Mae Patel",
-    "budget": 3,
+    "budget": 2,
     "pace": 2,
     "interests": [
       "Wellness & Yoga",
@@ -1688,7 +1688,7 @@
   {
     "id": 71,
     "name": "Sophia-Mae Khan",
-    "budget": 1,
+    "budget": 2,
     "pace": 2,
     "interests": [
       "Culture & History",
@@ -1761,7 +1761,7 @@
   {
     "id": 74,
     "name": "Lucas-Lee Gomez",
-    "budget": 1,
+    "budget": 2,
     "pace": 3,
     "interests": [
       "Wine & Spirits",
@@ -2291,7 +2291,7 @@
   {
     "id": 96,
     "name": "Emily-Mae Zimmer",
-    "budget": 1,
+    "budget": 2,
     "pace": 2,
     "interests": [
       "Camping"
@@ -2338,7 +2338,7 @@
   {
     "id": 98,
     "name": "Mateo-Lee Murray",
-    "budget": 1,
+    "budget": 2,
     "pace": 2,
     "interests": [
       "Historical Sites",
@@ -2531,7 +2531,7 @@
   {
     "id": 106,
     "name": "Matthew-Lee Patel",
-    "budget": 1,
+    "budget": 2,
     "pace": 3,
     "interests": [
       "Photography",
@@ -3255,7 +3255,7 @@
   {
     "id": 136,
     "name": "Henry-John Zimmer",
-    "budget": 3,
+    "budget": 2,
     "pace": 1,
     "interests": [
       "Museums & Galleries",
@@ -3769,7 +3769,7 @@
   {
     "id": 158,
     "name": "Mateo-John Taylor",
-    "budget": 3,
+    "budget": 2,
     "pace": 3,
     "interests": [
       "Water Sports",
@@ -4180,7 +4180,7 @@
   {
     "id": 175,
     "name": "Carter-John Singh",
-    "budget": 1,
+    "budget": 2,
     "pace": 1,
     "interests": [
       "Water Sports",
@@ -4280,7 +4280,7 @@
   {
     "id": 179,
     "name": "Victoria-Anne Garcia",
-    "budget": 3,
+    "budget": 2,
     "pace": 2,
     "interests": [
       "Photography",
@@ -4349,7 +4349,7 @@
   {
     "id": 182,
     "name": "Noah-Ray Park",
-    "budget": 1,
+    "budget": 2,
     "pace": 3,
     "interests": [
       "Nightlife",
@@ -6194,7 +6194,7 @@
   {
     "id": 261,
     "name": "Harper-Grace Ueda",
-    "budget": 3,
+    "budget": 2,
     "pace": 1,
     "interests": [
       "Beaches & Islands",
@@ -6532,7 +6532,7 @@
   {
     "id": 275,
     "name": "Sofia-Grace Cook",
-    "budget": 3,
+    "budget": 2,
     "pace": 3,
     "interests": [
       "Nightlife",
@@ -6648,7 +6648,7 @@
   {
     "id": 280,
     "name": "Jack-Kai Costa",
-    "budget": 1,
+    "budget": 2,
     "pace": 2,
     "interests": [
       "Photography",
@@ -6669,7 +6669,7 @@
   {
     "id": 281,
     "name": "Mila-Grace Adams",
-    "budget": 1,
+    "budget": 2,
     "pace": 3,
     "interests": [
       "Wellness & Yoga",
@@ -7075,7 +7075,7 @@
   {
     "id": 298,
     "name": "Luke-Kai Murray",
-    "budget": 1,
+    "budget": 2,
     "pace": 3,
     "interests": [
       "Museums & Galleries"
