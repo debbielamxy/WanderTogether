@@ -31,6 +31,32 @@ def interests_similarity(user, profile):
 def style_similarity(user, profile):
     return 1.0 if user.get('style') == profile.get('style') else 0.0
 
+def jaccard_overlap(a, b):
+    a = set(a or [])
+    b = set(b or [])
+    if not a and not b:
+        return 0.0
+    return len(a.intersection(b)) / max(1, len(a.union(b)))
+
+def sleep_similarity(user, profile):
+    return jaccard_overlap(user.get('sleep'), profile.get('sleep'))
+
+def habit_match(user_val, profile_val):
+    u = (user_val or '').strip().lower()
+    p = (profile_val or '').strip().lower()
+    if not u or not p:
+        return 0.5  # unknown -> neutral
+    return 1.0 if u == p else 0.0
+
+def categorical_similarity(user_val, profile_val):
+    u = (user_val or '').strip().lower()
+    p = (profile_val or '').strip().lower()
+    if not u and not p:
+        return 0.0
+    if not u or not p:
+        return 0.5
+    return 1.0 if u == p else 0.0
+
 def demographics_score(user, profile):
     # gender match (if available) and age proximity
     score = 0.0
@@ -108,6 +134,12 @@ def base_score(user, profile, w, bio_mode='none'):
     budget = budget_similarity(user, profile)
     interests = interests_similarity(user, profile)
     style = style_similarity(user, profile)
+    sleep_c = sleep_similarity(user, profile)
+    smoking_c = habit_match(user.get('smoking'), profile.get('smoking'))
+    alcohol_c = habit_match(user.get('alcohol'), profile.get('alcohol'))
+    cleanliness_c = categorical_similarity(user.get('cleanliness'), profile.get('cleanliness'))
+    fitness_c = categorical_similarity(user.get('fitness'), profile.get('fitness'))
+    dietary_c = categorical_similarity(user.get('dietary'), profile.get('dietary'))
     # bio component
     if bio_mode == 'semantic':
         bio = semantic_bio_score(user, profile)
@@ -125,6 +157,12 @@ def base_score(user, profile, w, bio_mode='none'):
         w.get('budget',0)*budget +
         w.get('interests',0)*interests +
         w.get('style',0)*style +
+        w.get('sleep',0)*sleep_c +
+        w.get('smoking',0)*smoking_c +
+        w.get('alcohol',0)*alcohol_c +
+        w.get('cleanliness',0)*cleanliness_c +
+        w.get('fitness',0)*fitness_c +
+        w.get('dietary',0)*dietary_c +
         w.get('bio',0)*bio +
         w.get('demographics',0)*demo
     )
@@ -139,9 +177,26 @@ def trust_multiplier(profile):
 def compute_algorithms(user, weights, profiles):
     algorithms = {}
 
-    # Algorithm 1: Direct Application (uses empirical weights derived from survey)
-    # These weights reflect the survey-derived ratios (end-to-end research → design → implementation)
-    W1 = {'pace':0.28, 'budget':0.26, 'interests':0.20, 'style':0.20, 'bio':0.03, 'demographics':0.03}
+    # Algorithm 1: Direct Application (purely survey-driven)
+    # Build weights directly from CSV-derived `weights` (see app.load_survey_weights)
+    demo_w = (weights.get('gender', 0.0) + weights.get('age', 0.0))
+    W1_raw = {
+        'pace': weights.get('pace', 0.0),
+        'budget': weights.get('budget', 0.0),
+        'interests': weights.get('interests', 0.0),
+        'style': weights.get('style', 0.0),
+        'sleep': weights.get('sleep', 0.0),
+        'demographics': demo_w,
+        # For strict empirical alignment, other habit/bio signals are not used unless present in survey weights
+        'smoking': 0.0,
+        'alcohol': 0.0,
+        'dietary': 0.0,
+        'cleanliness': 0.0,
+        'fitness': 0.0,
+        'bio': 0.0,
+    }
+    total = sum(W1_raw.values()) or 1.0
+    W1 = {k: (v / total) for k, v in W1_raw.items()}
     alg1 = []
     for p in profiles:
         S = base_score(user, p, W1, bio_mode='tie')
@@ -163,31 +218,45 @@ def compute_algorithms(user, weights, profiles):
 
     # Algorithm 3: Safety Stress-Test (prioritizes gender and age heavily)
     # This algorithm uses a stricter demographics function and enforces a trust gate
-    W3 = {'pace':0.10, 'budget':0.10, 'interests':0.10, 'style':0.10, 'bio':0.20, 'demographics':0.40}
+    W3 = {
+        'pace':0.05, 'budget':0.05, 'interests':0.07, 'style':0.05,
+        'sleep':0.16, 'smoking':0.10, 'alcohol':0.06, 'dietary':0.06, 'cleanliness':0.05, 'fitness':0.05,
+        'bio':0.16, 'demographics':0.19
+    }
     TRUST_GATE = 0.7
     alg3 = []
     for p in profiles:
         Tn = trust_multiplier(p)
         if Tn < TRUST_GATE:
             continue
-        # compute components explicitly so we can replace demographics with a stricter variant
+        # compute components explicitly so we can replace demographics with a stricter variant and include habits
         pace_c = pace_similarity(user, p)
         budget_c = budget_similarity(user, p)
         interests_c = interests_similarity(user, p)
         style_c = style_similarity(user, p)
         bio_c = safety_keyword_score(user, p)  # use safety-oriented bio scoring
         demo_c = demographics_strict(user, p)
+        sleep_c = sleep_similarity(user, p)
+        smoking_c = habit_match(user.get('smoking'), p.get('smoking'))
+        alcohol_c = habit_match(user.get('alcohol'), p.get('alcohol'))
+        cleanliness_c = categorical_similarity(user.get('cleanliness'), p.get('cleanliness'))
+        fitness_c = categorical_similarity(user.get('fitness'), p.get('fitness'))
 
         weighted = (
             W3.get('pace', 0) * pace_c +
             W3.get('budget', 0) * budget_c +
             W3.get('interests', 0) * interests_c +
             W3.get('style', 0) * style_c +
+            W3.get('sleep', 0) * sleep_c +
+            W3.get('smoking', 0) * smoking_c +
+            W3.get('alcohol', 0) * alcohol_c +
+            W3.get('dietary', 0) * categorical_similarity(user.get('dietary'), p.get('dietary')) +
+            W3.get('cleanliness', 0) * cleanliness_c +
+            W3.get('fitness', 0) * fitness_c +
             W3.get('bio', 0) * bio_c +
             W3.get('demographics', 0) * demo_c
         )
-        total_w = sum(W3.values()) or 1.0
-        S = weighted / total_w
+        S = weighted / (sum(W3.values()) or 1.0)
         sc = S * Tn
         alg3.append((p, sc, S))
     algorithms['Safety+Social'] = sorted(alg3, key=lambda x: x[1], reverse=True)[:1]
