@@ -72,7 +72,7 @@ def load_survey_weights(csv_path='WanderTogether_ A Survey on Travel Companion M
         'budget': ['Similar budget'],
         'pace': ['Similar travel pace (e.g., relaxed vs. fast-paced)'],
         'interests': ['Shared interests (e.g., hiking, food, history)', ' Shared interests (e.g., hiking, food, history)'],
-        'style': ['Same travel style (e.g., backpacking vs. luxury)'],
+        'style': ['Same travel style (e.g., economical vs. luxury)'],
         'gender': ['Same gender'],  # Only count same-gender preferences
         'age': ['Similar age group'],
         'sleep': ['Matching sleep schedules']
@@ -140,10 +140,10 @@ def parse_user_form(form):
 
     # Infer travel budget from style if budget not provided in UI
     style = form.get('style', 'backpacking')
-    # mapping: backpacking=1, economical=1, midrange/average=2, comfort=2, luxury=3
-    if style in ('backpacking', 'economical'):
+    # mapping: economical=1, average=2, luxury=3
+    if style in ('economical',):
         travel_budget = 1
-    elif style in ('midrange', 'average', 'comfort', 'occasional_splurging', 'occasional_splurge'):
+    elif style in ('average',):
         travel_budget = 2
     elif style in ('luxury',):
         travel_budget = 3
