@@ -10,7 +10,7 @@
     ],
     "style": "average",
     "trust": 0.44,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love live music and concerts. I\u0019m easygoing about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -31,7 +31,7 @@
     ],
     "style": "average",
     "trust": 0.76,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love attending cultural events and I enjoy adventure sports. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Adventure enthusiast pushing limits and trying new challenges.",
     "sleep": [
       "early",
       "light"
@@ -55,7 +55,7 @@
     ],
     "style": "average",
     "trust": 0.59,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I respect and enjoy visiting religious sites and I love soaking in the local vibe. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -80,7 +80,7 @@
     ],
     "style": "luxury",
     "trust": 0.47,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love staying close to nature and I love coastal spots and beach days. I\u0019m pretty relaxed about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Water sports enthusiast who loves ocean and lake activities. Always drawn to beach destinations and marine beauty.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -102,7 +102,7 @@
     ],
     "style": "economical",
     "trust": 0.48,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy wine tastings and local drinks and I love staying close to nature. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "snoring"
     ],
@@ -128,7 +128,7 @@
     ],
     "style": "economical",
     "trust": 0.88,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love beaches and the sea and I enjoy camping and campfires. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Water sports enthusiast who loves ocean and lake activities. Love experiencing cities through their vibrant nightlife.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "lactose-intolerant",
@@ -152,7 +152,7 @@
     ],
     "style": "average",
     "trust": 0.52,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love hiking and nature trails and I enjoy nightlife and live music. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Love hiking and exploring natural landscapes. Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -174,7 +174,7 @@
     ],
     "style": "average",
     "trust": 0.89,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I respect and enjoy visiting religious sites and I love adrenaline activities. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Always seeking exciting adventures and extreme sports.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -197,7 +197,7 @@
     ],
     "style": "average",
     "trust": 0.56,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy snorkeling and water sports and I love adrenaline activities. I keep things tidy. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "early"
     ],
@@ -220,7 +220,7 @@
     ],
     "style": "average",
     "trust": 0.59,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love experiencing local culture and I enjoy adventure sports. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Thrill-seeker who loves adventure sports and adrenaline activities. Love immersing myself in local traditions and authentic experiences.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -242,7 +242,7 @@
     ],
     "style": "economical",
     "trust": 0.4,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love coastal spots and beach days and I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Beach lover who finds tranquility by the ocean.",
     "sleep": [
       "snoring"
     ],
@@ -267,7 +267,7 @@
     ],
     "style": "economical",
     "trust": 0.6,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy festivals and local events and I enjoy slow travel and longer stays. I keep things tidy. I don\u0019t drink. I like walking to explore.",
+    "bio": "Water sports enthusiast who loves ocean and lake activities.",
     "sleep": [
       "heavy",
       "early"
@@ -294,7 +294,7 @@
     ],
     "style": "average",
     "trust": 0.92,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love experiencing local culture and I love going to zoos and nature reserves. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Water sports enthusiast who loves ocean and lake activities.",
     "sleep": [
       "snoring"
     ],
@@ -320,7 +320,7 @@
     ],
     "style": "average",
     "trust": 0.62,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy time outdoors and I love going to zoos and nature reserves. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "early"
     ],
@@ -344,7 +344,7 @@
     ],
     "style": "economical",
     "trust": 0.63,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love live music and concerts and I love experiencing local culture. I keep things tidy. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "light"
     ],
@@ -369,7 +369,7 @@
     ],
     "style": "average",
     "trust": 0.48,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy slow travel and longer stays and I enjoy wildlife and animal encounters. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Love documenting journeys through photography.",
     "sleep": [
       "snoring"
     ],
@@ -395,7 +395,7 @@
     ],
     "style": "average",
     "trust": 0.71,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy shopping for local finds and I love hiking and nature trails. I\u0019m easygoing about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Always hunting for unique souvenirs and local crafts. Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "snoring",
       "heavy"
@@ -422,7 +422,7 @@
     ],
     "style": "average",
     "trust": 0.51,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy shopping for local finds and I enjoy festivals and local events. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "snoring",
       "late"
@@ -448,7 +448,7 @@
     ],
     "style": "economical",
     "trust": 0.54,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy visiting national parks and I love special-occasion restaurants. I keep things tidy. I enjoy a drink. I like walking to explore.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
       "snoring"
     ],
@@ -474,7 +474,7 @@
     ],
     "style": "average",
     "trust": 0.63,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy visiting national parks and I enjoy food markets and hawker centers. I keep things tidy. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy",
       "snoring"
@@ -501,7 +501,7 @@
     ],
     "style": "average",
     "trust": 0.75,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love attending cultural events and I love scenic viewpoints and nature walks. I keep things tidy. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late"
     ],
@@ -523,7 +523,7 @@
     ],
     "style": "average",
     "trust": 0.97,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Always seeking genuine cultural experiences and local connections.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "vegetarian",
@@ -544,7 +544,7 @@
     ],
     "style": "average",
     "trust": 0.43,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love beaches and the sea and I love spending time in museums. I keep things tidy. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions. Water sports enthusiast who loves ocean and lake activities.",
     "sleep": [
       "heavy"
     ],
@@ -570,7 +570,7 @@
     ],
     "style": "economical",
     "trust": 0.37,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love attending cultural events and I enjoy local gigs and shows. I keep things tidy. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Love experiencing destinations through their music scene.",
     "sleep": [
       "heavy",
       "early"
@@ -594,7 +594,7 @@
     ],
     "style": "average",
     "trust": 0.49,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy wine tastings and local drinks and I enjoy time outdoors. I keep things tidy. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light",
       "early"
@@ -619,7 +619,7 @@
     ],
     "style": "average",
     "trust": 0.72,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy shopping for local finds and I love beaches and the sea. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "snoring"
     ],
@@ -645,7 +645,7 @@
     ],
     "style": "average",
     "trust": 0.68,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy wellness and spa days and I love scenic viewpoints and nature walks. I\u0019m easygoing about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Always seeking genuine cultural experiences and local connections.",
     "sleep": [
       "light",
       "heavy"
@@ -670,7 +670,7 @@
     ],
     "style": "average",
     "trust": 0.79,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy shopping for local finds and I enjoy island hopping. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [
       "light",
       "late"
@@ -695,7 +695,7 @@
     ],
     "style": "average",
     "trust": 0.62,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy snorkeling and water sports and I love special-occasion restaurants. I keep things tidy. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "late",
       "heavy"
@@ -720,7 +720,7 @@
     ],
     "style": "average",
     "trust": 0.87,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I enjoy visiting heritage landmarks. I\u0019m easygoing about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries. History enthusiast who loves exploring ancient ruins and heritage sites.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -743,7 +743,7 @@
     ],
     "style": "average",
     "trust": 0.79,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love visiting wineries and breweries and I enjoy festivals and local events. I\u0019m easygoing about tidiness. I enjoy a drink. I like walking to explore.",
+    "bio": "Beach lover who finds tranquility by the ocean.",
     "sleep": [
       "early"
     ],
@@ -767,7 +767,7 @@
     ],
     "style": "luxury",
     "trust": 0.7,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy travel photography and I love a good bar with friends. I\u0019m easygoing about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Enjoy discovering local nightlife and social scenes. Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
@@ -789,7 +789,7 @@
     ],
     "style": "luxury",
     "trust": 0.63,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love visiting wineries and breweries and I enjoy festivals and local events. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Urban explorer who loves discovering city secrets and hidden gems.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -813,7 +813,7 @@
     ],
     "style": "average",
     "trust": 0.52,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy wine tastings and local drinks and I love scenic viewpoints and nature walks. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [
       "late"
     ],
@@ -836,7 +836,7 @@
     ],
     "style": "average",
     "trust": 0.64,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love cafe hopping and I enjoy visiting heritage landmarks. I keep things tidy. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Fascinated by historical landmarks and the stories behind them.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "keto",
@@ -859,7 +859,7 @@
     ],
     "style": "average",
     "trust": 0.82,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love learning local recipes and I love street food and local eats. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [
       "late",
       "light"
@@ -885,7 +885,7 @@
     ],
     "style": "luxury",
     "trust": 0.92,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love visiting wineries and breweries and I love live music and concerts. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Always seeking the perfect shot and visual storytelling.",
     "sleep": [
       "late",
       "snoring"
@@ -910,7 +910,7 @@
     ],
     "style": "average",
     "trust": 0.51,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love visiting wineries and breweries and I love experiencing local culture. I\u0019m easygoing about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Nature enthusiast who finds peace on mountain trails. Passionate about discovering local culture and connecting with communities.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
@@ -931,7 +931,7 @@
     ],
     "style": "average",
     "trust": 0.48,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy slow travel and longer stays. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Believe in giving back through meaningful travel experiences.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -953,7 +953,7 @@
     ],
     "style": "average",
     "trust": 0.73,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy wine tastings and local drinks and I enjoy nightlife and live music. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Love exploring local cuisine through street food adventures. Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "snoring",
       "light"
@@ -979,7 +979,7 @@
     ],
     "style": "economical",
     "trust": 0.84,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy wellness and spa days and I enjoy nightlife and live music. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "History enthusiast who loves exploring ancient ruins and heritage sites. Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "late",
       "snoring"
@@ -1005,7 +1005,7 @@
     ],
     "style": "average",
     "trust": 0.75,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love staying close to nature and I enjoy cooking classes and food tours. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "light"
     ],
@@ -1030,7 +1030,7 @@
     ],
     "style": "average",
     "trust": 0.87,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I love cafe hopping. I keep things tidy. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Seek balance through spa treatments and wellness activities. Music lover who seeks live performances and local concerts.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
@@ -1051,7 +1051,7 @@
     ],
     "style": "economical",
     "trust": 0.57,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy cooking classes and food tours and I enjoy learning local traditions. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "heavy"
     ],
@@ -1073,7 +1073,7 @@
     ],
     "style": "average",
     "trust": 0.83,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy wildlife and animal encounters. I\u0019m easygoing about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "early",
       "late"
@@ -1098,7 +1098,7 @@
     ],
     "style": "average",
     "trust": 0.98,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy shopping for local finds and I love street food and local eats. I keep things tidy. I drink socially. I like walking to explore.",
+    "bio": "Always hunting for unique souvenirs and local crafts.",
     "sleep": [
       "heavy",
       "late"
@@ -1123,7 +1123,7 @@
     ],
     "style": "economical",
     "trust": 0.82,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love experiencing local culture and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Always looking for live music venues and cultural performances.",
     "sleep": [
       "late"
     ],
@@ -1146,7 +1146,7 @@
     ],
     "style": "luxury",
     "trust": 0.38,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy island hopping and I love experiencing local culture. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -1170,7 +1170,7 @@
     ],
     "style": "average",
     "trust": 0.42,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love visiting wineries and breweries and I love capturing moments on the road. I keep things tidy. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -1191,7 +1191,7 @@
     ],
     "style": "average",
     "trust": 0.7,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love coastal spots and beach days and I love yoga and slow mornings. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Always drawn to beach destinations and marine beauty. Love incorporating wellness into travel experiences.",
     "sleep": [
       "late"
     ],
@@ -1217,7 +1217,7 @@
     ],
     "style": "luxury",
     "trust": 0.95,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy festivals and local events and I love spending time in museums. I keep things tidy. I don\u0019t drink. I like walking to explore.",
+    "bio": "Seek balance through spa treatments and wellness activities.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
@@ -1237,7 +1237,7 @@
     ],
     "style": "average",
     "trust": 0.78,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy travel photography. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Always seeking the perfect shot and visual storytelling.",
     "sleep": [
       "heavy"
     ],
@@ -1260,7 +1260,7 @@
     ],
     "style": "luxury",
     "trust": 0.62,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting national parks and I enjoy camping and campfires. I\u0019m easygoing about tidiness. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Wilderness explorer seeking outdoor adventures.",
     "sleep": [
       "light",
       "late"
@@ -1287,7 +1287,7 @@
     ],
     "style": "average",
     "trust": 0.4,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy wine tastings and local drinks and I love special-occasion restaurants. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love exploring high-end cuisine and culinary artistry.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -1310,7 +1310,7 @@
     ],
     "style": "luxury",
     "trust": 0.65,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love browsing markets and boutiques and I enjoy visiting national parks. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love incorporating wellness into travel experiences.",
     "sleep": [
       "early",
       "heavy"
@@ -1336,7 +1336,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy shopping for local finds and I love capturing moments on the road. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Always hunting for unique souvenirs and local crafts.",
     "sleep": [
       "early",
       "snoring"
@@ -1363,7 +1363,7 @@
     ],
     "style": "average",
     "trust": 0.58,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love browsing markets and boutiques and I love visiting wineries and breweries. I\u0019m easygoing about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Always drawn to water-based adventures and marine sports. Always seeking genuine cultural experiences and local connections.",
     "sleep": [
       "early"
     ],
@@ -1387,7 +1387,7 @@
     ],
     "style": "economical",
     "trust": 0.55,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love attending cultural events and I love staying close to nature. I keep things tidy. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -1409,7 +1409,7 @@
     ],
     "style": "average",
     "trust": 0.88,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love learning local recipes and I enjoy nightlife and live music. I\u0019m pretty relaxed about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light"
     ],
@@ -1433,7 +1433,7 @@
     ],
     "style": "average",
     "trust": 0.52,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy visiting national parks and I enjoy visiting heritage landmarks. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Always drawn to beach destinations and marine beauty. Fascinated by historical landmarks and the stories behind them.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -1456,7 +1456,7 @@
     ],
     "style": "luxury",
     "trust": 0.64,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love learning local recipes and I enjoy learning local traditions. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love exploring local cuisine through street food adventures.",
     "sleep": [
       "light"
     ],
@@ -1482,7 +1482,7 @@
     ],
     "style": "economical",
     "trust": 0.43,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love browsing markets and boutiques and I love staying close to nature. I\u0019m easygoing about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Nature lover who prefers camping under the stars. Nature enthusiast who finds peace on mountain trails.",
     "sleep": [
       "heavy",
       "snoring"
@@ -1507,7 +1507,7 @@
     ],
     "style": "average",
     "trust": 0.79,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love learning local recipes and I love exploring historical sites. I keep things tidy. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Passionate about exploring cities beyond tourist attractions.",
     "sleep": [
       "snoring",
       "heavy"
@@ -1534,7 +1534,7 @@
     ],
     "style": "economical",
     "trust": 0.62,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy shopping for local finds and I enjoy wildlife and animal encounters. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Shopping enthusiast who explores local retail culture. History enthusiast who loves exploring ancient ruins and heritage sites.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -1554,7 +1554,7 @@
     ],
     "style": "average",
     "trust": 0.44,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy island hopping. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Always drawn to beach destinations and marine beauty.",
     "sleep": [
       "early",
       "light"
@@ -1580,7 +1580,7 @@
     ],
     "style": "average",
     "trust": 0.77,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy wine tastings and local drinks and I love yoga and slow mornings. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -1605,7 +1605,7 @@
     ],
     "style": "economical",
     "trust": 0.42,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy wine tastings and local drinks and I enjoy visiting national parks. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late"
     ],
@@ -1629,7 +1629,7 @@
     ],
     "style": "average",
     "trust": 0.84,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love browsing markets and boutiques and I enjoy wellness and spa days. I keep things tidy. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Wellness traveler who loves spa experiences and relaxation. Always seeking genuine cultural experiences and local connections.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -1650,7 +1650,7 @@
     ],
     "style": "average",
     "trust": 0.37,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy camping and campfires and I love experiencing local culture. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Outdoor enthusiast who loves camping and wilderness adventures. Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "light"
     ],
@@ -1676,7 +1676,7 @@
     ],
     "style": "average",
     "trust": 0.65,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy adventure sports and I love scenic viewpoints and nature walks. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Adventure enthusiast pushing limits and trying new challenges.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -1698,7 +1698,7 @@
     ],
     "style": "average",
     "trust": 0.58,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love special-occasion restaurants and I love experiencing local culture. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love exploring high-end cuisine and culinary artistry. History enthusiast who loves exploring ancient ruins and heritage sites.",
     "sleep": [
       "heavy",
       "early"
@@ -1723,7 +1723,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy festivals and local events and I enjoy camping and campfires. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "snoring"
     ],
@@ -1749,7 +1749,7 @@
     ],
     "style": "luxury",
     "trust": 0.82,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love browsing markets and boutiques and I love visiting wineries and breweries. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Always hunting for unique souvenirs and local crafts.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -1771,7 +1771,7 @@
     ],
     "style": "average",
     "trust": 0.58,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy wine tastings and local drinks and I enjoy time outdoors. I keep things tidy. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy",
       "snoring"
@@ -1797,7 +1797,7 @@
     ],
     "style": "luxury",
     "trust": 0.87,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I like visiting temples and churches and I love experiencing local culture. I keep things tidy. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Always seeking genuine cultural experiences and local connections.",
     "sleep": [
       "light",
       "late"
@@ -1822,7 +1822,7 @@
     ],
     "style": "economical",
     "trust": 0.9,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy visiting national parks and I love beaches and the sea. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Love exploring destinations through water activities.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -1844,7 +1844,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy local gigs and shows and I like visiting temples and churches. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Music lover who seeks live performances and local concerts.",
     "sleep": [
       "heavy"
     ],
@@ -1870,7 +1870,7 @@
     ],
     "style": "average",
     "trust": 0.78,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love spending time in museums and I love visiting wineries and breweries. I\u0019m easygoing about tidiness. I enjoy a drink. I like walking to explore.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Art lover who spends hours in museums and galleries.",
     "sleep": [
       "early"
     ],
@@ -1896,7 +1896,7 @@
     ],
     "style": "average",
     "trust": 0.67,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy nightlife and live music and I love beaches and the sea. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [
       "snoring"
     ],
@@ -1920,7 +1920,7 @@
     ],
     "style": "average",
     "trust": 0.81,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy trying local coffee and I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Passionate about exploring cities beyond tourist attractions.",
     "sleep": [
       "early"
     ],
@@ -1943,7 +1943,7 @@
     ],
     "style": "average",
     "trust": 0.82,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy visiting heritage landmarks. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Nature enthusiast who finds peace on mountain trails.",
     "sleep": [
       "light"
     ],
@@ -1967,7 +1967,7 @@
     ],
     "style": "average",
     "trust": 0.55,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy shopping for local finds and I enjoy trying local coffee. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Shopping enthusiast who explores local retail culture.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -1989,7 +1989,7 @@
     ],
     "style": "average",
     "trust": 0.88,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love experiencing local culture and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Always seeking authentic flavors from local food stalls.",
     "sleep": [
       "late",
       "snoring"
@@ -2013,7 +2013,7 @@
     ],
     "style": "economical",
     "trust": 0.76,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy food markets and hawker centers and I enjoy learning local traditions. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences. Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -2036,7 +2036,7 @@
     ],
     "style": "average",
     "trust": 0.55,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I enjoy trying local coffee. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Love documenting journeys through photography.",
     "sleep": [
       "late",
       "snoring"
@@ -2062,7 +2062,7 @@
     ],
     "style": "average",
     "trust": 0.49,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy festivals and local events and I enjoy shopping for local finds. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Shopping enthusiast who explores local retail culture.",
     "sleep": [
       "snoring",
       "heavy"
@@ -2088,7 +2088,7 @@
     ],
     "style": "luxury",
     "trust": 0.48,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love special-occasion restaurants and I enjoy museums and art galleries. I keep things tidy. I drink socially. I like walking to explore.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -2112,7 +2112,7 @@
     ],
     "style": "economical",
     "trust": 0.88,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy fine dining and wine pairings and I love capturing moments on the road. I\u0019m pretty relaxed about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Urban explorer who loves discovering city secrets and hidden gems.",
     "sleep": [
       "snoring"
     ],
@@ -2138,7 +2138,7 @@
     ],
     "style": "average",
     "trust": 0.61,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love yoga and slow mornings and I enjoy trying local coffee. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
       "light"
     ],
@@ -2161,7 +2161,7 @@
     ],
     "style": "average",
     "trust": 0.9,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love cafe hopping and I love yoga and slow mornings. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Seek balance through spa treatments and wellness activities.",
     "sleep": [
       "heavy",
       "light"
@@ -2184,7 +2184,7 @@
     ],
     "style": "average",
     "trust": 0.41,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love street food and local eats and I love soaking in the local vibe. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I like walking to explore.",
+    "bio": "Always seeking authentic flavors from local food stalls.",
     "sleep": [
       "light"
     ],
@@ -2208,7 +2208,7 @@
     ],
     "style": "luxury",
     "trust": 0.97,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love browsing markets and boutiques and I enjoy wine tastings and local drinks. I keep things tidy. I drink socially. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -2234,7 +2234,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy adventure sports and I love spending time in museums. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Love exploring local cuisine through street food adventures. Adventure enthusiast pushing limits and trying new challenges.",
     "sleep": [
       "snoring"
     ],
@@ -2256,7 +2256,7 @@
     ],
     "style": "luxury",
     "trust": 0.55,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love visiting wineries and breweries. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late"
     ],
@@ -2279,7 +2279,7 @@
     ],
     "style": "average",
     "trust": 0.68,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy museums and art galleries and I love going to zoos and nature reserves. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "vegetarian",
@@ -2299,7 +2299,7 @@
     ],
     "style": "average",
     "trust": 0.41,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love staying close to nature. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Wilderness explorer seeking outdoor adventures.",
     "sleep": [
       "early",
       "heavy"
@@ -2326,7 +2326,7 @@
     ],
     "style": "average",
     "trust": 0.8,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love browsing markets and boutiques and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love exploring local cuisine through street food adventures. Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -2350,7 +2350,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I enjoy adventure sports. I keep things tidy. I don\u0019t drink. I like walking to explore.",
+    "bio": "Always hunting for unique souvenirs and local crafts.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -2371,7 +2371,7 @@
     ],
     "style": "luxury",
     "trust": 0.37,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love adrenaline activities. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Adventure enthusiast pushing limits and trying new challenges. Always seeking genuine cultural experiences and local connections.",
     "sleep": [
       "late"
     ],
@@ -2397,7 +2397,7 @@
     ],
     "style": "average",
     "trust": 0.73,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love spending time in museums and I love visiting wineries and breweries. I\u0019m easygoing about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Cultural explorer through museums and artistic heritage.",
     "sleep": [
       "early",
       "light"
@@ -2422,7 +2422,7 @@
     ],
     "style": "luxury",
     "trust": 0.96,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy wine tastings and local drinks and I love coastal spots and beach days. I\u0019m easygoing about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -2446,7 +2446,7 @@
     ],
     "style": "economical",
     "trust": 0.92,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy adventure sports and I love a good bar with friends. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Always drawn to historical places and their cultural significance.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
@@ -2469,7 +2469,7 @@
     ],
     "style": "average",
     "trust": 0.37,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love special-occasion restaurants and I enjoy food markets and hawker centers. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Love exploring high-end cuisine and culinary artistry. Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
@@ -2492,7 +2492,7 @@
     ],
     "style": "average",
     "trust": 0.88,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy festivals and local events and I enjoy wine tastings and local drinks. I keep things tidy. I drink socially. I like walking to explore.",
+    "bio": "Fascinated by historical landmarks and the stories behind them. Always seeking genuine cultural experiences and local connections.",
     "sleep": [
       "late",
       "early"
@@ -2519,7 +2519,7 @@
     ],
     "style": "luxury",
     "trust": 0.67,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love attending cultural events and I love visiting wineries and breweries. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -2543,7 +2543,7 @@
     ],
     "style": "average",
     "trust": 0.69,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I enjoy travel photography. I keep things tidy. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late",
       "snoring"
@@ -2566,7 +2566,7 @@
     ],
     "style": "average",
     "trust": 0.81,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love street food and local eats. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Always seeking authentic flavors from local food stalls.",
     "sleep": [
       "snoring",
       "heavy"
@@ -2593,7 +2593,7 @@
     ],
     "style": "economical",
     "trust": 0.84,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy cooking classes and food tours and I enjoy camping and campfires. I\u0019m easygoing about tidiness. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "snoring"
     ],
@@ -2618,7 +2618,7 @@
     ],
     "style": "economical",
     "trust": 0.89,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love beaches and the sea and I enjoy cooking classes and food tours. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Cultural explorer through museums and artistic heritage.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
@@ -2642,7 +2642,7 @@
     ],
     "style": "average",
     "trust": 0.52,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love learning local recipes and I enjoy learning local traditions. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Always seeking the perfect shot and visual storytelling. Always seeking genuine cultural experiences and local connections.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -2663,7 +2663,7 @@
     ],
     "style": "average",
     "trust": 0.63,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy visiting heritage landmarks. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Always drawn to historical places and their cultural significance. Love exploring local cuisine through street food adventures.",
     "sleep": [
       "early",
       "light"
@@ -2688,7 +2688,7 @@
     ],
     "style": "average",
     "trust": 0.85,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy camping and campfires and I enjoy museums and art galleries. I\u0019m pretty relaxed about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Fascinated by historical landmarks and the stories behind them.",
     "sleep": [
       "light",
       "snoring"
@@ -2713,7 +2713,7 @@
     ],
     "style": "average",
     "trust": 0.63,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love street food and local eats and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Love incorporating wellness into travel experiences. Love exploring local cuisine through street food adventures.",
     "sleep": [
       "heavy"
     ],
@@ -2736,7 +2736,7 @@
     ],
     "style": "economical",
     "trust": 0.59,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy learning local traditions and I love going to zoos and nature reserves. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "snoring",
       "heavy"
@@ -2760,7 +2760,7 @@
     ],
     "style": "average",
     "trust": 0.92,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I respect and enjoy visiting religious sites and I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Always seeking genuine cultural experiences and local connections.",
     "sleep": [
       "snoring"
     ],
@@ -2784,7 +2784,7 @@
     ],
     "style": "economical",
     "trust": 0.49,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love staying close to nature and I love capturing moments on the road. I\u0019m easygoing about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Love experiencing cities through their vibrant nightlife.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -2806,7 +2806,7 @@
     ],
     "style": "luxury",
     "trust": 0.54,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy wine tastings and local drinks and I respect and enjoy visiting religious sites. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Always drawn to water-based adventures and marine sports.",
     "sleep": [
       "early",
       "late"
@@ -2833,7 +2833,7 @@
     ],
     "style": "luxury",
     "trust": 0.46,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love adrenaline activities and I enjoy shopping for local finds. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -2854,7 +2854,7 @@
     ],
     "style": "economical",
     "trust": 0.91,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love capturing moments on the road and I love experiencing local culture. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love documenting journeys through photography. Love immersing myself in local traditions and authentic experiences.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -2878,7 +2878,7 @@
     ],
     "style": "luxury",
     "trust": 0.46,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy adventure sports and I enjoy travel photography. I\u0019m easygoing about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Photography enthusiast capturing travel moments and landscapes. Always drawn to historical places and their cultural significance.",
     "sleep": [
       "late",
       "heavy"
@@ -2904,7 +2904,7 @@
     ],
     "style": "average",
     "trust": 0.91,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy visiting national parks and I love soaking in the local vibe. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Nature enthusiast who finds peace on mountain trails.",
     "sleep": [
       "heavy",
       "late"
@@ -2928,7 +2928,7 @@
     ],
     "style": "average",
     "trust": 0.64,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love capturing moments on the road. I keep things tidy. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Photography enthusiast capturing travel moments and landscapes. Nature enthusiast who finds peace on mountain trails.",
     "sleep": [
       "late"
     ],
@@ -2950,7 +2950,7 @@
     ],
     "style": "luxury",
     "trust": 0.55,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy food markets and hawker centers and I love soaking in the local vibe. I keep things tidy. I don\u0019t drink. I like walking to explore.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [
       "snoring"
     ],
@@ -2976,7 +2976,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy wildlife and animal encounters and I enjoy travel photography. I keep things tidy. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Seek balance through spa treatments and wellness activities.",
     "sleep": [
       "early",
       "late"
@@ -3000,7 +3000,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy food markets and hawker centers and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Always seeking authentic flavors from local food stalls. Seek balance through spa treatments and wellness activities.",
     "sleep": [
       "early",
       "heavy"
@@ -3024,7 +3024,7 @@
     ],
     "style": "average",
     "trust": 0.71,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy fine dining and wine pairings and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -3048,7 +3048,7 @@
     ],
     "style": "average",
     "trust": 0.85,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love browsing markets and boutiques and I enjoy festivals and local events. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late"
     ],
@@ -3070,7 +3070,7 @@
     ],
     "style": "economical",
     "trust": 0.86,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love spending time in museums. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions.",
     "sleep": [
       "early",
       "light"
@@ -3097,7 +3097,7 @@
     ],
     "style": "luxury",
     "trust": 0.8,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love adrenaline activities and I enjoy wellness and spa days. I keep things tidy. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Wellness traveler who loves spa experiences and relaxation.",
     "sleep": [
       "early"
     ],
@@ -3119,7 +3119,7 @@
     ],
     "style": "average",
     "trust": 0.84,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy festivals and local events. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late",
       "light"
@@ -3145,7 +3145,7 @@
     ],
     "style": "luxury",
     "trust": 0.47,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy shopping for local finds and I respect and enjoy visiting religious sites. I\u0019m easygoing about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Cultural explorer through museums and artistic heritage. Love discovering unique finds in local markets and boutiques.",
     "sleep": [
       "heavy"
     ],
@@ -3171,7 +3171,7 @@
     ],
     "style": "luxury",
     "trust": 0.55,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy museums and art galleries and I love live music and concerts. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Cultural explorer through museums and artistic heritage.",
     "sleep": [
       "early",
       "late"
@@ -3196,7 +3196,7 @@
     ],
     "style": "economical",
     "trust": 0.54,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy festivals and local events and I enjoy cooking classes and food tours. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -3220,7 +3220,7 @@
     ],
     "style": "luxury",
     "trust": 0.87,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy island hopping and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Seek balance through spa treatments and wellness activities.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -3242,7 +3242,7 @@
     ],
     "style": "economical",
     "trust": 0.94,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love live music and concerts and I enjoy cooking classes and food tours. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy",
       "light"
@@ -3269,7 +3269,7 @@
     ],
     "style": "average",
     "trust": 0.78,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy museums and art galleries and I love cafe hopping. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Art lover who spends hours in museums and galleries.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -3289,7 +3289,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love coastal spots and beach days and I enjoy slow travel and longer stays. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Always drawn to beach destinations and marine beauty.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -3310,7 +3310,7 @@
     ],
     "style": "average",
     "trust": 0.96,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love special-occasion restaurants and I enjoy museums and art galleries. I keep things tidy. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Cultural explorer through museums and artistic heritage. Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
       "snoring"
     ],
@@ -3336,7 +3336,7 @@
     ],
     "style": "economical",
     "trust": 0.45,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love adrenaline activities and I enjoy wine tastings and local drinks. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -3360,7 +3360,7 @@
     ],
     "style": "average",
     "trust": 0.56,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love attending cultural events and I love capturing moments on the road. I\u0019m easygoing about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Always seeking authentic urban experiences and local neighborhoods.",
     "sleep": [
       "snoring"
     ],
@@ -3382,7 +3382,7 @@
     ],
     "style": "average",
     "trust": 0.72,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I enjoy slow travel and longer stays. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "snoring",
       "heavy"
@@ -3407,7 +3407,7 @@
     ],
     "style": "luxury",
     "trust": 0.78,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy shopping for local finds and I love special-occasion restaurants. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love exploring high-end cuisine and culinary artistry.",
     "sleep": [
       "heavy",
       "late"
@@ -3434,7 +3434,7 @@
     ],
     "style": "luxury",
     "trust": 0.83,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love street food and local eats and I enjoy cooking classes and food tours. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "late",
       "snoring"
@@ -3458,7 +3458,7 @@
     ],
     "style": "luxury",
     "trust": 0.69,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love beaches and the sea. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Always drawn to water-based adventures and marine sports. Love immersing myself in local traditions and authentic experiences.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
@@ -3481,7 +3481,7 @@
     ],
     "style": "average",
     "trust": 0.61,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy wine tastings and local drinks and I love adrenaline activities. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Art lover who spends hours in museums and galleries.",
     "sleep": [
       "snoring",
       "early"
@@ -3508,7 +3508,7 @@
     ],
     "style": "average",
     "trust": 0.97,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love spending time in museums and I love street food and local eats. I keep things tidy. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Cultural explorer through museums and artistic heritage.",
     "sleep": [
       "snoring"
     ],
@@ -3533,7 +3533,7 @@
     ],
     "style": "luxury",
     "trust": 0.89,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love visiting wineries and breweries and I love special-occasion restaurants. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "History enthusiast who loves exploring ancient ruins and heritage sites.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -3553,7 +3553,7 @@
     ],
     "style": "average",
     "trust": 0.59,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy island hopping. I keep things tidy. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Always drawn to beach destinations and marine beauty.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -3573,7 +3573,7 @@
     ],
     "style": "average",
     "trust": 0.48,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Art lover who spends hours in museums and galleries.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -3594,7 +3594,7 @@
     ],
     "style": "average",
     "trust": 0.49,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy fine dining and wine pairings. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Passionate about exploring cities beyond tourist attractions.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -3617,7 +3617,7 @@
     ],
     "style": "economical",
     "trust": 0.49,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy shopping for local finds and I enjoy slow travel and longer stays. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "heavy"
     ],
@@ -3643,7 +3643,7 @@
     ],
     "style": "average",
     "trust": 0.61,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy shopping for local finds and I enjoy museums and art galleries. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Nature lover who prefers camping under the stars.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -3664,7 +3664,7 @@
     ],
     "style": "luxury",
     "trust": 0.7,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love visiting wineries and breweries and I love spending time in museums. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -3687,7 +3687,7 @@
     ],
     "style": "economical",
     "trust": 0.59,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love live music and concerts and I enjoy snorkeling and water sports. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Always drawn to water-based adventures and marine sports.",
     "sleep": [
       "late",
       "snoring"
@@ -3712,7 +3712,7 @@
     ],
     "style": "economical",
     "trust": 0.42,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy island hopping and I enjoy learning local traditions. I\u0019m pretty relaxed about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "light"
     ],
@@ -3737,7 +3737,7 @@
     ],
     "style": "average",
     "trust": 0.58,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I enjoy fine dining and wine pairings. I\u0019m pretty relaxed about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Love exploring high-end cuisine and culinary artistry.",
     "sleep": [
       "early"
     ],
@@ -3760,7 +3760,7 @@
     ],
     "style": "economical",
     "trust": 0.36,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love yoga and slow mornings. I\u0019m easygoing about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Love incorporating wellness into travel experiences.",
     "sleep": [
       "late",
       "early"
@@ -3786,7 +3786,7 @@
     ],
     "style": "average",
     "trust": 0.75,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I love staying close to nature. I\u0019m pretty relaxed about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Love exploring destinations through water activities.",
     "sleep": [
       "early"
     ],
@@ -3812,7 +3812,7 @@
     ],
     "style": "luxury",
     "trust": 0.95,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy camping and campfires and I enjoy travel photography. I\u0019m easygoing about tidiness. I enjoy a drink. I like walking to explore.",
+    "bio": "Outdoor enthusiast who loves camping and wilderness adventures. Cultural explorer through museums and artistic heritage.",
     "sleep": [
       "snoring",
       "late"
@@ -3835,7 +3835,7 @@
     ],
     "style": "luxury",
     "trust": 0.39,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy time outdoors. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Love hiking and exploring natural landscapes.",
     "sleep": [
       "late",
       "early"
@@ -3862,7 +3862,7 @@
     ],
     "style": "luxury",
     "trust": 0.62,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting national parks and I love live music and concerts. I\u0019m easygoing about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Always drawn to beach destinations and marine beauty. Music lover who seeks live performances and local concerts.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "vegetarian",
@@ -3884,7 +3884,7 @@
     ],
     "style": "average",
     "trust": 0.64,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love scenic viewpoints and nature walks and I enjoy fine dining and wine pairings. I keep things tidy. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Always seeking authentic flavors from local food stalls.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -3904,7 +3904,7 @@
     ],
     "style": "average",
     "trust": 0.65,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy fine dining and wine pairings. I keep things tidy. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
       "snoring",
       "light"
@@ -3931,7 +3931,7 @@
     ],
     "style": "average",
     "trust": 0.93,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy museums and art galleries and I enjoy time outdoors. I keep things tidy. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Love incorporating wellness into travel experiences. Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "heavy",
       "snoring"
@@ -3957,7 +3957,7 @@
     ],
     "style": "economical",
     "trust": 0.78,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love coastal spots and beach days and I enjoy visiting heritage landmarks. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Wellness traveler who loves spa experiences and relaxation. History enthusiast who loves exploring ancient ruins and heritage sites.",
     "sleep": [
       "heavy",
       "early"
@@ -3980,7 +3980,7 @@
     ],
     "style": "economical",
     "trust": 0.73,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy trying local coffee. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late",
       "early"
@@ -4007,7 +4007,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love browsing markets and boutiques and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Culinary enthusiast who appreciates fine dining experiences. Always seeking the perfect shot and visual storytelling.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -4029,7 +4029,7 @@
     ],
     "style": "average",
     "trust": 0.58,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love street food and local eats and I enjoy learning local traditions. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [
       "snoring"
     ],
@@ -4053,7 +4053,7 @@
     ],
     "style": "luxury",
     "trust": 0.73,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love street food and local eats and I love experiencing local culture. I keep things tidy. I drink socially. I prefer getting around by transport.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [
       "early"
     ],
@@ -4079,7 +4079,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy shopping for local finds and I love adrenaline activities. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -4102,7 +4102,7 @@
     ],
     "style": "average",
     "trust": 0.42,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy camping and campfires and I enjoy local gigs and shows. I keep things tidy. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Always looking for live music venues and cultural performances.",
     "sleep": [
       "snoring"
     ],
@@ -4127,7 +4127,7 @@
     ],
     "style": "average",
     "trust": 0.55,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love attending cultural events and I enjoy island hopping. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Always drawn to beach destinations and marine beauty. Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [
       "heavy"
     ],
@@ -4152,7 +4152,7 @@
     ],
     "style": "luxury",
     "trust": 0.98,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting national parks and I enjoy fine dining and wine pairings. I\u0019m easygoing about tidiness. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries. Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -4172,7 +4172,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love cafe hopping. I keep things tidy. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light"
     ],
@@ -4198,7 +4198,7 @@
     ],
     "style": "average",
     "trust": 0.83,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love adrenaline activities and I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions.",
     "sleep": [
       "heavy",
       "light"
@@ -4222,7 +4222,7 @@
     ],
     "style": "average",
     "trust": 0.67,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love cafe hopping and I enjoy learning local traditions. I keep things tidy. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Always seeking genuine cultural experiences and local connections.",
     "sleep": [
       "late",
       "light"
@@ -4246,7 +4246,7 @@
     ],
     "style": "average",
     "trust": 0.61,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love street food and local eats and I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -4270,7 +4270,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy wine tastings and local drinks and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Love experiencing destinations through their music scene.",
     "sleep": [
       "snoring",
       "late"
@@ -4295,7 +4295,7 @@
     ],
     "style": "average",
     "trust": 0.5,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy travel photography and I love beaches and the sea. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Always drawn to beach destinations and marine beauty. Photography enthusiast capturing travel moments and landscapes.",
     "sleep": [
       "light"
     ],
@@ -4318,7 +4318,7 @@
     ],
     "style": "average",
     "trust": 0.79,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy wine tastings and local drinks and I love yoga and slow mornings. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Seek balance through spa treatments and wellness activities.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
@@ -4340,7 +4340,7 @@
     ],
     "style": "average",
     "trust": 0.89,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love visiting wineries and breweries and I love experiencing local culture. I keep things tidy. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Outdoor adventurer seeking scenic trails and wilderness.",
     "sleep": [
       "heavy",
       "early"
@@ -4365,7 +4365,7 @@
     ],
     "style": "average",
     "trust": 0.43,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I enjoy nightlife and live music. I keep things tidy. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Love experiencing cities through their vibrant nightlife. Shopping enthusiast who explores local retail culture.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
@@ -4388,7 +4388,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy festivals and local events and I love cafe hopping. I keep things tidy. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Wellness traveler who loves spa experiences and relaxation.",
     "sleep": [
       "light",
       "late"
@@ -4413,7 +4413,7 @@
     ],
     "style": "economical",
     "trust": 0.67,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy cooking classes and food tours and I like visiting temples and churches. I keep things tidy. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "early"
     ],
@@ -4436,7 +4436,7 @@
     ],
     "style": "economical",
     "trust": 0.52,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy slow travel and longer stays. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Nightlife explorer who loves local bars and evening entertainment.",
     "sleep": [
       "heavy",
       "light"
@@ -4459,7 +4459,7 @@
     ],
     "style": "luxury",
     "trust": 0.87,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting national parks. I\u0019m pretty relaxed about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -4480,7 +4480,7 @@
     ],
     "style": "average",
     "trust": 0.89,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy island hopping and I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
@@ -4502,7 +4502,7 @@
     ],
     "style": "average",
     "trust": 0.44,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy festivals and local events and I enjoy camping and campfires. I\u0019m easygoing about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Nightlife explorer who loves local bars and evening entertainment. Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -4523,7 +4523,7 @@
     ],
     "style": "average",
     "trust": 0.52,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy learning local traditions and I love a good bar with friends. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences. Enjoy discovering local nightlife and social scenes.",
     "sleep": [
       "snoring",
       "light"
@@ -4547,7 +4547,7 @@
     ],
     "style": "economical",
     "trust": 0.66,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy learning local traditions and I love a good bar with friends. I keep things tidy. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "heavy",
       "early"
@@ -4572,7 +4572,7 @@
     ],
     "style": "average",
     "trust": 0.35,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy wine tastings and local drinks and I enjoy food markets and hawker centers. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Enjoy discovering local nightlife and social scenes.",
     "sleep": [
       "snoring",
       "early"
@@ -4598,7 +4598,7 @@
     ],
     "style": "luxury",
     "trust": 0.89,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love scenic viewpoints and nature walks and I love experiencing local culture. I\u0019m easygoing about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Love exploring destinations through water activities.",
     "sleep": [
       "snoring"
     ],
@@ -4623,7 +4623,7 @@
     ],
     "style": "economical",
     "trust": 0.45,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy trying local coffee and I love a good bar with friends. I keep things tidy. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Nature enthusiast who finds peace on mountain trails.",
     "sleep": [
       "snoring"
     ],
@@ -4649,7 +4649,7 @@
     ],
     "style": "economical",
     "trust": 0.41,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy camping and campfires and I love live music and concerts. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Always looking for live music venues and cultural performances. Always seeking authentic flavors from local food stalls.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -4670,7 +4670,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love a good bar with friends and I enjoy learning local traditions. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Nightlife explorer who loves local bars and evening entertainment.",
     "sleep": [
       "snoring"
     ],
@@ -4694,7 +4694,7 @@
     ],
     "style": "economical",
     "trust": 0.7,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy shopping for local finds and I love staying close to nature. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Wilderness explorer seeking outdoor adventures. Always hunting for unique souvenirs and local crafts.",
     "sleep": [
       "light",
       "early"
@@ -4720,7 +4720,7 @@
     ],
     "style": "average",
     "trust": 0.96,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I like visiting temples and churches and I enjoy learning local traditions. I keep things tidy. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "light"
     ],
@@ -4745,7 +4745,7 @@
     ],
     "style": "average",
     "trust": 0.73,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy shopping for local finds and I enjoy slow travel and longer stays. I keep things tidy. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Always drawn to beach destinations and marine beauty. Love experiencing cities through their vibrant nightlife.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -4766,7 +4766,7 @@
     ],
     "style": "luxury",
     "trust": 0.91,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love staying close to nature and I enjoy cooking classes and food tours. I keep things tidy. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Wilderness explorer seeking outdoor adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -4786,7 +4786,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy slow travel and longer stays and I enjoy cooking classes and food tours. I\u0019m easygoing about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light"
     ],
@@ -4811,7 +4811,7 @@
     ],
     "style": "luxury",
     "trust": 0.45,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love soaking in the local vibe and I enjoy nightlife and live music. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Enjoy discovering local nightlife and social scenes.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -4834,7 +4834,7 @@
     ],
     "style": "average",
     "trust": 0.5,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love browsing markets and boutiques and I love soaking in the local vibe. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [
       "snoring"
     ],
@@ -4857,7 +4857,7 @@
     ],
     "style": "economical",
     "trust": 0.45,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love exploring local cuisine through street food adventures. Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "late"
     ],
@@ -4880,7 +4880,7 @@
     ],
     "style": "average",
     "trust": 0.52,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love experiencing local culture and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Always seeking genuine cultural experiences and local connections. Love experiencing destinations through their music scene.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -4903,7 +4903,7 @@
     ],
     "style": "economical",
     "trust": 0.51,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love learning local recipes and I enjoy wellness and spa days. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Art lover who spends hours in museums and galleries. Wellness traveler who loves spa experiences and relaxation.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -4923,7 +4923,7 @@
     ],
     "style": "economical",
     "trust": 0.58,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love experiencing local culture. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "lactose-intolerant",
@@ -4945,7 +4945,7 @@
     ],
     "style": "average",
     "trust": 0.71,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy trying local coffee and I love live music and concerts. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -4965,7 +4965,7 @@
     ],
     "style": "average",
     "trust": 0.4,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "snoring"
     ],
@@ -4989,7 +4989,7 @@
     ],
     "style": "economical",
     "trust": 0.83,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love soaking in the local vibe and I enjoy food markets and hawker centers. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Love exploring local cuisine through street food adventures.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -5009,7 +5009,7 @@
     ],
     "style": "average",
     "trust": 0.81,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
@@ -5032,7 +5032,7 @@
     ],
     "style": "luxury",
     "trust": 0.91,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting heritage landmarks and I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Always drawn to historical places and their cultural significance.",
     "sleep": [
       "snoring"
     ],
@@ -5058,7 +5058,7 @@
     ],
     "style": "average",
     "trust": 0.93,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I enjoy museums and art galleries. I keep things tidy. I don\u0019t drink. I like walking to explore.",
+    "bio": "Love discovering unique finds in local markets and boutiques.",
     "sleep": [
       "heavy"
     ],
@@ -5084,7 +5084,7 @@
     ],
     "style": "average",
     "trust": 0.58,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love visiting wineries and breweries and I love capturing moments on the road. I keep things tidy. I drink socially. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -5107,7 +5107,7 @@
     ],
     "style": "economical",
     "trust": 0.41,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love attending cultural events and I enjoy nightlife and live music. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Art lover who spends hours in museums and galleries.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -5128,7 +5128,7 @@
     ],
     "style": "average",
     "trust": 0.64,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy fine dining and wine pairings. I\u0019m easygoing about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -5148,7 +5148,7 @@
     ],
     "style": "luxury",
     "trust": 0.36,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love yoga and slow mornings. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Wellness traveler who loves spa experiences and relaxation.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -5171,7 +5171,7 @@
     ],
     "style": "average",
     "trust": 0.59,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love capturing moments on the road and I love cafe hopping. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Wellness traveler who loves spa experiences and relaxation.",
     "sleep": [
       "light"
     ],
@@ -5197,7 +5197,7 @@
     ],
     "style": "average",
     "trust": 0.41,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love attending cultural events and I love going to zoos and nature reserves. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Always drawn to beach destinations and marine beauty.",
     "sleep": [
       "light"
     ],
@@ -5222,7 +5222,7 @@
     ],
     "style": "average",
     "trust": 0.67,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love learning local recipes and I enjoy snorkeling and water sports. I\u0019m easygoing about tidiness. I enjoy a drink. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -5244,7 +5244,7 @@
     ],
     "style": "luxury",
     "trust": 0.98,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love learning local recipes. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -5265,7 +5265,7 @@
     ],
     "style": "average",
     "trust": 0.5,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love special-occasion restaurants and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Culinary enthusiast who appreciates fine dining experiences.",
     "sleep": [
       "heavy"
     ],
@@ -5291,7 +5291,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy time outdoors and I enjoy travel photography. I keep things tidy. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Photography enthusiast capturing travel moments and landscapes.",
     "sleep": [
       "light",
       "snoring"
@@ -5315,7 +5315,7 @@
     ],
     "style": "average",
     "trust": 0.79,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I enjoy museums and art galleries. I\u0019m pretty relaxed about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -5337,7 +5337,7 @@
     ],
     "style": "average",
     "trust": 0.81,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy island hopping and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Always drawn to beach destinations and marine beauty. Wellness traveler who loves spa experiences and relaxation.",
     "sleep": [
       "early"
     ],
@@ -5363,7 +5363,7 @@
     ],
     "style": "average",
     "trust": 0.81,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love live music and concerts and I love special-occasion restaurants. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Love experiencing destinations through their music scene. Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
       "late",
       "early"
@@ -5389,7 +5389,7 @@
     ],
     "style": "average",
     "trust": 0.97,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Always seeking genuine cultural experiences and local connections.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -5411,7 +5411,7 @@
     ],
     "style": "average",
     "trust": 0.85,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love a good bar with friends and I enjoy time outdoors. I keep things tidy. I drink socially. I use a mix of walking and transport.",
+    "bio": "Nature enthusiast who finds peace on mountain trails.",
     "sleep": [
       "snoring",
       "late"
@@ -5436,7 +5436,7 @@
     ],
     "style": "average",
     "trust": 0.63,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy learning local traditions and I enjoy fine dining and wine pairings. I\u0019m easygoing about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Love exploring destinations through water activities. Culinary enthusiast who appreciates fine dining experiences.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -5459,7 +5459,7 @@
     ],
     "style": "average",
     "trust": 0.97,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love live music and concerts and I love capturing moments on the road. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Always seeking the perfect shot and visual storytelling. History enthusiast who loves exploring ancient ruins and heritage sites.",
     "sleep": [
       "snoring"
     ],
@@ -5483,7 +5483,7 @@
     ],
     "style": "luxury",
     "trust": 0.69,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love cafe hopping and I enjoy nightlife and live music. I\u0019m easygoing about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy",
       "late"
@@ -5506,7 +5506,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love street food and local eats. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [
       "late",
       "early"
@@ -5532,7 +5532,7 @@
     ],
     "style": "average",
     "trust": 0.75,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy island hopping and I love experiencing local culture. I keep things tidy. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love immersing myself in local traditions and authentic experiences. Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
       "light"
     ],
@@ -5558,7 +5558,7 @@
     ],
     "style": "economical",
     "trust": 0.41,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy visiting national parks and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions.",
     "sleep": [
       "heavy",
       "early"
@@ -5584,7 +5584,7 @@
     ],
     "style": "average",
     "trust": 0.37,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love coastal spots and beach days and I love yoga and slow mornings. I keep things tidy. I don\u0019t drink. I like walking to explore.",
+    "bio": "Always drawn to beach destinations and marine beauty.",
     "sleep": [
       "late",
       "light"
@@ -5610,7 +5610,7 @@
     ],
     "style": "economical",
     "trust": 0.55,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love browsing markets and boutiques and I enjoy trying local coffee. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Shopping enthusiast who explores local retail culture. Nature enthusiast who finds peace on mountain trails.",
     "sleep": [
       "snoring",
       "late"
@@ -5634,7 +5634,7 @@
     ],
     "style": "luxury",
     "trust": 0.84,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love a good bar with friends. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Always seeking authentic flavors from local food stalls. Nightlife explorer who loves local bars and evening entertainment.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -5654,7 +5654,7 @@
     ],
     "style": "average",
     "trust": 0.9,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy wellness and spa days. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Love incorporating wellness into travel experiences.",
     "sleep": [
       "heavy"
     ],
@@ -5679,7 +5679,7 @@
     ],
     "style": "luxury",
     "trust": 0.6,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love attending cultural events and I love special-occasion restaurants. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -5703,7 +5703,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy visiting national parks and I enjoy island hopping. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [
       "early",
       "heavy"
@@ -5727,7 +5727,7 @@
     ],
     "style": "average",
     "trust": 0.67,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love cafe hopping and I love live music and concerts. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -5751,7 +5751,7 @@
     ],
     "style": "average",
     "trust": 0.93,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love spending time in museums and I enjoy time outdoors. I keep things tidy. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light",
       "heavy"
@@ -5775,7 +5775,7 @@
     ],
     "style": "luxury",
     "trust": 0.96,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love street food and local eats and I love learning local recipes. I keep things tidy. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Love exploring local cuisine through street food adventures.",
     "sleep": [
       "late"
     ],
@@ -5799,7 +5799,7 @@
     ],
     "style": "economical",
     "trust": 0.89,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love special-occasion restaurants and I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Culinary enthusiast who appreciates fine dining experiences.",
     "sleep": [
       "light",
       "late"
@@ -5824,7 +5824,7 @@
     ],
     "style": "luxury",
     "trust": 0.51,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love staying close to nature and I enjoy travel photography. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Love documenting journeys through photography. Wilderness explorer seeking outdoor adventures.",
     "sleep": [
       "heavy"
     ],
@@ -5848,7 +5848,7 @@
     ],
     "style": "average",
     "trust": 0.67,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love attending cultural events and I love browsing markets and boutiques. I\u0019m pretty relaxed about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Love discovering unique finds in local markets and boutiques.",
     "sleep": [
       "heavy",
       "late"
@@ -5874,7 +5874,7 @@
     ],
     "style": "average",
     "trust": 0.68,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love scenic viewpoints and nature walks and I love staying close to nature. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries. Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -5895,7 +5895,7 @@
     ],
     "style": "average",
     "trust": 0.92,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy camping and campfires. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Always seeking authentic urban experiences and local neighborhoods.",
     "sleep": [
       "early"
     ],
@@ -5919,7 +5919,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy shopping for local finds and I love beaches and the sea. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -5942,7 +5942,7 @@
     ],
     "style": "average",
     "trust": 0.49,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love browsing markets and boutiques and I love soaking in the local vibe. I keep things tidy. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [
       "early"
     ],
@@ -5964,7 +5964,7 @@
     ],
     "style": "luxury",
     "trust": 0.39,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy camping and campfires. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Nature lover who prefers camping under the stars.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -5985,7 +5985,7 @@
     ],
     "style": "economical",
     "trust": 0.61,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I like visiting temples and churches. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "early",
       "light"
@@ -6010,7 +6010,7 @@
     ],
     "style": "average",
     "trust": 0.83,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love staying close to nature and I love experiencing local culture. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Nature lover who prefers camping under the stars.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "vegetarian",
@@ -6033,7 +6033,7 @@
     ],
     "style": "average",
     "trust": 0.59,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love learning local recipes and I love cafe hopping. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -6054,7 +6054,7 @@
     ],
     "style": "average",
     "trust": 0.41,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy nightlife and live music and I love going to zoos and nature reserves. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Enjoy discovering local nightlife and social scenes.",
     "sleep": [
       "late",
       "heavy"
@@ -6081,7 +6081,7 @@
     ],
     "style": "economical",
     "trust": 0.58,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy shopping for local finds and I love attending cultural events. I keep things tidy. I don\u0019t drink. I prefer getting around by transport.",
+    "bio": "Love discovering unique finds in local markets and boutiques.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -6101,7 +6101,7 @@
     ],
     "style": "luxury",
     "trust": 0.58,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love yoga and slow mornings. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Love incorporating wellness into travel experiences.",
     "sleep": [
       "snoring",
       "early"
@@ -6125,7 +6125,7 @@
     ],
     "style": "average",
     "trust": 0.59,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Art lover who spends hours in museums and galleries.",
     "sleep": [
       "heavy",
       "early"
@@ -6148,7 +6148,7 @@
     ],
     "style": "luxury",
     "trust": 0.73,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy shopping for local finds. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Shopping enthusiast who explores local retail culture.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "vegetarian",
@@ -6168,7 +6168,7 @@
     ],
     "style": "economical",
     "trust": 0.84,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy cooking classes and food tours. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light",
       "heavy"
@@ -6194,7 +6194,7 @@
     ],
     "style": "average",
     "trust": 0.77,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy shopping for local finds and I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Love hiking and exploring natural landscapes. Love immersing myself in local traditions and authentic experiences.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -6215,7 +6215,7 @@
     ],
     "style": "average",
     "trust": 0.41,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I enjoy island hopping. I keep things tidy. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Always drawn to beach destinations and marine beauty.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
@@ -6237,7 +6237,7 @@
     ],
     "style": "average",
     "trust": 0.77,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy slow travel and longer stays. I keep things tidy. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Enjoy discovering local nightlife and social scenes.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "lactose-intolerant",
@@ -6259,7 +6259,7 @@
     ],
     "style": "average",
     "trust": 0.88,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy fine dining and wine pairings and I love capturing moments on the road. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Love exploring high-end cuisine and culinary artistry.",
     "sleep": [
       "early",
       "late"
@@ -6285,7 +6285,7 @@
     ],
     "style": "economical",
     "trust": 0.84,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy wine tastings and local drinks and I love browsing markets and boutiques. I keep things tidy. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Seek balance through spa treatments and wellness activities.",
     "sleep": [
       "snoring",
       "light"
@@ -6310,7 +6310,7 @@
     ],
     "style": "luxury",
     "trust": 0.81,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love browsing markets and boutiques and I love a good bar with friends. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Nightlife explorer who loves local bars and evening entertainment.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
@@ -6331,7 +6331,7 @@
     ],
     "style": "average",
     "trust": 0.91,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy food markets and hawker centers and I love learning local recipes. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Love exploring local cuisine through street food adventures.",
     "sleep": [
       "snoring",
       "late"
@@ -6357,7 +6357,7 @@
     ],
     "style": "luxury",
     "trust": 0.76,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting national parks and I enjoy learning local traditions. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Cultural explorer through museums and artistic heritage.",
     "sleep": [
       "light"
     ],
@@ -6381,7 +6381,7 @@
     ],
     "style": "average",
     "trust": 0.61,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "late",
       "snoring"
@@ -6407,7 +6407,7 @@
     ],
     "style": "average",
     "trust": 0.83,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy learning local traditions and I love street food and local eats. I\u0019m easygoing about tidiness. I enjoy a drink. I like walking to explore.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "early",
       "heavy"
@@ -6432,7 +6432,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy food markets and hawker centers and I enjoy adventure sports. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Always seeking authentic flavors from local food stalls. Thrill-seeker who loves adventure sports and adrenaline activities.",
     "sleep": [
       "early",
       "snoring"
@@ -6456,7 +6456,7 @@
     ],
     "style": "average",
     "trust": 0.93,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I love a good bar with friends. I keep things tidy. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "late",
       "snoring"
@@ -6483,7 +6483,7 @@
     ],
     "style": "average",
     "trust": 0.71,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy museums and art galleries and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Always drawn to water-based adventures and marine sports. Love experiencing destinations through their music scene.",
     "sleep": [
       "light",
       "snoring"
@@ -6510,7 +6510,7 @@
     ],
     "style": "average",
     "trust": 0.86,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love scenic viewpoints and nature walks and I love soaking in the local vibe. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Enjoy discovering local nightlife and social scenes.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -6532,7 +6532,7 @@
     ],
     "style": "economical",
     "trust": 0.74,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy snorkeling and water sports and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Always drawn to water-based adventures and marine sports.",
     "sleep": [
       "heavy"
     ],
@@ -6555,7 +6555,7 @@
     ],
     "style": "average",
     "trust": 0.71,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love experiencing local culture and I love soaking in the local vibe. I\u0019m easygoing about tidiness. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "early",
       "heavy"
@@ -6578,7 +6578,7 @@
     ],
     "style": "average",
     "trust": 0.78,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy time outdoors. I\u0019m pretty relaxed about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Outdoor adventurer seeking scenic trails and wilderness.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -6601,7 +6601,7 @@
     ],
     "style": "luxury",
     "trust": 0.76,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy festivals and local events and I enjoy shopping for local finds. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "light"
     ],
@@ -6626,7 +6626,7 @@
     ],
     "style": "average",
     "trust": 0.74,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love browsing markets and boutiques and I enjoy snorkeling and water sports. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "light"
     ],
@@ -6649,7 +6649,7 @@
     ],
     "style": "economical",
     "trust": 0.47,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy wine tastings and local drinks and I enjoy island hopping. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Always drawn to beach destinations and marine beauty.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -6671,7 +6671,7 @@
     ],
     "style": "average",
     "trust": 0.64,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy travel photography and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Photography enthusiast capturing travel moments and landscapes. Love exploring local cuisine through street food adventures.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "lactose-intolerant",
@@ -6694,7 +6694,7 @@
     ],
     "style": "average",
     "trust": 0.55,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy snorkeling and water sports and I enjoy wellness and spa days. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Love incorporating wellness into travel experiences.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -6717,7 +6717,7 @@
     ],
     "style": "average",
     "trust": 0.53,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love exploring historical sites and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Love hiking and exploring natural landscapes. Always drawn to historical places and their cultural significance.",
     "sleep": [
       "late",
       "early"
@@ -6744,7 +6744,7 @@
     ],
     "style": "average",
     "trust": 0.51,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love browsing markets and boutiques and I enjoy festivals and local events. I keep things tidy. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy",
       "snoring"
@@ -6768,7 +6768,7 @@
     ],
     "style": "average",
     "trust": 0.96,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love experiencing local culture and I enjoy adventure sports. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Adventure enthusiast pushing limits and trying new challenges. Always seeking genuine cultural experiences and local connections.",
     "sleep": [
       "late",
       "snoring"
@@ -6792,7 +6792,7 @@
     ],
     "style": "average",
     "trust": 0.78,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy snorkeling and water sports and I enjoy nightlife and live music. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Nightlife explorer who loves local bars and evening entertainment. Love exploring destinations through water activities.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -6814,7 +6814,7 @@
     ],
     "style": "economical",
     "trust": 0.59,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy wellness and spa days and I love beaches and the sea. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Always drawn to historical places and their cultural significance.",
     "sleep": [
       "early",
       "late"
@@ -6840,7 +6840,7 @@
     ],
     "style": "average",
     "trust": 0.42,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love spending time in museums and I love live music and concerts. I keep things tidy. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions. Seek balance through spa treatments and wellness activities.",
     "sleep": [
       "heavy",
       "snoring"
@@ -6868,7 +6868,7 @@
     ],
     "style": "average",
     "trust": 0.78,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy local gigs and shows and I enjoy wildlife and animal encounters. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Always looking for live music venues and cultural performances.",
     "sleep": [
       "heavy",
       "snoring"
@@ -6894,7 +6894,7 @@
     ],
     "style": "average",
     "trust": 0.92,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love coastal spots and beach days and I love beaches and the sea. I\u0019m easygoing about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Love exploring destinations through water activities.",
     "sleep": [
       "light",
       "late"
@@ -6921,7 +6921,7 @@
     ],
     "style": "luxury",
     "trust": 0.77,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy museums and art galleries and I love visiting wineries and breweries. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [
       "snoring"
     ],
@@ -6944,7 +6944,7 @@
     ],
     "style": "luxury",
     "trust": 0.55,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy island hopping and I enjoy learning local traditions. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [
       "heavy"
     ],
@@ -6968,7 +6968,7 @@
     ],
     "style": "average",
     "trust": 0.84,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love cafe hopping and I enjoy travel photography. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Love documenting journeys through photography.",
     "sleep": [
       "early",
       "heavy"
@@ -6992,7 +6992,7 @@
     ],
     "style": "luxury",
     "trust": 0.76,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love soaking in the local vibe and I enjoy island hopping. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Beach lover who finds tranquility by the ocean.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -7012,7 +7012,7 @@
     ],
     "style": "luxury",
     "trust": 0.86,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Love immersing myself in local traditions and authentic experiences.",
     "sleep": [
       "early",
       "light"
@@ -7036,7 +7036,7 @@
     ],
     "style": "economical",
     "trust": 0.89,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy fine dining and wine pairings and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Culinary enthusiast who appreciates fine dining experiences.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -7058,7 +7058,7 @@
     ],
     "style": "economical",
     "trust": 0.63,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love attending cultural events and I enjoy shopping for local finds. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Outdoor adventurer seeking scenic trails and wilderness.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -7078,7 +7078,7 @@
     ],
     "style": "average",
     "trust": 0.52,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love going to zoos and nature reserves. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
@@ -7099,7 +7099,7 @@
     ],
     "style": "average",
     "trust": 0.96,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy museums and art galleries. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Art lover who spends hours in museums and galleries.",
     "sleep": [
       "heavy",
       "late"
@@ -7126,7 +7126,7 @@
     ],
     "style": "economical",
     "trust": 0.57,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love adrenaline activities and I love scenic viewpoints and nature walks. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "early"
     ],
@@ -7148,7 +7148,7 @@
     ],
     "style": "average",
     "trust": 0.47,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love adrenaline activities. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Adventure enthusiast pushing limits and trying new challenges.",
     "sleep": [
       "late"
     ],
@@ -7171,7 +7171,7 @@
     ],
     "style": "average",
     "trust": 0.7,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love scenic bike rides and I love browsing markets and boutiques. I\u0019m pretty relaxed about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Always hunting for unique souvenirs and local crafts. Seek balance through spa treatments and wellness activities.",
     "sleep": [
       "early"
     ],
@@ -7196,7 +7196,7 @@
     ],
     "style": "economical",
     "trust": 0.77,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy nightlife and live music and I love adrenaline activities. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Enjoy discovering local nightlife and social scenes. Love documenting journeys through photography.",
     "sleep": [
       "snoring",
       "early"
@@ -7221,7 +7221,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I respect and enjoy visiting religious sites and I enjoy local gigs and shows. I keep things tidy. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Always drawn to beach destinations and marine beauty. Always looking for live music venues and cultural performances.",
     "sleep": [
       "late",
       "snoring"
@@ -7244,7 +7244,7 @@
     ],
     "style": "luxury",
     "trust": 0.36,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love modern art and exhibitions and I enjoy tasting local specialties. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [
       "heavy",
       "light"
@@ -7267,7 +7267,7 @@
     ],
     "style": "luxury",
     "trust": 0.93,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy volunteering when I can and I enjoy backpacking itineraries. I keep things tidy. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love connecting with communities through volunteer opportunities.",
     "sleep": [
       "heavy",
       "late"
@@ -7293,7 +7293,7 @@
     ],
     "style": "average",
     "trust": 0.68,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy travel photography and I love experiencing local culture. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -7314,7 +7314,7 @@
     ],
     "style": "average",
     "trust": 0.48,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy flexible itineraries and I love a good bar with friends. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Always planning scenic drives and highway adventures.",
     "sleep": [
       "heavy",
       "light"
@@ -7340,7 +7340,7 @@
     ],
     "style": "average",
     "trust": 0.77,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy learning local traditions and I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Always seeking authentic flavors from local food stalls. Digital nomad who works remotely while exploring the world.",
     "sleep": [
       "early",
       "heavy"
@@ -7367,7 +7367,7 @@
     ],
     "style": "average",
     "trust": 0.58,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love learning local recipes and I enjoy shopping for local finds. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Always hunting for unique souvenirs and local crafts.",
     "sleep": [
       "snoring",
       "heavy"
@@ -7393,7 +7393,7 @@
     ],
     "style": "luxury",
     "trust": 0.47,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy island hopping and I enjoy cooking classes and food tours. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Beach lover who finds tranquility by the ocean.",
     "sleep": [
       "light",
       "heavy"
@@ -7419,7 +7419,7 @@
     ],
     "style": "economical",
     "trust": 0.69,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love spending time in museums and I enjoy visiting national parks. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Cultural explorer through museums and artistic heritage.",
     "sleep": [
       "late",
       "early"
@@ -7446,7 +7446,7 @@
     ],
     "style": "economical",
     "trust": 0.73,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love bargaining for souvenirs and I enjoy nightlife and live music. I keep things tidy. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "early",
       "heavy"
@@ -7470,7 +7470,7 @@
     ],
     "style": "average",
     "trust": 0.76,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy festivals and local events and I love mountain views and scenic routes. I keep things tidy. I drink socially. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "early",
       "light"
@@ -7495,7 +7495,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love yoga and slow mornings and I love cafe hopping. I keep things tidy. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Shopping enthusiast who explores local retail culture. Seek balance through spa treatments and wellness activities.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -7517,7 +7517,7 @@
     ],
     "style": "luxury",
     "trust": 0.9,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting heritage landmarks and I enjoy local gigs and shows. I keep things tidy. I enjoy a drink. I like walking to explore.",
+    "bio": "Always seeking exciting adventures and extreme sports. Always looking for live music venues and cultural performances.",
     "sleep": [
       "heavy"
     ],
@@ -7542,7 +7542,7 @@
     ],
     "style": "average",
     "trust": 0.72,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy flexible itineraries and I love staying close to nature. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Always seeking authentic flavors from local food stalls.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -7565,7 +7565,7 @@
     ],
     "style": "economical",
     "trust": 0.65,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy museums and art galleries and I enjoy art galleries. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Love connecting with communities through volunteer opportunities. Appreciate fine art and love discovering local artistic expressions.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -7588,7 +7588,7 @@
     ],
     "style": "economical",
     "trust": 0.7,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy fine dining and wine pairings and I love hiking and nature trails. I keep things tidy. I drink socially. I prefer getting around by transport.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
       "snoring",
       "early"
@@ -7612,7 +7612,7 @@
     ],
     "style": "average",
     "trust": 0.62,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love meaningful travel and I enjoy hidden alleys and neighborhoods. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Always seeking authentic urban experiences and local neighborhoods. Love connecting with communities through volunteer opportunities.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -7636,7 +7636,7 @@
     ],
     "style": "economical",
     "trust": 0.83,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love mountain views and scenic routes and I love going to zoos and nature reserves. I keep things tidy. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -7662,7 +7662,7 @@
     ],
     "style": "economical",
     "trust": 0.91,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love visiting wineries and breweries and I love scenic viewpoints and nature walks. I keep things tidy. I drink socially. I use a mix of walking and transport.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -7686,7 +7686,7 @@
     ],
     "style": "luxury",
     "trust": 0.72,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy nightlife and live music and I enjoy festivals and local events. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Wilderness explorer seeking outdoor adventures.",
     "sleep": [
       "light",
       "snoring"
@@ -7710,7 +7710,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy working remotely while traveling and I love cafe hopping. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Location-independent professional balancing work and travel.",
     "sleep": [
       "heavy",
       "snoring"
@@ -7734,7 +7734,7 @@
     ],
     "style": "average",
     "trust": 0.71,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy hidden alleys and neighborhoods and I respect and enjoy visiting religious sites. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light",
       "early"
@@ -7760,7 +7760,7 @@
     ],
     "style": "luxury",
     "trust": 0.58,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy camping and campfires and I respect and enjoy visiting religious sites. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late"
     ],
@@ -7784,7 +7784,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy curated experiences and I love browsing markets and boutiques. I\u0019m easygoing about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Photography enthusiast capturing travel moments and landscapes.",
     "sleep": [
       "early",
       "snoring"
@@ -7808,7 +7808,7 @@
     ],
     "style": "economical",
     "trust": 0.91,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love scenic viewpoints and nature walks and I love exploring food markets. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "snoring",
       "late"
@@ -7832,7 +7832,7 @@
     ],
     "style": "average",
     "trust": 0.84,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy adventure sports and I love scenic bike rides. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Nightlife explorer who loves local bars and evening entertainment.",
     "sleep": [
       "light"
     ],
@@ -7855,7 +7855,7 @@
     ],
     "style": "economical",
     "trust": 0.35,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy nightlife and live music and I enjoy trying local coffee. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Love experiencing cities through their vibrant nightlife.",
     "sleep": [
       "early"
     ],
@@ -7880,7 +7880,7 @@
     ],
     "style": "luxury",
     "trust": 0.67,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love coastal spots and beach days and I love capturing moments on the road. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Love documenting journeys through photography.",
     "sleep": [
       "late",
       "heavy"
@@ -7905,7 +7905,7 @@
     ],
     "style": "average",
     "trust": 0.63,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy cooking classes and food tours and I love road trips and scenic drives. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Always planning scenic drives and highway adventures.",
     "sleep": [
       "late",
       "light"
@@ -7930,7 +7930,7 @@
     ],
     "style": "average",
     "trust": 0.63,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy art galleries and I love experiencing local culture. I keep things tidy. I drink socially. I prefer getting around by transport.",
+    "bio": "Outdoor adventurer seeking scenic trails and wilderness.",
     "sleep": [
       "early",
       "heavy"
@@ -7953,7 +7953,7 @@
     ],
     "style": "average",
     "trust": 0.65,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy learning local traditions and I love soaking in the local vibe. I keep things tidy. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -7974,7 +7974,7 @@
     ],
     "style": "economical",
     "trust": 0.83,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy tasting local specialties and I love exploring historical sites. I\u0019m easygoing about tidiness. I enjoy a drink. I use a mix of walking and transport.",
+    "bio": "Fascinated by historical landmarks and the stories behind them.",
     "sleep": [
       "early",
       "snoring"
@@ -8001,7 +8001,7 @@
     ],
     "style": "average",
     "trust": 0.67,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I love hiking and nature trails. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Beach lover who finds tranquility by the ocean.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "lactose-intolerant",
@@ -8023,7 +8023,7 @@
     ],
     "style": "average",
     "trust": 0.79,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love hiking and nature trails and I enjoy volunteering when I can. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Believe in giving back through meaningful travel experiences.",
     "sleep": [
       "heavy"
     ],
@@ -8047,7 +8047,7 @@
     ],
     "style": "average",
     "trust": 0.65,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy shopping for local finds and I enjoy island hopping. I\u0019m easygoing about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Believe in giving back through meaningful travel experiences.",
     "sleep": [
       "light"
     ],
@@ -8070,7 +8070,7 @@
     ],
     "style": "luxury",
     "trust": 0.66,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I appreciate unique architecture and I love snow destinations. I\u0019m easygoing about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "late"
     ],
@@ -8094,7 +8094,7 @@
     ],
     "style": "average",
     "trust": 0.55,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy winter sports and I love good coffee + Wi\u2011Fi spots. I\u0019m easygoing about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Digital nomad who works remotely while exploring the world. Love incorporating wellness into travel experiences.",
     "sleep": [
       "light"
     ],
@@ -8118,7 +8118,7 @@
     ],
     "style": "average",
     "trust": 0.5,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy visiting national parks and I love adrenaline activities. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Outdoor adventurer seeking scenic trails and wilderness.",
     "sleep": [
       "early"
     ],
@@ -8142,7 +8142,7 @@
     ],
     "style": "economical",
     "trust": 0.78,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy festivals and local events and I enjoy curated experiences. I\u0019m easygoing about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
       "light"
     ],
@@ -8164,7 +8164,7 @@
     ],
     "style": "luxury",
     "trust": 0.94,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy backpacking itineraries and I love scenic bike rides. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Always drawn to beach destinations and marine beauty.",
     "sleep": [
       "heavy",
       "snoring"
@@ -8188,7 +8188,7 @@
     ],
     "style": "average",
     "trust": 0.48,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love road trips and scenic drives and I enjoy adventure sports. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Thrill-seeker who loves adventure sports and adrenaline activities.",
     "sleep": [
       "snoring",
       "early"
@@ -8213,7 +8213,7 @@
     ],
     "style": "average",
     "trust": 0.64,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I appreciate unique architecture and I enjoy tasting local specialties. I keep things tidy. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Love experiencing destinations through their music scene.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -8236,7 +8236,7 @@
     ],
     "style": "average",
     "trust": 0.95,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy cooking classes and food tours and I love snow destinations. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Water sports enthusiast who loves ocean and lake activities.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -8259,7 +8259,7 @@
     ],
     "style": "luxury",
     "trust": 0.51,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy wine tastings and local drinks and I love beautiful stays and great service. I keep things tidy. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Location-independent professional balancing work and travel.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -8280,7 +8280,7 @@
     ],
     "style": "average",
     "trust": 0.5,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy city cycling and bike routes and I enjoy tasting local specialties. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Always seeking snowy destinations and winter activities.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -8301,7 +8301,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love street food and local eats and I love learning local recipes. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Always seeking authentic flavors from local food stalls.",
     "sleep": [
       "light"
     ],
@@ -8325,7 +8325,7 @@
     ],
     "style": "luxury",
     "trust": 0.8,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love learning local recipes and I love road trips and scenic drives. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -8347,7 +8347,7 @@
     ],
     "style": "economical",
     "trust": 0.69,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy sunrise and sunset spots and I enjoy hidden alleys and neighborhoods. I keep things tidy. I drink socially. I use a mix of walking and transport.",
+    "bio": "Always seeking authentic urban experiences and local neighborhoods.",
     "sleep": [
       "heavy"
     ],
@@ -8371,7 +8371,7 @@
     ],
     "style": "economical",
     "trust": 0.43,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy festivals and local events and I enjoy visiting national parks. I keep things tidy. I enjoy a drink. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "early"
     ],
@@ -8395,7 +8395,7 @@
     ],
     "style": "economical",
     "trust": 0.77,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy slow travel and longer stays and I enjoy sunrise and sunset spots. I\u0019m easygoing about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light"
     ],
@@ -8420,7 +8420,7 @@
     ],
     "style": "economical",
     "trust": 0.71,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy winter sports and I love hiking and nature trails. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Love hiking and exploring natural landscapes.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -8442,7 +8442,7 @@
     ],
     "style": "average",
     "trust": 0.94,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I enjoy island hopping. I keep things tidy. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Beach lover who finds tranquility by the ocean.",
     "sleep": [
       "late",
       "heavy"
@@ -8465,7 +8465,7 @@
     ],
     "style": "average",
     "trust": 0.4,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy time outdoors and I love modern art and exhibitions. I keep things tidy. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Love hiking and exploring natural landscapes.",
     "sleep": [
       "snoring"
     ],
@@ -8488,7 +8488,7 @@
     ],
     "style": "economical",
     "trust": 0.7,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love exploring food markets and I love modern art and exhibitions. I keep things tidy. I enjoy a drink. I smoke. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy",
       "late"
@@ -8512,7 +8512,7 @@
     ],
     "style": "average",
     "trust": 0.94,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love experiencing local culture and I love staying close to nature. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
+    "bio": "Wilderness explorer seeking outdoor adventures.",
     "sleep": [
       "light",
       "early"
@@ -8538,7 +8538,7 @@
     ],
     "style": "average",
     "trust": 0.79,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love browsing markets and boutiques and I love staying close to nature. I keep things tidy. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Always hunting for unique souvenirs and local crafts.",
     "sleep": [
       "light",
       "heavy"
@@ -8562,7 +8562,7 @@
     ],
     "style": "average",
     "trust": 0.81,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy fine dining and wine pairings and I love soaking in the local vibe. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Culinary enthusiast who appreciates fine dining experiences.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
@@ -8586,7 +8586,7 @@
     ],
     "style": "economical",
     "trust": 0.48,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love mountain views and scenic routes and I love bargaining for souvenirs. I\u0019m easygoing about tidiness. I drink socially. I like walking to explore.",
+    "bio": "Always drawn to historical places and their cultural significance.",
     "sleep": [
       "late",
       "early"
@@ -8611,7 +8611,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy snorkeling and water sports and I enjoy backpacking itineraries. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Always drawn to water-based adventures and marine sports. Seek balance through spa treatments and wellness activities.",
     "sleep": [
       "snoring"
     ],
@@ -8635,7 +8635,7 @@
     ],
     "style": "luxury",
     "trust": 0.43,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy shopping for local finds and I enjoy visiting national parks. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
+    "bio": "Shopping enthusiast who explores local retail culture.",
     "sleep": [
       "snoring",
       "light"
@@ -8661,7 +8661,7 @@
     ],
     "style": "average",
     "trust": 0.36,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy wine tastings and local drinks and I enjoy flexible itineraries. I keep things tidy. I drink socially. I only smoke outside. I like walking to explore.",
+    "bio": "Passionate about discovering local culture and connecting with communities. Always seeking the perfect shot and visual storytelling.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -8682,7 +8682,7 @@
     ],
     "style": "average",
     "trust": 0.73,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy working remotely while traveling and I enjoy festivals and local events. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Love combining productivity with travel adventures.",
     "sleep": [
       "snoring"
     ],
@@ -8706,7 +8706,7 @@
     ],
     "style": "average",
     "trust": 0.37,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I love learning local recipes. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Passionate about discovering local culture and connecting with communities.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -8728,7 +8728,7 @@
     ],
     "style": "average",
     "trust": 0.6,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love coastal spots and beach days and I enjoy flexible itineraries. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Wilderness explorer seeking outdoor adventures. Beach lover who finds tranquility by the ocean.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -8750,7 +8750,7 @@
     ],
     "style": "economical",
     "trust": 0.53,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy time outdoors and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -8772,7 +8772,7 @@
     ],
     "style": "average",
     "trust": 0.41,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy city cycling and bike routes and I love staying close to nature. I keep things tidy. I drink socially. I like walking to explore.",
+    "bio": "Wilderness explorer seeking outdoor adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -8795,7 +8795,7 @@
     ],
     "style": "average",
     "trust": 0.52,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love scenic viewpoints and nature walks and I enjoy camping and campfires. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Outdoor enthusiast who loves camping and wilderness adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -8819,7 +8819,7 @@
     ],
     "style": "average",
     "trust": 0.39,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy shopping for local finds and I love street food and local eats. I\u0019m easygoing about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Love exploring local cuisine through street food adventures. Fascinated by historical landmarks and the stories behind them.",
     "sleep": [
       "light",
       "heavy"
@@ -8845,7 +8845,7 @@
     ],
     "style": "luxury",
     "trust": 0.66,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love hiking and nature trails and I enjoy museums and art galleries. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Outdoor adventurer seeking scenic trails and wilderness. Love exploring destinations through water activities.",
     "sleep": [
       "snoring",
       "light"
@@ -8870,7 +8870,7 @@
     ],
     "style": "economical",
     "trust": 0.39,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love hiking and nature trails and I love attending cultural events. I keep things tidy. I enjoy a drink. I like walking to explore.",
+    "bio": "Love hiking and exploring natural landscapes.",
     "sleep": [
       "heavy",
       "light"
@@ -8895,7 +8895,7 @@
     ],
     "style": "economical",
     "trust": 0.61,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love exploring historical sites and I love capturing moments on the road. I keep things tidy. I drink socially. I use a mix of walking and transport.",
+    "bio": "History enthusiast who loves exploring ancient ruins and heritage sites.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -8917,7 +8917,7 @@
     ],
     "style": "average",
     "trust": 0.53,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy adventure sports and I love mountain views and scenic routes. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Thrill-seeker who loves adventure sports and adrenaline activities.",
     "sleep": [
       "late"
     ],
@@ -8941,7 +8941,7 @@
     ],
     "style": "economical",
     "trust": 0.5,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy winter sports and I love coastal spots and beach days. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes.",
     "sleep": [
       "snoring"
     ],
@@ -8965,7 +8965,7 @@
     ],
     "style": "average",
     "trust": 0.68,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I enjoy adventure sports. I keep things tidy. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Thrill-seeker who loves adventure sports and adrenaline activities.",
     "sleep": [
       "light",
       "late"
@@ -8990,7 +8990,7 @@
     ],
     "style": "average",
     "trust": 0.82,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy visiting local markets and I love soaking in the local vibe. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -9013,7 +9013,7 @@
     ],
     "style": "economical",
     "trust": 0.68,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy wildlife and animal encounters and I enjoy adventure sports. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Always seeking exciting adventures and extreme sports.",
     "sleep": [
       "light",
       "late"
@@ -9037,7 +9037,7 @@
     ],
     "style": "average",
     "trust": 0.75,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy backpacking itineraries and I respect and enjoy visiting religious sites. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "light"
     ],
@@ -9062,7 +9062,7 @@
     ],
     "style": "average",
     "trust": 0.95,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love exploring historical sites and I love yoga and slow mornings. I\u0019m pretty relaxed about tidiness. I drink socially. I use a mix of walking and transport.",
+    "bio": "Love exploring local cuisine through street food adventures. Thrill-seeker who loves adventure sports and adrenaline activities.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -9084,7 +9084,7 @@
     ],
     "style": "economical",
     "trust": 0.69,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love adrenaline activities and I love exploring historical sites. I\u0019m easygoing about tidiness. I drink socially. I prefer getting around by transport.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes. Fascinated by historical landmarks and the stories behind them.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
@@ -9108,7 +9108,7 @@
     ],
     "style": "average",
     "trust": 0.82,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy festivals and local events and I love mountain views and scenic routes. I\u0019m easygoing about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
+    "bio": "Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "vegetarian",
@@ -9130,7 +9130,7 @@
     ],
     "style": "average",
     "trust": 0.93,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love yoga and slow mornings and I love exploring historical sites. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "History enthusiast who loves exploring ancient ruins and heritage sites. Love the freedom of exploring by car and discovering new routes.",
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
@@ -9152,7 +9152,7 @@
     ],
     "style": "average",
     "trust": 0.93,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy travel photography and I love soaking in the local vibe. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Love documenting journeys through photography. Location-independent professional balancing work and travel.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -9174,7 +9174,7 @@
     ],
     "style": "average",
     "trust": 0.8,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I love hostels and meeting travelers and I enjoy winter sports. I\u0019m easygoing about tidiness. I drink socially. I smoke. I like walking to explore.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes. Winter sports enthusiast who loves snow and mountain adventures.",
     "sleep": [
       "early",
       "late"
@@ -9197,7 +9197,7 @@
     ],
     "style": "average",
     "trust": 0.46,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy wine tastings and local drinks and I enjoy backpacking itineraries. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "heavy"
     ],
@@ -9223,7 +9223,7 @@
     ],
     "style": "average",
     "trust": 0.86,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I like visiting temples and churches and I enjoy flexible itineraries. I\u0019m easygoing about tidiness. I don\u0019t drink. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
       "snoring",
       "early"
@@ -9248,7 +9248,7 @@
     ],
     "style": "economical",
     "trust": 0.41,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love street food and local eats and I enjoy volunteering when I can. I keep things tidy. I don\u0019t drink. I only smoke outside. I like walking to explore.",
+    "bio": "Purposeful traveler who incorporates volunteer work into journeys.",
     "sleep": [
       "early",
       "late"
@@ -9274,7 +9274,7 @@
     ],
     "style": "average",
     "trust": 0.64,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love bargaining for souvenirs and I love good coffee + Wi\u2011Fi spots. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Appreciate fine art and love discovering local artistic expressions.",
     "sleep": [
       "late"
     ],
@@ -9299,7 +9299,7 @@
     ],
     "style": "economical",
     "trust": 0.56,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy working remotely while traveling and I enjoy learning local traditions. I keep things tidy. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
@@ -9319,7 +9319,7 @@
     ],
     "style": "average",
     "trust": 0.56,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I love modern art and exhibitions and I appreciate unique architecture. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
+    "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
@@ -9340,7 +9340,7 @@
     ],
     "style": "economical",
     "trust": 0.94,
-    "bio": "I am a budget-conscious traveler who loves authentic experiences. I love special-occasion restaurants and I enjoy tasting local specialties. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "History enthusiast who loves exploring ancient ruins and heritage sites.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -9361,7 +9361,7 @@
     ],
     "style": "average",
     "trust": 0.56,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love coastal spots and beach days and I enjoy nightlife and live music. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
+    "bio": "Coastal explorer who loves sandy shores and sea breezes. Enjoy discovering local nightlife and social scenes.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -9385,7 +9385,7 @@
     ],
     "style": "average",
     "trust": 0.54,
-    "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy local gigs and shows and I love good coffee + Wi\u2011Fi spots. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Love combining productivity with travel adventures. Love experiencing destinations through their music scene.",
     "sleep": [
       "early"
     ],
@@ -9408,7 +9408,7 @@
     ],
     "style": "luxury",
     "trust": 0.52,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I love beautiful stays and great service and I love experiencing local culture. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
+    "bio": "Always drawn to historical places and their cultural significance. Always seeking genuine cultural experiences and local connections.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -9431,7 +9431,7 @@
     ],
     "style": "luxury",
     "trust": 0.84,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I like visiting temples and churches and I enjoy camping and campfires. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Urban explorer who loves discovering city secrets and hidden gems.",
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
@@ -9455,7 +9455,7 @@
     ],
     "style": "average",
     "trust": 0.66,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy hidden alleys and neighborhoods and I love exploring historical sites. I keep things tidy. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
+    "bio": "Passionate about exploring cities beyond tourist attractions.",
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
@@ -9476,7 +9476,7 @@
     ],
     "style": "luxury",
     "trust": 0.94,
-    "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy flexible itineraries and I love coastal spots and beach days. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
+    "bio": "Beach lover who finds tranquility by the ocean.",
     "sleep": [
       "early"
     ],
@@ -9499,7 +9499,7 @@
     ],
     "style": "average",
     "trust": 0.58,
-    "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love architectural photography and I enjoy time outdoors. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
+    "bio": "Nature enthusiast who finds peace on mountain trails.",
     "sleep": [
       "early"
     ],
@@ -9524,7 +9524,7 @@
     ],
     "style": "average",
     "trust": 0.56,
-    "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy hidden alleys and neighborhoods and I enjoy visiting national parks. I keep things tidy. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
+    "bio": "Always seeking authentic urban experiences and local neighborhoods. Always looking for live music venues and cultural performances.",
     "sleep": [
       "snoring",
       "light"
