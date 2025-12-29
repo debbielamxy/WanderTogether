@@ -5,14 +5,15 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Live Music & Concerts"
+      "Live Music & Concerts",
+      "Beaches & Coast"
     ],
     "style": "occasional_splurging",
     "trust": 0.44,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love live music and concerts. I\u0019m easygoing about tidiness. I drink socially. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -36,7 +37,7 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
@@ -50,7 +51,6 @@
     "pace": 1,
     "interests": [
       "Religious Sites",
-      "Slow Travel",
       "Hiking & Nature"
     ],
     "style": "occasional_splurging",
@@ -60,9 +60,9 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -83,7 +83,7 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love staying close to nature and I love coastal spots and beach days. I\u0019m pretty relaxed about tidiness. I drink socially. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -107,9 +107,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 35
@@ -123,7 +123,8 @@
       "Water Sports",
       "Camping & Outdoors",
       "Nightlife & Bars",
-      "National Parks"
+      "National Parks",
+      "Local Culture"
     ],
     "style": "backpacking",
     "trust": 0.88,
@@ -132,7 +133,7 @@
     "cleanliness": "average",
     "dietary": "lactose-intolerant",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 38
@@ -154,9 +155,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love hiking and nature trails and I enjoy nightlife and live music. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 28
@@ -176,9 +177,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I respect and enjoy visiting religious sites and I love adrenaline activities. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "yes",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
     "age": 28
@@ -246,9 +247,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 28
@@ -260,7 +261,6 @@
     "pace": 2,
     "interests": [
       "Festivals & Events",
-      "Slow Travel",
       "Hiking & Nature",
       "Coffee Culture",
       "Water Sports"
@@ -273,8 +273,8 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "none",
-    "alcohol": "no",
+    "dietary": "keto",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -299,9 +299,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 35
@@ -326,8 +326,8 @@
     ],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 30
@@ -349,9 +349,9 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 20
@@ -362,7 +362,6 @@
     "budget": 3,
     "pace": 2,
     "interests": [
-      "Slow Travel",
       "Wildlife & Animals",
       "Photography",
       "Historical Sites",
@@ -377,7 +376,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -402,7 +401,7 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "halal",
     "alcohol": "social",
     "smoking": "yes",
     "fitness": "transport",
@@ -429,9 +428,9 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -444,7 +443,8 @@
     "interests": [
       "National Parks",
       "Fine Dining",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Coffee Culture"
     ],
     "style": "backpacking",
     "trust": 0.54,
@@ -453,7 +453,7 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "walk",
@@ -480,7 +480,7 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
@@ -506,7 +506,7 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "keto",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
@@ -526,8 +526,8 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "social",
+    "dietary": "vegetarian",
+    "alcohol": "no",
     "smoking": "yes",
     "fitness": "walk",
     "gender": "male",
@@ -549,8 +549,8 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -600,7 +600,7 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "mixed",
@@ -624,9 +624,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
+    "dietary": "vegetarian",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
     "age": 31
@@ -651,9 +651,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 42
@@ -676,9 +676,9 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 30
@@ -701,8 +701,8 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "halal",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -715,14 +715,15 @@
     "pace": 1,
     "interests": [
       "Shopping",
-      "Historical Sites"
+      "Historical Sites",
+      "Street Food"
     ],
     "style": "occasional_splurging",
     "trust": 0.87,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I enjoy visiting heritage landmarks. I\u0019m easygoing about tidiness. I don\u0019t drink. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
@@ -737,8 +738,8 @@
     "interests": [
       "Wine & Drinks",
       "Festivals & Events",
-      "Slow Travel",
-      "Historical Sites"
+      "Historical Sites",
+      "Beaches & Coast"
     ],
     "style": "comfort",
     "trust": 0.79,
@@ -747,7 +748,7 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "walk",
@@ -761,16 +762,17 @@
     "pace": 1,
     "interests": [
       "Photography",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "Street Food"
     ],
     "style": "luxury",
     "trust": 0.7,
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy travel photography and I love a good bar with friends. I\u0019m easygoing about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "halal",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -783,16 +785,16 @@
     "interests": [
       "Wine & Drinks",
       "Festivals & Events",
-      "Slow Travel"
+      "City Exploration"
     ],
     "style": "luxury",
     "trust": 0.63,
     "bio": "I am a luxury traveler who enjoys premium experiences. I love visiting wineries and breweries and I enjoy festivals and local events. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -816,9 +818,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 32
@@ -837,9 +839,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love cafe hopping and I enjoy visiting heritage landmarks. I keep things tidy. I enjoy a drink. I smoke. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "halal",
+    "dietary": "keto",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 35
@@ -863,7 +865,7 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "walk",
@@ -889,8 +891,8 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
@@ -904,7 +906,6 @@
     "interests": [
       "Wine & Drinks",
       "Local Culture",
-      "Slow Travel",
       "Hiking & Nature"
     ],
     "style": "comfort",
@@ -912,8 +913,8 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love visiting wineries and breweries and I love experiencing local culture. I\u0019m easygoing about tidiness. I enjoy a drink. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
+    "dietary": "halal",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -925,16 +926,17 @@
     "budget": 1,
     "pace": 1,
     "interests": [
-      "Slow Travel"
+      "Volunteer Work",
+      "Camping & Outdoors"
     ],
     "style": "average",
     "trust": 0.48,
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy slow travel and longer stays. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 38
@@ -946,7 +948,8 @@
     "pace": 1,
     "interests": [
       "Wine & Drinks",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "Street Food"
     ],
     "style": "occasional_splurging",
     "trust": 0.73,
@@ -956,7 +959,7 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "halal",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "transport",
@@ -982,9 +985,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 30
@@ -1007,9 +1010,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 38
@@ -1030,9 +1033,9 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I love cafe hopping. I keep things tidy. I drink socially. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "halal",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 30
@@ -1053,9 +1056,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "social",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
     "age": 40
@@ -1077,7 +1080,7 @@
     ],
     "cleanliness": "average",
     "dietary": "none",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -1101,8 +1104,8 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "social",
+    "dietary": "halal",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
@@ -1125,7 +1128,7 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
@@ -1146,7 +1149,7 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy island hopping and I love experiencing local culture. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "yes",
     "fitness": "mixed",
@@ -1172,7 +1175,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 32
@@ -1193,8 +1196,8 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
+    "dietary": "halal",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
@@ -1217,7 +1220,7 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy festivals and local events and I love spending time in museums. I keep things tidy. I don\u0019t drink. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
+    "dietary": "halal",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
@@ -1239,9 +1242,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 41
@@ -1264,7 +1267,7 @@
     ],
     "cleanliness": "average",
     "dietary": "none",
-    "alcohol": "no",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -1287,9 +1290,9 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy wine tastings and local drinks and I love special-occasion restaurants. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 28
@@ -1302,7 +1305,6 @@
     "interests": [
       "Shopping",
       "National Parks",
-      "Slow Travel",
       "Wellness & Spa",
       "Local Culture"
     ],
@@ -1314,8 +1316,8 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
@@ -1329,7 +1331,8 @@
     "interests": [
       "Shopping",
       "Photography",
-      "Local Culture"
+      "Local Culture",
+      "Beaches & Coast"
     ],
     "style": "occasional_splurging",
     "trust": 0.66,
@@ -1339,8 +1342,8 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
@@ -1365,7 +1368,7 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "mixed",
@@ -1401,7 +1404,8 @@
     "pace": 2,
     "interests": [
       "Cooking Experiences",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "Beaches & Coast"
     ],
     "style": "occasional_splurging",
     "trust": 0.88,
@@ -1410,7 +1414,7 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
@@ -1424,16 +1428,17 @@
     "pace": 3,
     "interests": [
       "National Parks",
-      "Historical Sites"
+      "Historical Sites",
+      "Beaches & Coast"
     ],
     "style": "comfort",
     "trust": 0.52,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy visiting national parks and I enjoy visiting heritage landmarks. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 20
@@ -1456,7 +1461,7 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "walk",
@@ -1472,7 +1477,8 @@
       "Shopping",
       "Camping & Outdoors",
       "Fine Dining",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "Hiking & Nature"
     ],
     "style": "backpacking",
     "trust": 0.43,
@@ -1482,8 +1488,8 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -1496,7 +1502,8 @@
     "pace": 3,
     "interests": [
       "Cooking Experiences",
-      "Historical Sites"
+      "Historical Sites",
+      "City Exploration"
     ],
     "style": "occasional_splurging",
     "trust": 0.79,
@@ -1506,9 +1513,9 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -1530,9 +1537,9 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy shopping for local finds and I enjoy wildlife and animal encounters. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 32
@@ -1555,7 +1562,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 35
@@ -1579,7 +1586,7 @@
     ],
     "cleanliness": "average",
     "dietary": "none",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "transport",
     "gender": "female",
@@ -1603,9 +1610,9 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 31
@@ -1625,9 +1632,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love browsing markets and boutiques and I enjoy wellness and spa days. I keep things tidy. I enjoy a drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
     "age": 44
@@ -1648,9 +1655,9 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
+    "dietary": "halal",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 25
@@ -1672,9 +1679,9 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy adventure sports and I love scenic viewpoints and nature walks. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 25
@@ -1697,9 +1704,9 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 33
@@ -1712,7 +1719,8 @@
     "interests": [
       "Festivals & Events",
       "Camping & Outdoors",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Food Markets"
     ],
     "style": "average",
     "trust": 0.54,
@@ -1723,7 +1731,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 37
@@ -1746,7 +1754,7 @@
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "social",
+    "alcohol": "yes",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
@@ -1770,7 +1778,7 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "walk",
@@ -1796,9 +1804,9 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "female",
     "age": 20
@@ -1810,16 +1818,17 @@
     "pace": 3,
     "interests": [
       "National Parks",
-      "Water Sports"
+      "Water Sports",
+      "Street Food"
     ],
     "style": "backpacking",
     "trust": 0.9,
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy visiting national parks and I love beaches and the sea. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -1842,8 +1851,8 @@
     ],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "social",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "female",
     "age": 26
@@ -1867,7 +1876,7 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "walk",
@@ -1893,9 +1902,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 32
@@ -1907,7 +1916,8 @@
     "pace": 2,
     "interests": [
       "Coffee Culture",
-      "Local Culture"
+      "Local Culture",
+      "City Exploration"
     ],
     "style": "comfort",
     "trust": 0.81,
@@ -1916,9 +1926,9 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "social",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "yes",
+    "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
     "age": 35
@@ -1929,7 +1939,8 @@
     "budget": 3,
     "pace": 1,
     "interests": [
-      "Historical Sites"
+      "Historical Sites",
+      "Hiking & Nature"
     ],
     "style": "average",
     "trust": 0.82,
@@ -1938,9 +1949,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 38
@@ -1953,17 +1964,16 @@
     "interests": [
       "Shopping",
       "Coffee Culture",
-      "Street Food",
-      "Slow Travel"
+      "Street Food"
     ],
     "style": "average",
     "trust": 0.55,
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy shopping for local finds and I enjoy trying local coffee. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 26
@@ -1986,9 +1996,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 44
@@ -2007,8 +2017,8 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy food markets and hawker centers and I enjoy learning local traditions. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -2033,7 +2043,7 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
+    "dietary": "halal",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "transport",
@@ -2059,9 +2069,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 38
@@ -2074,16 +2084,17 @@
     "interests": [
       "Fine Dining",
       "Museums & Art",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Beaches & Coast"
     ],
     "style": "luxury",
     "trust": 0.48,
     "bio": "I am a luxury traveler who enjoys premium experiences. I love special-occasion restaurants and I enjoy museums and art galleries. I keep things tidy. I drink socially. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "social",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "yes",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "female",
     "age": 35
@@ -2097,7 +2108,8 @@
       "Fine Dining",
       "Photography",
       "Water Sports",
-      "Religious Sites"
+      "Religious Sites",
+      "City Exploration"
     ],
     "style": "backpacking",
     "trust": 0.88,
@@ -2107,7 +2119,7 @@
     ],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -2132,9 +2144,9 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 39
@@ -2157,8 +2169,8 @@
     ],
     "cleanliness": "average",
     "dietary": "none",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 20
@@ -2169,8 +2181,7 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Street Food",
-      "Slow Travel"
+      "Street Food"
     ],
     "style": "occasional_splurging",
     "trust": 0.41,
@@ -2179,8 +2190,8 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
@@ -2194,8 +2205,7 @@
     "interests": [
       "Shopping",
       "Wine & Drinks",
-      "Wellness & Spa",
-      "Slow Travel"
+      "Wellness & Spa"
     ],
     "style": "luxury",
     "trust": 0.97,
@@ -2206,7 +2216,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -2230,9 +2240,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -2252,9 +2262,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 32
@@ -2273,9 +2283,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy museums and art galleries and I love going to zoos and nature reserves. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegan",
+    "dietary": "vegetarian",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 35
@@ -2296,9 +2306,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 31
@@ -2320,7 +2330,7 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love browsing markets and boutiques and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "outside",
     "fitness": "walk",
@@ -2344,8 +2354,8 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I enjoy adventure sports. I keep things tidy. I don\u0019t drink. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
@@ -2357,7 +2367,8 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Adventure Sports"
+      "Adventure Sports",
+      "Local Culture"
     ],
     "style": "luxury",
     "trust": 0.37,
@@ -2366,8 +2377,8 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -2393,8 +2404,8 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "social",
+    "dietary": "vegetarian",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -2408,15 +2419,14 @@
     "interests": [
       "Wine & Drinks",
       "Beaches & Coast",
-      "Fine Dining",
-      "Slow Travel"
+      "Fine Dining"
     ],
     "style": "luxury",
     "trust": 0.96,
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy wine tastings and local drinks and I love coastal spots and beach days. I\u0019m easygoing about tidiness. I drink socially. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
@@ -2440,7 +2450,7 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy adventure sports and I love a good bar with friends. I\u0019m easygoing about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegetarian",
+    "dietary": "halal",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "walk",
@@ -2463,9 +2473,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love special-occasion restaurants and I enjoy food markets and hawker centers. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 31
@@ -2489,7 +2499,7 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -2513,9 +2523,9 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love attending cultural events and I love visiting wineries and breweries. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "halal",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 20
@@ -2529,7 +2539,8 @@
       "Shopping",
       "Photography",
       "Adventure Sports",
-      "Historical Sites"
+      "Historical Sites",
+      "Coffee Culture"
     ],
     "style": "occasional_splurging",
     "trust": 0.69,
@@ -2562,8 +2573,8 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "transport",
     "gender": "female",
@@ -2578,7 +2589,8 @@
       "Cooking Experiences",
       "Camping & Outdoors",
       "Photography",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "Local Culture"
     ],
     "style": "backpacking",
     "trust": 0.84,
@@ -2587,8 +2599,8 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "none",
-    "alcohol": "no",
+    "dietary": "halal",
+    "alcohol": "yes",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -2603,14 +2615,15 @@
       "Water Sports",
       "Cooking Experiences",
       "Museums & Art",
-      "National Parks"
+      "National Parks",
+      "Food Markets"
     ],
     "style": "backpacking",
     "trust": 0.89,
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love beaches and the sea and I enjoy cooking classes and food tours. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "none",
+    "dietary": "halal",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
@@ -2626,14 +2639,15 @@
       "Cooking Experiences",
       "Local Culture",
       "Photography",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "City Exploration"
     ],
     "style": "comfort",
     "trust": 0.52,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love learning local recipes and I enjoy learning local traditions. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "transport",
@@ -2646,7 +2660,8 @@
     "budget": 2,
     "pace": 2,
     "interests": [
-      "Historical Sites"
+      "Historical Sites",
+      "Street Food"
     ],
     "style": "occasional_splurging",
     "trust": 0.63,
@@ -2656,9 +2671,9 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 38
@@ -2681,7 +2696,7 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -2705,9 +2720,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "halal",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 26
@@ -2729,9 +2744,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 33
@@ -2752,9 +2767,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
     "age": 33
@@ -2774,9 +2789,9 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love staying close to nature and I love capturing moments on the road. I\u0019m easygoing about tidiness. I drink socially. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "no",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
     "age": 27
@@ -2800,8 +2815,8 @@
     ],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "no",
-    "smoking": "outside",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 27
@@ -2815,14 +2830,15 @@
       "Adventure Sports",
       "Shopping",
       "Street Food",
-      "Religious Sites"
+      "Religious Sites",
+      "Local Culture"
     ],
     "style": "luxury",
     "trust": 0.46,
     "bio": "I am a luxury traveler who enjoys premium experiences. I love adrenaline activities and I enjoy shopping for local finds. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
@@ -2843,9 +2859,9 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love capturing moments on the road and I love experiencing local culture. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 27
@@ -2870,8 +2886,8 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -2884,7 +2900,6 @@
     "pace": 2,
     "interests": [
       "National Parks",
-      "Slow Travel",
       "Hiking & Nature",
       "Camping & Outdoors",
       "Wellness & Spa"
@@ -2897,9 +2912,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "vegetarian",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -2910,7 +2925,8 @@
     "budget": 3,
     "pace": 2,
     "interests": [
-      "Photography"
+      "Photography",
+      "Hiking & Nature"
     ],
     "style": "comfort",
     "trust": 0.64,
@@ -2919,9 +2935,9 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -2932,8 +2948,7 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Street Food",
-      "Slow Travel"
+      "Street Food"
     ],
     "style": "luxury",
     "trust": 0.55,
@@ -2942,7 +2957,7 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
@@ -2970,8 +2985,8 @@
     ],
     "cleanliness": "neat",
     "dietary": "none",
-    "alcohol": "no",
-    "smoking": "outside",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 32
@@ -2993,9 +3008,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 35
@@ -3007,15 +3022,14 @@
     "pace": 1,
     "interests": [
       "Fine Dining",
-      "Street Food",
-      "Slow Travel"
+      "Street Food"
     ],
     "style": "average",
     "trust": 0.71,
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy fine dining and wine pairings and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "transport",
@@ -3041,9 +3055,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 32
@@ -3054,7 +3068,8 @@
     "budget": 2,
     "pace": 2,
     "interests": [
-      "Museums & Art"
+      "Museums & Art",
+      "Food Markets"
     ],
     "style": "backpacking",
     "trust": 0.86,
@@ -3064,9 +3079,9 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "social",
-    "smoking": "yes",
+    "dietary": "halal",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 34
@@ -3090,9 +3105,9 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "no",
+    "dietary": "lactose-intolerant",
+    "alcohol": "social",
+    "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
     "age": 47
@@ -3103,7 +3118,8 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Festivals & Events"
+      "Festivals & Events",
+      "Food Markets"
     ],
     "style": "comfort",
     "trust": 0.84,
@@ -3113,9 +3129,9 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "lactose-intolerant",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 31
@@ -3138,8 +3154,8 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "yes",
+    "dietary": "vegetarian",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -3165,9 +3181,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 48
@@ -3189,9 +3205,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "halal",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 45
@@ -3211,8 +3227,8 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy island hopping and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I enjoy a drink. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -3236,8 +3252,8 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -3260,9 +3276,9 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy museums and art galleries and I love cafe hopping. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "social",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -3273,17 +3289,16 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Beaches & Coast",
-      "Slow Travel"
+      "Beaches & Coast"
     ],
     "style": "occasional_splurging",
     "trust": 0.39,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love coastal spots and beach days and I enjoy slow travel and longer stays. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 26
@@ -3295,7 +3310,8 @@
     "pace": 3,
     "interests": [
       "Fine Dining",
-      "Museums & Art"
+      "Museums & Art",
+      "Food Markets"
     ],
     "style": "comfort",
     "trust": 0.96,
@@ -3304,8 +3320,8 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "keto",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -3330,8 +3346,8 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
@@ -3344,7 +3360,8 @@
     "pace": 3,
     "interests": [
       "Festivals & Events",
-      "Photography"
+      "Photography",
+      "City Exploration"
     ],
     "style": "comfort",
     "trust": 0.56,
@@ -3353,7 +3370,7 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -3367,7 +3384,7 @@
     "pace": 2,
     "interests": [
       "Wine & Drinks",
-      "Slow Travel"
+      "Food Markets"
     ],
     "style": "occasional_splurging",
     "trust": 0.72,
@@ -3377,9 +3394,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 33
@@ -3391,7 +3408,8 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Fine Dining"
+      "Fine Dining",
+      "Coffee Culture"
     ],
     "style": "luxury",
     "trust": 0.78,
@@ -3401,9 +3419,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 41
@@ -3428,9 +3446,9 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 27
@@ -3441,7 +3459,8 @@
     "budget": 3,
     "pace": 3,
     "interests": [
-      "Water Sports"
+      "Water Sports",
+      "Local Culture"
     ],
     "style": "luxury",
     "trust": 0.69,
@@ -3449,8 +3468,8 @@
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "no",
-    "smoking": "yes",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 26
@@ -3474,7 +3493,7 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "none",
+    "dietary": "vegetarian",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "walk",
@@ -3500,8 +3519,8 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
@@ -3515,14 +3534,15 @@
     "interests": [
       "Wine & Drinks",
       "Fine Dining",
-      "Historical Sites"
+      "Historical Sites",
+      "Beaches & Coast"
     ],
     "style": "luxury",
     "trust": 0.89,
     "bio": "I am a luxury traveler who enjoys premium experiences. I love visiting wineries and breweries and I love special-occasion restaurants. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "transport",
@@ -3542,8 +3562,8 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy island hopping. I keep things tidy. I don\u0019t drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
@@ -3562,9 +3582,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 32
@@ -3575,16 +3595,17 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Fine Dining"
+      "Fine Dining",
+      "City Exploration"
     ],
     "style": "comfort",
     "trust": 0.49,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy fine dining and wine pairings. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 20
@@ -3596,7 +3617,6 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Slow Travel",
       "Wildlife & Animals",
       "Beaches & Coast",
       "Local Culture"
@@ -3608,8 +3628,8 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -3632,9 +3652,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy shopping for local finds and I enjoy museums and art galleries. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 26
@@ -3646,16 +3666,17 @@
     "pace": 2,
     "interests": [
       "Wine & Drinks",
-      "Museums & Art"
+      "Museums & Art",
+      "Food Markets"
     ],
     "style": "luxury",
     "trust": 0.7,
     "bio": "I am a luxury traveler who enjoys premium experiences. I love visiting wineries and breweries and I love spending time in museums. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 29
@@ -3668,7 +3689,8 @@
     "interests": [
       "Live Music & Concerts",
       "Water Sports",
-      "Historical Sites"
+      "Historical Sites",
+      "City Exploration"
     ],
     "style": "backpacking",
     "trust": 0.59,
@@ -3678,7 +3700,7 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "yes",
     "fitness": "transport",
@@ -3702,7 +3724,7 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
@@ -3717,7 +3739,8 @@
     "interests": [
       "Wine & Drinks",
       "Fine Dining",
-      "Water Sports"
+      "Water Sports",
+      "Street Food"
     ],
     "style": "occasional_splurging",
     "trust": 0.58,
@@ -3726,7 +3749,7 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
@@ -3739,7 +3762,8 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Wellness & Spa"
+      "Wellness & Spa",
+      "Coffee Culture"
     ],
     "style": "backpacking",
     "trust": 0.36,
@@ -3749,9 +3773,9 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "no",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
     "age": 41
@@ -3774,7 +3798,7 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -3790,7 +3814,8 @@
       "Camping & Outdoors",
       "Photography",
       "Water Sports",
-      "Museums & Art"
+      "Museums & Art",
+      "City Exploration"
     ],
     "style": "luxury",
     "trust": 0.95,
@@ -3800,7 +3825,7 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "walk",
@@ -3847,8 +3872,8 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting national parks and I love live music and concerts. I\u0019m easygoing about tidiness. I don\u0019t drink. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "no",
+    "dietary": "vegetarian",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -3869,9 +3894,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love scenic viewpoints and nature walks and I enjoy fine dining and wine pairings. I keep things tidy. I don\u0019t drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 38
@@ -3892,8 +3917,8 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
-    "alcohol": "social",
+    "dietary": "vegetarian",
+    "alcohol": "no",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
@@ -3919,9 +3944,9 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "none",
+    "dietary": "gluten-free",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 34
@@ -3945,7 +3970,7 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "yes",
     "fitness": "transport",
@@ -3968,7 +3993,7 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
@@ -3992,9 +4017,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love browsing markets and boutiques and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 26
@@ -4016,9 +4041,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
+    "dietary": "halal",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 29
@@ -4040,7 +4065,7 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
@@ -4057,14 +4082,15 @@
       "Adventure Sports",
       "Religious Sites",
       "Photography",
-      "Fine Dining"
+      "Fine Dining",
+      "Food Markets"
     ],
     "style": "occasional_splurging",
     "trust": 0.66,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy shopping for local finds and I love adrenaline activities. I keep things tidy. I drink socially. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
@@ -4079,7 +4105,8 @@
     "interests": [
       "Camping & Outdoors",
       "Live Music & Concerts",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Street Food"
     ],
     "style": "comfort",
     "trust": 0.42,
@@ -4088,8 +4115,8 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
@@ -4113,9 +4140,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
     "age": 31
@@ -4136,9 +4163,9 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting national parks and I enjoy fine dining and wine pairings. I\u0019m easygoing about tidiness. I drink socially. I smoke. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 44
@@ -4158,8 +4185,8 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "none",
-    "alcohol": "social",
+    "dietary": "halal",
+    "alcohol": "no",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
@@ -4185,9 +4212,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 30
@@ -4209,7 +4236,7 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "yes",
     "fitness": "transport",
@@ -4230,9 +4257,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love street food and local eats and I love experiencing local culture. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
     "age": 27
@@ -4258,7 +4285,7 @@
     ],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "yes",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -4271,7 +4298,8 @@
     "pace": 2,
     "interests": [
       "Photography",
-      "Water Sports"
+      "Water Sports",
+      "Beaches & Coast"
     ],
     "style": "occasional_splurging",
     "trust": 0.5,
@@ -4280,9 +4308,9 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 33
@@ -4294,15 +4322,16 @@
     "pace": 1,
     "interests": [
       "Wine & Drinks",
-      "Wellness & Spa"
+      "Wellness & Spa",
+      "Food Markets"
     ],
     "style": "comfort",
     "trust": 0.79,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy wine tastings and local drinks and I love yoga and slow mornings. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
-    "alcohol": "no",
+    "dietary": "halal",
+    "alcohol": "social",
     "smoking": "yes",
     "fitness": "walk",
     "gender": "female",
@@ -4326,7 +4355,7 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "mixed",
@@ -4340,16 +4369,17 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "City Exploration"
     ],
     "style": "occasional_splurging",
     "trust": 0.43,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love browsing markets and boutiques and I enjoy nightlife and live music. I keep things tidy. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "none",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -4397,8 +4427,8 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "social",
+    "dietary": "vegetarian",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
@@ -4410,7 +4440,8 @@
     "budget": 1,
     "pace": 1,
     "interests": [
-      "Slow Travel"
+      "Shopping",
+      "Nightlife & Bars"
     ],
     "style": "backpacking",
     "trust": 0.52,
@@ -4420,7 +4451,7 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "yes",
     "fitness": "transport",
@@ -4440,9 +4471,9 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy visiting national parks. I\u0019m pretty relaxed about tidiness. I drink socially. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "no",
+    "smoking": "outside",
     "fitness": "transport",
     "gender": "female",
     "age": 38
@@ -4461,7 +4492,7 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy island hopping and I enjoy museums and art galleries. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "halal",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
@@ -4483,9 +4514,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy festivals and local events and I enjoy camping and campfires. I\u0019m easygoing about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 34
@@ -4507,8 +4538,8 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -4556,9 +4587,9 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "halal",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 28
@@ -4581,7 +4612,7 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -4606,7 +4637,7 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "none",
+    "dietary": "halal",
     "alcohol": "social",
     "smoking": "yes",
     "fitness": "transport",
@@ -4622,14 +4653,15 @@
       "Camping & Outdoors",
       "Live Music & Concerts",
       "Beaches & Coast",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "Street Food"
     ],
     "style": "backpacking",
     "trust": 0.41,
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy camping and campfires and I love live music and concerts. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
@@ -4652,9 +4684,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "yes",
     "fitness": "walk",
     "gender": "female",
     "age": 20
@@ -4666,7 +4698,8 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Camping & Outdoors"
+      "Camping & Outdoors",
+      "Beaches & Coast"
     ],
     "style": "backpacking",
     "trust": 0.7,
@@ -4676,9 +4709,9 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
     "age": 23
@@ -4701,8 +4734,8 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -4715,7 +4748,6 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Slow Travel",
       "Nightlife & Bars",
       "Beaches & Coast",
       "Local Culture"
@@ -4725,8 +4757,8 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy shopping for local finds and I enjoy slow travel and longer stays. I keep things tidy. I don\u0019t drink. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -4746,8 +4778,8 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love staying close to nature and I enjoy cooking classes and food tours. I keep things tidy. I drink socially. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
@@ -4759,7 +4791,6 @@
     "budget": 1,
     "pace": 3,
     "interests": [
-      "Slow Travel",
       "Cooking Experiences"
     ],
     "style": "average",
@@ -4769,9 +4800,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "social",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 35
@@ -4782,7 +4813,6 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Slow Travel",
       "Nightlife & Bars",
       "Historical Sites",
       "Coffee Culture",
@@ -4793,7 +4823,7 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love soaking in the local vibe and I enjoy nightlife and live music. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
@@ -4807,10 +4837,10 @@
     "pace": 1,
     "interests": [
       "Shopping",
-      "Slow Travel",
       "Historical Sites",
       "Camping & Outdoors",
-      "Beaches & Coast"
+      "Beaches & Coast",
+      "Food Markets"
     ],
     "style": "comfort",
     "trust": 0.5,
@@ -4819,7 +4849,7 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "transport",
@@ -4832,7 +4862,8 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Local Culture"
+      "Local Culture",
+      "Street Food"
     ],
     "style": "backpacking",
     "trust": 0.45,
@@ -4841,9 +4872,9 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 44
@@ -4855,16 +4886,15 @@
     "pace": 2,
     "interests": [
       "Local Culture",
-      "Live Music & Concerts",
-      "Slow Travel"
+      "Live Music & Concerts"
     ],
     "style": "average",
     "trust": 0.52,
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love experiencing local culture and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -4878,14 +4908,15 @@
     "interests": [
       "Cooking Experiences",
       "Wellness & Spa",
-      "Museums & Art"
+      "Museums & Art",
+      "Beaches & Coast"
     ],
     "style": "backpacking",
     "trust": 0.51,
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love learning local recipes and I enjoy wellness and spa days. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
@@ -4905,9 +4936,9 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love experiencing local culture. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "lactose-intolerant",
+    "alcohol": "no",
+    "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
     "age": 36
@@ -4928,7 +4959,7 @@
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "no",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -4949,9 +4980,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 32
@@ -4962,7 +4993,6 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Slow Travel",
       "Street Food",
       "Wellness & Spa",
       "Cooking Experiences"
@@ -4972,8 +5002,8 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love soaking in the local vibe and I enjoy food markets and hawker centers. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -4992,9 +5022,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "halal",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 20
@@ -5007,7 +5037,8 @@
     "interests": [
       "Historical Sites",
       "Museums & Art",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Local Culture"
     ],
     "style": "luxury",
     "trust": 0.91,
@@ -5016,9 +5047,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -5042,8 +5073,8 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "no",
+    "dietary": "gluten-free",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
@@ -5058,14 +5089,15 @@
       "Wine & Drinks",
       "Photography",
       "Religious Sites",
-      "Local Culture"
+      "Local Culture",
+      "Street Food"
     ],
     "style": "comfort",
     "trust": 0.58,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love visiting wineries and breweries and I love capturing moments on the road. I keep things tidy. I drink socially. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -5080,16 +5112,17 @@
     "interests": [
       "Festivals & Events",
       "Nightlife & Bars",
-      "Museums & Art"
+      "Museums & Art",
+      "Beaches & Coast"
     ],
     "style": "backpacking",
     "trust": 0.41,
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love attending cultural events and I enjoy nightlife and live music. I keep things tidy. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 32
@@ -5100,7 +5133,8 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Fine Dining"
+      "Fine Dining",
+      "Coffee Culture"
     ],
     "style": "comfort",
     "trust": 0.64,
@@ -5108,7 +5142,7 @@
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
-    "alcohol": "no",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -5120,16 +5154,17 @@
     "budget": 3,
     "pace": 1,
     "interests": [
-      "Wellness & Spa"
+      "Wellness & Spa",
+      "Food Markets"
     ],
     "style": "luxury",
     "trust": 0.36,
     "bio": "I am a luxury traveler who enjoys premium experiences. I love yoga and slow mornings. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "no",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 33
@@ -5152,9 +5187,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "social",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 27
@@ -5178,8 +5213,8 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -5203,9 +5238,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "female",
     "age": 25
@@ -5223,8 +5258,8 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love learning local recipes. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
@@ -5246,9 +5281,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 34
@@ -5273,9 +5308,9 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "none",
+    "dietary": "lactose-intolerant",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 34
@@ -5294,7 +5329,7 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I enjoy museums and art galleries. I\u0019m pretty relaxed about tidiness. I drink socially. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
@@ -5318,7 +5353,7 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "yes",
     "fitness": "transport",
@@ -5345,8 +5380,8 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
+    "dietary": "keto",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "transport",
     "gender": "female",
@@ -5368,9 +5403,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I enjoy local gigs and shows. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -5393,9 +5428,9 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "social",
-    "smoking": "no",
+    "dietary": "vegetarian",
+    "alcohol": "no",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 26
@@ -5415,7 +5450,7 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy learning local traditions and I enjoy fine dining and wine pairings. I\u0019m easygoing about tidiness. I drink socially. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -5440,9 +5475,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "yes",
     "fitness": "walk",
     "gender": "male",
     "age": 32
@@ -5465,9 +5500,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "none",
+    "dietary": "halal",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 35
@@ -5513,7 +5548,7 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "walk",
@@ -5529,7 +5564,8 @@
       "National Parks",
       "Wellness & Spa",
       "Museums & Art",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Coffee Culture"
     ],
     "style": "backpacking",
     "trust": 0.41,
@@ -5539,9 +5575,9 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 29
@@ -5565,8 +5601,8 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -5591,9 +5627,9 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 29
@@ -5604,16 +5640,17 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "Street Food"
     ],
     "style": "luxury",
     "trust": 0.84,
     "bio": "I am a luxury traveler who enjoys premium experiences. I love a good bar with friends. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 33
@@ -5633,9 +5670,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 41
@@ -5648,7 +5685,8 @@
     "interests": [
       "Festivals & Events",
       "Fine Dining",
-      "Religious Sites"
+      "Religious Sites",
+      "Beaches & Coast"
     ],
     "style": "luxury",
     "trust": 0.6,
@@ -5657,9 +5695,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "social",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 27
@@ -5684,7 +5722,7 @@
     "cleanliness": "messy",
     "dietary": "halal",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 23
@@ -5703,7 +5741,7 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love cafe hopping and I love live music and concerts. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "outside",
     "fitness": "walk",
@@ -5730,7 +5768,7 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "yes",
     "fitness": "walk",
@@ -5753,9 +5791,9 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -5778,8 +5816,8 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -5792,7 +5830,8 @@
     "pace": 1,
     "interests": [
       "Camping & Outdoors",
-      "Photography"
+      "Photography",
+      "Coffee Culture"
     ],
     "style": "luxury",
     "trust": 0.51,
@@ -5801,7 +5840,7 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
@@ -5841,15 +5880,16 @@
     "interests": [
       "National Parks",
       "Camping & Outdoors",
-      "Nightlife & Bars"
+      "Nightlife & Bars",
+      "Street Food"
     ],
     "style": "occasional_splurging",
     "trust": 0.68,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love scenic viewpoints and nature walks and I love staying close to nature. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "transport",
     "gender": "female",
@@ -5861,7 +5901,8 @@
     "budget": 2,
     "pace": 2,
     "interests": [
-      "Camping & Outdoors"
+      "Camping & Outdoors",
+      "City Exploration"
     ],
     "style": "comfort",
     "trust": 0.92,
@@ -5870,8 +5911,8 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -5884,14 +5925,15 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Water Sports"
+      "Water Sports",
+      "Beaches & Coast"
     ],
     "style": "comfort",
     "trust": 0.54,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy shopping for local finds and I love beaches and the sea. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "outside",
     "fitness": "walk",
@@ -5905,7 +5947,6 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Slow Travel",
       "Photography",
       "Camping & Outdoors",
       "Local Culture"
@@ -5917,9 +5958,9 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 25
@@ -5937,9 +5978,9 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy camping and campfires. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 33
@@ -5950,7 +5991,8 @@
     "budget": 1,
     "pace": 2,
     "interests": [
-      "Religious Sites"
+      "Religious Sites",
+      "City Exploration"
     ],
     "style": "backpacking",
     "trust": 0.61,
@@ -5960,8 +6002,8 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "no",
+    "dietary": "lactose-intolerant",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
@@ -5982,8 +6024,8 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love staying close to nature and I love experiencing local culture. I\u0019m easygoing about tidiness. I don\u0019t drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "no",
+    "dietary": "vegetarian",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -6005,9 +6047,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love learning local recipes and I love cafe hopping. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 34
@@ -6019,7 +6061,8 @@
     "pace": 1,
     "interests": [
       "Nightlife & Bars",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Food Markets"
     ],
     "style": "occasional_splurging",
     "trust": 0.41,
@@ -6029,8 +6072,8 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
@@ -6076,7 +6119,7 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
+    "dietary": "halal",
     "alcohol": "no",
     "smoking": "yes",
     "fitness": "walk",
@@ -6089,7 +6132,8 @@
     "budget": 3,
     "pace": 2,
     "interests": [
-      "Museums & Art"
+      "Museums & Art",
+      "Local Culture"
     ],
     "style": "average",
     "trust": 0.59,
@@ -6099,9 +6143,9 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 26
@@ -6119,9 +6163,9 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy shopping for local finds. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "vegetarian",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 29
@@ -6142,8 +6186,8 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
@@ -6157,7 +6201,8 @@
     "interests": [
       "Shopping",
       "Local Culture",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Hiking & Nature"
     ],
     "style": "average",
     "trust": 0.77,
@@ -6185,8 +6230,8 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I enjoy island hopping. I keep things tidy. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "yes",
+    "dietary": "halal",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
@@ -6198,16 +6243,18 @@
     "budget": 1,
     "pace": 1,
     "interests": [
-      "Slow Travel"
+      "Religious Sites",
+      "Nightlife & Bars",
+      "Local Culture"
     ],
     "style": "average",
     "trust": 0.77,
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy slow travel and longer stays. I keep things tidy. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "halal",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "lactose-intolerant",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 34
@@ -6230,9 +6277,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 28
@@ -6257,8 +6304,8 @@
     ],
     "cleanliness": "neat",
     "dietary": "none",
-    "alcohol": "social",
-    "smoking": "outside",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 29
@@ -6278,9 +6325,9 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love browsing markets and boutiques and I love a good bar with friends. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "halal",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 25
@@ -6302,9 +6349,9 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 31
@@ -6327,9 +6374,9 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "halal",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 32
@@ -6352,9 +6399,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 38
@@ -6379,7 +6426,7 @@
     ],
     "cleanliness": "average",
     "dietary": "none",
-    "alcohol": "yes",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -6403,7 +6450,7 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
@@ -6427,9 +6474,9 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
     "age": 23
@@ -6454,9 +6501,9 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
+    "dietary": "halal",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -6468,19 +6515,19 @@
     "pace": 2,
     "interests": [
       "National Parks",
-      "Slow Travel",
       "Wildlife & Animals",
       "Nightlife & Bars",
-      "Fine Dining"
+      "Fine Dining",
+      "Beaches & Coast"
     ],
     "style": "occasional_splurging",
     "trust": 0.86,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love scenic viewpoints and nature walks and I love soaking in the local vibe. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -6502,9 +6549,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 32
@@ -6516,7 +6563,6 @@
     "pace": 3,
     "interests": [
       "Local Culture",
-      "Slow Travel",
       "Nightlife & Bars"
     ],
     "style": "occasional_splurging",
@@ -6527,9 +6573,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "no",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 35
@@ -6547,8 +6593,8 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy time outdoors. I\u0019m pretty relaxed about tidiness. I drink socially. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -6572,9 +6618,9 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "keto",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 33
@@ -6597,9 +6643,9 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 28
@@ -6618,9 +6664,9 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy wine tastings and local drinks and I enjoy island hopping. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 32
@@ -6632,16 +6678,17 @@
     "pace": 2,
     "interests": [
       "Photography",
-      "Wellness & Spa"
+      "Wellness & Spa",
+      "Street Food"
     ],
     "style": "occasional_splurging",
     "trust": 0.64,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy travel photography and I enjoy wellness and spa days. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "lactose-intolerant",
     "alcohol": "yes",
-    "smoking": "no",
+    "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
     "age": 34
@@ -6654,7 +6701,8 @@
     "interests": [
       "Water Sports",
       "Wellness & Spa",
-      "Cooking Experiences"
+      "Cooking Experiences",
+      "Beaches & Coast"
     ],
     "style": "occasional_splurging",
     "trust": 0.55,
@@ -6662,7 +6710,7 @@
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "yes",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -6688,8 +6736,8 @@
     ],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "no",
-    "smoking": "yes",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 33
@@ -6714,7 +6762,7 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "outside",
     "fitness": "mixed",
@@ -6738,9 +6786,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
-    "smoking": "no",
+    "dietary": "vegetarian",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
     "age": 33
@@ -6759,8 +6807,8 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy snorkeling and water sports and I enjoy nightlife and live music. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -6784,8 +6832,8 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "yes",
+    "dietary": "vegetarian",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -6799,7 +6847,6 @@
     "interests": [
       "Museums & Art",
       "Live Music & Concerts",
-      "Slow Travel",
       "Historical Sites",
       "Wellness & Spa"
     ],
@@ -6811,9 +6858,9 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 26
@@ -6828,7 +6875,8 @@
       "Wildlife & Animals",
       "Fine Dining",
       "Religious Sites",
-      "Water Sports"
+      "Water Sports",
+      "Coffee Culture"
     ],
     "style": "occasional_splurging",
     "trust": 0.78,
@@ -6838,8 +6886,8 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -6864,7 +6912,7 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "vegetarian",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -6879,9 +6927,9 @@
     "interests": [
       "Museums & Art",
       "Wine & Drinks",
-      "Slow Travel",
       "Camping & Outdoors",
-      "Water Sports"
+      "Water Sports",
+      "Street Food"
     ],
     "style": "luxury",
     "trust": 0.77,
@@ -6890,7 +6938,7 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
@@ -6913,9 +6961,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 29
@@ -6938,7 +6986,7 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "outside",
     "fitness": "mixed",
@@ -6951,7 +6999,6 @@
     "budget": 3,
     "pace": 1,
     "interests": [
-      "Slow Travel",
       "Beaches & Coast",
       "Cooking Experiences"
     ],
@@ -6960,9 +7007,9 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love soaking in the local vibe and I enjoy island hopping. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "yes",
     "fitness": "transport",
     "gender": "female",
     "age": 44
@@ -6983,8 +7030,8 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
@@ -7004,8 +7051,8 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy fine dining and wine pairings and I love street food and local eats. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
@@ -7018,16 +7065,17 @@
     "pace": 1,
     "interests": [
       "Festivals & Events",
-      "Shopping"
+      "Shopping",
+      "Hiking & Nature"
     ],
     "style": "backpacking",
     "trust": 0.63,
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love attending cultural events and I enjoy shopping for local finds. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 27
@@ -7045,9 +7093,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love going to zoos and nature reserves. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 26
@@ -7058,7 +7106,8 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Museums & Art"
+      "Museums & Art",
+      "City Exploration"
     ],
     "style": "occasional_splurging",
     "trust": 0.96,
@@ -7068,9 +7117,9 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 24
@@ -7095,8 +7144,8 @@
     ],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "yes",
-    "smoking": "no",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 33
@@ -7116,7 +7165,7 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "transport",
@@ -7129,7 +7178,6 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Cycling",
       "Shopping",
       "Wellness & Spa"
     ],
@@ -7140,7 +7188,7 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
@@ -7166,9 +7214,9 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 43
@@ -7180,7 +7228,8 @@
     "pace": 3,
     "interests": [
       "Religious Sites",
-      "Live Music & Concerts"
+      "Live Music & Concerts",
+      "Beaches & Coast"
     ],
     "style": "average",
     "trust": 0.39,
@@ -7190,9 +7239,9 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 34
@@ -7205,7 +7254,6 @@
     "interests": [
       "Art Galleries",
       "Food Markets",
-      "Slow Travel",
       "Local Culture"
     ],
     "style": "luxury",
@@ -7216,9 +7264,9 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 36
@@ -7229,8 +7277,7 @@
     "budget": 3,
     "pace": 2,
     "interests": [
-      "Volunteer Work",
-      "Backpacking"
+      "Volunteer Work"
     ],
     "style": "luxury",
     "trust": 0.93,
@@ -7241,8 +7288,8 @@
     ],
     "cleanliness": "neat",
     "dietary": "none",
-    "alcohol": "no",
-    "smoking": "outside",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 33
@@ -7266,7 +7313,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 30
@@ -7289,7 +7336,7 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "transport",
@@ -7315,8 +7362,8 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -7331,7 +7378,8 @@
       "Cooking Experiences",
       "Shopping",
       "Festivals & Events",
-      "Local Markets"
+      "Local Markets",
+      "Hiking & Nature"
     ],
     "style": "comfort",
     "trust": 0.58,
@@ -7341,9 +7389,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 46
@@ -7357,8 +7405,7 @@
       "Beaches & Coast",
       "Cooking Experiences",
       "Adventure Sports",
-      "Architecture",
-      "Backpacking"
+      "Architecture"
     ],
     "style": "luxury",
     "trust": 0.47,
@@ -7369,8 +7416,8 @@
     ],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 30
@@ -7410,8 +7457,8 @@
       "Local Markets",
       "Nightlife & Bars",
       "Adventure Sports",
-      "Winter Sports",
-      "Museums & Art"
+      "Museums & Art",
+      "Street Food"
     ],
     "style": "backpacking",
     "trust": 0.73,
@@ -7421,8 +7468,8 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "none",
-    "alcohol": "yes",
+    "dietary": "halal",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -7435,7 +7482,8 @@
     "pace": 1,
     "interests": [
       "Festivals & Events",
-      "Mountains & Scenery"
+      "Mountains & Scenery",
+      "Food Markets"
     ],
     "style": "average",
     "trust": 0.76,
@@ -7445,9 +7493,9 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 35
@@ -7467,8 +7515,8 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love yoga and slow mornings and I love cafe hopping. I keep things tidy. I enjoy a drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "keto",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -7491,8 +7539,8 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -7507,7 +7555,6 @@
       "Road Trips",
       "Camping & Outdoors",
       "Historical Sites",
-      "Backpacking",
       "Street Food"
     ],
     "style": "occasional_splurging",
@@ -7515,8 +7562,8 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy flexible itineraries and I love staying close to nature. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -7540,8 +7587,8 @@
     "sleep": [],
     "cleanliness": "average",
     "dietary": "none",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 31
@@ -7565,7 +7612,7 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "vegetarian",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
@@ -7579,18 +7626,16 @@
     "pace": 3,
     "interests": [
       "Volunteer Work",
-      "City Exploration",
-      "Slow Travel",
-      "Luxury Travel"
+      "City Exploration"
     ],
     "style": "comfort",
     "trust": 0.62,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love meaningful travel and I enjoy hidden alleys and neighborhoods. I\u0019m pretty relaxed about tidiness. I drink socially. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
-    "alcohol": "social",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 31
@@ -7614,9 +7659,9 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 24
@@ -7638,7 +7683,7 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love visiting wineries and breweries and I love scenic viewpoints and nature walks. I keep things tidy. I drink socially. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
@@ -7665,7 +7710,7 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
@@ -7689,9 +7734,9 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "social",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 37
@@ -7713,8 +7758,8 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
@@ -7729,7 +7774,6 @@
       "Camping & Outdoors",
       "Religious Sites",
       "Wine & Drinks",
-      "Cycling",
       "Wildlife & Animals"
     ],
     "style": "luxury",
@@ -7740,8 +7784,8 @@
     ],
     "cleanliness": "average",
     "dietary": "none",
-    "alcohol": "no",
-    "smoking": "yes",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 29
@@ -7752,9 +7796,9 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Luxury Travel",
       "Shopping",
-      "Photography"
+      "Photography",
+      "Local Culture"
     ],
     "style": "comfort",
     "trust": 0.66,
@@ -7764,7 +7808,7 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "yes",
     "fitness": "transport",
@@ -7789,7 +7833,7 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "no",
     "fitness": "transport",
@@ -7803,7 +7847,6 @@
     "pace": 3,
     "interests": [
       "Adventure Sports",
-      "Cycling",
       "Nightlife & Bars"
     ],
     "style": "average",
@@ -7815,7 +7858,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 27
@@ -7827,8 +7870,7 @@
     "pace": 1,
     "interests": [
       "Nightlife & Bars",
-      "Coffee Culture",
-      "Cycling"
+      "Coffee Culture"
     ],
     "style": "backpacking",
     "trust": 0.35,
@@ -7837,9 +7879,9 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 34
@@ -7864,9 +7906,9 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 26
@@ -7878,7 +7920,8 @@
     "pace": 3,
     "interests": [
       "Cooking Experiences",
-      "Road Trips"
+      "Road Trips",
+      "Local Culture"
     ],
     "style": "occasional_splurging",
     "trust": 0.63,
@@ -7888,9 +7931,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 48
@@ -7904,7 +7947,6 @@
       "Art Galleries",
       "Local Culture",
       "National Parks",
-      "Cycling",
       "Hiking & Nature"
     ],
     "style": "comfort",
@@ -7915,7 +7957,7 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
@@ -7928,16 +7970,15 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Local Culture",
-      "Slow Travel"
+      "Local Culture"
     ],
     "style": "occasional_splurging",
     "trust": 0.65,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy learning local traditions and I love soaking in the local vibe. I keep things tidy. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "transport",
     "gender": "female",
@@ -7961,8 +8002,8 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -7985,7 +8026,7 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love visiting wineries and breweries and I love hiking and nature trails. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegan",
+    "dietary": "lactose-intolerant",
     "alcohol": "yes",
     "smoking": "outside",
     "fitness": "walk",
@@ -8009,8 +8050,8 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
@@ -8024,7 +8065,6 @@
     "interests": [
       "Shopping",
       "Beaches & Coast",
-      "Slow Travel",
       "Volunteer Work"
     ],
     "style": "average",
@@ -8034,9 +8074,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "social",
-    "smoking": "no",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 28
@@ -8048,8 +8088,6 @@
     "pace": 1,
     "interests": [
       "Architecture",
-      "Winter Sports",
-      "Backpacking",
       "Religious Sites"
     ],
     "style": "luxury",
@@ -8059,8 +8097,8 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "social",
+    "dietary": "halal",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -8072,7 +8110,6 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Winter Sports",
       "Digital Nomad",
       "Historical Sites",
       "Wellness & Spa"
@@ -8084,9 +8121,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "halal",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 30
@@ -8099,7 +8136,7 @@
     "interests": [
       "National Parks",
       "Adventure Sports",
-      "Slow Travel"
+      "Hiking & Nature"
     ],
     "style": "average",
     "trust": 0.5,
@@ -8108,9 +8145,9 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 33
@@ -8122,8 +8159,8 @@
     "pace": 2,
     "interests": [
       "Festivals & Events",
-      "Luxury Travel",
-      "Fine Dining"
+      "Fine Dining",
+      "Beaches & Coast"
     ],
     "style": "backpacking",
     "trust": 0.78,
@@ -8133,7 +8170,7 @@
     ],
     "cleanliness": "average",
     "dietary": "vegetarian",
-    "alcohol": "no",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -8145,8 +8182,6 @@
     "budget": 3,
     "pace": 2,
     "interests": [
-      "Backpacking",
-      "Cycling",
       "Beaches & Coast"
     ],
     "style": "luxury",
@@ -8157,9 +8192,9 @@
       "snoring"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 31
@@ -8182,8 +8217,8 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
@@ -8206,8 +8241,8 @@
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "none",
-    "alcohol": "no",
-    "smoking": "yes",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 29
@@ -8221,15 +8256,15 @@
       "Cooking Experiences",
       "Winter Sports",
       "Water Sports",
-      "Slow Travel"
+      "City Exploration"
     ],
     "style": "comfort",
     "trust": 0.95,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy cooking classes and food tours and I love snow destinations. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I like walking to explore.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "lactose-intolerant",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -8242,18 +8277,18 @@
     "pace": 3,
     "interests": [
       "Wine & Drinks",
-      "Luxury Travel",
       "Nightlife & Bars",
-      "Digital Nomad"
+      "Digital Nomad",
+      "Beaches & Coast"
     ],
     "style": "luxury",
     "trust": 0.51,
     "bio": "I am a luxury traveler who enjoys premium experiences. I enjoy wine tastings and local drinks and I love beautiful stays and great service. I keep things tidy. I drink socially. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
     "age": 25
@@ -8264,9 +8299,7 @@
     "budget": 2,
     "pace": 2,
     "interests": [
-      "Cycling",
       "Food Markets",
-      "Slow Travel",
       "Winter Sports",
       "Street Food"
     ],
@@ -8275,8 +8308,8 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy city cycling and bike routes and I enjoy tasting local specialties. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "no",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "yes",
     "fitness": "walk",
     "gender": "female",
@@ -8298,8 +8331,8 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "none",
-    "alcohol": "no",
+    "dietary": "halal",
+    "alcohol": "social",
     "smoking": "yes",
     "fitness": "walk",
     "gender": "male",
@@ -8313,7 +8346,6 @@
     "interests": [
       "Cooking Experiences",
       "Road Trips",
-      "Winter Sports",
       "Festivals & Events"
     ],
     "style": "luxury",
@@ -8321,9 +8353,9 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love learning local recipes and I love road trips and scenic drives. I\u0019m pretty relaxed about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "halal",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 52
@@ -8336,7 +8368,6 @@
     "interests": [
       "Mountains & Scenery",
       "City Exploration",
-      "Slow Travel",
       "Local Markets"
     ],
     "style": "backpacking",
@@ -8346,7 +8377,7 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "mixed",
@@ -8371,8 +8402,8 @@
       "early"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -8384,7 +8415,6 @@
     "budget": 1,
     "pace": 1,
     "interests": [
-      "Slow Travel",
       "Mountains & Scenery",
       "Cooking Experiences",
       "Coffee Culture"
@@ -8396,9 +8426,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 28
@@ -8409,7 +8439,6 @@
     "budget": 1,
     "pace": 3,
     "interests": [
-      "Winter Sports",
       "Hiking & Nature",
       "Wine & Drinks",
       "Water Sports",
@@ -8420,9 +8449,9 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy winter sports and I love hiking and nature trails. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 44
@@ -8435,7 +8464,8 @@
     "interests": [
       "Local Culture",
       "Beaches & Coast",
-      "Cooking Experiences"
+      "Cooking Experiences",
+      "Food Markets"
     ],
     "style": "average",
     "trust": 0.94,
@@ -8445,9 +8475,9 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 36
@@ -8468,9 +8498,9 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "female",
     "age": 36
@@ -8483,7 +8513,6 @@
     "interests": [
       "Food Markets",
       "Art Galleries",
-      "Winter Sports",
       "Volunteer Work",
       "Wine & Drinks"
     ],
@@ -8495,9 +8524,9 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 43
@@ -8519,9 +8548,9 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "female",
     "age": 31
@@ -8535,7 +8564,7 @@
       "Shopping",
       "Camping & Outdoors",
       "Cooking Experiences",
-      "Cycling"
+      "Hiking & Nature"
     ],
     "style": "comfort",
     "trust": 0.79,
@@ -8545,9 +8574,9 @@
       "heavy"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
     "age": 34
@@ -8559,7 +8588,6 @@
     "pace": 2,
     "interests": [
       "Fine Dining",
-      "Slow Travel",
       "Coffee Culture"
     ],
     "style": "comfort",
@@ -8567,9 +8595,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy fine dining and wine pairings and I love soaking in the local vibe. I\u0019m easygoing about tidiness. I don\u0019t drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegetarian",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 30
@@ -8594,7 +8622,7 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
@@ -8608,7 +8636,6 @@
     "pace": 3,
     "interests": [
       "Water Sports",
-      "Backpacking",
       "Wellness & Spa",
       "Photography"
     ],
@@ -8619,8 +8646,8 @@
       "snoring"
     ],
     "cleanliness": "messy",
-    "dietary": "keto",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
@@ -8644,9 +8671,9 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 46
@@ -8667,9 +8694,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy wine tastings and local drinks and I enjoy flexible itineraries. I keep things tidy. I drink socially. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
-    "alcohol": "social",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 55
@@ -8681,7 +8708,8 @@
     "pace": 1,
     "interests": [
       "Digital Nomad",
-      "Festivals & Events"
+      "Festivals & Events",
+      "Food Markets"
     ],
     "style": "occasional_splurging",
     "trust": 0.73,
@@ -8690,8 +8718,8 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
@@ -8712,9 +8740,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I enjoy learning local traditions and I love learning local recipes. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "vegan",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 28
@@ -8727,16 +8755,15 @@
     "interests": [
       "Beaches & Coast",
       "Road Trips",
-      "Camping & Outdoors",
-      "Luxury Travel"
+      "Camping & Outdoors"
     ],
     "style": "average",
     "trust": 0.6,
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love coastal spots and beach days and I enjoy flexible itineraries. I\u0019m pretty relaxed about tidiness. I enjoy a drink. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "mixed",
     "gender": "male",
@@ -8749,7 +8776,8 @@
     "pace": 3,
     "interests": [
       "Hiking & Nature",
-      "Street Food"
+      "Street Food",
+      "Coffee Culture"
     ],
     "style": "backpacking",
     "trust": 0.53,
@@ -8758,7 +8786,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 26
@@ -8769,7 +8797,6 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Cycling",
       "Camping & Outdoors",
       "Nightlife & Bars",
       "Food Markets",
@@ -8782,7 +8809,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "no",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
     "age": 34
@@ -8795,15 +8822,16 @@
     "interests": [
       "National Parks",
       "Camping & Outdoors",
-      "Wildlife & Animals"
+      "Wildlife & Animals",
+      "Coffee Culture"
     ],
     "style": "comfort",
     "trust": 0.52,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I love scenic viewpoints and nature walks and I enjoy camping and campfires. I keep things tidy. I enjoy a drink. I only smoke outside. I like walking to explore.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "keto",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "outside",
     "fitness": "walk",
     "gender": "female",
@@ -8829,7 +8857,7 @@
       "heavy"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
@@ -8845,8 +8873,7 @@
       "Hiking & Nature",
       "Museums & Art",
       "Coffee Culture",
-      "Water Sports",
-      "Slow Travel"
+      "Water Sports"
     ],
     "style": "luxury",
     "trust": 0.66,
@@ -8856,9 +8883,9 @@
       "light"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 48
@@ -8881,8 +8908,8 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
@@ -8896,9 +8923,7 @@
     "interests": [
       "Historical Sites",
       "Photography",
-      "Wine & Drinks",
-      "Cycling",
-      "Slow Travel"
+      "Wine & Drinks"
     ],
     "style": "backpacking",
     "trust": 0.61,
@@ -8919,7 +8944,8 @@
     "pace": 1,
     "interests": [
       "Adventure Sports",
-      "Mountains & Scenery"
+      "Mountains & Scenery",
+      "Coffee Culture"
     ],
     "style": "average",
     "trust": 0.53,
@@ -8928,9 +8954,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "halal",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 52
@@ -8952,7 +8978,7 @@
       "snoring"
     ],
     "cleanliness": "neat",
-    "dietary": "none",
+    "dietary": "halal",
     "alcohol": "social",
     "smoking": "outside",
     "fitness": "mixed",
@@ -8968,7 +8994,7 @@
       "Wine & Drinks",
       "Adventure Sports",
       "National Parks",
-      "Slow Travel"
+      "Food Markets"
     ],
     "style": "occasional_splurging",
     "trust": 0.68,
@@ -8978,8 +9004,8 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "none",
-    "alcohol": "yes",
+    "dietary": "halal",
+    "alcohol": "social",
     "smoking": "outside",
     "fitness": "transport",
     "gender": "male",
@@ -8992,7 +9018,6 @@
     "pace": 3,
     "interests": [
       "Local Markets",
-      "Slow Travel",
       "Coffee Culture",
       "Cooking Experiences"
     ],
@@ -9001,9 +9026,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy visiting local markets and I love soaking in the local vibe. I\u0019m pretty relaxed about tidiness. I drink socially. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 33
@@ -9017,7 +9042,6 @@
       "Wildlife & Animals",
       "Adventure Sports",
       "Digital Nomad",
-      "Luxury Travel",
       "Local Culture"
     ],
     "style": "backpacking",
@@ -9028,9 +9052,9 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 22
@@ -9041,7 +9065,6 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Backpacking",
       "Religious Sites",
       "Shopping"
     ],
@@ -9052,9 +9075,9 @@
       "light"
     ],
     "cleanliness": "average",
-    "dietary": "vegetarian",
+    "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 36
@@ -9067,15 +9090,16 @@
     "interests": [
       "Historical Sites",
       "Wellness & Spa",
-      "Adventure Sports"
+      "Adventure Sports",
+      "Street Food"
     ],
     "style": "occasional_splurging",
     "trust": 0.95,
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I love exploring historical sites and I love yoga and slow mornings. I\u0019m pretty relaxed about tidiness. I drink socially. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -9121,9 +9145,9 @@
     "bio": "I am a value-focused traveler who enjoys the occasional treat. I enjoy festivals and local events and I love mountain views and scenic routes. I\u0019m easygoing about tidiness. I drink socially. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "gluten-free",
+    "dietary": "vegetarian",
     "alcohol": "social",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 35
@@ -9136,8 +9160,7 @@
     "interests": [
       "Wellness & Spa",
       "Historical Sites",
-      "Road Trips",
-      "Slow Travel"
+      "Road Trips"
     ],
     "style": "comfort",
     "trust": 0.93,
@@ -9145,8 +9168,8 @@
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "none",
-    "alcohol": "no",
-    "smoking": "outside",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 27
@@ -9158,17 +9181,17 @@
     "pace": 3,
     "interests": [
       "Photography",
-      "Slow Travel",
-      "Digital Nomad"
+      "Digital Nomad",
+      "Beaches & Coast"
     ],
     "style": "comfort",
     "trust": 0.93,
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy travel photography and I love soaking in the local vibe. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 32
@@ -9179,9 +9202,9 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Backpacking",
       "Winter Sports",
-      "Coffee Culture"
+      "Coffee Culture",
+      "Beaches & Coast"
     ],
     "style": "occasional_splurging",
     "trust": 0.8,
@@ -9191,8 +9214,8 @@
       "late"
     ],
     "cleanliness": "average",
-    "dietary": "halal",
-    "alcohol": "social",
+    "dietary": "none",
+    "alcohol": "yes",
     "smoking": "yes",
     "fitness": "walk",
     "gender": "female",
@@ -9204,8 +9227,7 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
-      "Backpacking"
+      "Wine & Drinks"
     ],
     "style": "occasional_splurging",
     "trust": 0.46,
@@ -9214,9 +9236,9 @@
       "heavy"
     ],
     "cleanliness": "messy",
-    "dietary": "vegetarian",
-    "alcohol": "no",
-    "smoking": "no",
+    "dietary": "lactose-intolerant",
+    "alcohol": "yes",
+    "smoking": "outside",
     "fitness": "walk",
     "gender": "male",
     "age": 25
@@ -9230,7 +9252,8 @@
       "Religious Sites",
       "Road Trips",
       "Local Culture",
-      "Beaches & Coast"
+      "Beaches & Coast",
+      "Coffee Culture"
     ],
     "style": "average",
     "trust": 0.86,
@@ -9240,9 +9263,9 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "keto",
+    "dietary": "none",
     "alcohol": "no",
-    "smoking": "no",
+    "smoking": "outside",
     "fitness": "mixed",
     "gender": "female",
     "age": 23
@@ -9255,7 +9278,8 @@
     "interests": [
       "Street Food",
       "Volunteer Work",
-      "Wine & Drinks"
+      "Wine & Drinks",
+      "Food Markets"
     ],
     "style": "backpacking",
     "trust": 0.41,
@@ -9265,9 +9289,9 @@
       "late"
     ],
     "cleanliness": "neat",
-    "dietary": "vegan",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 26
@@ -9291,8 +9315,8 @@
       "late"
     ],
     "cleanliness": "messy",
-    "dietary": "vegan",
-    "alcohol": "no",
+    "dietary": "halal",
+    "alcohol": "social",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
@@ -9314,9 +9338,9 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I enjoy working remotely while traveling and I enjoy learning local traditions. I keep things tidy. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "vegan",
+    "dietary": "halal",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
     "age": 22
@@ -9337,7 +9361,7 @@
     "cleanliness": "neat",
     "dietary": "halal",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 23
@@ -9357,9 +9381,9 @@
     "bio": "I am a budget-conscious traveler who loves authentic experiences. I love special-occasion restaurants and I enjoy tasting local specialties. I\u0019m easygoing about tidiness. I enjoy a drink. I smoke. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 55
@@ -9378,9 +9402,9 @@
     "bio": "I am a balanced traveler who enjoys both comfort and adventure. I love coastal spots and beach days and I enjoy nightlife and live music. I\u0019m easygoing about tidiness. I don\u0019t drink. I smoke. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "keto",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 43
@@ -9404,9 +9428,9 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "gluten-free",
+    "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 35
@@ -9417,9 +9441,7 @@
     "budget": 3,
     "pace": 3,
     "interests": [
-      "Luxury Travel",
       "Local Culture",
-      "Winter Sports",
       "Historical Sites"
     ],
     "style": "luxury",
@@ -9427,8 +9449,8 @@
     "bio": "I am a luxury traveler who enjoys premium experiences. I love beautiful stays and great service and I love experiencing local culture. I\u0019m easygoing about tidiness. I enjoy a drink. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "lactose-intolerant",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -9442,16 +9464,17 @@
     "interests": [
       "Religious Sites",
       "Camping & Outdoors",
-      "Beaches & Coast"
+      "Beaches & Coast",
+      "City Exploration"
     ],
     "style": "luxury",
     "trust": 0.84,
     "bio": "I am a luxury traveler who enjoys premium experiences. I like visiting temples and churches and I enjoy camping and campfires. I\u0019m easygoing about tidiness. I enjoy a drink. I only smoke outside. I prefer getting around by transport.",
     "sleep": [],
     "cleanliness": "average",
-    "dietary": "gluten-free",
-    "alcohol": "yes",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 24
@@ -9473,9 +9496,9 @@
     "bio": "I am a comfort-first traveler who prefers easy logistics. I enjoy hidden alleys and neighborhoods and I love exploring historical sites. I keep things tidy. I don\u0019t drink. I only smoke outside. I use a mix of walking and transport.",
     "sleep": [],
     "cleanliness": "neat",
-    "dietary": "halal",
-    "alcohol": "no",
-    "smoking": "outside",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 28
@@ -9496,8 +9519,8 @@
       "early"
     ],
     "cleanliness": "average",
-    "dietary": "vegan",
-    "alcohol": "yes",
+    "dietary": "none",
+    "alcohol": "social",
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
@@ -9519,9 +9542,9 @@
       "early"
     ],
     "cleanliness": "messy",
-    "dietary": "halal",
-    "alcohol": "no",
-    "smoking": "yes",
+    "dietary": "none",
+    "alcohol": "social",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 32
@@ -9545,7 +9568,7 @@
       "light"
     ],
     "cleanliness": "neat",
-    "dietary": "lactose-intolerant",
+    "dietary": "none",
     "alcohol": "yes",
     "smoking": "outside",
     "fitness": "transport",

@@ -54,11 +54,8 @@ INTEREST_CHOICES = [
 
     # Travel Styles
     'Road Trips',
-    'Backpacking',
-    'Luxury Travel',
     'Volunteer Work',
-    'Digital Nomad',
-    'Slow Travel'
+    'Digital Nomad'
 ]
 
 
