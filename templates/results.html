@@ -160,15 +160,12 @@
 
                 <div style="margin-top:8px">
                   <div class="meta"><span style="color:var(--field);font-weight:600">Interests:</span> <span style="color:var(--answer);margin-left:6px">{% if p.interests %}{{ p.interests | join(', ') }}{% else %}—{% endif %}</span></div>
-                  {% set raw_budget = p.budget if p.budget is defined else (p.get('budget') if p.get('budget') is defined else '') %}
-                  {% set budget_display = budget_map.get(raw_budget, budget_map.get(raw_budget|string, raw_budget)) %}
-                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Budget:</span> <span style="color:var(--answer);margin-left:6px">{{ budget_display }}</span></div>
                   {% set raw_pace = p.pace if p.pace is defined else (p.get('pace') if p.get('pace') is defined else p.get('pace_text','')) %}
                   {% set pace_display = pace_map.get(raw_pace, pace_map.get(raw_pace|string, raw_pace)) %}
                   <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Pace:</span> <span style="color:var(--answer);margin-left:6px">{{ pace_display }}</span></div>
                   {% set raw_style = p.style if p.style is defined else p.get('style','') %}
                   {% set style_display = style_map.get(raw_style, style_map.get(raw_style|string, raw_style)) %}
-                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Style:</span> <span style="color:var(--answer);margin-left:6px">{{ style_display }}</span></div>
+                  <div class="meta" style="margin-top:6px"><span style="color:var(--field);font-weight:600">Budget:</span> <span style="color:var(--answer);margin-left:6px">{{ style_display }}</span></div>
                 </div>
 
                 <div style="margin-top:8px">
