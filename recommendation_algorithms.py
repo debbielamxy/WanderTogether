@@ -182,6 +182,11 @@ def trust_multiplier(profile):
 def compute_algorithms(user, weights, profiles):
     algorithms = {}
 
+    # Soft global trust penalty used across algorithms
+    def soft_trust(t: float) -> float:
+        # keeps scores in [0.6, 1.0] range based on trust, avoids hard suppression
+        return 0.6 + 0.4 * max(0.0, min(1.0, t))
+
     # Algorithm 1: Direct Application (purely survey-driven)
     # Build weights directly from CSV-derived `weights` (see app.load_survey_weights)
     demo_w = (weights.get('gender', 0.0) + weights.get('age', 0.0))
@@ -206,7 +211,7 @@ def compute_algorithms(user, weights, profiles):
     for p in profiles:
         S = base_score(user, p, W1, bio_mode='tie')
         Tn = trust_multiplier(p)
-        sc = S * Tn
+        sc = S * soft_trust(Tn)
         alg1.append((p, sc, S))
     algorithms['Empirical'] = sorted(alg1, key=lambda x: x[1], reverse=True)[:1]
 
@@ -216,8 +221,9 @@ def compute_algorithms(user, weights, profiles):
     alg2 = []
     for p in profiles:
         S = base_score(user, p, W2, bio_mode='none')
-        # Ignore trust entirely for pure mathematical similarity
-        sc = S * 1.0
+        Tn = trust_multiplier(p)
+        # Apply softened trust to avoid ignoring reliability while not dominating
+        sc = S * soft_trust(Tn)
         alg2.append((p, sc, S))
     algorithms['Logistics+Trust'] = sorted(alg2, key=lambda x: x[1], reverse=True)[:1]
 
@@ -262,13 +268,22 @@ def compute_algorithms(user, weights, profiles):
             W3.get('demographics', 0) * demo_c
         )
         S = weighted / (sum(W3.values()) or 1.0)
-        sc = S * Tn
+        # Apply softened trust after the gate
+        sc = S * soft_trust(Tn)
         alg3.append((p, sc, S))
     algorithms['Safety+Social'] = sorted(alg3, key=lambda x: x[1], reverse=True)[:1]
 
     # Algorithm 4: Innovation / Semantic (NLP on bio to infer interests)
     # Uses semantic bio scoring and also infers outdoors interest from free-text bios.
     W4 = {'pace':0.10, 'budget':0.10, 'interests':0.25, 'style':0.10, 'bio':0.40, 'demographics':0.05}
+    # Pre-compute simple interest frequencies to derive a mild rarity bonus (diversity)
+    interest_freq = {}
+    max_freq = 1
+    for pr in profiles:
+        for it in (pr.get('interests') or []):
+            interest_freq[it] = interest_freq.get(it, 0) + 1
+            if interest_freq[it] > max_freq:
+                max_freq = interest_freq[it]
     alg4 = []
     user_outdoor = detect_outdoors_from_text(user.get('bio',''))
     for p in profiles:
@@ -298,8 +313,21 @@ def compute_algorithms(user, weights, profiles):
         )
         total_w = sum(W4.values()) or 1.0
         S = weighted / total_w
+
+        # Mild diversity/rarity bonus: favor overlaps on rarer shared interests
+        user_its = set(user.get('interests') or [])
+        prof_its = set(p.get('interests') or [])
+        overlap = list(user_its.intersection(prof_its))
+        rarity_bonus = 0.0
+        if overlap and max_freq > 0:
+            # average of (1 - freq/max_freq) across overlapping interests
+            rarity_vals = [1.0 - (interest_freq.get(it, 0) / max_freq) for it in overlap]
+            rarity_bonus = max(0.0, sum(rarity_vals) / len(rarity_vals))
+            # keep influence very small to avoid overpowering main signals
+            S = min(1.0, S + 0.05 * rarity_bonus)
+
         Tn = trust_multiplier(p)
-        sc = S * Tn
+        sc = S * soft_trust(Tn)
         alg4.append((p, sc, S))
     algorithms['SemanticBio'] = sorted(alg4, key=lambda x: x[1], reverse=True)[:1]
 
