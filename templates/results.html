@@ -140,7 +140,7 @@
                 <input type="hidden" name="algorithm{{ loop.index }}_recommendation_compatibility" value="{{ '%.4f'|format(compat_val) }}">
                 <input type="hidden" name="algorithm{{ loop.index }}_recommendation_trust" value="{{ '%.4f'|format(trust_val) }}">
                 
-                <div class="alg-title">{{ alg }}</div>
+                <div class="alg-title">Algorithm 1: {{ alg }}</div>
                 <div class="name">
                   {{ display_name }}
                   <span style="font-weight:400;font-size:13px;color:var(--muted);margin-left:8px">· Age: {{ p.age if p.age is defined else '—' }}</span>
