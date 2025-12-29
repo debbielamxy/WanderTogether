@@ -248,7 +248,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -383,7 +383,7 @@
   },
   {
     "id": 17,
-    "name": "Mia Silva",
+    "name": "Siti Sarah",
     "budget": 2,
     "pace": 1,
     "interests": [
@@ -402,8 +402,8 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "female",
     "age": 26
@@ -771,7 +771,7 @@
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -1034,7 +1034,7 @@
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -1075,8 +1075,7 @@
     "trust": 0.83,
     "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
-      "early",
-      "late"
+      "early"
     ],
     "cleanliness": "average",
     "dietary": "none",
@@ -1243,7 +1242,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -2450,7 +2449,7 @@
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
@@ -2473,7 +2472,7 @@
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -2494,7 +2493,6 @@
     "trust": 0.88,
     "bio": "Fascinated by historical landmarks and the stories behind them. Always seeking genuine cultural experiences and local connections.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "neat",
@@ -2599,7 +2597,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "yes",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -2622,7 +2620,7 @@
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
@@ -2808,8 +2806,7 @@
     "trust": 0.54,
     "bio": "Always drawn to water-based adventures and marine sports.",
     "sleep": [
-      "early",
-      "late"
+      "early"
     ],
     "cleanliness": "messy",
     "dietary": "none",
@@ -2978,8 +2975,7 @@
     "trust": 0.66,
     "bio": "Seek balance through spa treatments and wellness activities.",
     "sleep": [
-      "early",
-      "late"
+      "early"
     ],
     "cleanliness": "neat",
     "dietary": "none",
@@ -3173,8 +3169,7 @@
     "trust": 0.55,
     "bio": "Cultural explorer through museums and artistic heritage.",
     "sleep": [
-      "early",
-      "late"
+      "early"
     ],
     "cleanliness": "average",
     "dietary": "none",
@@ -3202,7 +3197,7 @@
     ],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -3414,7 +3409,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
@@ -3462,7 +3457,7 @@
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "yes",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -3762,7 +3757,6 @@
     "trust": 0.36,
     "bio": "Love incorporating wellness into travel experiences.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "average",
@@ -3837,7 +3831,6 @@
     "trust": 0.39,
     "bio": "Love hiking and exploring natural landscapes.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "average",
@@ -3982,7 +3975,6 @@
     "trust": 0.73,
     "bio": "Curious traveler seeking new experiences and adventures.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "average",
@@ -4035,7 +4027,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -4116,7 +4108,7 @@
   },
   {
     "id": 172,
-    "name": "Wyatt Kumar",
+    "name": "Muhammad Aiman",
     "budget": 2,
     "pace": 2,
     "interests": [
@@ -4133,8 +4125,8 @@
     ],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "social",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 31
@@ -4164,7 +4156,7 @@
   },
   {
     "id": 174,
-    "name": "Nora Kim",
+    "name": "Siti Khadijah",
     "budget": 2,
     "pace": 3,
     "interests": [
@@ -4179,7 +4171,7 @@
     "cleanliness": "neat",
     "dietary": "halal",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
     "age": 36
@@ -4205,7 +4197,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -4309,7 +4301,7 @@
   },
   {
     "id": 180,
-    "name": "Lily Chua",
+    "name": "Nurul Hana",
     "budget": 3,
     "pace": 1,
     "interests": [
@@ -4322,8 +4314,8 @@
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "social",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "female",
     "age": 20
@@ -4369,7 +4361,7 @@
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -4579,7 +4571,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "yes",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -4612,7 +4604,7 @@
   },
   {
     "id": 193,
-    "name": "Benjamin Goh",
+    "name": "Ahmad Fikri",
     "budget": 2,
     "pace": 2,
     "interests": [
@@ -4629,8 +4621,8 @@
     ],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "social",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 36
@@ -5001,7 +4993,7 @@
   },
   {
     "id": 210,
-    "name": "Ella Wong",
+    "name": "Siti Aishah",
     "budget": 3,
     "pace": 3,
     "interests": [
@@ -5013,7 +5005,7 @@
     "sleep": [],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -5365,7 +5357,6 @@
     "trust": 0.81,
     "bio": "Love experiencing destinations through their music scene. Gourmet traveler seeking exceptional dining experiences.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "average",
@@ -5473,7 +5464,7 @@
   },
   {
     "id": 230,
-    "name": "David Chua",
+    "name": "Muhammad Razif",
     "budget": 2,
     "pace": 3,
     "interests": [
@@ -5490,7 +5481,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -5508,7 +5499,6 @@
     "trust": 0.54,
     "bio": "Food adventurer passionate about local street food and culinary discoveries.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "average",
@@ -6093,7 +6083,7 @@
   },
   {
     "id": 256,
-    "name": "Henry Chan",
+    "name": "Muhammad Amin",
     "budget": 3,
     "pace": 1,
     "interests": [
@@ -6109,7 +6099,7 @@
     "cleanliness": "messy",
     "dietary": "halal",
     "alcohol": "no",
-    "smoking": "yes",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 23
@@ -6261,8 +6251,7 @@
     "trust": 0.88,
     "bio": "Passionate about discovering local culture and connecting with communities. Love exploring high-end cuisine and culinary artistry.",
     "sleep": [
-      "early",
-      "late"
+      "early"
     ],
     "cleanliness": "average",
     "dietary": "none",
@@ -6471,7 +6460,7 @@
   },
   {
     "id": 272,
-    "name": "Jackson Singh",
+    "name": "Muhammad Afiq",
     "budget": 2,
     "pace": 3,
     "interests": [
@@ -6490,8 +6479,8 @@
     ],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "yes",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -6719,7 +6708,6 @@
     "trust": 0.53,
     "bio": "Love hiking and exploring natural landscapes. Always drawn to historical places and their cultural significance.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "messy",
@@ -6816,8 +6804,7 @@
     "trust": 0.59,
     "bio": "Always drawn to historical places and their cultural significance.",
     "sleep": [
-      "early",
-      "late"
+      "early"
     ],
     "cleanliness": "average",
     "dietary": "vegetarian",
@@ -7185,7 +7172,7 @@
   },
   {
     "id": 302,
-    "name": "Drew Clark",
+    "name": "Ahmad Hafiz",
     "budget": 1,
     "pace": 3,
     "interests": [
@@ -7203,7 +7190,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -7355,7 +7342,7 @@
   },
   {
     "id": 309,
-    "name": "Taylor Liu",
+    "name": "Nurul Aini",
     "budget": 2,
     "pace": 3,
     "interests": [
@@ -7374,7 +7361,7 @@
     ],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -7421,7 +7408,6 @@
     "trust": 0.69,
     "bio": "Cultural explorer through museums and artistic heritage.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "messy",
@@ -7434,7 +7420,7 @@
   },
   {
     "id": 312,
-    "name": "Micah Lim",
+    "name": "Mohammad Faris",
     "budget": 1,
     "pace": 3,
     "interests": [
@@ -7453,7 +7439,7 @@
     ],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
@@ -8084,7 +8070,7 @@
   },
   {
     "id": 339,
-    "name": "Blake Zhang",
+    "name": "Siti Nurul",
     "budget": 2,
     "pace": 3,
     "interests": [
@@ -8100,7 +8086,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
@@ -8292,7 +8278,7 @@
   },
   {
     "id": 348,
-    "name": "Micah Singh",
+    "name": "Ahmad Danial",
     "budget": 2,
     "pace": 1,
     "interests": [
@@ -8307,8 +8293,8 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
-    "smoking": "yes",
+    "alcohol": "no",
+    "smoking": "no",
     "fitness": "walk",
     "gender": "male",
     "age": 51
@@ -8553,7 +8539,7 @@
   },
   {
     "id": 359,
-    "name": "Hayden Koh",
+    "name": "Nur Amira",
     "budget": 2,
     "pace": 2,
     "interests": [
@@ -8566,7 +8552,7 @@
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -8588,7 +8574,6 @@
     "trust": 0.48,
     "bio": "Always drawn to historical places and their cultural significance.",
     "sleep": [
-      "late",
       "early"
     ],
     "cleanliness": "average",
@@ -8907,7 +8892,7 @@
   },
   {
     "id": 374,
-    "name": "Reese Goh",
+    "name": "Muhammad Irfan",
     "budget": 2,
     "pace": 1,
     "interests": [
@@ -8923,7 +8908,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -8931,7 +8916,7 @@
   },
   {
     "id": 375,
-    "name": "Dakota Ng",
+    "name": "Siti Fatimah",
     "budget": 1,
     "pace": 3,
     "interests": [
@@ -8947,7 +8932,7 @@
     ],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
@@ -8955,7 +8940,7 @@
   },
   {
     "id": 376,
-    "name": "Elliot Clark",
+    "name": "Ahmad Syukri",
     "budget": 2,
     "pace": 3,
     "interests": [
@@ -8972,7 +8957,7 @@
     ],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
@@ -9074,7 +9059,7 @@
   },
   {
     "id": 381,
-    "name": "Hayden Singh",
+    "name": "Nurul Huda",
     "budget": 1,
     "pace": 2,
     "interests": [
@@ -9088,7 +9073,7 @@
     "sleep": [],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
@@ -9176,8 +9161,7 @@
     "trust": 0.8,
     "bio": "Coastal explorer who loves sandy shores and sea breezes. Winter sports enthusiast who loves snow and mountain adventures.",
     "sleep": [
-      "early",
-      "late"
+      "early"
     ],
     "cleanliness": "average",
     "dietary": "none",
@@ -9250,8 +9234,7 @@
     "trust": 0.41,
     "bio": "Purposeful traveler who incorporates volunteer work into journeys.",
     "sleep": [
-      "early",
-      "late"
+      "early"
     ],
     "cleanliness": "neat",
     "dietary": "none",
@@ -9263,7 +9246,7 @@
   },
   {
     "id": 389,
-    "name": "Sage Zhang",
+    "name": "Siti Aisyah",
     "budget": 2,
     "pace": 1,
     "interests": [
@@ -9280,7 +9263,7 @@
     ],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "social",
+    "alcohol": "no",
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
@@ -9311,7 +9294,7 @@
   },
   {
     "id": 391,
-    "name": "Micah Garcia",
+    "name": "Nurul Fatihah",
     "budget": 2,
     "pace": 3,
     "interests": [
@@ -9323,7 +9306,7 @@
     "sleep": [],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "yes",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
