@@ -39,7 +39,6 @@ INTEREST_CHOICES = [
     'Water Sports',
     'Adventure Sports',
     'Winter Sports',
-    'Cycling',
     'Photography',
     'Wellness & Spa',
 
@@ -47,7 +46,6 @@ INTEREST_CHOICES = [
     'Shopping',
     'Nightlife & Bars',
     'Live Music & Concerts',
-    'Art Galleries',
     'City Exploration',
     'Local Markets',
 

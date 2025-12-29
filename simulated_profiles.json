@@ -7240,7 +7240,6 @@
     "budget": 3,
     "pace": 2,
     "interests": [
-      "Art Galleries",
       "Local Culture"
     ],
     "style": "luxury",
@@ -7289,7 +7288,6 @@
     "interests": [
       "Photography",
       "Local Culture",
-      "Art Galleries",
       "Water Sports",
       "National Parks"
     ],
@@ -7312,8 +7310,7 @@
     "pace": 3,
     "interests": [
       "Road Trips",
-      "Nightlife & Bars",
-      "Art Galleries"
+      "Nightlife & Bars"
     ],
     "style": "occasional_splurging",
     "trust": 0.48,
@@ -7562,7 +7559,6 @@
     "pace": 1,
     "interests": [
       "Museums & Art",
-      "Art Galleries",
       "Volunteer Work",
       "Digital Nomad",
       "Adventure Sports"
@@ -7928,7 +7924,6 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Art Galleries",
       "Local Culture",
       "National Parks",
       "Hiking & Nature"
@@ -8189,8 +8184,7 @@
     "pace": 3,
     "interests": [
       "Road Trips",
-      "Adventure Sports",
-      "Art Galleries"
+      "Adventure Sports"
     ],
     "style": "occasional_splurging",
     "trust": 0.48,
@@ -8373,8 +8367,7 @@
     "interests": [
       "Festivals & Events",
       "National Parks",
-      "Adventure Sports",
-      "Art Galleries"
+      "Adventure Sports"
     ],
     "style": "backpacking",
     "trust": 0.43,
@@ -8468,8 +8461,7 @@
     "budget": 2,
     "pace": 1,
     "interests": [
-      "Hiking & Nature",
-      "Art Galleries"
+      "Hiking & Nature"
     ],
     "style": "comfort",
     "trust": 0.4,
@@ -8491,7 +8483,6 @@
     "budget": 1,
     "pace": 2,
     "interests": [
-      "Art Galleries",
       "Volunteer Work",
       "Wine & Drinks"
     ],
@@ -9279,8 +9270,7 @@
       "Local Markets",
       "Digital Nomad",
       "Museums & Art",
-      "Wine & Drinks",
-      "Art Galleries"
+      "Wine & Drinks"
     ],
     "style": "average",
     "trust": 0.64,
@@ -9325,7 +9315,6 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Art Galleries",
       "Architecture"
     ],
     "style": "comfort",
