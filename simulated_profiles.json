@@ -1719,8 +1719,7 @@
     "interests": [
       "Festivals & Events",
       "Camping & Outdoors",
-      "Wildlife & Animals",
-      "Food Markets"
+      "Wildlife & Animals"
     ],
     "style": "average",
     "trust": 0.54,
@@ -2615,8 +2614,7 @@
       "Water Sports",
       "Cooking Experiences",
       "Museums & Art",
-      "National Parks",
-      "Food Markets"
+      "National Parks"
     ],
     "style": "backpacking",
     "trust": 0.89,
@@ -3068,8 +3066,7 @@
     "budget": 2,
     "pace": 2,
     "interests": [
-      "Museums & Art",
-      "Food Markets"
+      "Museums & Art"
     ],
     "style": "backpacking",
     "trust": 0.86,
@@ -3118,8 +3115,7 @@
     "budget": 2,
     "pace": 3,
     "interests": [
-      "Festivals & Events",
-      "Food Markets"
+      "Festivals & Events"
     ],
     "style": "comfort",
     "trust": 0.84,
@@ -3310,8 +3306,7 @@
     "pace": 3,
     "interests": [
       "Fine Dining",
-      "Museums & Art",
-      "Food Markets"
+      "Museums & Art"
     ],
     "style": "comfort",
     "trust": 0.96,
@@ -3383,8 +3378,7 @@
     "budget": 2,
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
-      "Food Markets"
+      "Wine & Drinks"
     ],
     "style": "occasional_splurging",
     "trust": 0.72,
@@ -3666,8 +3660,7 @@
     "pace": 2,
     "interests": [
       "Wine & Drinks",
-      "Museums & Art",
-      "Food Markets"
+      "Museums & Art"
     ],
     "style": "luxury",
     "trust": 0.7,
@@ -4082,8 +4075,7 @@
       "Adventure Sports",
       "Religious Sites",
       "Photography",
-      "Fine Dining",
-      "Food Markets"
+      "Fine Dining"
     ],
     "style": "occasional_splurging",
     "trust": 0.66,
@@ -4322,8 +4314,7 @@
     "pace": 1,
     "interests": [
       "Wine & Drinks",
-      "Wellness & Spa",
-      "Food Markets"
+      "Wellness & Spa"
     ],
     "style": "comfort",
     "trust": 0.79,
@@ -4839,8 +4830,7 @@
       "Shopping",
       "Historical Sites",
       "Camping & Outdoors",
-      "Beaches & Coast",
-      "Food Markets"
+      "Beaches & Coast"
     ],
     "style": "comfort",
     "trust": 0.5,
@@ -5154,8 +5144,7 @@
     "budget": 3,
     "pace": 1,
     "interests": [
-      "Wellness & Spa",
-      "Food Markets"
+      "Wellness & Spa"
     ],
     "style": "luxury",
     "trust": 0.36,
@@ -6061,8 +6050,7 @@
     "pace": 1,
     "interests": [
       "Nightlife & Bars",
-      "Wildlife & Animals",
-      "Food Markets"
+      "Wildlife & Animals"
     ],
     "style": "occasional_splurging",
     "trust": 0.41,
@@ -7253,7 +7241,6 @@
     "pace": 2,
     "interests": [
       "Art Galleries",
-      "Food Markets",
       "Local Culture"
     ],
     "style": "luxury",
@@ -7482,8 +7469,7 @@
     "pace": 1,
     "interests": [
       "Festivals & Events",
-      "Mountains & Scenery",
-      "Food Markets"
+      "Mountains & Scenery"
     ],
     "style": "average",
     "trust": 0.76,
@@ -7822,7 +7808,6 @@
     "pace": 1,
     "interests": [
       "National Parks",
-      "Food Markets",
       "Religious Sites"
     ],
     "style": "backpacking",
@@ -7895,8 +7880,7 @@
       "Beaches & Coast",
       "Photography",
       "Architecture",
-      "Historical Sites",
-      "Food Markets"
+      "Historical Sites"
     ],
     "style": "luxury",
     "trust": 0.67,
@@ -7990,7 +7974,6 @@
     "budget": 1,
     "pace": 1,
     "interests": [
-      "Food Markets",
       "Historical Sites",
       "Photography"
     ],
@@ -8231,7 +8214,6 @@
     "pace": 1,
     "interests": [
       "Architecture",
-      "Food Markets",
       "City Exploration",
       "Live Music & Concerts"
     ],
@@ -8299,7 +8281,6 @@
     "budget": 2,
     "pace": 2,
     "interests": [
-      "Food Markets",
       "Winter Sports",
       "Street Food"
     ],
@@ -8464,8 +8445,7 @@
     "interests": [
       "Local Culture",
       "Beaches & Coast",
-      "Cooking Experiences",
-      "Food Markets"
+      "Cooking Experiences"
     ],
     "style": "average",
     "trust": 0.94,
@@ -8511,7 +8491,6 @@
     "budget": 1,
     "pace": 2,
     "interests": [
-      "Food Markets",
       "Art Galleries",
       "Volunteer Work",
       "Wine & Drinks"
@@ -8708,8 +8687,7 @@
     "pace": 1,
     "interests": [
       "Digital Nomad",
-      "Festivals & Events",
-      "Food Markets"
+      "Festivals & Events"
     ],
     "style": "occasional_splurging",
     "trust": 0.73,
@@ -8799,7 +8777,6 @@
     "interests": [
       "Camping & Outdoors",
       "Nightlife & Bars",
-      "Food Markets",
       "Religious Sites"
     ],
     "style": "comfort",
@@ -8993,8 +8970,7 @@
     "interests": [
       "Wine & Drinks",
       "Adventure Sports",
-      "National Parks",
-      "Food Markets"
+      "National Parks"
     ],
     "style": "occasional_splurging",
     "trust": 0.68,
@@ -9113,8 +9089,7 @@
     "interests": [
       "Adventure Sports",
       "Historical Sites",
-      "Beaches & Coast",
-      "Food Markets"
+      "Beaches & Coast"
     ],
     "style": "backpacking",
     "trust": 0.69,
@@ -9278,8 +9253,7 @@
     "interests": [
       "Street Food",
       "Volunteer Work",
-      "Wine & Drinks",
-      "Food Markets"
+      "Wine & Drinks"
     ],
     "style": "backpacking",
     "trust": 0.41,
@@ -9373,7 +9347,6 @@
     "pace": 2,
     "interests": [
       "Fine Dining",
-      "Food Markets",
       "Historical Sites"
     ],
     "style": "backpacking",

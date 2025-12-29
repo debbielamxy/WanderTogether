@@ -31,7 +31,6 @@ INTEREST_CHOICES = [
     # Food & Culinary
     'Street Food',
     'Fine Dining',
-    'Food Markets',
     'Cooking Experiences',
     'Wine & Drinks',
     'Coffee Culture',
