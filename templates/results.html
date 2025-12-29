@@ -19,6 +19,9 @@
       .meta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
       .meta{font-size:13px;color:var(--muted)}
       .badge{font-size:12px;padding:4px 8px;border-radius:999px;color:#fff;display:inline-block}
+      .alg-label{font-size:11px;color:#6b7280;font-style:italic;margin-top:4px}
+      .alg-title{font-size:14px;font-weight:600;color:#374151;margin-bottom:4px}
+      .duplicate-warning{font-size:11px;color:#dc2626;margin-top:4px}
       /* Trust badge colors */
       .trust-high{background:var(--high)}
       .trust-mid{background:var(--mid)}
@@ -103,10 +106,19 @@
       <input type="hidden" name="bio" value="{{ user.bio }}" />
 
       <div class="grid" style="grid-template-columns:repeat(2,1fr);">
+      {% set all_candidates = {} %}
+      {% set duplicate_tracker = {} %}
+      
       {% for alg, scores in algorithms.items() %}
         <div class="card alg">
           {% if scores and scores|length > 0 %}
             {% set p, sc, compat = scores[0] %}
+            {% set candidate_key = p.id %}
+            
+            {% set _ = all_candidates.update({candidate_key: p}) %}
+            {% set current_count = duplicate_tracker.get(candidate_key, 0) + 1 %}
+            {% set _ = duplicate_tracker.update({candidate_key: current_count}) %}
+            
             <label class="match-row">
               <div class="left">
                 <input type="checkbox" name="selected" value="{{ alg }}::{{ p.id }}::{{ '%.4f'|format(sc) }}">
@@ -115,7 +127,7 @@
                 {# compute score values early for reuse #}
                 {% set trust_val = (p.trust if p.trust is defined else 0.5) %}
                 {% set compat_val = compat if compat is defined else 0.0 %}
-                {# hidden fields to capture the recommended candidate name and id for this algorithm #}
+                {# hidden fields to capture recommended candidate name and id for this algorithm #}
                 {# sanitize name to avoid showing embedded numeric id suffixes like 'Name 163' #}
                 {% set name_parts = p.name.split() %}
                 {% if name_parts and name_parts[-1].isdigit() %}
@@ -127,10 +139,30 @@
                 <input type="hidden" name="algorithm{{ loop.index }}_recommendation_id" value="{{ p.id }}">
                 <input type="hidden" name="algorithm{{ loop.index }}_recommendation_compatibility" value="{{ '%.4f'|format(compat_val) }}">
                 <input type="hidden" name="algorithm{{ loop.index }}_recommendation_trust" value="{{ '%.4f'|format(trust_val) }}">
+                
+                <div class="alg-title">{{ alg }}</div>
                 <div class="name">
                   {{ display_name }}
                   <span style="font-weight:400;font-size:13px;color:var(--muted);margin-left:8px">· Age: {{ p.age if p.age is defined else '—' }}</span>
                 </div>
+                
+                {% if current_count > 1 %}
+                  <div class="duplicate-warning">⚠️ Also recommended by {{ current_count - 1 }} other algorithm{% if current_count - 1 > 1 %}s{% endif %}</div>
+                {% endif %}
+                
+                {# Algorithm-specific explanation #}
+                <div class="alg-label">
+                  {% if alg == 'Empirical' %}
+                    Based on survey data: matches your stated preferences for pace, budget, and interests
+                  {% elif alg == 'Logistics+Trust' %}
+                    Based on practical compatibility: travel style and reliability
+                  {% elif alg == 'Safety+Social' %}
+                    Based on safety focus: same gender, age proximity, and verified trust
+                  {% elif alg == 'SemanticBio' %}
+                    Based on interests: bio analysis and shared activities
+                  {% endif %}
+                </div>
+                
                 <div style="margin-top:6px;display:flex;gap:8px;flex-wrap:wrap">
                   {# Trust badge #}
                   {% if trust_val >= 0.7 %}
