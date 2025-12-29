@@ -62,7 +62,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -179,7 +179,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 28
@@ -225,7 +225,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 26
@@ -430,7 +430,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -602,7 +602,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 35
@@ -626,7 +626,7 @@
     "cleanliness": "messy",
     "dietary": "vegetarian",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 31
@@ -867,7 +867,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 26
@@ -893,7 +893,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 25
@@ -961,7 +961,7 @@
     "cleanliness": "average",
     "dietary": "halal",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -1058,7 +1058,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 40
@@ -1198,7 +1198,7 @@
     "cleanliness": "messy",
     "dietary": "halal",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 35
@@ -1318,7 +1318,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 50
@@ -1344,7 +1344,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 30
@@ -1463,7 +1463,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 23
@@ -1587,7 +1587,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "female",
     "age": 30
@@ -1779,7 +1779,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 29
@@ -1805,7 +1805,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 20
@@ -1851,7 +1851,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 26
@@ -1927,7 +1927,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 35
@@ -2093,7 +2093,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 35
@@ -2331,7 +2331,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 29
@@ -2451,7 +2451,7 @@
     "cleanliness": "average",
     "dietary": "halal",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 48
@@ -2524,7 +2524,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 20
@@ -2551,7 +2551,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -2574,7 +2574,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "female",
     "age": 26
@@ -2623,7 +2623,7 @@
     "cleanliness": "neat",
     "dietary": "halal",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 32
@@ -2671,7 +2671,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 38
@@ -2720,7 +2720,7 @@
     "cleanliness": "average",
     "dietary": "halal",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 26
@@ -2767,7 +2767,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 33
@@ -2789,7 +2789,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 27
@@ -3029,7 +3029,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "female",
     "age": 33
@@ -3343,7 +3343,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 32
@@ -3489,7 +3489,7 @@
     "cleanliness": "messy",
     "dietary": "vegetarian",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 31
@@ -3558,7 +3558,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 41
@@ -3768,7 +3768,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 41
@@ -3988,7 +3988,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -4084,7 +4084,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 35
@@ -4109,7 +4109,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 38
@@ -4348,7 +4348,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -4396,7 +4396,7 @@
     "cleanliness": "neat",
     "dietary": "vegetarian",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 29
@@ -4420,7 +4420,7 @@
     "cleanliness": "neat",
     "dietary": "vegetarian",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 32
@@ -4464,7 +4464,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "female",
     "age": 38
@@ -4702,7 +4702,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 23
@@ -4841,7 +4841,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 26
@@ -4928,7 +4928,7 @@
     "cleanliness": "average",
     "dietary": "lactose-intolerant",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 36
@@ -5153,7 +5153,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 33
@@ -5229,7 +5229,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 25
@@ -5249,7 +5249,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 29
@@ -5371,7 +5371,7 @@
     "cleanliness": "average",
     "dietary": "keto",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "female",
     "age": 20
@@ -5394,7 +5394,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -5419,7 +5419,7 @@
     "cleanliness": "neat",
     "dietary": "vegetarian",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 26
@@ -5539,7 +5539,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 41
@@ -5732,7 +5732,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 20
@@ -5831,7 +5831,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 32
@@ -5879,7 +5879,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "female",
     "age": 38
@@ -5924,7 +5924,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 44
@@ -5993,7 +5993,7 @@
     "cleanliness": "messy",
     "dietary": "lactose-intolerant",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 53
@@ -6062,7 +6062,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 24
@@ -6220,7 +6220,7 @@
     "cleanliness": "neat",
     "dietary": "halal",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 27
@@ -6464,7 +6464,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 23
@@ -6563,7 +6563,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 35
@@ -6676,7 +6676,7 @@
     "cleanliness": "average",
     "dietary": "lactose-intolerant",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 34
@@ -6752,7 +6752,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 33
@@ -6776,7 +6776,7 @@
     "cleanliness": "average",
     "dietary": "vegetarian",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 33
@@ -6928,7 +6928,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 35
@@ -6976,7 +6976,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 27
@@ -7041,7 +7041,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 31
@@ -7133,7 +7133,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 33
@@ -7155,7 +7155,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "female",
     "age": 20
@@ -7698,7 +7698,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 23
@@ -7963,7 +7963,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "female",
     "age": 25
@@ -8011,7 +8011,7 @@
     "cleanliness": "messy",
     "dietary": "lactose-intolerant",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 55
@@ -8035,7 +8035,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 39
@@ -8059,7 +8059,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 28
@@ -8202,7 +8202,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 27
@@ -8270,7 +8270,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 25
@@ -8480,7 +8480,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 36
@@ -8529,7 +8529,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 31
@@ -8555,7 +8555,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 34
@@ -8698,7 +8698,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 26
@@ -8742,7 +8742,7 @@
     "cleanliness": "messy",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
     "age": 47
@@ -8786,7 +8786,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 34
@@ -8809,7 +8809,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "female",
     "age": 37
@@ -8957,7 +8957,7 @@
     "cleanliness": "neat",
     "dietary": "halal",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 36
@@ -8982,7 +8982,7 @@
     "cleanliness": "neat",
     "dietary": "halal",
     "alcohol": "social",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 31
@@ -9213,7 +9213,7 @@
     "cleanliness": "messy",
     "dietary": "lactose-intolerant",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "walk",
     "gender": "male",
     "age": 25
@@ -9240,7 +9240,7 @@
     "cleanliness": "average",
     "dietary": "none",
     "alcohol": "no",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
     "age": 23
@@ -9543,7 +9543,7 @@
     "cleanliness": "neat",
     "dietary": "none",
     "alcohol": "yes",
-    "smoking": "outside",
+    "smoking": "social",
     "fitness": "transport",
     "gender": "male",
     "age": 23
