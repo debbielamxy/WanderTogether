@@ -45,7 +45,7 @@
     <div class="container">
       {# maps to display friendly labels for budget, pace and style (handles numeric or coded values) #}
       {% set budget_map = {1:'Economical',2:'Average',3:'Luxury', 'economical':'Economical','average':'Average','luxury':'Luxury'} %}
-      {% set pace_map = {1:'Relaxed itinerary',2:'Packed itinerary',3:'Spontaneous/No itinerary',4:'Flexible', 'relaxed_itinerary':'Relaxed itinerary','packed_itinerary':'Packed itinerary','spontaneous':'Spontaneous/No itinerary','flexible':'Flexible'} %}
+      {% set pace_map = {1:'Relaxed itinerary',2:'Spontaneous/No itinerary',3:'Packed itinerary', 'relaxed_itinerary':'Relaxed itinerary','spontaneous':'Spontaneous/No itinerary','packed_itinerary':'Packed itinerary'} %}
       {% set style_map = {'economical':'Economical','average':'Average','luxury':'Luxury'} %}
       <div style="margin-bottom:10px" class="small">Trust Score: Reliability and rating of the user based on past interactions.</div>
       <div class="msg small" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">

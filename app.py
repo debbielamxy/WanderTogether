@@ -124,12 +124,12 @@ def parse_user_form(form):
     # Map textual pace choices to numeric scale (1 relaxed -> 3 fast)
     pace_text = form.get('pace_text') or form.get('pace')
     # Map textual pace choices to numeric scale (1 relaxed -> 3 fast)
-    if pace_text in ('relaxed_itinerary', 'spontaneous'):
-        pace = 1
-    elif pace_text in ('flexible', 'mixed'):
-        pace = 2
-    elif pace_text in ('packed_itinerary', 'itinerary'):
-        pace = 3
+    if pace_text in ('relaxed_itinerary',):
+        pace = 1  # Relaxed pace
+    elif pace_text in ('spontaneous',):
+        pace = 2  # Moderate pace (spontaneous)
+    elif pace_text in ('packed_itinerary',):
+        pace = 3  # Fast-paced
     else:
         try:
             pace = int(form.get('pace', 2))
