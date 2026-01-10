@@ -108,7 +108,7 @@ for p in SIMULATED_PROFILES:
 
 
 
-from recommendation_algorithms import compute_algorithms as compute_algorithms_module
+from hybrid_algorithm import compute_algorithms as compute_hybrid_algorithm
 
 
 @app.route('/', methods=['GET'])
@@ -171,94 +171,50 @@ def parse_user_form(form):
     return user
 
 
-def compute_algorithms(user, weights):
-    algorithms = {}
-
-    # delegate to the recommendation_algorithms module
-    return compute_algorithms_module(user, weights, SIMULATED_PROFILES)
+def compute_hybrid_recommendations(user, weights):
+    """
+    Compute top 8 recommendations using hybrid algorithm
+    Returns list of (profile, final_score, compatibility_score) tuples
+    """
+    # Get hybrid algorithm results
+    hybrid_results = compute_hybrid_algorithm(user, weights, SIMULATED_PROFILES)
+    
+    # Extract recommendations from hybrid results (key is 'Safety-Enhanced Empirical')
+    recommendations = hybrid_results.get('Safety-Enhanced Empirical', [])
+    
+    # Return top 8 recommendations
+    return recommendations[:8]
 
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
     weights = load_survey_weights()
     user = parse_user_form(request.form)
-    algorithms = compute_algorithms(user, weights)
-    return render_template('results.html', algorithms=algorithms, weights=weights, user=user)
+    
+    # Get top 8 hybrid recommendations
+    recommendations = compute_hybrid_recommendations(user, weights)
+    
+    return render_template('results.html', recommendations=recommendations, weights=weights, user=user)
 
 
-LOG_PATH = 'algorithm_evaluation_log.csv'
+LOG_PATH = 'hybrid_algorithm_log.csv'
 
-# New compact header focused on algorithm evaluation
+# Header for hybrid algorithm logging
 LOG_HEADER = [
+    'timestamp',
     'user_name',
-    'algorithm1_recommendation_name','algorithm1_recommendation_id','algorithm1_compatibility','algorithm1_trust','algorithm1_matched_successfully',
-    'algorithm2_recommendation_name','algorithm2_recommendation_id','algorithm2_compatibility','algorithm2_trust','algorithm2_matched_successfully',
-    'algorithm3_recommendation_name','algorithm3_recommendation_id','algorithm3_compatibility','algorithm3_trust','algorithm3_matched_successfully',
-    'algorithm4_recommendation_name','algorithm4_recommendation_id','algorithm4_compatibility','algorithm4_trust','algorithm4_matched_successfully'
+    'profile_id',
+    'final_score',
+    'compatibility_score',
+    'trust_score',
+    'user_age',
+    'user_gender',
+    'user_budget',
+    'user_pace',
+    'user_style',
+    'user_interests',
+    'user_bio'
 ]
-
-
-def _get_db_conn():
-    dsn = os.getenv('DATABASE_URL')
-    if not dsn:
-        return None
-    try:
-        conn = psycopg2.connect(dsn)
-        conn.autocommit = True
-        return conn
-    except Exception:
-        return None
-
-
-def _ensure_db():
-    conn = _get_db_conn()
-    if not conn:
-        return
-    with conn.cursor() as cur:
-        cur.execute(
-            """
-            CREATE TABLE IF NOT EXISTS submissions (
-                id SERIAL PRIMARY KEY,
-                created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-                user_name TEXT,
-                algorithm1_recommendation_name TEXT,
-                algorithm1_recommendation_id TEXT,
-                algorithm1_compatibility TEXT,
-                algorithm1_trust TEXT,
-                algorithm1_matched_successfully TEXT,
-                algorithm2_recommendation_name TEXT,
-                algorithm2_recommendation_id TEXT,
-                algorithm2_compatibility TEXT,
-                algorithm2_trust TEXT,
-                algorithm2_matched_successfully TEXT,
-                algorithm3_recommendation_name TEXT,
-                algorithm3_recommendation_id TEXT,
-                algorithm3_compatibility TEXT,
-                algorithm3_trust TEXT,
-                algorithm3_matched_successfully TEXT,
-                algorithm4_recommendation_name TEXT,
-                algorithm4_recommendation_id TEXT,
-                algorithm4_compatibility TEXT,
-                algorithm4_trust TEXT,
-                algorithm4_matched_successfully TEXT
-            )
-            """
-        )
-    conn.close()
-
-
-def _insert_submission_row(header, row):
-    conn = _get_db_conn()
-    if not conn:
-        return
-    cols = ','.join(header)
-    placeholders = ','.join(['%s'] * len(row))
-    sql = f"INSERT INTO submissions ({cols}) VALUES ({placeholders})"
-    try:
-        with conn.cursor() as cur:
-            cur.execute(sql, row)
-    finally:
-        conn.close()
 
 
 def ensure_log_header():
@@ -270,13 +226,12 @@ def ensure_log_header():
             first_line = f.readline().strip()
         expected = ','.join(LOG_HEADER)
         if first_line != expected:
-            # Backup old file and start a new one with the updated header
+            # Backup old file and start a new one with updated header
             backup = f"{LOG_PATH}.bak.{datetime.utcnow().strftime('%Y%m%d-%H%M%S')}"
             Path(LOG_PATH).rename(backup)
             with open(LOG_PATH, 'w', newline='') as f:
                 writer = csv.writer(f)
                 writer.writerow(LOG_HEADER)
-    else:
         with open(LOG_PATH, 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(LOG_HEADER)
@@ -307,65 +262,52 @@ def record():
 
     # Recompute and re-render results for continued interactions
     weights = load_survey_weights()
-    algorithms = compute_algorithms(user, weights)
-    return render_template('results.html', algorithms=algorithms, weights=weights, user=user, message=f"Recorded {decision} for {profile_name} in {algorithm}")
+    recommendations = compute_hybrid_recommendations(user, weights)
+    return render_template('results.html', recommendations=recommendations, weights=weights, user=user, message=f"Recorded {decision} for {profile_name} in {algorithm}")
 
 
 @app.route('/submit_matches', methods=['POST'])
 def submit_matches():
-    ensure_log_header()
-    # 'selected' checkboxes have values like 'Algorithm::profile_id::score'
+    # 'selected' checkboxes have values like 'profile_id::score::compatibility::trust'
     selections = request.form.getlist('selected')
     if not selections:
         return "No selections made", 400
-    if len(selections) < 1 or len(selections) > 4:
-        return "Select between 1 and 4 candidates", 400
+    if len(selections) < 1 or len(selections) > 8:
+        return "Select between 1 and 8 candidates", 400
 
     # reconstruct user from hidden fields
     user = parse_user_form(request.form)
-
-    # Algorithm keys in canonical order as rendered
-    alg_order = ['Empirical','Logistics+Trust','Safety+Social','SemanticBio']
-
-    # Determine matched flags per algorithm
-    def matched_for_alg(alg_key: str) -> bool:
-        prefix = alg_key + '::'
-        return any(sel.startswith(prefix) for sel in selections)
-
-    # Collect recommended name and id from hidden inputs (one per algorithm)
-    rec1_name = request.form.get('algorithm1_recommendation_name', '')
-    rec1_id = request.form.get('algorithm1_recommendation_id', '')
-    rec1_compat = request.form.get('algorithm1_recommendation_compatibility', '')
-    rec1_trust = request.form.get('algorithm1_recommendation_trust', '')
-    rec2_name = request.form.get('algorithm2_recommendation_name', '')
-    rec2_id = request.form.get('algorithm2_recommendation_id', '')
-    rec2_compat = request.form.get('algorithm2_recommendation_compatibility', '')
-    rec2_trust = request.form.get('algorithm2_recommendation_trust', '')
-    rec3_name = request.form.get('algorithm3_recommendation_name', '')
-    rec3_id = request.form.get('algorithm3_recommendation_id', '')
-    rec3_compat = request.form.get('algorithm3_recommendation_compatibility', '')
-    rec3_trust = request.form.get('algorithm3_recommendation_trust', '')
-    rec4_name = request.form.get('algorithm4_recommendation_name', '')
-    rec4_id = request.form.get('algorithm4_recommendation_id', '')
-    rec4_compat = request.form.get('algorithm4_recommendation_compatibility', '')
-    rec4_trust = request.form.get('algorithm4_recommendation_trust', '')
-
-    row = [
-        user.get('name',''),
-        rec1_name, rec1_id, rec1_compat, rec1_trust, 'true' if matched_for_alg(alg_order[0]) else 'false',
-        rec2_name, rec2_id, rec2_compat, rec2_trust, 'true' if matched_for_alg(alg_order[1]) else 'false',
-        rec3_name, rec3_id, rec3_compat, rec3_trust, 'true' if matched_for_alg(alg_order[2]) else 'false',
-        rec4_name, rec4_id, rec4_compat, rec4_trust, 'true' if matched_for_alg(alg_order[3]) else 'false'
-    ]
-
+    
+    # Log selections for analysis
+    ensure_log_header()
+    
     with open(LOG_PATH, 'a', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(row)
+        for selection in selections:
+            parts = selection.split('::')
+            if len(parts) >= 4:
+                profile_id = parts[0]
+                final_score = parts[1]
+                compatibility_score = parts[2]
+                trust_score = parts[3]
+                
+                writer.writerow([
+                    datetime.utcnow().isoformat(),
+                    user.get('name',''),
+                    profile_id,
+                    final_score,
+                    compatibility_score,
+                    trust_score,
+                    user.get('age',''),
+                    user.get('gender',''),
+                    user['budget'],
+                    user['pace'],
+                    user.get('style',''),
+                    ','.join(sorted(user['interests'])) if user.get('interests') else '',
+                    user.get('bio','')
+                ])
 
-    # redirect back to input with a success message
-    _ensure_db()
-    _insert_submission_row(LOG_HEADER, row)
-    return redirect('/?msg=Match+Submitted')
+    return redirect('/?msg=Matches+Submitted')
 
 
 @app.route('/status', methods=['GET'])

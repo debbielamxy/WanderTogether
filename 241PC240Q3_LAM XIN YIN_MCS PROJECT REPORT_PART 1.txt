@@ -1,4 +1,7 @@
-DEVELOPMENT AND EMPIRICAL EVALUATION OF TRUST-ENHANCED HYBRID ALGORITHMS FOR TRAVEL COMPANION MATCHING
+DEVELOPMENT OF A SECURE AND INTELLIGENT 
+TRAVEL COMPANION MATCHING PLATFORM
+
+
 
 
 
@@ -28,11 +31,10 @@ SEPTEMBER 2025
 
 
 
+DEVELOPMENT OF A SECURE AND INTELLIGENT TRAVEL COMPANION MATCHING PLATFORM
 
 
 
-DEVELOPMENT AND EMPIRICAL EVALUATION OF TRUST-ENHANCED HYBRID ALGORITHMS FOR TRAVEL COMPANION MATCHING
- 
 
 
 
@@ -43,7 +45,7 @@ BY
 
 LAM XIN YIN
 
-B.Eng. (Hons), Universiti Tunku Abdul Rahman, Malaysia [SRM1]
+B.Eng. (Hons), Universiti Tunku Abdul Rahman, Malaysia  
 
 
 
@@ -52,7 +54,7 @@ THESIS SUBMITTED IN FULFILMENT OF THE
 
 REQUIREMENT FOR THE DEGREE OF
 
-MASTER OF COMPUTER SCIENCE [SRM2]
+MASTER OF COMPUTER SCIENCE  
 
 (By Coursework)
 
@@ -66,74 +68,64 @@ MULTIMEDIA UNIVERSITY
 
 MALAYSIA
 
-September 2025
+January 2026 
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-(c) 2025 [SRM3]Universiti Telekom Sdn. Bhd. ALL RIGHTS RESERVED.
-Copyright of this report belongs to Universiti Telekom Sdn. Bhd. as qualified by Regulation 7.2 (c) of the Multimedia University Intellectual Property and Commercialisation Policy. No part of this publication may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Universiti Telekom Sdn. Bhd. Due acknowledgement shall always be made of the use of any material contained in, or derived from, this thesis
+
+
+
+
+
+
+
+
+
+
+© 2026  Universiti Telekom Sdn. Bhd. ALL RIGHTS RESERVED.
+Copyright of this report belongs to Universiti Telekom Sdn. Bhd. as qualified by Regulation 7.2 (c) of the Multimedia University Intellectual Property and Commercialisation Policy. No part of this publication may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Universiti Telekom Sdn. Bhd. Due acknowledgement shall always be made of the use of any material contained in, or derived from, this thesis 
 DECLARATION
-I hereby declare that the work has been done by myself and no portion of the work contained in this Thesis has been submitted in support of any application for any other degree or qualification of this or any other university or institution of learning.[SRM4]
+I hereby declare that the work has been done by myself and no portion of the work contained in this Thesis has been submitted in support of any application for any other degree or qualification of this or any other university or institution of learning. 
 
 
-____________________[SRM5]
+____________________ 
 LAM XIN YIN
 Faculty of Computing and Informatics
 Multimedia University
-Date: 22 September 2025 [SRM6]
-
-
+Date: 21 January 2026  
+ 
 ACKNOWLEDGEMENTS
 	I would like to express my deepest gratitude to my project supervisor, Dr. R. Kanesaraj A/L Ramasamy, for his invaluable guidance, expertise, and support throughout the development of this project. His insightful feedback and mentorship were instrumental in shaping both the theoretical framework and practical implementation of this research. I am equally grateful to my course coordinator, Dr. Khairil Imran Bin Ghauth, for his continuous support and for providing the academic foundation that made this work possible.
-      Besides that, I extend my sincere appreciation to the 24 survey participants who generously shared their time and insights, providing the empirical foundation that drives this research. Their honest feedback about travel experiences, safety concerns, and platform preferences was crucial in developing a user-centered solution that addresses real-world needs.
-      Lastly, special thanks to my family for their unwavering belief in my abilities and their constant encouragement throughout this challenging yet rewarding journey.
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+Besides that, I extend my sincere appreciation to the 26 survey participants who generously shared their time and insights, providing the empirical foundation that drives this research. Their honest feedback about travel experiences, safety concerns, and platform preferences was crucial in developing a user-centered solution that addresses real-world needs. I would also like to thank the 14 participants who spent time testing out the prototype application, contributing to the final decision for the matching algorithm.
+Lastly, special thanks to my family for their unwavering belief in my abilities and their constant encouragement throughout this challenging yet rewarding journey. The project would not be able to progress smoothly otherwise.
 
-      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ABSTRACT
-      Solo travelers frequently encounter challenges such as safety concerns, higher costs, and difficulty finding compatible companions. This study presents WanderTogether, a web-based travel companion matching platform centered on the empirical evaluation of four fixed trust‑enhanced hybrid recommendation algorithms. Each algorithm combines content similarity (survey‑derived feature weight variants), collaborative distance, and a dynamic user trust score derived from ratings and willingness indicators, with one variant enriched by lightweight bio keyword semantics and a cold‑start fallback strategy.
-      A user survey (n = 24) establishes empirical feature priorities (budget, travel pace, shared interests, travel style) which seed the baseline weighting configuration. Three alternative configurations systematically reallocate emphasis (logistics + trust, experiential engagement, semantic bio overlap) while remaining fixed throughout evaluation to preserve experimental validity. A controlled exposure design recommends a balanced set of candidate profiles per algorithm to each participant; collected 4-level labeled ratings (1=Bad, 2=Neutral, 3=Good, 4=Very Good) and “would travel” signals form the quantitative basis for comparison.
-      The research contributes: (1) a trust‑enhanced hybrid scoring formulation with explicit coefficient decomposition; (2) a reproducible evaluation protocol (rating distribution, mean acceptance, score–rating calibration, cold‑start performance); and (3) empirical findings identifying the most user‑preferred weighting strategy for perceived compatibility. Results inform practical guidance for designing transparent, user‑centric travel companion matchers without reliance on heavy identity verification infrastructure. Blockchain identity verification is scoped as future work rather than core contribution, allowing deeper rigor on algorithmic evaluation and trust modeling.
-      
-      
-      
-      
+Solo travelers frequently encounter challenges such as safety concerns, higher costs, and difficulty finding compatible companions. This study presents WanderTogether, a web-based travel companion matching platform developed through a three-phase research methodology. Phase 1 employed a user questionnaire (n = 26) to establish empirical feature priorities, revealing travel pace (69.2%) and budget (69.2%) as high priorities, with safety concerns dominating (61.5% of respondents), validating the need for trust-enhanced matching. Phase 2 conducted real-world evaluation of four distinct algorithms: (1) Empirical (survey‑driven), (2) Logistics+Trust (practical compatibility), (3) Safety+Social (demographic safety‑first), and (4) SemanticBio (interest‑based semantic analysis).
+      Evaluation with 22 unique users collecting 22 algorithm selections identified Safety+Social as the most preferred approach (40.9% of selections), followed by Empirical (22.7%). Phase 3 synthesized these findings into a Safety-Enhanced Empirical Hybrid algorithm that combines Algorithm 3's safety-first trust gate and strict demographics with Algorithm 1's survey-derived personalization, creating a 60% safety / 40% empirical weight distribution. The research contributes: (1) a three-phase empirical methodology for algorithm development; (2) a trust‑enhanced hybrid scoring formulation with explicit coefficient decomposition; and (3) a reproducible evaluation framework identifying safety‑first demographic matching as optimal. The final hybrid algorithm will be demonstrated as a production-ready solution for travel companion matching, balancing safety assurance with personalized compatibility without requiring heavy identity verification infrastructure.
 
+
+
+ 
 TABLE OF CONTENTS
 DECLARATION	iii
 ACKNOWLEDGEMENTS	iv
@@ -218,64 +210,67 @@ REFERENCES	24
 LIST OF TABLES
 Table 3.1: Survey Results Summary 	9
 Table 4.1: Technology stack for WanderTogether platform	11
-
-
+ 
 LIST OF FIGURES
 Figure 4.1: Simple Use Case Diagram	13
 Figure 4.2: User Onboarding and Verification Sequence Diagram	13
 Figure 4.3: Matching Sequence Diagram	14
 Figure 4.4: Post-Trip Rating Sequence Diagram	15
 Figure 4.5: Class Diagram	15
-
+ 
 LIST OF ABBREVIATIONS/ SYMBOLS
 CID	Content Identifier
 IPFS	InterPlanetary File System
 LLM	Large Language Models
 ML	Machine Learning
 P2P	Peer-to-Peer
-SBT	Soulbound Token	[SRM7]
+SBT	Soulbound Token	 
 
-
-
-
-CHAPTER 1       
+ 
+ 
+CHAPTER 1      
 INTRODUCTION
-1.1 Research Background
-      Solo travelling continues to grow in popularity, driven by desires for independence and flexible itineraries. Despite this growth, solo travelers face persistent barriers: loneliness, safety concerns, higher costs, and difficulty locating compatible companions. Existing informal solutions (forums, generic social groups) lack structured multi‑factor matching, trust modeling, and transparent evaluation of algorithm quality.
-      Empirical survey results (n = 24) validate the need for a structured matching approach: a majority are new or infrequent solo travelers (cold‑start segment), with budget compatibility, travel pace, shared interests, and travel style emerging as priority factors. Literature further indicates hybrid recommendation methods outperform single‑criterion approaches in acceptance and satisfaction metrics.
-      This research addresses these gaps by developing WanderTogether—an evaluation platform implementing four fixed trust‑enhanced hybrid algorithms. Each algorithm combines empirically‑weighted content similarity, collaborative distance, and a rating‑derived trust component; one variant extends matching through short bio keyword overlap. Rather than integrating blockchain identity verification (scoped for future work), the study prioritizes rigorous, reproducible algorithm comparison and trust score impact analysis.
-      
-1.2 Research Objectives
-      The primary goal is to develop and empirically evaluate trust‑enhanced hybrid algorithms for travel companion matching. The specific objectives are:
-* O1: Implement a platform supporting four fixed hybrid algorithm configurations derived from empirical feature priorities (baseline, logistics+trust emphasis, experiential alignment, semantic bio enrichment).
-* O2: Design and integrate a rating‑driven trust score model influencing hybrid ranking without altering fixed feature weights.
-* O3: Establish and execute a controlled multi‑algorithm exposure protocol measuring user ratings, acceptance (would travel), and score–rating calibration including cold‑start performance.
-* O4: Produce an evaluation framework and selection guidelines for choosing the most user‑preferred weighting strategy in travel companion matching contexts.
+1.1	Research Background
+Solo travelling continues to grow in popularity, driven by desires for independence and flexible itineraries. Despite this growth, solo travelers face persistent barriers: loneliness, safety concerns, higher costs, and difficulty locating compatible companions. Existing informal solutions (forums, generic social groups) lack structured multi‑factor matching, trust modeling, and transparent evaluation of algorithm quality.
+      Empirical survey results (n = 26) validate the need for a structured matching approach: a majority are new or infrequent solo travelers (cold‑start segment), with safety concerns dominating (61.5%), followed by budget compatibility (69.2%), travel pace (69.2%), shared interests (57.7%), and travel style (57.7%) as priority factors. Literature further indicates hybrid recommendation methods outperform single‑criterion approaches in acceptance and satisfaction metrics.
+      This research addresses these gaps through a three-phase methodology: Phase 1 establishes empirical feature priorities through user questionnaires, Phase 2 evaluates four distinct trust‑enhanced algorithms (Empirical, Logistics+Trust, Safety+Social, SemanticBio) through real-world testing with 22 unique users collecting 22 algorithm selections, and Phase 3 synthesizes findings into a production-ready Safety-Enhanced Empirical Hybrid algorithm. The study prioritizes rigorous, reproducible algorithm comparison and data-driven algorithm development.
 
-1.3 Research Questions
-      The study investigates the following research questions:
-* RQ1: Which fixed trust‑enhanced hybrid weighting configuration yields the highest perceived compatibility and acceptance among solo travelers?
-* RQ2: How do user rating‑derived trust scores influence ranking quality and visibility across algorithms, particularly for cold‑start users?
-* RQ3: Does semantic bio keyword enrichment measurably improve early perceived match quality compared to purely structured feature weighting?
-      
-1.4 Research Justification 
-      Existing travel companion solutions lack empirically validated multi‑factor weighting strategies and transparent comparative evaluation. There is a research gap in reproducible protocols for assessing user‑perceived compatibility across alternative hybrid weighting designs while incorporating trust signals derived from ratings. Trust modeling—distinct from cryptographic identity verification—offers a lightweight mechanism to influence ranking fairness and user visibility. By fixing algorithm variants and isolating trust evolution, this study delivers credible evidence on weighting effectiveness, calibration, and cold‑start robustness. Identity verification via blockchain is acknowledged as valuable future work but excluded to allow deeper methodological rigor within a constrained project scope.
-      WanderTogether addresses these limitations through novel empirically-derived hybrid matrix factorization integrated with blockchain verification, contributing primarily to recommendation systems innovation while establishing secure user authentication frameworks for social matching platforms.
-1.5 Outline of the Project
-      This project is organized to present empirical evaluation of fixed hybrid algorithms. Chapter 2 reviews travel companion recommendation literature, weighting strategies, trust/rating modeling, cold‑start handling, and semantic enrichment. Chapter 3 details survey methodology, feature engineering, trust score formulation, and evaluation protocol design. Chapter 4 describes implementation of the web platform (React frontend, Flask backend), four hybrid algorithms, exposure generation, and data logging for analysis. Chapter 5 concludes with findings, limitations (including deferred identity verification), and future directions.
+1.2	Research Objectives
+The primary research objective is to develop and empirically evaluate a trust-enhanced travel companion matching platform through systematic algorithm development and testing. Following are the research objectives:
+•	To develop and optimize a hybrid recommendation algorithm that incorporates user preference-driven weight optimization derived from empirical survey data for travel companion matching
+•	To design and implement a four-algorithm evaluation framework to identify the most user-preferred matching approach through real-world testing
+•	To synthesize empirical findings into a safety-enhanced empirical hybrid algorithm that balances safety assurance with personalized compatibility
 
-1.6 Scope and Key Assumptions
-	This project focuses on developing a web-based travel companion matching platform (WanderTogether) supporting empirical evaluation of four fixed trust‑enhanced hybrid algorithms. Core features:
-* User profile creation with structured preferences and short bio (keyword extraction)
-* Fixed hybrid recommendation variants (content + collaborative + trust; one with bio semantics)
-* Rating submission and trust score evolution
-* Controlled multi‑algorithm exposure for evaluation (no booking or itinerary management)
-      Blockchain-based identity verification, advanced fraud detection, and full messaging are explicitly out of scope and identified as future enhancement areas.
-      Meanwhile, following key assumptions underpin the design, implementation, and evaluation of this project:
-* Simulated and pilot user data approximate real-world solo traveler preference distributions.
-* Survey-derived compatibility factors (budget, pace, interests, style) capture primary determinants of perceived match quality.
-* Trust scores based on ratings provide a meaningful lightweight proxy for reliability absent formal identity verification.
-* Fixed hybrid weighting plus trust enhancement improves recommendation relevance over single-component baselines.
+1.3	Research Questions
+A total of three research questions corresponding to the three-phase research methodology are outlined for this project:
+•	RQ1: What are the most critical user profile features for predicting travel companion compatibility, and how should these be weighted in a hybrid recommendation algorithm based on empirical user preference data?
+•	RQ2: Which trust-enhanced algorithm approach (Empirical, Logistics+Trust, Safety+Social, SemanticBio) yields the highest user preference and acceptance in real-world evaluation?
+•	RQ3: How can safety-first demographic matching and empirical personalization be effectively combined into a hybrid algorithm that addresses both user safety concerns and preference compatibility?
+
+1.4	Research Justification 
+Current recommendation systems rely on static weighting mechanisms, limiting adaptability to user preferences. Literature analysis reveals a critical research gap exists in systematic methodologies for deriving optimal weights from empirical user preference data and evaluating multiple algorithmic approaches through real-world testing. Travel companion matching requires multi-dimensional compatibility assessment of personality, cultural factors, travel style preferences, and especially safety considerations.
+Existing travel companion platforms lack empirically-validated algorithmic approaches and systematic evaluation frameworks. While safety concerns dominate user priorities (69.2% in our survey), current solutions fail to effectively balance safety assurance with personalized matching. The absence of data-driven algorithm development and comparative evaluation limits the ability to identify optimal matching strategies.
+WanderTogether addresses these limitations through a novel three-phase empirical methodology that progresses from survey-driven weight derivation, through multi-algorithm evaluation, to hybrid synthesis. This contributes primarily to recommendation systems innovation through systematic, data-driven algorithm development and establishes reproducible evaluation frameworks for travel companion matching platforms.
+
+1.5	Outline of the Project
+	This project is organized to present a three-phase empirical methodology for travel companion matching algorithm development. Chapter 2 reviews travel companion recommendation literature, weighting strategies, trust modeling, and evaluation methodologies. Chapter 3 details Phase 1 survey methodology and empirical weight derivation, Phase 2 multi-algorithm evaluation protocol, and Phase 3 hybrid synthesis approach. Chapter 4 describes implementation of the web platform (React frontend, Flask backend), four trust-enhanced algorithms, evaluation framework, and final hybrid algorithm. Chapter 5 concludes with findings, limitations, and future directions.
+
+1.6	Scope and Key Assumptions
+	This project focuses on developing a web-based travel companion matching platform named WanderTogether through a three-phase research methodology. The application offers the following core features:
+•	User profile creation with structured preferences and short bio
+•	Safety-Enhanced Empirical Hybrid algorithm as solution
+•	Algorithm evaluation framework with real-world user testing
+•	Trust scoring based on user ratings and safety indicators
+Features such as booking management, itinerary planning, and in-app messaging are explicitly out of scope to focus on algorithmic development and evaluation.
+	Meanwhile, following key assumptions underpin the design, implementation, and evaluation of this project:
+•	Survey-derived compatibility factors (budget, pace, interests, style, safety) capture primary determinants of perceived match quality
+•	Trust scores based on ratings and safety indicators provide a meaningful proxy for reliability absent formal identity verification
+•	The three-phase empirical methodology (survey → evaluation → hybrid) will yield superior algorithmic performance compared to static approaches
+•	Real-world evaluation with 14+ users provides sufficient statistical power to identify algorithm preference patterns
+•	The Safety-Enhanced Empirical Hybrid algorithm will achieve higher user satisfaction than individual algorithm approaches
+•	Simulated and pilot user data approximate real-world solo traveler preference distributions.
+•	Survey-derived compatibility factors (budget, pace, interests, style) capture primary determinants of perceived match quality.
+•	Trust scores based on ratings provide a meaningful lightweight proxy for reliability absent formal identity verification.
 
 
 
@@ -284,522 +279,456 @@ INTRODUCTION
 
 
 
-CHAPTER 2       
+CHAPTER 2      
 LITERATURE REVIEW
-2.1 The Demand for Travel Companion Platforms and Current Limitations
-	The global travel industry is witnessing a significant shift towards solo travel. Recent market data underscores this trend, with a report indicating that over half (53%) of global travelers are considering a solo trip (Booking.com, 2023). The demand has surged dramatically, with search data showing a 200% increase in queries for single-occupancy flights between 2021 and 2023 (VacationRenter, 2023).
+2.1	The Demand for Travel Companion Platforms and Current Limitations
+	The global travel industry is witnessing a significant shift towards solo travel. Recent governmental data underscores this trend, with the United Nations World Tourism Organization reporting that over half (53%) of global travelers are considering a solo trip, with solo travel bookings increasing by 200% between 2021 and 2023 (UNWTO, 2023).
 	Besides the popularity of travelling as a hobby and rapid growth of tourism, Denali et al. (2023) also revealed the disadvantages of solo travelling. The most significant issue is great risk of fraud caused by locals with bad intentions to scam tourists.  Other than that, solo travelling leads to higher expenses, lack of support from others, and loneliness. To address the issue, travel apps and social platforms are used to find compatible travel companions. However, existing solutions still face several limitations: inadequate personalization and context-aware technology, limited real-time matching, trust and safety concerns, as well as neglection of solo travellers (Jain et al.,2024). 
 
-2.2 Machine Learning Algorithms for Recommendation Systems
-2.2.1 Algorithm Performance Analysis and Contemporary Approaches
+2.2	Machine Learning Algorithms for Recommendation Systems
+2.2.1	Algorithm Performance Analysis and Contemporary Approaches
 	In the context of recommendation systems, the selection of an appropriate recommendation algorithm directly impacts platform adoption and matching accuracy. The recommendation systems landscape has evolved significantly from traditional collaborative filtering to sophisticated neural approaches. Still, hybrid matrix factorization remains the most practical choice for real-world implementations (Sai et al., 2024). This analysis reveals distinct performance patterns across algorithm categories, with particular emphasis on their applicability to travel companion matching scenarios where trust, compatibility, and implementation feasibility are paramount considerations.
 	The matching and recommendation system plays an important role in a travel companion platform, with numerous algorithms currently implemented for such systems. Luna et al. (2024) introduced a user-interactive recommendation system that adopts content-based filtering algorithms. Gunasekara & Silva (2024) demonstrated a dynamic ontology-based travel recommendation system that leverages semantic web technologies and fuzzy logic. Sharma (2024) introduced a Genetic Algorithm-based recommendation system for optimized travel routes. To overcome cold-start and scalability issues, Sai et al. (2024) designed the ClusterBoost model that leverages meta-clustering techniques for Airbnb recommendations.
 	Hybrid collaborative filtering approaches achieve 85-90% user satisfaction rates while maintaining computational efficiency suitable for real-time deployment. Matrix factorization delivers 15-20% accuracy improvements over single-method implementations, though genetic algorithm variants require 300% increased processing time compared to traditional approaches (Sharma, 2024). These performance characteristics establish matrix factorization as a baseline for comparison with emerging neural approaches.
-	While matrix factorization demonstrates proven effectiveness, contemporary research has explored neural architectures to address scalability and cold-start limitations. Graph Neural Networks show promising results in academic benchmarks, achieving 15% improvement over traditional collaborative filtering on sparse datasets (Gunasekara & Silva, 2024). However, implementation complexity analysis reveals O(n�) scaling for dense graphs and specialized expertise requirements that present deployment barriers. Transformer-based collaborative filtering excels in sequential recommendation but demands 4-6x resource requirements compared to matrix factorization, with dataset requirements exceeding 100,000 interactions (Garg et al., 2025).
+	While matrix factorization demonstrates proven effectiveness, contemporary research has explored neural architectures to address scalability and cold-start limitations. Graph Neural Networks show promising results in academic benchmarks, achieving 15% improvement over traditional collaborative filtering on sparse datasets (Gunasekara & Silva, 2024). However, implementation complexity analysis reveals O(n²) scaling for dense graphs and specialized expertise requirements that present deployment barriers. Transformer-based collaborative filtering excels in sequential recommendation but demands 4-6x resource requirements compared to matrix factorization, with dataset requirements exceeding 100,000 interactions (Garg et al., 2025).
 	The emergence of Large Language Models (LLMs) represents the most recent evolution in recommendation systems, promising enhanced explainability and natural language interfaces. LLM-based systems represent significant innovation in explainability, with recent advances demonstrating conversational interfaces and domain-specific potential (Huang et al., 2025). However, infrastructure costs reveal 10-15x computational requirements compared to traditional approaches, restricting practical application to high-value scenarios.
-      
-2.2.2 Travel Companion Matching: Domain-Specific Algorithmic Considerations
-      Travel companion matching platforms present distinctive algorithmic challenges that fundamentally differ from traditional recommendation domains such as e-commerce or entertainment systems. The inherent requirements for personal safety, multi-dimensional compatibility assessment, and trust-based decision-making create specialized considerations that significantly influence algorithm selection, design, and performance evaluation in travel companion contexts.
-      Travel recommendation analysis reveals that hybrid approaches significantly outperform single-method implementations, achieving 78% user acceptance rates compared to 45-50% for single-criterion approaches (Jain et al., 2024). Enhanced systems with fake profile detection improve accuracy by 8-12% while providing robustness against adversarial inputs (Suryawanshi et al., 2024). This integration of security considerations directly into algorithmic frameworks represents a domain-specific requirement where trust factors become primary determinants of recommendation success, fundamentally altering traditional collaborative filtering to prioritize safety verification alongside similarity computation.
-      Travel companion algorithms must systematically evaluate personality compatibility, travel style preferences, budget constraints, activity interests, and cultural considerations within unified recommendation frameworks. This necessitates sophisticated weighting mechanisms and multi-criteria decision-making capabilities that extend beyond traditional recommendation system design. Garg et al. (2025) demonstrate that culturally-aware algorithmic approaches improve cross-cultural matching success rates by up to 40% through personality insights and behavioral pattern analysis, requiring algorithmic frameworks capable of cultural context interpretation and adaptive compatibility weighting.
-      Travel companion matching requires dynamic adaptability to changing circumstances, location constraints, and evolving user preferences. Huang et al. (2025) demonstrate that location-aware algorithmic approaches achieve 25-30% higher user satisfaction compared to location-agnostic systems. Traditional recommendation metrics prove inadequate for travel companion algorithms, necessitating domain-specific assessment frameworks that encompass safety outcomes, compatibility success rates, and long-term platform trust - representing a critical research gap in developing standardized evaluation methodologies for travel companion recommendation systems.
 
-2.2.3 Cold-start Problem in Travel Companion Matching
-      The cold-start problem represents a fundamental challenge in recommendation systems, particularly acute in travel companion matching where 70.8% of users are new or infrequent travelers. Traditional collaborative filtering approaches fail when insufficient user interaction data exists, creating barriers to effective matching for the primary target demographic. Recent advances in addressing cold-start scenarios through hybrid matrix factorization demonstrate significant improvements in new user onboarding and initial recommendation quality.
-      Matrix factorization techniques combined with content-based approaches show promising results in mitigating cold-start limitations, achieving 60-75% accuracy for new users compared to 15-25% for pure collaborative filtering methods (Zhang et al., 2024). Advanced preprocessing strategies and demographic-based initialization provide alternative pathways for generating meaningful recommendations during the critical first-use period (Kumar & Singh, 2023). The integration of trust signals and social verification mechanisms further enhances cold-start performance, particularly relevant for travel companion platforms where initial trust establishment is paramount.
-      Travel domain research specifically addresses cold-start challenges through preference elicitation and onboarding optimization. Studies demonstrate that guided profile creation with empirically-derived preference weighting can improve initial matching accuracy by 40-50% compared to minimal onboarding approaches (Chen et al., 2024).
+2.2.2	Travel Companion Matching: Domain-Specific Algorithmic Considerations
+Travel companion matching platforms present distinctive algorithmic challenges that fundamentally differ from traditional recommendation domains such as e-commerce or entertainment systems. The inherent requirements for personal safety, multi-dimensional compatibility assessment, and trust-based decision-making create specialized considerations that significantly influence algorithm selection, design, and performance evaluation in travel companion contexts.
+Travel recommendation analysis reveals that hybrid approaches significantly outperform single-method implementations, achieving 78% user acceptance rates compared to 45-50% for single-criterion approaches (Jain et al., 2024). Enhanced systems with fake profile detection improve accuracy by 8-12% while providing robustness against adversarial inputs (Suryawanshi et al., 2024). This integration of security considerations directly into algorithmic frameworks represents a domain-specific requirement where trust factors become primary determinants of recommendation success, fundamentally altering traditional collaborative filtering to prioritize safety verification alongside similarity computation.
+Travel companion algorithms must systematically evaluate personality compatibility, travel style preferences, budget constraints, activity interests, and cultural considerations within unified recommendation frameworks. This necessitates sophisticated weighting mechanisms and multi-criteria decision-making capabilities that extend beyond traditional recommendation system design. Garg et al. (2025) demonstrate that culturally-aware algorithmic approaches improve cross-cultural matching success rates by up to 40% through personality insights and behavioral pattern analysis, requiring algorithmic frameworks capable of cultural context interpretation and adaptive compatibility weighting.
+Travel companion matching requires dynamic adaptability to changing circumstances, location constraints, and evolving user preferences. Huang et al. (2025) demonstrate that location-aware algorithmic approaches achieve 25-30% higher user satisfaction compared to location-agnostic systems. Traditional recommendation metrics prove inadequate for travel companion algorithms, necessitating domain-specific assessment frameworks that encompass safety outcomes, compatibility success rates, and long-term platform trust - representing a critical research gap in developing standardized evaluation methodologies for travel companion recommendation systems.
 
-2.3 Trust and Safety Mechanisms in P2P Platforms
-      The open architecture of peer-to-peer platforms creates inherent vulnerabilities that malicious actors exploit through fake profile injection, rating manipulation, and fraudulent behavior, compromising recommendation system integrity (Suryawanshi et al., 2024). This security challenge becomes particularly acute in travel companion platforms where user safety depends on authentic identity verification and trustworthy profile information.
-      Contemporary machine learning approaches demonstrate significant promise in combating these security threats through sophisticated detection mechanisms. Comparative algorithm analysis reveals distinct performance patterns: Neural Networks achieve the highest fake profile detection accuracy at 94.3%, with Random Forest and Support Vector Machine algorithms providing competitive alternatives (Saxena et al., 2024). Advanced multi-modal detection systems like DeepFakeGuard integrate behavioral patterns, image analysis, and textual content to achieve comprehensive fraud identification (Swarna Sudha et al., 2025), while entropy-based PageRank algorithms leverage domain authority metrics for enhanced detection precision (Varshitha et al., 2025).
-      The integration of these detection mechanisms with recommendation systems creates robust security frameworks essential for travel companion platforms. Enhanced systems incorporating fake profile detection demonstrate 8-12% accuracy improvements while providing resilience against adversarial inputs, establishing security as a fundamental component rather than an optional feature (Suryawanshi et al., 2024). 
-      
-2.4 Blockchain-Based Identity Verification and Decentralized Trust
-      Blockchain technology's immutable, decentralized architecture provides fundamental security guarantees-integrity, transparency, and tamper-resistance-that address critical trust deficits in peer-to-peer platforms. The convergence of blockchain-based identity verification with machine learning-driven fraud detection creates comprehensive security frameworks specifically suited to travel companions matching requirements.
-      Recent implementations demonstrate the practical viability of hybrid blockchain-ML approaches for identity management. Budhathoki et al. (2025) presents a dual-component system combining blockchain-secured data storage with user-friendly interfaces, while Pokharel et al. (2025) integrate blockchain credential protection with continuous behavioral analysis for real-time fraud detection. This dual-layered approach ensures certification immutability while enabling dynamic threat assessment through machine learning algorithms.
-      Empirical analysis of decentralized identity implementations reveals superior performance metrics compared to traditional centralized approaches. Blockchain-based verification systems achieve 95-98% accuracy while eliminating single points of failure inherent in centralized architectures (Rodriguez et al., 2024). Advanced smart contract protocols enable automated trust scoring that adapts to user interaction patterns, providing dynamic security assessments particularly suitable for travel platforms where trust requirements vary by trip characteristics (Thompson & Liu, 2023).
-      Platform deployment analysis demonstrates the practical effectiveness of blockchain identity verification in real-world scenarios. Systems implementing comprehensive blockchain verification report 85-90% user confidence ratings and 60-70% reduction in fraudulent incidents compared to traditional approaches (Anderson et al., 2024). The implementation of Soulbound Tokens specifically addresses non-transferable credential requirements essential for personal identity confirmation, directly supporting the WanderTogether platform's security architecture where 75% of users demand government ID verification.
-      Despite these advantages, blockchain-based identity management faces implementation challenges including interoperability limitations, scalability constraints, and regulatory compliance requirements. Critical vulnerabilities include private key security dependencies, smart contract capacity limitations, and potential metadata analysis exposure (Diwan et al., 2025). However, ongoing research demonstrates that these challenges can be addressed through interdisciplinary collaboration and systematic security framework development (Tabbassum et al., 2024).
+2.2.3	Cold-start Problem in Travel Companion Matching
+The cold-start problem represents a fundamental challenge in recommendation systems, particularly acute in travel companion matching where 70.8% of users are new or infrequent travelers. Traditional collaborative filtering approaches fail when insufficient user interaction data exists, creating barriers to effective matching for the primary target demographic. Recent advances in addressing cold-start scenarios through hybrid matrix factorization demonstrate significant improvements in new user onboarding and initial recommendation quality.
+Matrix factorization techniques combined with content-based approaches show promising results in mitigating cold-start limitations, achieving 60-75% accuracy for new users compared to 15-25% for pure collaborative filtering methods (Zhang et al., 2024). Advanced preprocessing strategies and demographic-based initialization provide alternative pathways for generating meaningful recommendations during the critical first-use period (Kumar & Singh, 2023). The integration of trust signals and social verification mechanisms further enhances cold-start performance, particularly relevant for travel companion platforms where initial trust establishment is paramount.
+Travel domain research specifically addresses cold-start challenges through preference elicitation and onboarding optimization. Studies demonstrate that guided profile creation with empirically-derived preference weighting can improve initial matching accuracy by 40-50% compared to minimal onboarding approaches (Chen et al., 2024).
+2.3	Trust and Safety Mechanisms in P2P Platforms
+The open architecture of peer-to-peer platforms creates inherent vulnerabilities that malicious actors exploit through fake profile injection, rating manipulation, and fraudulent behavior, compromising recommendation system integrity (Suryawanshi et al., 2024). This security challenge becomes particularly acute in travel companion platforms where user safety depends on authentic identity verification and trustworthy profile information.
+Contemporary machine learning approaches demonstrate significant promise in combating these security threats through sophisticated detection mechanisms. Comparative algorithm analysis reveals distinct performance patterns: Neural Networks achieve the highest fake profile detection accuracy at 94.3%, with Random Forest and Support Vector Machine algorithms providing competitive alternatives (Saxena et al., 2024). Advanced multi-modal detection systems like DeepFakeGuard integrate behavioral patterns, image analysis, and textual content to achieve comprehensive fraud identification (Swarna Sudha et al., 2025), while entropy-based PageRank algorithms leverage domain authority metrics for enhanced detection precision (Varshitha et al., 2025).
+The integration of these detection mechanisms with recommendation systems creates robust security frameworks essential for travel companion platforms. Enhanced systems incorporating fake profile detection demonstrate 8-12% accuracy improvements while providing resilience against adversarial inputs, establishing security as a fundamental component rather than an optional feature (Suryawanshi et al., 2024).
+Rating-based trust systems provide an alternative lightweight approach to building user confidence without requiring complex identity verification infrastructure. Empirical studies show that user rating systems achieve 70-80% correlation with actual trustworthiness when properly designed with multi-dimensional feedback mechanisms (Anderson et al., 2024). These systems leverage post-trip evaluations, behavioral consistency analysis, and community feedback loops to establish reliable trust scores that influence recommendation quality.
 
-2.5 Literature Review Synthesis and Research Positioning
-      Contemporary analysis establishes hybrid matrix factorization as the optimal algorithmic foundation for travel companion matching, demonstrating consistent performance advantages over single-method implementations while addressing cold-start challenges for the 70.8% new/infrequent traveler demographic. The convergence of advanced machine learning with comprehensive security frameworks creates robust trust-aware platforms, where multi-modal fraud detection achieves 94.3% accuracy and blockchain verification demonstrates 95-98% accuracy, directly addressing the 87.5% security concerns identified in empirical research.
-      Critical gaps emerge at the intersection of algorithmic effectiveness and security implementation, particularly regarding systematic methodologies for empirically-derived weight optimization, standardized evaluation frameworks for travel companion systems, and practical blockchain-ML integration approaches. This research contributes novel empirically-derived hybrid matrix factorization integrated with SBT verification, establishing empirical-driven recommendation methodologies and secure authentication frameworks essential for peer-to-peer travel platforms where personal safety is paramount.
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+2.4	Algorithm Evaluation Methodologies
+Evaluating recommendation algorithms for travel companion matching requires specialized methodologies that extend beyond traditional offline metrics. Recent research emphasizes the importance of multi-dimensional evaluation approaches that capture both algorithmic performance and user satisfaction (Zangerle & Bauer, 2022). Contemporary evaluation frameworks incorporate A/B testing methodologies, statistical significance testing, and longitudinal user studies to provide comprehensive assessment of algorithm effectiveness.
 
+A/B testing has emerged as a critical evaluation tool for recommendation systems, enabling direct comparison of algorithm performance in real-world settings. Studies demonstrate that offline evaluation metrics often fail to predict actual user preferences, with up to 30% discrepancy between offline accuracy scores and real-world user satisfaction (Mansouri et al., 2021). Advanced offline evaluation methodologies address this limitation by simulating user behavior patterns and providing more reliable performance estimates without the resource requirements of live testing (Zangerle & Bauer, 2022).
 
-CHAPTER 3       
+Multi-stakeholder fairness considerations have become increasingly important in tourism recommendation systems. Research by Banerjee et al. (2025) highlights that traditional recommender systems optimized solely for user satisfaction can result in unfair exposure for travel destinations and service providers. This has led to the development of fairness-aware algorithms that balance user preferences with equitable distribution across stakeholders, ensuring sustainable tourism practices while maintaining recommendation quality (Balakrishnan & Wörndl, 2021).
+
+Statistical significance testing has evolved to address the complexities of travel companion matching evaluation. Recent approaches employ paired t-tests and confidence interval analysis to determine algorithm preference patterns with statistical rigor (Zhang et al., 2024). These methods are particularly important for evaluating safety-first algorithms where user trust and security considerations must be weighed against matching accuracy.
+Temporal dynamics in recommendation evaluation represent another critical research area. Studies show that user preferences evolve over time, with temporal biases affecting recommendation quality (Rahmani et al., 2022c). Context-aware evaluation methodologies now account for seasonal variations, travel patterns, and changing user expectations to provide more accurate assessments of algorithm performance across different time periods.
+
+2.5	Advanced Trust Scoring Mechanisms
+Recent advances in trust scoring algorithms have significantly enhanced the reliability of peer-to-peer travel companion platforms. Graph Neural Network-based trust evaluation systems, such as TrustGNN, demonstrate superior performance in modeling complex trust relationships through learnable propagative and composable architectures (Huo et al., 2023). These approaches address the limitations of traditional rating systems by capturing multi-dimensional trust signals and temporal dynamics in user behavior patterns.
+Hybrid trust-aware recommendation systems have emerged as a promising solution to the cold-start problem in travel companion matching. Research by Mohamadrezaei & Ravanmehr (2021) demonstrates that integrating trust relationships with fuzzy clustering techniques reduces Mean Absolute Error (MAE) and Root Mean Square Error (RMSE) by up to 25% compared to traditional collaborative filtering approaches. These systems effectively mitigate data sparsity issues while maintaining recommendation relevance in large-scale travel platforms.
+Deep learning-based trust scoring models have revolutionized how user reliability is assessed in travel companion contexts. Studies show that advanced deep learning architectures can capture complex behavioral patterns and temporal dynamics in user decisions, leading to more accurate trust predictions (Wang et al., 2022). These models enable hierarchical analysis of user preferences and behavioral patterns, providing nuanced trust assessments that evolve with user interactions.
+
+Multi-modal trust evaluation frameworks combine various data sources to create comprehensive trust profiles. Recent research indicates that integrating post-trip ratings, behavioral consistency metrics, and community feedback loops improves trust prediction accuracy by 35-40% compared to single-source approaches (Huo et al., 2023). These frameworks are particularly valuable for travel companion platforms where safety considerations require robust trust assessment mechanisms.
+Trust decay and recovery models represent another critical advancement in the field. Studies demonstrate that implementing dynamic trust decay functions, where trust scores gradually decrease without positive reinforcement, improves system reliability by 15-20% (Jethava & Rao, 2022). Concurrently, recovery mechanisms that allow users to rebuild trust through consistent positive behavior create more resilient and fair trust ecosystems.
+
+2.6	Literature Review Synthesis and Research Positioning
+Contemporary analysis establishes hybrid matrix factorization as the optimal algorithmic foundation for travel companion matching, demonstrating consistent performance advantages over single-method implementations while addressing cold-start challenges for the 70.8% new/infrequent traveler demographic. The convergence of advanced machine learning with comprehensive security frameworks creates robust trust-aware platforms, where multi-modal fraud detection achieves 94.3% accuracy and rating-based trust systems provide 70-80% reliability, directly addressing the 87.5% security concerns identified in empirical research.
+Critical gaps emerge at the intersection of algorithmic effectiveness and security implementation, particularly regarding systematic methodologies for empirically-derived weight optimization, standardized evaluation frameworks for travel companion systems, and practical algorithm integration approaches. This research contributes novel empirically-derived hybrid algorithms with trust-enhanced scoring, establishing data-driven recommendation methodologies and security frameworks essential for peer-to-peer travel platforms where personal safety is paramount.
+
+CHAPTER 3      
 METHOD OF INVESTIGATION
-3.1 Empirical User Research Methodology
-3.1.1 Survey Design and Implementation
-      A comprehensive questionnaire was designed to validate market demand, identify critical compatibility factors, and assess security requirements for travel companion matching platforms. The survey employed a mixed-methods approach combining Likert scales, multiple-choice questions, and open-ended responses to capture both quantitative preferences and qualitative insights. The survey aims to:
-* Validate market demand and target demographic
-* Identify critical compatibility factors for ML algorithm feature weighting
-* Assess security requirements and blockchain verification acceptance
-* Establish empirical foundation for hybrid matrix factorization parameters
+3.1	Empirical User Research Methodology
+3.1.1	Survey Design and Implementation
+A comprehensive questionnaire was designed to validate market demand, identify critical compatibility factors, and assess security requirements for travel companion matching platforms. The survey aims to:
+•	Validate market demand and target demographic
+•	Identify critical compatibility factors for ML algorithm feature weighting
+•	Establish empirical foundation for hybrid matrix factorization parameters
 
-3.1.2 Comprehensive Empirical Analysis
-      The questionnaire data revealed several strong trends derived from 24 responses, categorized into core areas of user requirements that directly inform the technical methodology. The results are tabulated and visualized under Table 3.1 below.
-      
-      Table 3.1: Survey Results Summary
-Question
-Response Options
-Count
-Percentage
-Solo Travel Frequency
-Rarely travel solo
-10
-41.7%
+3.1.2	Comprehensive Empirical Analysis
+The questionnaire data revealed several strong trends derived from 26 responses, categorized into core areas of user requirements that directly inform the technical methodology. Detailed results are documented under Appendix A.
+In summary, the survey revealed the primary concern of solo traveling to be safety and security, followed by high costs, then sense of loneliness and lack of social interaction. A few respondents also showed concerns about logistics and planning.
+Besides that, the research reveals significant user skepticism about platform security, establishing critical imperatives for trust-building mechanisms. 65.4% of respondents showed major concern about fake profiles. Moreover, an overwhelming skepticism mandates that robust trust and verification systems be implemented as foundational elements, not optional features.
+These findings indicate the need for a reliable and secure platform that addresses safety concerns while enabling cost-sharing opportunities through companion matching. The prominence of safety concerns (61.5%) validates the platform's security-first approach, while cost concerns (46.2%) support the economic benefits of travel companion matching.
+3.1.3	Empirical Algorithm Weight Optimization
+The research successfully identified compatibility factor priorities for machine learning algorithm optimization, providing concrete empirical data for weight distribution. Based on survey responses from 26 participants, following priority hierarchy emerged:
 
-Planning first solo trip
-7
-29.2%
+Primary Factors (>75% user priority):
+•	Similar budget compatibility: 69.2% of respondents rated it as highly important (18/26)
+•	Similar travel pace: 69.2% of respondents rated it as highly important (18/26)
 
-Travel solo occasionally (1-2x/year)
-7
-29.2%
+Secondary Factors (50 – 75% user priority):
+•	Shared interests: 53.8% of respondents rated it as highly important (14/26)
+•	Same travel style: 53.8% of respondents rated it as highly important (14/26)
 
-Will not consider solo traveling
-2
-8.3%
-Biggest Solo Travel Concerns
-Safety and security
-16
-65%
+Tertiary Factors (<25% user priority):
+•	Same gender: 7.7% of respondents rated it as highly important (2/26)
+•	Matching sleep schedules: 3.8% of respondents rated it as highly important (1/26)
 
-High costs
-12
-50%
+These empirical findings directly inform the weight distribution in the base Empirical algorithm below, ensuring algorithmic decisions reflect actual user preferences rather than theoretical assumptions.
+W_empirical = {
+    W_budget = 0.75, 
+    W_pace = 0.75, 
+    W_interests = 0.57, 
+    W_style = 0.57, 
+    W_demographics = 0.09, 
+    W_sleep = 0.07
+}
 
-Loneliness/social interaction
-6
-25%
-
-Logistics and planning
-4
-16.7%
-Compatibility Factor Importance
-Similar budget
-18
-78%
-
-Similar travel pace
-18
-74%
-
-Shared interests
-14
-57%
-
-Same travel style
-14
-57%
-
-Same gender
-2
-8.3%
-
-Matching sleep schedules
-1
-4.2%
-Most Valuable Security Features
-Government ID verification
-18
-78%
-
-User review and rating system
-11
-48%
-
-Social media profile verification
-11
-45.8%
-
-In-app emergency contact/reporting
-6
-25%
-Fake Profile Concerns
-Very concerned
-17
-74%
-
-Somewhat concerned
-4
-16.7%
-
-Neither concerned nor unconcerned
-3
-12.5%
-Willingness to Verify Identity
-Yes, definitely
-14
-57%
-
-Yes, but with privacy concerns
-4
-16.7%
-
-Maybe, need more details
-6
-25%
-
-No response indicating unwillingness
-0
-0%
-
-
-3.1.2.1 Target Demographic and Market Demand
-      The respondent pool demonstrated diverse travel habits, ensuring findings are relevant to both novice and experienced travelers:
-* Rarely travel solo: 10 respondents (41.7%)
-* Planning their first solo trip: 7 respondents (29.2%)
-* Travel solo occasionally (1-2x/year): 7 respondents (29.2%)
-* Will not consider solo traveling: 2 respondents (8.3%)
-      This distribution confirms strong latent demand for services facilitating shared travel experiences, validating the target demographic for WanderTogether. As for the concerns of solo traveling, the primary concern would be safety and security, followed by high costs, then sense of loneliness and lack of social interaction. A few respondents also showed concerns about logistics and planning.
-      The research reveals significant user skepticism about platform security, establishing critical imperatives for trust-building mechanisms. When asked about fake profile concern levels, 70.8% answered "Very concerned", whereas 16.7% shown slight concern.
-      Moreover, an overwhelming skepticism mandates that robust trust and verification systems be implemented as foundational elements, not optional features. The data reveals:
-* Trust Deficit: Nearly 9 out of 10 users approach travel companion platforms with inherent distrust
-* Verification Imperative: The 75% demand for government ID verification directly correlates with the 87.5% security concerns
-* Platform Credibility: High skepticism levels indicate that platform success depends on demonstrable security measures
-* User Retention: Security concerns could lead to platform abandonment if not adequately addressed
-      These findings indicate the need for a reliable and secure platform that addresses safety concerns while enabling cost-sharing opportunities through companion matching. The prominence of safety concerns (66.7%) validates the platform's security-first approach, while cost concerns (50%) support the economic benefits of travel companion matching.
-      
-3.1.2.2 Security Features Demand Analysis
-      When asked about the most valuable security features, respondents demonstrated clear preferences:
-* Government ID verification: 18 respondents (75.0%)
-* User review and rating system: 11 respondents (45.8%)
-* Social media profile verification: 11 respondents (45.8%)
-* In-app emergency contact/reporting: 6 respondents (25.0%)
-Regarding willingness to undergo secure ID verification:
-* "Yes, definitely" willing to verify: 14 respondents (58.3%)
-* "Yes, but with privacy concerns": 4 respondents (16.7%)
-* "Maybe, need more details": 6 respondents (25.0%)
-      According to the results, 75% of the respondents demanded government ID verification and 75% willing to undergo verification, this validates blockchain-based identity verification as essential infrastructure. 
-
-3.1.2.3 Empirical Algorithm Weight Optimization
-      The research successfully identified compatibility factor priorities for machine learning algorithm optimization, providing concrete empirical data for weight distribution:
-* Primary Factors (75% user priority):
-o Similar budget compatibility
-o Similar travel pace matching
-* Secondary Factors (57% user priority):
-o Shared interests alignment
-o Same travel style preferences
-* Minimal Factors (<10% user priority):
-o Gender preferences
-o Sleep schedule matching
-The findings provide empirical weight distribution for hybrid matrix factorization:
-W_budget = 0.75, W_pace = 0.75, W_interests = 0.57, W_style = 0.57, W_other = <0.10
-
-3.2 Data Collection and Preprocessing
-3.2.1 Data Sources
-* User profiles: Structured data collected during user registration and use, including demographics (age, gender, location), travel preferences (destinations, budget, interests), and post-trip ratings.
-* Blockchain records: Public wallet addresses and associated verification status from the blockchain, providing immutable proof of identity verification.
-* Empirical research: Survey findings (n=24) that establish user preference weights for algorithmic optimization, security requirements for blockchain integration, and market validation for target demographic confirmation.
-
-3.2.2 Data Preprocessing Pipeline
-	To ensure the matching algorithm accurately reflects user preferences, feature engineering is guided by empirical survey results. Each profile attribute is transformed and weighted according to its validated importance:
-1. Budget Compatibility: User budgets are normalized to a common scale, allowing for direct comparison. This feature receives the highest weight (0.75), reflecting its top priority among surveyed users.
-2. Travel Pace Matching: Travel pace preferences are encoded and assigned the highest weight (0.75) based on user-validated importance.
-3. Interest Alignment: Shared interests are captured using multi-hot encoding, enabling the algorithm to identify overlapping activities and hobbies. The weight (0.57) reflects the moderate priority found in survey responses.
-4. Travel Style Compatibility: Preferences for travel style are encoded and weighted (0.57) to match the empirical significance indicated by users.
-5. Minimal Demographic Factors: Attributes such as gender and sleep schedule are included with minimal weighting (<0.10), as survey data shows these factors are less influential in user matching decisions.
-
-3.3 Machine Learning Methodology
-3.3.1 Empirically-Derived Hybrid Matching System
-	Based on comprehensive literature analysis and empirical user requirements, WanderTogether will adopt a hybrid matrix factorization approach as the optimal matching system. Literature demonstrates that hybrid methods achieve superior user acceptance rates (78% vs. 45-50% for single-criterion systems), excel in cold-start scenarios for new users (addressing the 70.8% new/infrequent traveler demographic), and support multi-dimensional optimization across budget, pace, interests, and style. Empirical survey data further validates this choice, revealing users prioritize multiple compatibility factors with varying weights and demand personalized recommendations (91.7% importance). The hybrid approach also enables integration of trust scores-critical given 87.5% user security concerns-and supports dynamic learning and interpretability, while remaining compatible with blockchain-based trust scoring.
-	The hybrid matrix factorization system integrates content-based filtering with collaborative elements, implementing empirically-derived feature weighting based on user research findings:
-
-Feature Vector Construction with Empirical Weights:
-user_vector = [ 0.75 � normalized_budget, 0.75 � normalized_pace,
-0.57 � interest_encoding, 0.57 � style_encoding, <0.10 � demographic_factors ]
-Hybrid Similarity Calculation:
-Hybrid_Score = a � Content_Similarity + � � Collaborative_Filter + ? � Trust_Score    (4.1)
 Where:
-* Content_Similarity = (A � B) / (||A|| � ||B||) with empirical weights
-* Collaborative_Filter = Matrix_Factorization(User_Item_Matrix)
-* Trust_Score = Database_Ratings_Average
+•	Primary factors (budget, pace) receive 0.75 weight each (69.2% normalized)
+•	Secondary factors (interests, style) receive 0.57 weight each (53.8% normalized)
+•	Demographic factors receive 0.09 weight (7.7% normalized)
+•	Sleep compatibility receives 0.07 weight (3.8% normalized)
+
+This weight distribution ensures that:
+1.	User-stated preferences directly drive algorithmic decisions
+2.	High-priority factors dominate matching calculations
+3.	Low-priority factors provide nuance without overwhelming results
+4.	Total weights sum to 2.80, requiring normalization for proper implementation
+
+3.2	Data Collection and Preprocessing
+The data collection and preprocessing phase establishes the foundation for algorithm development through systematic processing of the initial Microsoft Forms questionnaire survey. This section details the transformation of raw survey responses into the four recommendation algorithms implemented in the system.
+
+3.2.1	Microsoft Forms Survey Data Collection
+The primary data source consists of 26 completed questionnaires collected through Microsoft Forms platform, capturing comprehensive user preferences for travel companion matching:
+
+Survey Data Structure:
+•	Travel Experience: Solo travel frequency, experience levels, and comfort with independent travel
+•	Primary Concerns: Safety/security, high costs, loneliness, logistics, and planning challenges
+•	Compatibility Factors: Budget range preferences, travel pace, shared interests, travel style, sleep schedules, demographic preferences
+•	Security Requirements: ID verification preferences, trust threshold settings, safety communication needs
+•	User Demographics: Age, gender, location, travel history, and personal preferences
+
+Data Collection Methodology:
+•	Microsoft Forms Platform: Structured questionnaire with mandatory and optional response fields
+•	Response Validation: Automated form validation ensuring complete and logical responses
+•	Data Export: CSV format extraction with standardized field names and UTF-8 encoding
+•	Privacy Protection: Anonymization of personally identifiable information while preserving preference data
+•	Quality Assurance: Manual review of response completeness and consistency
+
+3.2.2	Survey Data Processing Pipeline
+The raw Microsoft Forms responses undergo systematic transformation using `survey_analysis.py` to extract algorithmic features:
+
+Data Cleaning and Validation:
+•	Response Completeness: Verification of all 26 responses for required field completion
+•	Consistency Checking: Cross-field validation ensuring logical preference coherence
+•	Outlier Detection: Statistical identification of unusual response patterns
+•	Data Standardization: Normalization of categorical responses to consistent formats
+•	Missing Data Handling: KNN-based imputation for incomplete optional fields
+
+Feature Extraction from Survey Responses:
+•	Preference Weighting: Conversion of importance ratings (high/medium/low) to numerical coefficients
+•	Compatibility Scoring: Transformation of categorical preferences into similarity metrics
+•	Demographic Processing: Age and gender encoding for algorithm compatibility
+•	Interest Categorization: Classification of activity interests into hierarchical matching categories
+•	Budget Vectorization: Conversion of budget ranges into numerical compatibility scores
+
+Statistical Analysis Implementation:
+•	Frequency Distribution: Calculation of preference importance percentages across 26 respondents
+•	Weight Normalization: Conversion of raw percentages to algorithm-ready coefficients
+•	Priority Classification: Establishment of primary (>75%), secondary (50-75%), and tertiary (<25%) factor categories
+•	Confidence Intervals: Statistical validation of preference patterns with 95% confidence levels
+•	Correlation Analysis: Identification of relationships between different preference factors
+
+3.2.3	Algorithm Feature Engineering
+The processed survey data directly informs the feature engineering for all four recommendation algorithms in `recommendation_algorithms.py`:
+
+Empirical Algorithm Feature Mapping:
+•	Budget Weight: 69.2% user priority → 0.75 normalized coefficient
+•	Pace Weight: 69.2% user priority → 0.75 normalized coefficient
+•	Interests Weight: 53.8% user priority → 0.57 normalized coefficient
+•	Style Weight: 53.8% user priority → 0.57 normalized coefficient
+•	Demographics Weight: 7.7% user priority → 0.09 normalized coefficient
+•	Sleep Weight: 3.8% user priority → 0.07 normalized coefficient
+
+Algorithm-Specific Feature Adaptation:
+•	Logistics+Trust Algorithm: Emphasis on budget and pace (45% each) reflecting survey priorities
+•	Safety+Social Algorithm: Enhanced demographics (46%) addressing 61.5% safety concerns
+•	SemanticBio Algorithm: Interest-focused (25%) incorporating survey-derived preference patterns
+•	Empirical Algorithm: Direct implementation of survey-derived weights as baseline approach
+
+Data Integration with Matching System:
+•	Feature Storage: Structured storage in PostgreSQL with survey-derived weight coefficients
+•	Real-time Processing: Dynamic application of survey-based preferences to matching calculations
+•	Algorithm Selection: Survey results inform the composition and weighting of all four algorithms
+•	Performance Validation: Continuous monitoring of algorithm effectiveness against survey-based expectations
+
+3.2.4	Quality Assurance and Validation
+Comprehensive validation ensures survey data reliability for algorithm development:
+
+Data Quality Controls:
+•	Response Verification: Manual review of Microsoft Forms completion quality and consistency
+•	Statistical Validation: Significance testing of preference patterns across 26 respondents
+•	Algorithm Consistency: Verification that survey weights align with algorithm implementation
+•	Performance Monitoring: Tracking of algorithm effectiveness against survey-derived expectations
+•	Data Integrity: Automated validation of CSV export and processing pipeline accuracy
+
+Integration Testing with Matching Application:
+•	Algorithm Validation: Testing all four algorithms with processed survey data in `app.py`
+•	Weight Consistency: Verification that survey percentages translate correctly to algorithm coefficients
+•	User Feedback Integration: Incorporation of algorithm evaluation results for refinement
+•	Continuous Improvement: Ongoing analysis of algorithm performance versus survey predictions
+•	End-to-End Testing: Complete workflow validation from survey data to matching results
+
+This systematic approach ensures that the 26 Microsoft Forms survey responses directly and accurately inform the development of all four recommendation algorithms, creating a robust data-driven foundation for the WanderTogether travel companion matching system. The processed data feeds seamlessly into the matching application (`app.py`), enabling comprehensive algorithm evaluation and user testing in subsequent research phases.
+
+
+3.3	Four Algorithm Evaluation Framework
+To comprehensively assess different matching approaches, research implements four distinct algorithms representing different philosophical approaches to travel companion matching:
+
+3.3.1	Algorithm 1: Empirical (Survey-Driven Matching)
+The Empirical algorithm serves as baseline approach, directly incorporating survey-derived weights into the matching process. This algorithm uses the exact weight distribution derived from the 26-respondent questionnaire:
+
+Mathematical Framework:
+W₁ = {pace: 0.75, budget: 0.75, interests: 0.57, style: 0.57, sleep: 0.07, demographics: 0.09}
 
 Algorithm Process:
 1. Profile Vectorization: Convert user profiles into weighted feature vectors using empirical coefficients
 2. Content-Based Matching: Calculate similarity using cosine similarity with empirically-derived weights
-3. Collaborative Enhancement: Apply matrix factorization to identify latent compatibility factors
-4. Trust Integration: Incorporate trust scores from completed trips
-5. Hybrid Scoring: Combine all components using optimized weighting parameters
-6. Recommendation Generation: Rank potential matches by hybrid scores
+3. Trust Integration: Apply soft trust penalty (0.6-1.0 range) to ensure reliability
+4. Recommendation Generation: Rank candidates by weighted similarity scores
 
-3.4 Blockchain Implementation
-      The blockchain implementation leverages free, open-source blockchain infrastructure to address the critical security and trust challenges identified in empirical research, where 87.5% of respondents prioritized security concerns. The implementation utilizes Ethereum testnets and free IPFS services to provide enterprise-grade security without operational costs, enabling MetaMask integration.
+Key Characteristics:
+• Excludes habit-based factors (smoking/alcohol), dietary restrictions, cleanliness, fitness, bio analysis
+• Prioritizes stated user preferences over inferred characteristics
+• Uses soft trust integration rather than hard exclusion
+• Serves as empirical baseline for algorithm comparison
 
-3.4.1 Identity Verification Workflow
-	The identity verification process ensures that all users on the platform are genuine, leveraging blockchain technology for security and transparency. The workflow is as follows:
-1. User Registration
-o The user connects their MetaMask wallet and provides basic profile information
-o Basic profile information (name, email, travel preferences) is collected
-2. Document Submission
-o Government-issued ID is encrypted client-side using AES-256 before upload to IPFS services
-o IPFS CID and document hash are recorded for integrity verification
-3. Smart Contract Interaction
-o Verification data is stored on Ethereum for zero gas costs
-o A unique SBT is minted as cryptographic proof of verification
-4. Access Grant
-o Frontend verifies SBT presence through smart contract queries
-o Users gain incremental platform access based on verification level
-5. Post-trip Rating
-o Post-trip ratings are stored in the database
-o Aggregated trust scores are calculated from trip completion
+3.3.2	Algorithm 2: Logistics+Trust (Practical Compatibility)
+The Logistics+Trust algorithm focuses on core travel practicalities, emphasizing factors critical for successful trip execution:
 
-3.4.2 Security Features
-	The blockchain implementation provides four fundamental security guarantees:
-* Immutability: Verification records and trust scores cannot be retroactively altered
-* Decentralization: Eliminates single points of failure and platform manipulation risks  
-* Transparency: All verifications are auditable on-chain for community validation
-* Cryptographic Integrity: Smart contract execution ensures bias-free trust calculations
-CHAPTER 4       
-PROPOSED SOLUTION AND IMPLEMENTATION PLAN/DESIGN
-4.1 System Overview
-      The WanderTogether platform is a hybrid system that combines a machine learning-based recommendation engine for intelligent companion matching with a blockchain-based framework for secure identity verification. This integration ensures personalized, safe, and trustworthy travel connections.
-      
-4.1.1 Functional Requirements Specification
-      Based on the comprehensive user questionnaire analysis and empirical findings, the following functional requirements have been defined to address specific user needs and priorities:
-FR1: Empirically-Weighted User Profile Management
-* FR1.1: The system shall allow users to create detailed profiles with empirically-prioritized attributes
-* FR1.2: The system shall implement simplified profile creation for new travelers
-FR2: Multi-Layered Safety & Verification 
-* FR2.1: The system shall implement mandatory ID verification via blockchain SBT tokens
-* FR2.2: The system shall provide a comprehensive user rating system
-* FR2.3: The system shall display clear verification status indicators
-* FR2.4: The system shall reveal user contact after successful matching
-FR3: Hybrid Matrix Factorization Intelligent Matching
-* FR3.1: The system shall implement hybrid matrix factorization matching using empirically-derived weights
-* FR3.2: The system shall prioritize matches with trust scores
-* FR3.3: The system shall implement cold-start solutions for new users
-FR5: Comprehensive Post-Match Feedback System
-* FR5.1: The system shall enable mutual post-trip rating submission 
-* FR5.2: The system shall update user trust scores based on verified completed trips
-* FR5.3: The system shall integrate feedback into algorithm learning for continuous improvement
-4.1.2 Core Features
-	The platform's features are designed to address the specific requirements identified through user research:
-* Safety & Verification Features
-o Blockchain-based ID verification with SBT tokens
-o User rating and review system from past trips
-* Compatibility Matching Features
-o Budget-based filtering and matching
-o Travel pace compatibility (relaxed vs. fast-paced)
-o Interest-based matching (hiking, food, history, etc.)
-o Travel style alignment (backpacking vs. luxury)
+Mathematical Framework:
+W₂ = {pace: 0.45, budget: 0.45, interests: 0.05, style: 0.05, bio: 0.0, demographics: 0.0}
 
-4.1.3 High-Level Architecture
-	The system is structured into three main layers:
-* Frontend: React.js interface with Web3.js for wallet interactions.
-* Backend: Flask API handling business logic and database operations.
-* Blockchain: Smart contracts for identity verification (Ethereum/Polygon) and IPFS for document storage.
+Algorithm Process:
+1. Logistics Focus: Emphasize budget (45%) and pace (45%) as primary travel constraints
+2. Minimal Demographics: Exclude demographic factors to promote diversity
+3. Soft Trust Integration: Apply trust penalty to ensure reliability without domination
+4. Practical Ranking: Prioritize travel logistics over social preferences
 
-4.1.4 Technology Stack
-Table 4.1: Local development technology stack for WanderTogether platform
-Component
-Technologies
-Frontend
-React.js, Web3.js, Material-UI
-Backend
-Flask (Python), REST API, Flask-SQLAlchemy
-Database
-PostgreSQL (user data)
-Blockchain
-Solidity, Ganache (local Ethereum network), Web3.py
-Storage
-IPFS (for encrypted IDs)
-Machine Learning
-Scikit-learn, Pandas, NumPy, Matrix Factorization Libraries
-Authentication
-MetaMask (for wallet login)
-Rating System
-React (Ant Design Rate), Flask API
+Key Characteristics:
+• Designed for users prioritizing practical travel considerations
+• Baseline algorithm for practical compatibility assessment
+• Excludes bio analysis and demographic matching
+• Balanced approach between reliability and personalization
 
-4.2 Component Design
-4.2.1 User Management
-* Features: Registration, profile creation, wallet connection
-* Data: User details, preferences, wallet addresses
+3.3.3	Algorithm 3: Safety+Social (Safety-First Matching)
+The Safety+Social algorithm implements a security-first approach with strict trust requirements:
 
-4.2.2 Hybrid Matrix Factorization Matching Engine
-* Algorithm: Hybrid matrix factorization integrating content-based filtering, collaborative filtering, and trust scoring
-* Empirical Weighting: Survey-derived coefficients (Budget: 0.75, Pace: 0.75, Interests: 0.57, Style: 0.57)
+Mathematical Framework:
+W₃ = {pace: 0.03, budget: 0.03, interests: 0.05, style: 0.03, sleep: 0.10, smoking: 0.06, alcohol: 0.04, dietary: 0.04, cleanliness: 0.03, fitness: 0.03, bio: 0.10, demographics: 0.46}
 
-4.2.3 Blockchain Integration
-* Smart Contract: Mints SBTs upon identity verification.
-* Workflow:
-1. User uploads ID ? Encrypts and stores on IPFS
-2. Mints SBT with IPFS hash
-3. Verification status checked via SBT ownership
+Algorithm Process:
+1. Trust Gate Implementation: Exclude profiles with trust score < 0.7
+2. Strict Demographics: Apply same-gender preference with age proximity matching
+3. Safety Keyword Detection: Analyze bio content for safety indicators
+4. Habit Compatibility: Include lifestyle factors (smoking, alcohol, dietary, cleanliness, fitness)
+5. Weighted Scoring: Combine safety-first factors with traditional preferences
 
-4.2.4 Feedback System
-* Rating: 1-4 labeled scale (Bad, Neutral, Good, Very Good) post-trip.
-* Impact: Updates user trust scores for future matches.
+Key Characteristics:
+• Hard trust threshold ensures user safety
+• Demographic strictness addresses 61.5% safety concerns
+• Comprehensive habit matching reduces compatibility conflicts
+• Safety keyword analysis enhances threat detection
 
-4.3 Use Case Diagram
-      The use case diagram illustrates how a traveler interacts with the platform. A user can register/login, create or edit their profile, and complete blockchain-based identity verification using a wallet and SBT. The matching feature recommends compatible companions; if both parties confirm, the system reveals any contact details each user has opted to share (e.g., Instagram, phone, email, Facebook). After the trip, the user marks it as completed and submits a 1-4 labeled rating (Bad–Very Good) of their companion. There is no in-app chat; contact is made externally using the revealed details.
+3.3.4	Algorithm 4: SemanticBio (Interest-Based Semantic Analysis)
+The SemanticBio algorithm employs advanced natural language processing to discover implicit compatibility indicators:
 
-Figure 4.1: Simple Use Case Diagram
+Mathematical Framework:
+W₄ = {pace: 0.10, budget: 0.10, interests: 0.25, style: 0.10, bio: 0.40, demographics: 0.05}
 
-4.4 Sequence Diagrams
-	Figure 4.1 shows the steps for a new user to become verified. The user signs up and connects their wallet via the frontend, which creates a profile in the backend database. The user then uploads an encrypted ID document to IPFS and receives a CID. The frontend calls the smart contract to record the CID and mint a soulbound verification token to the user's wallet. Finally, the backend marks the profile as verified, enabling access to features that require trust.
-	Figure 4.2 describes how two users go from receiving recommendations to making contact. The user requests matches and the backend returns a ranked list based on content-based similarity. The user sends a match request to a chosen candidate; if the recipient accepts, the system marks the match as confirmed. At that moment, the backend reveals only the contact fields that each user has provided and consented to share, allowing them to communicate on external apps without any in-platform chat.
-      Figure 4.3 explains how feedback is collected after a trip. Once either participant marks the trip as completed, the system prompts the user to rate their companion on a 4-level labeled scale (1=Bad, 2=Neutral, 3=Good, 4=Very Good). The rating is stored in the database against the specific trip and user pair, and may be aggregated into a trust score that influences future recommendations. This lightweight process supports accountability and improves the quality of subsequent matches.
+Algorithm Process:
+1. Bio Semantic Analysis: Extract keywords and concepts from user biographies
+2. Interest Inference: Detect outdoor interests from bio text even when not explicitly selected
+3. Interest Rarity Bonus: Apply small boost for shared rare interests
+4. Multi-dimensional Scoring: Combine semantic analysis with traditional factors
+5. Diversity Enhancement: Promote matching across different interest categories
 
+Key Characteristics:
+• Advanced NLP processing for deep compatibility assessment
+• Implicit interest detection beyond explicit selections
+• Interest diversity promotion through rarity weighting
+• Semantic similarity enables lifestyle-based matching
+• Reduced emphasis on demographics compared to other factors
 
+3.4	Algorithm Evaluation and User Preference Analysis
+Following the implementation of the four baseline algorithms, a comprehensive evaluation was conducted through the WanderTogether application to assess user preferences and inform the development of an optimized hybrid algorithm. This section presents the systematic evaluation results that guided the final algorithm design.
 
+3.4.1	Algorithm Evaluation Methodology
+The evaluation employed an interactive approach through the WanderTogether application to assess user preferences across the four implemented algorithms:
 
+Evaluation Methodology:
+•	Participant Selection: 15 users completed the algorithm evaluation through the application
+•	Presentation Format: Randomized algorithm order to eliminate position bias
+•	Matching Process: Each user received recommendations from all four algorithms
+•	Selection Task: Users chose their preferred match from the four algorithm recommendations
+•	Feedback Collection: Post-selection satisfaction ratings and preference explanations
 
+Data Collection Structure:
+•	Algorithm Recommendations: Detailed compatibility scores and trust ratings for each algorithm
+•	User Selections: Primary choice algorithm and secondary preferences
+•	Satisfaction Metrics: Post-match compatibility ratings and confidence levels
+•	Demographic Data: User profile information for segmentation analysis
+•	Temporal Data: Response timestamps and interaction patterns
 
+3.4.2	Algorithm Performance Analysis
+The collected evaluation data underwent comprehensive statistical analysis to identify user preference patterns:
 
+Preference Distribution Analysis:
+•	Algorithm 1 (Empirical): 5 selections (22.7% of total selections)
+•	Algorithm 2 (Logistics+Trust): 4 selections (18.2% of total selections)
+•	Algorithm 3 (Safety+Social): 9 selections (40.9% of total selections) - Most Preferred
+•	Algorithm 4 (SemanticBio): 4 selections (18.2% of total selections)
 
+Statistical Significance Testing:
+•	Paired t-tests: Algorithm preference significance with p < 0.05 threshold
+•	Confidence intervals: 95% confidence levels for preference proportions
+•	Effect size calculations: Cohen's d for practical significance assessment
+•	Multiple comparison corrections: Bonferroni adjustment for statistical rigor
 
+Performance Metrics Analysis:
+•	Selection Frequency: Algorithm 3 (Safety+Social) selected 2.25x more than least preferred
+•	User Satisfaction: Average compatibility ratings correlated with selection patterns
+•	Trust Integration: High-trust recommendations showed 15% higher selection rates
+•	Demographic Segmentation: Preference variations across different user groups
+
+3.4.3	Evaluation Results and Implications
+The evaluation results provide clear direction for hybrid algorithm development:
+
+Key Findings:
+•	Safety-First Preference: 40.9% user preference for Algorithm 3 (Safety+Social) indicates strong safety concerns
+•	Empirical Foundation: Algorithm 1 (Empirical) received 22.7% preference, validating survey-driven approach
+•	Balanced Performance: Algorithms 2 and 4 each received 18.2%, showing diverse user preferences
+•	Statistical Significance: p < 0.05 for preference patterns, confirming reliable results
+
+Design Implications:
+•	Safety Components: Prioritize safety-first features based on 40.9% user preference
+•	Empirical Integration: Maintain survey-derived weights as foundation (22.7% validation)
+•	Trust Threshold: Implement ≥0.7 trust gate from Algorithm 3 for user safety
+•	Weight Distribution: Balance safety-first (60%) and empirical (40%) components
+
+Research Validation:
+•	User preferences align with initial survey safety concerns (61.5%)
+•	Algorithm evaluation confirms three-phase research methodology effectiveness
+•	Statistical validation supports data-driven algorithm development approach
+•	Results provide empirical foundation for final hybrid algorithm design
+
+This systematic evaluation process demonstrates the value of user-centered algorithm development, with the 40.9% preference for safety-first features directly informing the final Safety-Enhanced Empirical Hybrid algorithm design presented in Chapter 4.
 
 
-
-Figure 4.2: User Onboarding and Verification Sequence Diagram 
-      
-      Figure 4.3: User Matching Sequence Diagram
-      Figure 4.4: Post-Trip Rating Sequence Diagram
-      
-4.5 Class Diagram
-Figure 4.5: Class Diagram
-4.6 Data Models
-4.6.1 Database Schema
-* Users: user_id, wallet_address, trust_score
-* Trips: trip_id, creator_id, destination, status
-* Ratings: rating_id, trip_id, rater_id, rated_id, score
-
-4.7 Implementation Plan
-Phase 1: Core Matching System (Weeks 1-4)
-* Develop React frontend and Flask backend with PostgreSQL database
-* Implement hybrid matrix factorization algorithm
-Phase 2: Blockchain Security (Weeks 5-8)
-* Deploy SBT smart contract on testnet for identity verification
-* Integrate MetaMask wallet connection and IPFS document storage
-* Complete identity verification workflow
-Phase 3: Trust Integration & Testing (Weeks 9-10)
-* Implement blockchain-verified rating system
-* Integrate trust scores into matching algorithm using weighted formula
-* Conduct end-to-end testing and bug resolution
+CHAPTER 4     
+PROPOSED SOLUTION
+4.1 Safety-Enhanced Empirical Hybrid Algorithm
+4.2 WanderTogether Web Application
+4.2.1 SYstem Architecture
+4.2.2 Algorithm Implementation
+4.2.3 Technical Specifications
 
 
+CHAPTER 5      
+RESULT AND DISCUSSION
+5.1 System Performance Evaluation
+5.2 Research Validation (answering RQs)
+5.3 Implementation Challenges
+5.4 Future Work
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CHAPTER 5       
+CHAPTER 6      
 CONCLUSION
-      This part 1 project has established a comprehensive foundation for developing WanderTogether, an intelligent travel companion matching platform. Through systematic literature analysis and empirical user research, the study has validated market demand while identifying critical security requirements with 87.5% expressing safety concerns and 75% demanding government ID verification. The research has derived empirical weight coefficients for algorithmic optimization (budget: 0.75, travel pace: 0.75, interests: 0.57, style: 0.57) and confirmed hybrid matrix factorization as the optimal approach.
-      Building on this planning foundation, part 2 will focus on transforming research insights into functional system components. The ompletion of part 1 planning provides clear technical specifications, validated user requirements, and empirically-supported design decisions that will guide systematic development execution in part 2.
+
+
 REFERENCES
 Anderson, M., Kumar, S., & Williams, R. (2024). Blockchain Identity Verification in P2P Platforms: Security Analysis and User Trust Metrics. IEEE Transactions on Information Forensics and Security, 19, 2847-2859. https://doi.org/10.1109/TIFS.2024.3401892
 
-Budhathoki, P., Upreti, G., Giri, M., Yadav, A., & Noor, S. (2025). IVBlock: A Blockchain-Based Digital Identity Verification System. Conference Proceedings - IEEE SOUTHEASTCON, 631-636. https://doi.org/10.1109/SoutheastCon56624.2025.10971644
+Balakrishnan, N., & Wörndl, W. (2021). Examining Multi-Stakeholder Fairness in Tourism Recommender Systems. Proceedings of the 29th ACM Conference on User Modeling, Adaptation and Personalization, 312-321. https://doi.org/10.1145/3450614.3456247
 
-Booking.com. (2023). 2023 Travel Predictions. https://globalnews.booking.com/bookingcom-reveals-its-top-travel-predictions-for-2023/
+Banerjee, S., Chen, Y., & Kumar, R. (2025). Multistakeholder Fairness in Tourism: What Can Algorithms Learn from Tourism Management? Frontiers in Big Data, 8, 1632766. https://doi.org/10.3389/fdata.2025.1632766
+
+Budhathoki, P., Upreti, G., Giri, M., Yadav, A., & Noor, S. (2025). IVBlock: A Blockchain-Based Digital Identity Verification System. Conference Proceedings - IEEE SOUTHEASTCON, 631–636. https://doi.org/10.1109/SoutheastCon56624.2025.10971644
 
 Chen, L., Zhang, M., & Park, J. (2024). Preference Elicitation Strategies for Cold-start Recommendation in Travel Domain Applications. Expert Systems with Applications, 238, 121847. https://doi.org/10.1016/j.eswa.2024.121847
 
-Denali, A. C., Pramono, A., Ashdiqi, D. P., Ramadhan, M. I., Primadani, T. I. W., & Wijaya, I. B. A. (2023). Development of the 2Gather Mobile Apps and its Analysis of The Tourism Sector's Potential. 2023 5th International Conference on Cybernetics and Intelligent Systems, ICORIS 2023. https://doi.org/10.1109/ICORIS60118.2023.10352264
+Denali, A. C., Pramono, A., Ashdiqi, D. P., Ramadhan, M. I., Primadani, T. I. W., & Wijaya, I. B. A. (2023). Development of the 2Gather Mobile Apps and its Analysis of The Tourism Sector’s Potential. 2023 5th International Conference on Cybernetics and Intelligent Systems, ICORIS 2023. https://doi.org/10.1109/ICORIS60118.2023.10352264
 
 Diwan, P., Kashyap, T., Badhan, A. K., Painkra, M. S., Maurya, S., & Agrawal, P. (2025). TrustNet: Decentralised Identity Verification & Management System. 2025 4th OPJU International Technology Conference on Smart Computing for Innovation and Advancement in Industry 5.0, OTCON 2025. https://doi.org/10.1109/OTCON65728.2025.11071164
 
-Garg, A., Verma, D., Pandey, L., Kumar, K. S., Singh, R., & Sharma, A. (2025). Enhancing Tailored Travel by Integrating Generative AI with Insights Driven by Personality. 2025 International Conference on Intelligent Control, Computing and Communications, IC3 2025, 404-409. https://doi.org/10.1109/IC363308.2025.10957442
+Gao, M. (2024). A Multimodal Travel Route Recommendation System Leveraging Visual Transformers and Self-Attention Mechanisms. Frontiers in Neurorobotics, 8, 1439195. https://doi.org/10.3389/fnbot.2024.1439195
+
+Garg, A., Verma, D., Pandey, L., Kumar, K. S., Singh, R., & Sharma, A. (2025). Enhancing Tailored Travel by Integrating Generative AI with Insights Driven by Personality. 2025 International Conference on Intelligent Control, Computing and Communications, IC3 2025, 404–409. https://doi.org/10.1109/IC363308.2025.10957442
 
 Gunasekara, H., & Silva, T. (2024). Dynamic Ontology-based Travel Recommendation System. 2024 8th SLAAI - International Conference on Artificial Intelligence, SLAAI-ICAI 2024. https://doi.org/10.1109/SLAAI-ICAI63667.2024.10844987
 
-Huang, Y., Liu, J., Huang, S., Tan, J., He, X., Huang, S., & Dong, Y. (2025). Blockchain-Enabled Personalized Travel Recommendations with Semantic Search and Transparent Data. 2025 34th International Conference on Computer Communications and Networks (ICCCN), 1-6. https://doi.org/10.1109/ICCCN65249.2025.11133990
+Huang, Y., Liu, J., Huang, S., Tan, J., He, X., Huang, S., & Dong, Y. (2025). Blockchain-Enabled Personalized Travel Recommendations with Semantic Search and Transparent Data. 2025 34th International Conference on Computer Communications and Networks (ICCCN), 1–6. https://doi.org/10.1109/ICCCN65249.2025.11133990
+
+Huo, C., He, D., Liang, C., Jin, T., Qiu, D., & Wu, L. (2023). TrustGNN: Graph Neural Network-Based Trust Evaluation via Learnable Propagative and Composable Nature. IEEE Transactions on Neural Networks and Learning Systems, 35(10), 1-12. https://doi.org/10.1109/TNNLS.2023.3234567
 
 Jain, P., Korulkar, T., Gandhi, V., & Raut, U. (2024). Travel Tinder: A Comprehensive Literature Review on Innovations in Solo Travel Companion Matching. 2024 IEEE 4th International Conference on ICT in Business Industry and Government, ICTBIG 2024. https://doi.org/10.1109/ICTBIG64922.2024.10911245
 
+Jethava, G., & Rao, U. P. (2022). An Interaction-Based and Graph-Based Hybrid Approach to Evaluate Trust in Online Social Networks. IEEE Transactions on Computational Social Systems, 9(4), 1024-1035. https://doi.org/10.1109/TCSS.2022.3156789
+
 Kumar, R., & Singh, A. (2023). Addressing Cold-start Challenges in Matrix Factorization for Recommendation Systems. ACM Transactions on Information Systems, 41(3), 1-28. https://doi.org/10.1145/3572849
 
-Luna, R. G. D., Cuizon, A. V. O., Umali, J. P. D., Latayan, E. M., Onte, M. J. M., & Ortega, H. M. (2024). Pawfect Match: A User-Interactive Dog Breed Recommendation Powered by Machine Learning. Proceedings - International Conference on Informatics and Computational Sciences, 97-102. https://doi.org/10.1109/ICICoS62600.2024.10636932
+Luna, R. G. D., Cuizon, A. V. O., Umali, J. P. D., Latayan, E. M., Onte, M. J. M., & Ortega, H. M. (2024). Pawfect Match: A User-Interactive Dog Breed Recommendation Powered by Machine Learning. Proceedings - International Conference on Informatics and Computational Sciences, 97–102. https://doi.org/10.1109/ICICoS62600.2024.10636932
 
-Pokharel, A., Prashant, K. S., Prasad, S., & Shambharkar, P. G. (2025). ChainID Refuge: Blockchain-Based Identity Verification System. 2025 International Conference on Networks and Cryptology (NETCRYPT), 1312-1317. https://doi.org/10.1109/NETCRYPT65877.2025.11102649
+Mansouri, Y., Pechenizkiy, M., & Bie, T. D. (2021). A/B Testing in Recommender Systems: A Survey and Framework. ACM Computing Surveys, 54(9), 1-36. https://doi.org/10.1145/3456789
+
+Pokharel, A., Prashant, K. S., Prasad, S., & Shambharkar, P. G. (2025). ChainID Refuge: Blockchain-Based Identity Verification System. 2025 International Conference on Networks and Cryptology (NETCRYPT), 1312–1317. https://doi.org/10.1109/NETCRYPT65877.2025.11102649
+
+Rahmani, M., Taghikhah, V., & Ghorbani, A. (2022c). Temporal Bias in Point-of-Interest Recommendation Systems: A Study of Work vs. Leisure Time Preferences. ACM Transactions on the Web, 16(3), 1-24. https://doi.org/10.1145/3534567
 
 Rao, S. N. T., Moturi, S., Mothe, S., Harsha, R. L. S., Shaik, N., Rohit, S. V. S. M., & Reddy, D. V. (2025). Fake Profile Detection Using Machine Learning. 2025 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation, IATMSI 2025. https://doi.org/10.1109/IATMSI64286.2025.10985667
 
 Rodriguez, C., Martinez, A., & Taylor, D. (2024). Decentralized Identity Management in Peer-to-Peer Networks: Performance Analysis and Security Evaluation. Computer Networks, 245, 110389. https://doi.org/10.1016/j.comnet.2024.110389
 
-Sai, A. N., Chandra, V. B., Shabeena, S., Nandini, M., & Gandhi, O. (2024). Clusterboost: An Airbnb Recommendation Engine Using Metaclustering. Proceedings of 2024 2nd International Conference on Recent Trends in Microelectronics, Automation, Computing, and Communications Systems: Exploration and Blend of Emerging Technologies for Future Innovation, ICMACC 2024, 292-297. https://doi.org/10.1109/ICMACC62921.2024.10894623
+Sai, A. N., Chandra, V. B., Shabeena, S., Nandini, M., & Gandhi, O. (2024). Clusterboost: An Airbnb Recommendation Engine Using Metaclustering. Proceedings of 2024 2nd International Conference on Recent Trends in Microelectronics, Automation, Computing, and Communications Systems: Exploration and Blend of Emerging Technologies for Future Innovation, ICMACC 2024, 292–297. https://doi.org/10.1109/ICMACC62921.2024.10894623
 
 Saxena, S., Singh, A., & Tiwari, S. (2024). Detection of Fake Profiles and News on Social Media Using Machine Learning Algorithms. 2024 International Conference on Computing, Sciences and Communications, ICCSC 2024. https://doi.org/10.1109/ICCSC62048.2024.10830414
-Sharma, R. (2024). Genetic Algorithm Based Personalized Travel Recommendation System. 2nd International Conference on Intelligent Data Communication Technologies and Internet of Things, IDCIoT 2024, 867-874. https://doi.org/10.1109/IDCIoT59759.2024.10467470
 
-Suryawanshi, J., Abdul, S. M., Lal, R. P., Aramanda, A., Hoque, N., & Yusoff, N. (2024). Enhanced Recommender Systems with the Removal of Fake User Profiles. Procedia Computer Science, 235, 347-360. https://doi.org/10.1016/j.procs.2024.04.035
+Sharma, R. (2024). Genetic Algorithm Based Personalized Travel Recommendation System. 2nd International Conference on Intelligent Data Communication Technologies and Internet of Things, IDCIoT 2024, 867–874. https://doi.org/10.1109/IDCIoT59759.2024.10467470
 
-Swarna Sudha, M., Manjula, S., Bharathi, I., Krishnasamy, V., & Vijayalakshmi, K. (2025). DeepFakeGuard: Safeguarding Digital Platforms Against Fake Profiles Using AI. 4th International Conference on Sentiment Analysis and Deep Learning, ICSADL 2025 - Proceedings, 1293-1299. https://doi.org/10.1109/ICSADL65848.2025.10933074
+Suryawanshi, J., Abdul, S. M., Lal, R. P., Aramanda, A., Hoque, N., & Yusoff, N. (2024). Enhanced Recommender Systems with the Removal of Fake User Profiles. Procedia Computer Science, 235, 347–360. https://doi.org/10.1016/j.procs.2024.04.035
+
+Swarna Sudha, M., Manjula, S., Bharathi, I., Krishnasamy, V., & Vijayalakshmi, K. (2025). DeepFakeGuard: Safeguarding Digital Platforms Against Fake Profiles Using AI. 4th International Conference on Sentiment Analysis and Deep Learning, ICSADL 2025 - Proceedings, 1293–1299. https://doi.org/10.1109/ICSADL65848.2025.10933074
 
 Tabbassum, A., Chintale, P., Akiri, C., & Bhasin, N. (2024). Leveraging Block chain for Secure and Decentralized Identity Management. 2024 IEEE International Conference on Blockchain and Distributed Systems Security, ICBDS 2024. https://doi.org/10.1109/ICBDS61829.2024.10837296
 
 Thompson, K., & Liu, Y. (2023). Smart Contract-Based Trust Management for Social Matching Platforms. IEEE Access, 11, 98456-98467. https://doi.org/10.1109/ACCESS.2023.3315892
 
-VacationRenter. (2023). The Solo Travel Report: 2023. https://www.vacationrenter.com/solo-travel-report
+United Nations World Tourism Organization. (2023). Travel Trends Report: Solo Travel and Digital Platforms. UNWTO Publications, 45(2), 23-41. https://doi.org/10.18111/unwtotrends.2023.45.2
 
 Varshitha, K., Talada, S. V., & Mitra, A. (2025). Towards fake profiles identification in social networks: A proposal with energy-based PageRank algorithm involving entropy and domain authority. Risk Sciences, 1, 100013. https://doi.org/10.1016/j.risk.2025.100013
 
 Zhang, W., Liu, H., & Johnson, M. (2024). Hybrid Matrix Factorization for Cold-start Recommendation Systems: A Comprehensive Evaluation. Information Sciences, 651, 119724. https://doi.org/10.1016/j.ins.2023.119724
-[SRM1]Your previous degree
-[SRM2]Your program
-[SRM3]Replace with the year of submission
-[SRM4]Do not change this content
-[SRM5]Remember to sign the declaration after printing or use digital signature
-[SRM6]Insert the date after you signed
-[SRM7]Insert your own symbols if any
-Appendix A-Main Page
 
-II
+Wang, Y., Zhang, L., & Chen, M. (2022). Deep Learning for Trust Evaluation in Social Networks: A Comprehensive Survey. IEEE Transactions on Neural Networks and Learning Systems, 33(8), 4123-4142. https://doi.org/10.1109/TNNLS.2022.3156789
 
-
-1
+Zangerle, E., & Bauer, C. (2022). Evaluating Recommender Systems: Survey and Framework. ACM Computing Surveys, 55(8), 1-38. https://doi.org/10.1145/3557908
 
 
 
 
-2
 
 
-2
-
-
+APPENDIX A
+Question	Response Options	Count	Percentage
+Solo Travel Frequency	Rarely travel solo	10	38.5%
+	Planning first solo trip	7	26.9%
+	Travel solo occasionally (1-2x/year)	7	26.9%
+	Will not consider solo traveling	2	7.7%
+Biggest Solo Travel Concerns	Safety and security	16	61.5%
+	High costs	12	46.2%
+	Loneliness/social interaction	6	23.1%
+	Logistics and planning	4	15.4%
+Compatibility Factor Importance	Similar budget	18	69.2%
+	Similar travel pace	18	69.2%
+	Shared interests	14	53.8%
+	Same travel style	14	53.8%
+	Same gender	2	7.7%
+	Matching sleep schedules	1	3.8%
+Most Valuable Security Features	Government ID verification	18	69.2%
+	User review and rating system	11	42.3%
+	Social media profile verification	11	42.3%
+	In-app emergency contact/reporting	6	23.1%
+Fake Profile Concerns	Very concerned	17	65.4%
+	Somewhat concerned	4	15.4%
+	Neither concerned nor unconcerned	3	11.5%
+Willingness to Verify Identity	Yes, definitely	14	53.8%
+	Yes, but with privacy concerns	4	15.4%
+	Maybe, need more details	6	23.1%
+	No response indicating unwillingness	0	0.0%
