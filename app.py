@@ -147,12 +147,11 @@ def log_form_submission(user, session_id):
         with conn.cursor() as cur:
             cur.execute("""
                 INSERT INTO user_journey (
-                    session_id, user_name, user_age, user_gender, user_budget, user_pace, user_style,
+                    user_name, user_age, user_gender, user_budget, user_pace, user_style,
                     user_interests, user_sleep, user_cleanliness, user_dietary, user_alcohol, user_smoking, user_fitness, user_bio
-                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 RETURNING id
             """, (
-                session_id,
                 user.get('name', ''),
                 user.get('age'),
                 user.get('gender'),
@@ -171,7 +170,7 @@ def log_form_submission(user, session_id):
             
             journey_id = cur.fetchone()[0]
             conn.commit()
-            print(f"Logged form submission {journey_id} for session {session_id}")
+            print(f"Logged form submission {journey_id}")
             return journey_id
             
     except Exception as e:
@@ -183,7 +182,7 @@ def log_form_submission(user, session_id):
     return None
 
 
-def log_recommendations(session_id, recommendations):
+def log_recommendations(journey_id, recommendations):
     """Log algorithm recommendations (Step 2 of user journey)"""
     conn = get_db_connection()
     if not conn:
@@ -221,16 +220,16 @@ def log_recommendations(session_id, recommendations):
                     recommendations_generated_at = NOW(),
                     suggested_profiles = %s,
                     total_suggested_count = %s
-                WHERE session_id = %s
+                WHERE id = %s
             """, (
                 json.dumps(suggested_profiles),
                 len(suggested_profiles),
-                session_id
+                journey_id
             ))
             
             updated_count = cur.rowcount
             conn.commit()
-            print(f"Logged recommendations for session {session_id}")
+            print(f"Logged recommendations for journey {journey_id}")
             return updated_count
             
     except Exception as e:
@@ -242,7 +241,7 @@ def log_recommendations(session_id, recommendations):
     return None
 
 
-def log_selections(session_id, selected_profiles):
+def log_selections(journey_id, selected_profiles):
     """Log user selections (Step 3 - Final step: contact revealed)"""
     conn = get_db_connection()
     if not conn:
@@ -284,17 +283,17 @@ def log_selections(session_id, selected_profiles):
                     selected_profile_ids = %s,
                     selected_profiles = %s,
                     total_selected_count = %s
-                WHERE session_id = %s
+                WHERE id = %s
             """, (
                 selected_profile_ids, 
                 json.dumps(selected_profiles_data),
                 len(selected_profiles),
-                session_id
+                journey_id
             ))
             
             updated_count = cur.rowcount
             conn.commit()
-            print(f"Logged selections for session {session_id}: {len(selected_profiles)} profiles (CONTACT REVEALED)")
+            print(f"Logged selections for journey {journey_id}: {len(selected_profiles)} profiles (CONTACT REVEALED)")
             return updated_count
             
     except Exception as e:
@@ -310,9 +309,8 @@ def log_selections(session_id, selected_profiles):
 def index():
     weights = load_survey_weights()
     msg = request.args.get('msg')
-    # Generate session ID for tracking
-    session_id = request.args.get('session_id') or str(uuid.uuid4())
-    return render_template('index.html', weights=weights, interest_choices=INTEREST_CHOICES, message=msg, session_id=session_id)
+    # No session ID needed - we only track selections
+    return render_template('index.html', weights=weights, interest_choices=INTEREST_CHOICES, message=msg)
 
 
 def parse_user_form(form):
@@ -366,18 +364,17 @@ def compute_hybrid_recommendations(user, weights):
 def recommend():
     weights = load_survey_weights()
     user = parse_user_form(request.form)
-    session_id = request.form.get('session_id', str(uuid.uuid4()))
     
-    # Step 1: Log form submission
-    log_form_submission(user, session_id)
+    # Step 1: Log form submission and get journey_id
+    journey_id = log_form_submission(user, str(uuid.uuid4()))
     
     # Step 2: Get recommendations
     recommendations = compute_hybrid_recommendations(user, weights)
     
     # Step 2: Log recommendations
-    log_recommendations(session_id, recommendations)
+    log_recommendations(journey_id, recommendations)
     
-    return render_template('results.html', recommendations=recommendations, weights=weights, user=user, session_id=session_id)
+    return render_template('results.html', recommendations=recommendations, weights=weights, user=user)
 
 
 @app.route('/submit_matches', methods=['POST'])
@@ -390,7 +387,31 @@ def submit_matches():
 
     # reconstruct user from hidden fields
     user = parse_user_form(request.form)
-    session_id = request.form.get('session_id', str(uuid.uuid4()))
+    
+    # Find the most recent journey for this user (within last hour)
+    conn = get_db_connection()
+    journey_id = None
+    if conn:
+        try:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT id FROM user_journey 
+                    WHERE user_name = %s 
+                    AND created_at > NOW() - INTERVAL '1 hour'
+                    ORDER BY created_at DESC 
+                    LIMIT 1
+                """, (user.get('name', ''),))
+                result = cur.fetchone()
+                if result:
+                    journey_id = result[0]
+        except Exception as e:
+            print(f"Error finding journey: {e}")
+        finally:
+            conn.close()
+    
+    # If no recent journey found, create a new one
+    if not journey_id:
+        journey_id = log_form_submission(user, str(uuid.uuid4()))
     
     # Parse selected profiles
     selected_profiles = []
@@ -409,7 +430,7 @@ def submit_matches():
                     break
     
     # Step 3: Log selections (FINAL STEP - CONTACT REVEALED)
-    log_selections(session_id, selected_profiles)
+    log_selections(journey_id, selected_profiles)
     
     # Console logging
     print(f"User {user.get('name', 'Unknown')} revealed contact for {len(selections)} matches")
