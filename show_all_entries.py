@@ -74,9 +74,28 @@ def show_all_entries():
                 # Check if user clicked "No match found"
                 if entry.get('no_match_found'):
                     print(f"   ❌ No match found: User clicked 'No match found' button")
-                    print(f"   📊 Total suggested: {entry['total_suggested_count']}")
-                    print(f"   🎯 Total selected: {entry['total_selected_count']}")
                     print(f"   ✅ User Selections: None")
+                    
+                    # Show suggested profiles for no match case
+                    if entry['suggested_profiles']:
+                        try:
+                            # Handle both string and object types
+                            if isinstance(entry['suggested_profiles'], str):
+                                suggested = json.loads(entry['suggested_profiles'])
+                            else:
+                                suggested = entry['suggested_profiles']
+                            
+                            print(f"   📋 Suggested profiles: {len(suggested)}")
+                            
+                            # Show all suggested profiles with scores
+                            for j, profile in enumerate(suggested, 1):
+                                trust = profile.get('trust', 0)
+                                compat = profile.get('compatibility_score', 0)
+                                print(f"      {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
+                        except Exception as e:
+                            print(f"   ⚠️  Could not parse suggested profiles data: {e}")
+                            print(f"   📄 Raw data type: {type(entry['suggested_profiles'])}")
+                            print(f"   📄 Raw data: {entry['suggested_profiles'][:100]}...")
                 else:
                     # Algorithm suggestions
                     if entry['recommendations_generated_at']:
@@ -138,7 +157,9 @@ def show_all_entries():
             print(f"   Total journeys: {len(entries)}")
             
             completed = sum(1 for entry in entries if entry['selections_made_at'])
+            no_matches = sum(1 for entry in entries if entry.get('no_match_found'))
             print(f"   Completed journeys (with selections): {completed}")
+            print(f"   No match found clicks: {no_matches}")
             
             if len(entries) > 0:
                 completion_rate = (completed / len(entries)) * 100

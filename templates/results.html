@@ -126,7 +126,7 @@
               <!-- Contact Information Section (Initially Hidden) -->
               <div class="contact-info" id="contact-{{ profile.id }}" style="display: none;">
                 <div style="background:#f0fdf4;border:1px solid #16a34a;border-radius:8px;border-left:4px solid #16a34a;padding:16px;margin-top:16px;">
-                  <div style="color:#166534;font-weight:600;font-size:16px;">Contact: {{ profile.contact if profile.contact else 'Contact not available' }}</div>
+                  <div style="color:#166534;font-weight:600;font-size:13px;">Contact: {{ profile.contact if profile.contact else 'Contact not available' }}</div>
                 </div>
               </div>
               
@@ -324,10 +324,11 @@
           noMatchDiv.style.marginTop = '20px';
           noMatchDiv.style.textAlign = 'center';
           noMatchDiv.style.padding = '16px';
-          noMatchDiv.style.background = '#fef3c7';
-          noMatchDiv.style.border = '1px solid #f59e0b';
+          noMatchDiv.style.background = '#f5f5f5';
+          noMatchDiv.style.border = '1px solid #6b7280';
           noMatchDiv.style.borderRadius = '8px';
-          noMatchDiv.innerHTML = '<div style="color:#92400e;font-weight:600;font-size:16px">No suitable matches? Try adjusting your preferences or check back later.</div>';
+          noMatchDiv.style.borderLeft = '4px solid #6b7280';
+          noMatchDiv.innerHTML = '<div style="color:#374151;font-weight:600;font-size:16px">No suitable matches? Try adjusting your preferences or check back later.</div>';
           
           form.parentNode.insertBefore(noMatchDiv, form.nextSibling);
         });
