@@ -42,6 +42,7 @@ def show_all_entries():
                     form_submitted_at,
                     recommendations_generated_at,
                     selections_made_at,
+                    no_match_found,
                     suggested_profiles,
                     selected_profiles,
                     selected_profile_ids,
@@ -70,61 +71,65 @@ def show_all_entries():
                 print(f"   📊 Total suggested: {entry['total_suggested_count']}")
                 print(f"   🎯 Total selected: {entry['total_selected_count']}")
                 
-                # Minimal user information
-                print(f"\n   👤 User: {entry['user_name']}")
-                print(f"   🕐 Created: {entry['created_at']}")
-                
-                # Algorithm suggestions
-                if entry['recommendations_generated_at']:
-                    print(f"   🤖 Recommendations generated: {entry['recommendations_generated_at']}")
-                    print(f"   📝 Form submitted: {entry['form_submitted_at']}")
-                    if entry['suggested_profiles']:
-                        try:
-                            # Handle both string and object types
-                            if isinstance(entry['suggested_profiles'], str):
-                                suggested = json.loads(entry['suggested_profiles'])
-                            else:
-                                suggested = entry['suggested_profiles']
-                            
-                            print(f"   📋 Suggested profiles: {len(suggested)}")
-                            
-                            # Show all suggested profiles with scores
-                            for j, profile in enumerate(suggested, 1):
-                                trust = profile.get('trust', 0)
-                                compat = profile.get('compatibility_score', 0)
-                                print(f"      {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
-                        except Exception as e:
-                            print(f"   ⚠️  Could not parse suggested profiles data: {e}")
-                            print(f"   📄 Raw data type: {type(entry['suggested_profiles'])}")
-                            print(f"   📄 Raw data: {entry['suggested_profiles'][:100]}...")
-                
-                # User selections
-                if entry['selections_made_at']:
-                    print(f"\n   ✅ User Selections:")
-                    print(f"      Selections made at: {entry['selections_made_at']}")
-                    
-                    if entry['selected_profiles']:
-                        try:
-                            # Handle both string and object types
-                            if isinstance(entry['selected_profiles'], str):
-                                selected = json.loads(entry['selected_profiles'])
-                            else:
-                                selected = entry['selected_profiles']
-                            
-                            print(f"      📋 Selected profiles: {len(selected)}")
-                            for j, profile in enumerate(selected, 1):
-                                trust = profile.get('trust', 0)
-                                compat = profile.get('compatibility_score', 0)
-                                print(f"         {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
-                        except Exception as e:
-                            print(f"      ⚠️  Could not parse selected profiles data: {e}")
-                            print(f"      📄 Raw data type: {type(entry['selected_profiles'])}")
-                            print(f"      📄 Raw data: {str(entry['selected_profiles'])[:200]}...")
-                    else:
-                        print(f"      ⚠️  selections_made_at exists but no selected_profiles data")
+                # Check if user clicked "No match found"
+                if entry.get('no_match_found'):
+                    print(f"   ❌ No match found: User clicked 'No match found' button")
+                    print(f"   📊 Total suggested: {entry['total_suggested_count']}")
+                    print(f"   🎯 Total selected: {entry['total_selected_count']}")
+                    print(f"   ✅ User Selections: None")
                 else:
-                    print(f"\n   ❌ No selections made")
-                    print(f"      💡 User viewed recommendations but didn't click 'Match!' button")
+                    # Algorithm suggestions
+                    if entry['recommendations_generated_at']:
+                        print(f"   🤖 Recommendations generated: {entry['recommendations_generated_at']}")
+                        print(f"   📝 Form submitted: {entry['form_submitted_at']}")
+                        
+                        if entry['suggested_profiles']:
+                            try:
+                                # Handle both string and object types
+                                if isinstance(entry['suggested_profiles'], str):
+                                    suggested = json.loads(entry['suggested_profiles'])
+                                else:
+                                    suggested = entry['suggested_profiles']
+                                
+                                print(f"   📋 Suggested profiles: {len(suggested)}")
+                                
+                                # Show all suggested profiles with scores
+                                for j, profile in enumerate(suggested, 1):
+                                    trust = profile.get('trust', 0)
+                                    compat = profile.get('compatibility_score', 0)
+                                    print(f"      {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
+                            except Exception as e:
+                                print(f"   ⚠️  Could not parse suggested profiles data: {e}")
+                                print(f"   📄 Raw data type: {type(entry['suggested_profiles'])}")
+                                print(f"   📄 Raw data: {entry['suggested_profiles'][:100]}...")
+                        
+                        # User selections
+                        if entry['selections_made_at']:
+                            print(f"\n   ✅ User Selections:")
+                            print(f"      Selections made at: {entry['selections_made_at']}")
+                            
+                            if entry['selected_profiles']:
+                                try:
+                                    # Handle both string and object types
+                                    if isinstance(entry['selected_profiles'], str):
+                                        selected = json.loads(entry['selected_profiles'])
+                                    else:
+                                        selected = entry['selected_profiles']
+                                    
+                                    print(f"      📋 Selected profiles: {len(selected)}")
+                                    
+                                    # Show all suggested profiles with scores
+                                    for j, profile in enumerate(selected, 1):
+                                        trust = profile.get('trust', 0)
+                                        compat = profile.get('compatibility_score', 0)
+                                        print(f"         {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
+                                except Exception as e:
+                                    print(f"      ⚠️  Could not parse selected profiles data: {e}")
+                                    print(f"      📄 Raw data type: {type(entry['selected_profiles'])}")
+                                    print(f"      📄 Raw data: {str(entry['selected_profiles'])[:200]}...")
+                        else:
+                            print(f"\n   ❌ No selections made")
+                            print(f"      💡 User viewed recommendations but didn't click 'Match!' button")
                 
                 print("   " + "-" * 60)
             

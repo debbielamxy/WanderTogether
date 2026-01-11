@@ -286,6 +286,16 @@
         noMatchButton.addEventListener('click', function(e) {
           e.preventDefault();
           
+          // Set no_match_found flag in hidden field
+          const noMatchField = document.createElement('input');
+          noMatchField.type = 'hidden';
+          noMatchField.name = 'no_match_found';
+          noMatchField.value = 'true';
+          const form = document.querySelector('form');
+          if (form) {
+            form.appendChild(noMatchField);
+          }
+          
           // Grey out all profiles
           const allCards = document.querySelectorAll('.card');
           allCards.forEach(card => {
@@ -314,16 +324,12 @@
           noMatchDiv.style.marginTop = '20px';
           noMatchDiv.style.textAlign = 'center';
           noMatchDiv.style.padding = '16px';
-          noMatchDiv.style.background = '#f3f4f6';
+          noMatchDiv.style.background = '#fef3c7';
+          noMatchDiv.style.border = '1px solid #f59e0b';
           noMatchDiv.style.borderRadius = '8px';
-          noMatchDiv.style.borderLeft = '4px solid #6b7280';
-          noMatchDiv.innerHTML = '<div style="color:#374151;font-weight:600;font-size:16px">No suitable matches? Try adjusting your preferences or check back later.</div>';
+          noMatchDiv.innerHTML = '<div style="color:#92400e;font-weight:600;font-size:16px">No suitable matches? Try adjusting your preferences or check back later.</div>';
           
-          // Insert the message after the form
-          const form = document.querySelector('form');
-          if (form) {
-            form.parentNode.insertBefore(noMatchDiv, form.nextSibling);
-          }
+          form.parentNode.insertBefore(noMatchDiv, form.nextSibling);
         });
       }
     </script>

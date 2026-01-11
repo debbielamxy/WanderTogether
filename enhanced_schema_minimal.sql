@@ -30,7 +30,8 @@ CREATE TABLE IF NOT EXISTS user_journey (
     
     -- Step 3: User selections (final step - contact revealed)
     selections_made_at TIMESTAMP WITH TIME ZONE,
-    selected_profile_ids INTEGER[],  -- Array of selected profile IDs
+    no_match_found BOOLEAN DEFAULT FALSE,  -- Track if user clicked "No match found"
+    selected_profile_ids INTEGER[],  -- Array of selected profile IDs  
     selected_profiles JSONB,  -- Full details of selected profiles
     
     -- Simple metrics only
