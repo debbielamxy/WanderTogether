@@ -103,7 +103,7 @@
                 
                 {% if profile.interests and profile.interests|length > 0 %}
                   <div class="meta-row">
-                    <div class="meta"><span style="color:var(--field);font-weight:600">Interests:</span> {{ profile.interests[:3]|join(', ') }}{% if profile.interests|length > 3 %}...{% endif %}</div>
+                    <div class="meta"><span style="color:var(--field);font-weight:600">Interests:</span> {{ profile.interests|join(', ') }}</div>
                   </div>
                 {% endif %}
                 
