@@ -48,14 +48,14 @@ def clear_database():
                     print(f"   • {entry['user_name']} - {entry['created_at']} - {selections} selections")
             
             print("\n" + "=" * 50)
-            print("🔍 To proceed with clearing, type 'DELETE' and press Enter:")
+            print("🔍 To proceed with clearing, type 'y' or 'Y' and press Enter:")
             print("🔍 To cancel, press Enter without typing anything:")
             print("=" * 50)
             
             # Get user confirmation
-            confirmation = input("Type 'DELETE' to proceed: ").strip()
+            confirmation = input("Delete all entries? (y/N): ").strip()
             
-            if confirmation.upper() != 'DELETE':
+            if confirmation.lower() != 'y':
                 print("❌ Cancelled - Database not cleared")
                 return
             

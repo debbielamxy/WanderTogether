@@ -104,8 +104,8 @@ def show_all_entries():
                             
                             print(f"   📋 Suggested profiles: {len(suggested)}")
                             
-                            # Show top 3 suggested profiles with scores
-                            for j, profile in enumerate(suggested[:3], 1):
+                            # Show all suggested profiles with scores
+                            for j, profile in enumerate(suggested, 1):
                                 trust = profile.get('trust', 0)
                                 compat = profile.get('compatibility_score', 0)
                                 print(f"      {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
