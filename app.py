@@ -113,21 +113,21 @@ def get_db_connection():
 
 
 def init_database():
-    """Initialize database with simplified schema if needed"""
+    """Initialize database with minimal schema if needed"""
     conn = get_db_connection()
     if not conn:
         return False
     
     try:
         with conn.cursor() as cur:
-            # Read and execute simplified schema
-            schema_path = Path(__file__).parent / 'enhanced_schema_final.sql'
+            # Read and execute minimal schema
+            schema_path = Path(__file__).parent / 'enhanced_schema_minimal.sql'
             if schema_path.exists():
                 with open(schema_path, 'r') as f:
                     schema_sql = f.read()
                 cur.execute(schema_sql)
                 conn.commit()
-                print("Simplified database schema initialized successfully")
+                print("Minimal database schema initialized successfully")
                 return True
     except Exception as e:
         print(f"Database initialization error: {e}")
@@ -183,7 +183,7 @@ def log_form_submission(user, session_id):
     return None
 
 
-def log_recommendations(session_id, recommendations, processing_time_ms):
+def log_recommendations(session_id, recommendations):
     """Log algorithm recommendations (Step 2 of user journey)"""
     conn = get_db_connection()
     if not conn:
@@ -220,17 +220,11 @@ def log_recommendations(session_id, recommendations, processing_time_ms):
                 SET 
                     recommendations_generated_at = NOW(),
                     suggested_profiles = %s,
-                    processing_time_ms = %s,
-                    total_suggested_count = %s,
-                    avg_suggested_trust = %s,
-                    avg_suggested_compatibility = %s
+                    total_suggested_count = %s
                 WHERE session_id = %s
             """, (
                 json.dumps(suggested_profiles),
-                processing_time_ms,
                 len(suggested_profiles),
-                sum(p['trust'] for p in suggested_profiles) / len(suggested_profiles),
-                sum(p['compatibility_score'] for p in suggested_profiles) / len(suggested_profiles),
                 session_id
             ))
             
@@ -289,18 +283,12 @@ def log_selections(session_id, selected_profiles):
                     selections_made_at = NOW(),
                     selected_profile_ids = %s,
                     selected_profiles = %s,
-                    total_selected_count = %s,
-                    selection_rate = %s,
-                    avg_selected_trust = %s,
-                    avg_selected_compatibility = %s
+                    total_selected_count = %s
                 WHERE session_id = %s
             """, (
                 selected_profile_ids, 
                 json.dumps(selected_profiles_data),
                 len(selected_profiles),
-                len(selected_profiles) / 6.0,  # selection_rate = selected / suggested (6)
-                sum(p['trust'] for p in selected_profiles_data) / len(selected_profiles_data),
-                sum(p['compatibility_score'] for p in selected_profiles_data) / len(selected_profiles_data),
                 session_id
             ))
             
@@ -364,8 +352,6 @@ def parse_user_form(form):
 
 def compute_hybrid_recommendations(user, weights):
     """Compute top 6 recommendations using hybrid algorithm"""
-    start_time = time.time()
-    
     # Get hybrid algorithm results
     hybrid_results = compute_hybrid_algorithm(user, weights, SIMULATED_PROFILES)
     
@@ -386,12 +372,10 @@ def recommend():
     log_form_submission(user, session_id)
     
     # Step 2: Get recommendations
-    start_time = time.time()
     recommendations = compute_hybrid_recommendations(user, weights)
-    processing_time_ms = int((time.time() - start_time) * 1000)
     
     # Step 2: Log recommendations
-    log_recommendations(session_id, recommendations, processing_time_ms)
+    log_recommendations(session_id, recommendations)
     
     return render_template('results.html', recommendations=recommendations, weights=weights, user=user, session_id=session_id)
 
@@ -442,7 +426,7 @@ def status():
 
 @app.route('/analytics', methods=['GET'])
 def analytics():
-    """Simplified analytics endpoint"""
+    """Minimal analytics endpoint"""
     conn = get_db_connection()
     if not conn:
         return {'error': 'Database not connected'}, 500
@@ -462,9 +446,7 @@ def analytics():
                 SELECT 
                     COUNT(*) as total_journeys,
                     COUNT(selections_made_at) as completed_journeys,
-                    AVG(processing_time_ms) as avg_processing_time,
-                    AVG(avg_selected_trust) as avg_trust,
-                    AVG(avg_selected_compatibility) as avg_compatibility
+                    AVG(total_selected_count) as avg_selections
                 FROM user_journey
             """)
             overall_stats = cur.fetchone()
