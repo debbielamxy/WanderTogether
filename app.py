@@ -113,21 +113,21 @@ def get_db_connection():
 
 
 def init_database():
-    """Initialize database with enhanced schema if needed"""
+    """Initialize database with simplified schema if needed"""
     conn = get_db_connection()
     if not conn:
         return False
     
     try:
         with conn.cursor() as cur:
-            # Read and execute enhanced schema
-            schema_path = Path(__file__).parent / 'enhanced_schema.sql'
+            # Read and execute simplified schema
+            schema_path = Path(__file__).parent / 'enhanced_schema_final.sql'
             if schema_path.exists():
                 with open(schema_path, 'r') as f:
                     schema_sql = f.read()
                 cur.execute(schema_sql)
                 conn.commit()
-                print("Enhanced database schema initialized successfully")
+                print("Simplified database schema initialized successfully")
                 return True
     except Exception as e:
         print(f"Database initialization error: {e}")
@@ -146,9 +146,11 @@ def log_form_submission(user, session_id):
     try:
         with conn.cursor() as cur:
             cur.execute("""
-                SELECT log_form_submission(
-                    %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
-                )
+                INSERT INTO user_journey (
+                    session_id, user_name, user_age, user_gender, user_budget, user_pace, user_style,
+                    user_interests, user_sleep, user_cleanliness, user_dietary, user_alcohol, user_smoking, user_fitness, user_bio
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                RETURNING id
             """, (
                 session_id,
                 user.get('name', ''),
@@ -214,10 +216,25 @@ def log_recommendations(session_id, recommendations, processing_time_ms):
         
         with conn.cursor() as cur:
             cur.execute("""
-                SELECT log_recommendations(%s, %s, %s)
-            """, (session_id, json.dumps(suggested_profiles), processing_time_ms))
+                UPDATE user_journey 
+                SET 
+                    recommendations_generated_at = NOW(),
+                    suggested_profiles = %s,
+                    processing_time_ms = %s,
+                    total_suggested_count = %s,
+                    avg_suggested_trust = %s,
+                    avg_suggested_compatibility = %s
+                WHERE session_id = %s
+            """, (
+                json.dumps(suggested_profiles),
+                processing_time_ms,
+                len(suggested_profiles),
+                sum(p['trust'] for p in suggested_profiles) / len(suggested_profiles),
+                sum(p['compatibility_score'] for p in suggested_profiles) / len(suggested_profiles),
+                session_id
+            ))
             
-            updated_count = cur.fetchone()[0]
+            updated_count = cur.rowcount
             conn.commit()
             print(f"Logged recommendations for session {session_id}")
             return updated_count
@@ -231,8 +248,8 @@ def log_recommendations(session_id, recommendations, processing_time_ms):
     return None
 
 
-def log_selections(session_id, selected_profiles, user_satisfaction=None, feedback_text=None):
-    """Log user selections (Step 3 of user journey)"""
+def log_selections(session_id, selected_profiles):
+    """Log user selections (Step 3 - Final step: contact revealed)"""
     conn = get_db_connection()
     if not conn:
         return None
@@ -267,18 +284,29 @@ def log_selections(session_id, selected_profiles, user_satisfaction=None, feedba
         
         with conn.cursor() as cur:
             cur.execute("""
-                SELECT log_selections(%s, %s, %s, %s, %s)
+                UPDATE user_journey 
+                SET 
+                    selections_made_at = NOW(),
+                    selected_profile_ids = %s,
+                    selected_profiles = %s,
+                    total_selected_count = %s,
+                    selection_rate = %s,
+                    avg_selected_trust = %s,
+                    avg_selected_compatibility = %s
+                WHERE session_id = %s
             """, (
-                session_id, 
                 selected_profile_ids, 
                 json.dumps(selected_profiles_data),
-                user_satisfaction,
-                feedback_text
+                len(selected_profiles),
+                len(selected_profiles) / 6.0,  # selection_rate = selected / suggested (6)
+                sum(p['trust'] for p in selected_profiles_data) / len(selected_profiles_data),
+                sum(p['compatibility_score'] for p in selected_profiles_data) / len(selected_profiles_data),
+                session_id
             ))
             
-            updated_count = cur.fetchone()[0]
+            updated_count = cur.rowcount
             conn.commit()
-            print(f"Logged selections for session {session_id}: {len(selected_profiles)} profiles")
+            print(f"Logged selections for session {session_id}: {len(selected_profiles)} profiles (CONTACT REVEALED)")
             return updated_count
             
     except Exception as e:
@@ -396,11 +424,11 @@ def submit_matches():
                     selected_profiles.append((profile, final_score, compatibility_score))
                     break
     
-    # Step 3: Log selections
+    # Step 3: Log selections (FINAL STEP - CONTACT REVEALED)
     log_selections(session_id, selected_profiles)
     
     # Console logging
-    print(f"User {user.get('name', 'Unknown')} submitted {len(selections)} matches")
+    print(f"User {user.get('name', 'Unknown')} revealed contact for {len(selections)} matches")
     for profile, final_score, compatibility_score in selected_profiles:
         print(f"  - {profile['name']}: Score {final_score:.3f}, Compatibility {compatibility_score:.3f}")
 
@@ -414,7 +442,7 @@ def status():
 
 @app.route('/analytics', methods=['GET'])
 def analytics():
-    """Enhanced analytics endpoint"""
+    """Simplified analytics endpoint"""
     conn = get_db_connection()
     if not conn:
         return {'error': 'Database not connected'}, 500
@@ -433,7 +461,7 @@ def analytics():
             cur.execute("""
                 SELECT 
                     COUNT(*) as total_journeys,
-                    COUNT(CASE WHEN journey_status = 'selections_made' THEN 1 END) as completed_journeys,
+                    COUNT(selections_made_at) as completed_journeys,
                     AVG(processing_time_ms) as avg_processing_time,
                     AVG(avg_selected_trust) as avg_trust,
                     AVG(avg_selected_compatibility) as avg_compatibility
