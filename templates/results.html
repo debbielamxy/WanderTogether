@@ -167,8 +167,8 @@
       </div>
 
       <div style="margin-top:20px;text-align:center">
-        <button type="button">Match!</button>
-        <div class="small" style="margin-top:8px">Select one or more travel companions you'd like to journey with</div>
+        <button type="button" id="matchButton">Match!</button>
+        <button type="button" id="noMatchButton" style="margin-left:10px;background:#6b7280;color:white;">No match found</button>
       </div>
     </form>
     </div>
@@ -186,7 +186,7 @@
       });
 
       // Handle Match! button click
-      const matchButton = document.querySelector('button[type="button"]');
+      const matchButton = document.getElementById('matchButton');
       if (matchButton) {
         matchButton.addEventListener('click', function(e) {
         e.preventDefault(); // Prevent form submission
@@ -198,61 +198,58 @@
           return;
         }
         
-        // Toggle contact info for selected companions
-        checked.forEach(checkbox => {
-          const value = checkbox.value;
-          const profileId = value.split('::')[0];
-          
-          // Hide travel preferences
-          const travelSection = document.getElementById('travel-' + profileId);
-          if (travelSection) {
-            travelSection.style.display = 'none';
-          }
-          
-          // Hide bio description
-          const bioSection = checkbox.closest('.card').querySelector('.bio');
-          if (bioSection) {
-            bioSection.style.display = 'none';
-          }
-          
-          // Show contact information
-          const contactSection = document.getElementById('contact-' + profileId);
-          if (contactSection) {
-            contactSection.style.display = 'block';
-          }
-        });
-        
-        // Grey out unselected candidates
-        const allCheckboxes = document.querySelectorAll('input[name="selected"]');
-        allCheckboxes.forEach(checkbox => {
-          if (!checkbox.checked) {
-            const card = checkbox.closest('.card');
-            if (card) {
-              card.style.opacity = '0.3';
-              card.style.pointerEvents = 'none';
-              checkbox.disabled = true;
-            }
-          }
-        });
-        
-        // Hide the button and helper text
-        const buttonContainer = document.querySelector('div[style*="margin-top:20px;text-align:center"]');
-        if (buttonContainer) {
-          buttonContainer.style.display = 'none';
+        // Submit the form with selected profiles
+        const form = document.querySelector('form');
+        if (form) {
+          form.submit();
         }
-        
-        // Show completion message
-        const completionDiv = document.createElement('div');
-        completionDiv.style.marginTop = '20px';
-        completionDiv.style.textAlign = 'center';
-        completionDiv.style.padding = '16px';
-        completionDiv.style.background = '#f0fdf4';
-        completionDiv.style.borderRadius = '8px';
-        completionDiv.style.borderLeft = '4px solid #16a34a';
-        completionDiv.innerHTML = '<div style="color:#166534;font-weight:600;font-size:16px">Matched! Contact and connect with your travel buddy now!</div>';
-        
-        const form = document.getElementById('matchesForm');
-        form.appendChild(completionDiv);
+      });
+      }
+
+      // Handle No match found button click
+      const noMatchButton = document.getElementById('noMatchButton');
+      if (noMatchButton) {
+        noMatchButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          // Grey out all profiles
+          const allCards = document.querySelectorAll('.card');
+          allCards.forEach(card => {
+            card.style.opacity = '0.3';
+            card.style.pointerEvents = 'none';
+          });
+          
+          // Disable all checkboxes
+          const allCheckboxes = document.querySelectorAll('input[name="selected"]');
+          allCheckboxes.forEach(checkbox => {
+            checkbox.disabled = true;
+          });
+          
+          // Disable both buttons
+          matchButton.disabled = true;
+          noMatchButton.disabled = true;
+          
+          // Hide the button container
+          const buttonContainer = document.querySelector('div[style*="margin-top:20px;text-align:center"]');
+          if (buttonContainer) {
+            buttonContainer.style.display = 'none';
+          }
+          
+          // Show no match message
+          const noMatchDiv = document.createElement('div');
+          noMatchDiv.style.marginTop = '20px';
+          noMatchDiv.style.textAlign = 'center';
+          noMatchDiv.style.padding = '16px';
+          noMatchDiv.style.background = '#f3f4f6';
+          noMatchDiv.style.borderRadius = '8px';
+          noMatchDiv.style.borderLeft = '4px solid #6b7280';
+          noMatchDiv.innerHTML = '<div style="color:#374151;font-weight:600;font-size:16px">No suitable matches found. Try adjusting your interests or check back later.</div>';
+          
+          // Insert the message after the form
+          const form = document.querySelector('form');
+          if (form) {
+            form.parentNode.insertBefore(noMatchDiv, form.nextSibling);
+          }
         });
       }
     </script>

@@ -1,33 +1,29 @@
 #!/usr/bin/env python3
 """
 Show All Database Entries
-Displays all user journey records in the database
+Display all user journey data from database
 """
 
+import json
 import psycopg2
 from psycopg2.extras import RealDictCursor
-import os
-import json
 from datetime import datetime
-
-# Database connection
-DATABASE_URL = os.getenv('DATABASE_URL', "postgresql://wandertogetherdb_user:94Wr3w5tONCj72N6D9oGnlUU87b2AiNs@dpg-d58fuimr433s73f8dndg-a.oregon-postgres.render.com/wandertogetherdb")
 
 def show_all_entries():
     print("🗃️ WanderTogether Database - All User Journey Entries")
     print("=" * 60)
     
+    # Database connection
+    DATABASE_URL = "postgresql://wandertogetherdb_user:94Wr3w5tONCj72N6D9oGnlUU87b2AiNs@dpg-d58fuimr433s73f8dndg-a.oregon-postgres.render.com/wandertogetherdb"
+    
+    conn = psycopg2.connect(DATABASE_URL)
+    
     try:
-        conn = psycopg2.connect(DATABASE_URL)
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            # Get all entries
+            # Get all entries with complete information
             cur.execute("""
                 SELECT 
                     id,
-                    created_at,
-                    form_submitted_at,
-                    recommendations_generated_at,
-                    selections_made_at,
                     user_name,
                     user_age,
                     user_gender,
@@ -42,10 +38,16 @@ def show_all_entries():
                     user_smoking,
                     user_fitness,
                     user_bio,
+                    created_at,
+                    form_submitted_at,
+                    recommendations_generated_at,
+                    selections_made_at,
                     suggested_profiles,
                     selected_profiles,
+                    selected_profile_ids,
                     total_suggested_count,
-                    total_selected_count
+                    total_selected_count,
+                    algorithm_version
                 FROM user_journey
                 ORDER BY created_at DESC
             """)
@@ -62,38 +64,20 @@ def show_all_entries():
             for i, entry in enumerate(entries, 1):
                 print(f"\n👤 Entry #{i}: {entry['user_name']} (ID: {entry['id']})")
                 print(f"   🕐 Created: {entry['created_at']}")
+                print(f"   📝 Form submitted: {entry['form_submitted_at']}")
+                print(f"   🤖 Recommendations generated: {entry['recommendations_generated_at']}")
+                print(f"   ✅ Selections made: {entry['selections_made_at']}")
+                print(f"   📊 Total suggested: {entry['total_suggested_count']}")
+                print(f"   🎯 Total selected: {entry['total_selected_count']}")
                 
-                # Form submission info
-                if entry['form_submitted_at']:
-                    print(f"   📝 Form submitted: {entry['form_submitted_at']}")
-                    print(f"   👤 Age: {entry['user_age']}, Gender: {entry['user_gender']}")
-                    print(f"   💰 Budget: {entry['user_budget']}, Pace: {entry['user_pace']}, Style: {entry['user_style']}")
-                    
-                    # Handle interests (may be stored as array or string)
-                    interests = entry['user_interests']
-                    if interests:
-                        if isinstance(interests, list):
-                            interests_str = ', '.join(interests[:3]) + ('...' if len(interests) > 3 else '')
-                        else:
-                            interests_str = str(interests)[:50]
-                        print(f"   🎯 Interests: {interests_str}")
-                    
-                    # Handle sleep (may be stored as array or string)
-                    sleep = entry['user_sleep']
-                    if sleep:
-                        if isinstance(sleep, list):
-                            sleep_str = ', '.join(sleep[:3]) + ('...' if len(sleep) > 3 else '')
-                        else:
-                            sleep_str = str(sleep)[:50]
-                        print(f"   😴 Sleep: {sleep_str}")
-                    
-                    if entry['user_bio']:
-                        bio = entry['user_bio']
-                        print(f"   📄 Bio: {bio[:50]}{'...' if len(bio) > 50 else ''}")
+                # Minimal user information
+                print(f"\n   👤 User: {entry['user_name']}")
+                print(f"   🕐 Created: {entry['created_at']}")
                 
                 # Algorithm suggestions
                 if entry['recommendations_generated_at']:
                     print(f"   🤖 Recommendations generated: {entry['recommendations_generated_at']}")
+                    print(f"   📝 Form submitted: {entry['form_submitted_at']}")
                     if entry['suggested_profiles']:
                         try:
                             # Handle both string and object types
@@ -116,8 +100,8 @@ def show_all_entries():
                 
                 # User selections
                 if entry['selections_made_at']:
-                    print(f"   ✅ Selections made: {entry['selections_made_at']}")
-                    print(f"   🎯 Selected: {entry['total_selected_count']}/{entry['total_suggested_count']} profiles")
+                    print(f"\n   ✅ User Selections:")
+                    print(f"      Selections made at: {entry['selections_made_at']}")
                     
                     if entry['selected_profiles']:
                         try:
@@ -127,19 +111,22 @@ def show_all_entries():
                             else:
                                 selected = entry['selected_profiles']
                             
-                            print(f"   📋 Selected profiles:")
+                            print(f"      📋 Selected profiles: {len(selected)}")
                             for j, profile in enumerate(selected, 1):
                                 trust = profile.get('trust', 0)
                                 compat = profile.get('compatibility_score', 0)
-                                print(f"      {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
+                                print(f"         {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
                         except Exception as e:
-                            print(f"   ⚠️  Could not parse selected profiles data: {e}")
-                            print(f"   📄 Raw data type: {type(entry['selected_profiles'])}")
-                            print(f"   📄 Raw data: {entry['selected_profiles'][:100]}...")
+                            print(f"      ⚠️  Could not parse selected profiles data: {e}")
+                            print(f"      📄 Raw data type: {type(entry['selected_profiles'])}")
+                            print(f"      📄 Raw data: {str(entry['selected_profiles'])[:200]}...")
+                    else:
+                        print(f"      ⚠️  selections_made_at exists but no selected_profiles data")
                 else:
-                    print(f"   ❌ No selections made")
+                    print(f"\n   ❌ No selections made")
+                    print(f"      💡 User viewed recommendations but didn't click 'Match!' button")
                 
-                print("   " + "-" * 50)
+                print("   " + "-" * 60)
             
             # Summary statistics
             print(f"\n📈 Summary Statistics:")
@@ -152,6 +139,7 @@ def show_all_entries():
                 completion_rate = (completed / len(entries)) * 100
                 print(f"   Completion rate: {completion_rate:.1f}%")
                 
+                # Calculate average selections
                 completed_entries = [entry for entry in entries if entry['total_selected_count']]
                 if completed_entries:
                     avg_selections = sum(entry['total_selected_count'] for entry in completed_entries) / len(completed_entries)
@@ -159,11 +147,21 @@ def show_all_entries():
             
             print(f"\n🎯 Database Size: {len(entries)} user journeys stored")
             
+            # Database health check
+            print(f"\n🏥 Database Health:")
+            with_form = sum(1 for entry in entries if entry['form_submitted_at'])
+            with_recommendations = sum(1 for entry in entries if entry['recommendations_generated_at'])
+            with_selections = sum(1 for entry in entries if entry['selections_made_at'])
+            
+            print(f"   Entries with form submission: {with_form}")
+            print(f"   Entries with recommendations: {with_recommendations}")
+            print(f"   Entries with selections: {with_selections}")
+            print(f"   Conversion rate: {(with_selections/with_recommendations)*100:.1f}%" if with_recommendations > 0 else "N/A")
+    
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"❌ Database error: {e}")
     finally:
-        if 'conn' in locals():
-            conn.close()
+        conn.close()
 
 if __name__ == '__main__':
     show_all_entries()

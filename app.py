@@ -133,8 +133,9 @@ def log_form_submission(user, session_id):
             cur.execute("""
                 INSERT INTO user_journey (
                     user_name, user_age, user_gender, user_budget, user_pace, user_style,
-                    user_interests, user_sleep, user_cleanliness, user_dietary, user_alcohol, user_smoking, user_fitness, user_bio
-                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    user_interests, user_sleep, user_cleanliness, user_dietary, user_alcohol, user_smoking, user_fitness, user_bio,
+                    form_submitted_at
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())
                 RETURNING id
             """, (
                 user.get('name', ''),
@@ -228,6 +229,9 @@ def log_recommendations(journey_id, recommendations):
 
 def log_selections(journey_id, selected_profiles):
     """Log user selections (Step 3 - Final step: contact revealed)"""
+    print(f"🔍 DEBUG: log_selections called with journey_id: {journey_id}")
+    print(f"🔍 DEBUG: selected_profiles count: {len(selected_profiles)}")
+    
     conn = get_db_connection()
     if not conn:
         return None
@@ -238,6 +242,7 @@ def log_selections(journey_id, selected_profiles):
         selected_profile_ids = []
         
         for profile, final_score, compatibility_score in selected_profiles:
+            print(f"🔍 DEBUG: Processing profile: {profile['name']} (ID: {profile['id']})")
             selected_profiles_data.append({
                 'id': profile['id'],
                 'name': profile['name'],
@@ -260,6 +265,8 @@ def log_selections(journey_id, selected_profiles):
             })
             selected_profile_ids.append(profile['id'])
         
+        print(f"🔍 DEBUG: About to execute SQL with {len(selected_profiles_data)} profiles")
+        
         with conn.cursor() as cur:
             cur.execute("""
                 UPDATE user_journey 
@@ -278,11 +285,12 @@ def log_selections(journey_id, selected_profiles):
             
             updated_count = cur.rowcount
             conn.commit()
-            print(f"Logged selections for journey {journey_id}: {len(selected_profiles)} profiles (CONTACT REVEALED)")
+            print(f"🔍 DEBUG: SQL updated {updated_count} rows")
+            print(f"🔍 DEBUG: Logged selections for journey {journey_id}: {len(selected_profiles)} profiles (CONTACT REVEALED)")
             return updated_count
             
     except Exception as e:
-        print(f"Selections logging error: {e}")
+        print(f"🔍 DEBUG: Selections logging error: {e}")
         conn.rollback()
     finally:
         conn.close()
@@ -350,53 +358,42 @@ def recommend():
     weights = load_survey_weights()
     user = parse_user_form(request.form)
     
-    # Step 1: Log form submission and get journey_id
-    journey_id = log_form_submission(user, str(uuid.uuid4()))
-    
-    # Step 2: Get recommendations
+    # Step 1: Get recommendations (no database entry yet)
     recommendations = compute_hybrid_recommendations(user, weights)
     
-    # Step 2: Log recommendations
-    log_recommendations(journey_id, recommendations)
+    # Step 2: Store recommendations temporarily in session for later use
+    # We'll create the database entry when user clicks "Match!"
     
     return render_template('results.html', recommendations=recommendations, weights=weights, user=user)
 
 
 @app.route('/submit_matches', methods=['POST'])
 def submit_matches():
+    print("🔍 DEBUG: submit_matches route called")
     selections = request.form.getlist('selected')
+    print(f"🔍 DEBUG: Raw selections: {selections}")
+    
     if not selections:
+        print("🔍 DEBUG: No selections provided")
         return "No selections made", 400
     if len(selections) < 1 or len(selections) > 6:
+        print(f"🔍 DEBUG: Invalid selection count: {len(selections)}")
         return "Select between 1 and 6 candidates", 400
 
     # reconstruct user from hidden fields
     user = parse_user_form(request.form)
+    print(f"🔍 DEBUG: Parsed user: {user.get('name', 'Unknown')}")
     
-    # Find the most recent journey for this user (within last hour)
-    conn = get_db_connection()
-    journey_id = None
-    if conn:
-        try:
-            with conn.cursor() as cur:
-                cur.execute("""
-                    SELECT id FROM user_journey 
-                    WHERE user_name = %s 
-                    AND created_at > NOW() - INTERVAL '1 hour'
-                    ORDER BY created_at DESC 
-                    LIMIT 1
-                """, (user.get('name', ''),))
-                result = cur.fetchone()
-                if result:
-                    journey_id = result[0]
-        except Exception as e:
-            print(f"Error finding journey: {e}")
-        finally:
-            conn.close()
+    # Step 1: Create database entry only when user clicks "Match!"
+    journey_id = log_form_submission(user, str(uuid.uuid4()))
+    print(f"🔍 DEBUG: Created journey_id: {journey_id}")
     
-    # If no recent journey found, create a new one
-    if not journey_id:
-        journey_id = log_form_submission(user, str(uuid.uuid4()))
+    # Step 2: Log recommendations for this journey
+    # We need to regenerate recommendations since we didn't store them before
+    weights = load_survey_weights()
+    recommendations = compute_hybrid_recommendations(user, weights)
+    log_recommendations(journey_id, recommendations)
+    print(f"🔍 DEBUG: Logged {len(recommendations)} recommendations")
     
     # Parse selected profiles
     selected_profiles = []
