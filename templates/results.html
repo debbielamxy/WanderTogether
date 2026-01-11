@@ -55,7 +55,7 @@
         <strong>Trust Score:</strong> Reliability based on past interactions and verification status. &nbsp;&nbsp;&nbsp;&nbsp; <strong>Compatibility Score:</strong> How well travel preferences align with yours.
       </div>
 
-    <form id="matchesForm">
+    <form id="matchesForm" method="POST" action="/submit_matches">
       <!-- user hidden fields -->
       <input type="hidden" name="session_id" value="{{ session_id }}" />
       <input type="hidden" name="name" value="{{ user.name }}" />
@@ -125,9 +125,8 @@
               
               <!-- Contact Information Section (Initially Hidden) -->
               <div class="contact-info" id="contact-{{ profile.id }}" style="display: none;">
-                <div class="meta-row" style="background:#f0f9ff;padding:8px;border-radius:6px;border-left:3px solid #0ea5e9;">
-                  <div class="meta" style="font-weight:600;color:#0c4a6e;">📞 Contact:</div>
-                  <div class="meta" style="color:#0c4a6e;">{{ profile.contact }}</div>
+                <div style="background:#f0fdf4;border:1px solid #16a34a;border-radius:8px;border-left:4px solid #16a34a;padding:16px;margin-top:16px;">
+                  <div style="color:#166534;font-weight:600;font-size:16px;">Contact: {{ profile.contact if profile.contact else 'Contact not available' }}</div>
                 </div>
               </div>
               
@@ -189,20 +188,95 @@
       const matchButton = document.getElementById('matchButton');
       if (matchButton) {
         matchButton.addEventListener('click', function(e) {
-        e.preventDefault(); // Prevent form submission
+        e.preventDefault(); // Prevent normal form submission
+        console.log('Match! button clicked');
         
         const checked = document.querySelectorAll('input[name="selected"]:checked');
+        console.log('Selected checkboxes:', checked.length);
         
         if (checked.length === 0) {
           alert('Please select at least one travel companion.');
           return;
         }
         
-        // Submit the form with selected profiles
+        // Submit form via AJAX
+        console.log('Submitting form via AJAX...');
         const form = document.querySelector('form');
-        if (form) {
-          form.submit();
-        }
+        const formData = new FormData(form);
+        
+        fetch('/submit_matches', {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+          console.log('Response:', data);
+          if (data.success) {
+            // Reveal contact information for selected profiles
+            checked.forEach(checkbox => {
+              const profileId = checkbox.value.split('::')[0];
+              const card = checkbox.closest('.card');
+              
+              // Hide travel preferences section
+              const travelSection = document.getElementById('travel-' + profileId);
+              if (travelSection) {
+                travelSection.style.display = 'none';
+              }
+              
+              // Hide bio
+              const bioSection = card.querySelector('.bio');
+              if (bioSection) {
+                bioSection.style.display = 'none';
+              }
+              
+              // Show contact information
+              const contactSection = document.getElementById('contact-' + profileId);
+              if (contactSection) {
+                contactSection.style.display = 'block';
+              }
+              
+              // Grey out unselected profiles
+              const allCheckboxes = document.querySelectorAll('input[name="selected"]');
+              allCheckboxes.forEach(cb => {
+                if (!cb.checked) {
+                  const cbCard = cb.closest('.card');
+                  if (cbCard) {
+                    cbCard.style.opacity = '0.3';
+                    cbCard.style.pointerEvents = 'none';
+                    cb.disabled = true;
+                  }
+                }
+              });
+            });
+            
+            // Hide buttons and show success message
+            const buttonContainer = document.querySelector('div[style*="margin-top:20px;text-align:center"]');
+            if (buttonContainer) {
+              buttonContainer.style.display = 'none';
+            }
+            
+            // Show success message
+            const successDiv = document.createElement('div');
+            successDiv.style.marginTop = '20px';
+            successDiv.style.textAlign = 'center';
+            successDiv.style.padding = '16px';
+            successDiv.style.background = '#f0fdf4';
+            successDiv.style.border = '1px solid #16a34a';
+            successDiv.style.borderRadius = '8px';
+            successDiv.style.borderLeft = '4px solid #16a34a';
+            successDiv.innerHTML = '<div style="color:#166534;font-weight:600;font-size:16px">Matched! Contact and connect with your travel buddy now!</div>';
+            
+            form.parentNode.insertBefore(successDiv, form.nextSibling);
+            
+            console.log('Contact information revealed successfully');
+          } else {
+            alert('Error: ' + (data.message || 'Unknown error occurred'));
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('An error occurred while processing your request. Please try again.');
+        });
       });
       }
 

@@ -229,9 +229,6 @@ def log_recommendations(journey_id, recommendations):
 
 def log_selections(journey_id, selected_profiles):
     """Log user selections (Step 3 - Final step: contact revealed)"""
-    print(f"🔍 DEBUG: log_selections called with journey_id: {journey_id}")
-    print(f"🔍 DEBUG: selected_profiles count: {len(selected_profiles)}")
-    
     conn = get_db_connection()
     if not conn:
         return None
@@ -242,7 +239,6 @@ def log_selections(journey_id, selected_profiles):
         selected_profile_ids = []
         
         for profile, final_score, compatibility_score in selected_profiles:
-            print(f"🔍 DEBUG: Processing profile: {profile['name']} (ID: {profile['id']})")
             selected_profiles_data.append({
                 'id': profile['id'],
                 'name': profile['name'],
@@ -265,8 +261,6 @@ def log_selections(journey_id, selected_profiles):
             })
             selected_profile_ids.append(profile['id'])
         
-        print(f"🔍 DEBUG: About to execute SQL with {len(selected_profiles_data)} profiles")
-        
         with conn.cursor() as cur:
             cur.execute("""
                 UPDATE user_journey 
@@ -285,12 +279,11 @@ def log_selections(journey_id, selected_profiles):
             
             updated_count = cur.rowcount
             conn.commit()
-            print(f"🔍 DEBUG: SQL updated {updated_count} rows")
-            print(f"🔍 DEBUG: Logged selections for journey {journey_id}: {len(selected_profiles)} profiles (CONTACT REVEALED)")
+            print(f"Logged selections for journey {journey_id}: {len(selected_profiles)} profiles (CONTACT REVEALED)")
             return updated_count
             
     except Exception as e:
-        print(f"🔍 DEBUG: Selections logging error: {e}")
+        print(f"Selections logging error: {e}")
         conn.rollback()
     finally:
         conn.close()
@@ -369,31 +362,24 @@ def recommend():
 
 @app.route('/submit_matches', methods=['POST'])
 def submit_matches():
-    print("🔍 DEBUG: submit_matches route called")
     selections = request.form.getlist('selected')
-    print(f"🔍 DEBUG: Raw selections: {selections}")
     
     if not selections:
-        print("🔍 DEBUG: No selections provided")
         return "No selections made", 400
     if len(selections) < 1 or len(selections) > 6:
-        print(f"🔍 DEBUG: Invalid selection count: {len(selections)}")
         return "Select between 1 and 6 candidates", 400
 
     # reconstruct user from hidden fields
     user = parse_user_form(request.form)
-    print(f"🔍 DEBUG: Parsed user: {user.get('name', 'Unknown')}")
     
     # Step 1: Create database entry only when user clicks "Match!"
     journey_id = log_form_submission(user, str(uuid.uuid4()))
-    print(f"🔍 DEBUG: Created journey_id: {journey_id}")
     
     # Step 2: Log recommendations for this journey
     # We need to regenerate recommendations since we didn't store them before
     weights = load_survey_weights()
     recommendations = compute_hybrid_recommendations(user, weights)
     log_recommendations(journey_id, recommendations)
-    print(f"🔍 DEBUG: Logged {len(recommendations)} recommendations")
     
     # Parse selected profiles
     selected_profiles = []
@@ -419,7 +405,12 @@ def submit_matches():
     for profile, final_score, compatibility_score in selected_profiles:
         print(f"  - {profile['name']}: Score {final_score:.3f}, Compatibility {compatibility_score:.3f}")
 
-    return redirect('/?msg=Matches+Submitted')
+    # Return JSON response for AJAX handling
+    return {
+        'success': True,
+        'message': f'Contact information revealed for {len(selected_profiles)} travel companion(s)',
+        'selected_count': len(selected_profiles)
+    }
 
 
 @app.route('/status', methods=['GET'])
