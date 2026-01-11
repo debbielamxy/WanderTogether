@@ -2,7 +2,6 @@
   {
     "id": 1,
     "name": "Liam Adams",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Live Music & Concerts",
@@ -18,12 +17,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "+85292222531",
+    "budget": 2
   },
   {
     "id": 2,
     "name": "Noah Mohamad",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -42,12 +42,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+61444824232",
+    "budget": 2
   },
   {
     "id": 3,
     "name": "Olivia Olsen",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Religious Sites",
@@ -65,12 +66,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "olivia.olsen@outlook.com",
+    "budget": 2
   },
   {
     "id": 4,
     "name": "Oliver Vasquez",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
@@ -88,12 +90,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "oliver.vasquez@yahoo.com",
+    "budget": 3
   },
   {
     "id": 5,
-    "name": "Emma González",
-    "budget": 1,
+    "name": "Emma Gonz\u00c3\u00a1lez",
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -112,12 +115,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "emma.gonz\u00e3lez@icloud.com",
+    "budget": 1
   },
   {
     "id": 6,
     "name": "Ava Peterson",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Water Sports",
@@ -136,12 +140,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "+19476173879",
+    "budget": 1
   },
   {
     "id": 7,
     "name": "Elijah Gao",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Hiking & Nature",
@@ -160,12 +165,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "contact": "+12899174876",
+    "budget": 2
   },
   {
     "id": 8,
     "name": "James Jones",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Religious Sites",
@@ -182,12 +188,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "contact": "+6581705926",
+    "budget": 2
   },
   {
     "id": 9,
     "name": "Charlotte Quinn",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Water Sports",
@@ -207,12 +214,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "contact": "charlotte.quinn391@yahoo.com",
+    "budget": 2
   },
   {
     "id": 10,
     "name": "William Xu",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Local Culture",
@@ -228,12 +236,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+61491269906",
+    "budget": 2
   },
   {
     "id": 11,
     "name": "Sophia Lopez",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Beaches & Coast",
@@ -252,12 +261,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "contact": "sophia.lopez@hotmail.com",
+    "budget": 1
   },
   {
     "id": 12,
     "name": "Amelia Ward",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Festivals & Events",
@@ -278,12 +288,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "+4494154734716",
+    "budget": 1
   },
   {
     "id": 13,
     "name": "Benjamin Evans",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Local Culture",
@@ -304,12 +315,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "benjamin.evans@yahoo.com",
+    "budget": 2
   },
   {
     "id": 14,
     "name": "Lucas Hou",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Hiking & Nature",
@@ -330,12 +342,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "lucas.hou@gmail.com",
+    "budget": 2
   },
   {
     "id": 15,
     "name": "Isabella Haq",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Live Music & Concerts",
@@ -354,12 +367,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "isabella.haq@gmail.com",
+    "budget": 1
   },
   {
     "id": 16,
     "name": "Henry Zimmer",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Wildlife & Animals",
@@ -379,12 +393,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "+17232541779",
+    "budget": 2
   },
   {
     "id": 17,
     "name": "Sara Sarah",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -406,12 +421,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "sara.sarah266@gmail.com",
+    "budget": 2
   },
   {
     "id": 18,
     "name": "Evelyn Murray",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -433,12 +449,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "evelyn.murray430@outlook.com",
+    "budget": 2
   },
   {
     "id": 19,
     "name": "Alexander Cruz",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -458,12 +475,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "alexander.cruz@icloud.com",
+    "budget": 1
   },
   {
     "id": 20,
     "name": "Mason Nguyen",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "National Parks",
@@ -485,12 +503,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "mason.nguyen@gmail.com",
+    "budget": 2
   },
   {
     "id": 21,
     "name": "Zixuan Ueda",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -511,12 +530,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "zixuan.ueda@outlook.com",
+    "budget": 2
   },
   {
     "id": 22,
     "name": "Michael Xiong",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Culture"
@@ -531,12 +551,13 @@
     "smoking": "yes",
     "fitness": "walk",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "michael.xiong502@hotmail.com",
+    "budget": 2
   },
   {
     "id": 23,
     "name": "Camila Bell",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Water Sports",
@@ -554,12 +575,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "contact": "camila.bell@yahoo.com",
+    "budget": 2
   },
   {
     "id": 24,
     "name": "Gianna Bennett",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Festivals & Events",
@@ -581,12 +603,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "contact": "gianna.bennett@icloud.com",
+    "budget": 1
   },
   {
     "id": 25,
     "name": "Ethan Karim",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -605,12 +628,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "ethan.karim514@hotmail.com",
+    "budget": 2
   },
   {
     "id": 26,
     "name": "Daniel Gupta",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -629,12 +653,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "+14383683376",
+    "budget": 2
   },
   {
     "id": 27,
     "name": "Abigail Yu",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Wellness & Spa",
@@ -656,12 +681,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 42
+    "age": 42,
+    "contact": "abigail.yu284@icloud.com",
+    "budget": 2
   },
   {
     "id": 28,
     "name": "Jacob Jackson",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -681,12 +707,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "jacob.jackson@hotmail.com",
+    "budget": 2
   },
   {
     "id": 29,
     "name": "Luna Reed",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Water Sports",
@@ -706,12 +733,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "luna.reed@hotmail.com",
+    "budget": 2
   },
   {
     "id": 30,
     "name": "Ella Diaz",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -728,12 +756,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "ella.diaz@outlook.com",
+    "budget": 2
   },
   {
     "id": 31,
     "name": "Anas Khan",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -753,12 +782,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "anas.khan@yahoo.com",
+    "budget": 2
   },
   {
     "id": 32,
     "name": "Jackson Rossi",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Photography",
@@ -775,12 +805,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+85270706024",
+    "budget": 3
   },
   {
     "id": 33,
     "name": "Elizabeth Young",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -797,12 +828,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "elizabeth.young368@gmail.com",
+    "budget": 3
   },
   {
     "id": 34,
     "name": "Levi Gomez",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -823,12 +855,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "levi.gomez@yahoo.com",
+    "budget": 2
   },
   {
     "id": 35,
     "name": "Sofia Cook",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Coffee Culture",
@@ -844,12 +877,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "sofia.cook@yahoo.com",
+    "budget": 2
   },
   {
     "id": 36,
     "name": "Emily Foster",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -870,12 +904,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+8617754169231",
+    "budget": 2
   },
   {
     "id": 37,
     "name": "Sebastian Moreau",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -896,12 +931,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "contact": "sebastian.moreau@yahoo.com",
+    "budget": 3
   },
   {
     "id": 38,
     "name": "Mateo Taylor",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -918,12 +954,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+819339294746",
+    "budget": 2
   },
   {
     "id": 39,
     "name": "Asuka Hou",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Volunteer Work",
@@ -939,12 +976,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "asuka.hou@hotmail.com",
+    "budget": 2
   },
   {
     "id": 40,
     "name": "Jack Costa",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -964,12 +1002,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+818040615238",
+    "budget": 2
   },
   {
     "id": 41,
     "name": "Mila Adams",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Wellness & Spa",
@@ -990,12 +1029,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "contact": "+85252241377",
+    "budget": 1
   },
   {
     "id": 42,
     "name": "Scarlett Bakir",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Camping & Outdoors",
@@ -1015,12 +1055,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "scarlett.bakir19@gmail.com",
+    "budget": 2
   },
   {
     "id": 43,
     "name": "Owen Olsen",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -1038,12 +1079,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "owen.olsen@gmail.com",
+    "budget": 2
   },
   {
     "id": 44,
     "name": "Samuel Vasquez",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Cooking Experiences",
@@ -1061,12 +1103,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 40
+    "age": 40,
+    "contact": "+85280101484",
+    "budget": 1
   },
   {
     "id": 45,
     "name": "Eleanor Flores",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Wildlife & Animals"
@@ -1083,12 +1126,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "eleanor.flores@hotmail.com",
+    "budget": 2
   },
   {
     "id": 46,
     "name": "Matthew Clark",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -1108,12 +1152,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "matthew.clark971@gmail.com",
+    "budget": 2
   },
   {
     "id": 47,
     "name": "Hannah Yao",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Local Culture",
@@ -1132,12 +1177,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+6591494031",
+    "budget": 1
   },
   {
     "id": 48,
     "name": "Grace Jones",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Beaches & Coast",
@@ -1153,12 +1199,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "grace.jones89@outlook.com",
+    "budget": 3
   },
   {
     "id": 49,
     "name": "Joseph Quinn",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -1177,12 +1224,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "joseph.quinn@outlook.com",
+    "budget": 2
   },
   {
     "id": 50,
     "name": "David Xu",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Beaches & Coast",
@@ -1200,12 +1248,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "david.xu@hotmail.com",
+    "budget": 2
   },
   {
     "id": 51,
     "name": "Zoey Lopez",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -1224,12 +1273,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "zoey.lopez524@icloud.com",
+    "budget": 3
   },
   {
     "id": 52,
     "name": "Wyatt Ward",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Photography"
@@ -1246,12 +1296,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 41
+    "age": 41,
+    "contact": "+85289359259",
+    "budget": 2
   },
   {
     "id": 53,
     "name": "Penelope Evans",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "National Parks",
@@ -1270,12 +1321,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "contact": "+6592673471",
+    "budget": 3
   },
   {
     "id": 54,
     "name": "Nora Kwon",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -1294,12 +1346,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "contact": "nora.kwon@gmail.com",
+    "budget": 2
   },
   {
     "id": 55,
     "name": "Carter Fischer",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -1320,12 +1373,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 50
+    "age": 50,
+    "contact": "carter.fischer@yahoo.com",
+    "budget": 3
   },
   {
     "id": 56,
     "name": "Jayden Zimmer",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -1346,12 +1400,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "+601446573273",
+    "budget": 2
   },
   {
     "id": 57,
     "name": "Riley Silva",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -1372,12 +1427,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 24
+    "age": 24,
+    "contact": "+601777812915",
+    "budget": 2
   },
   {
     "id": 58,
     "name": "Luke Murray",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -1394,12 +1450,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "contact": "+8618015671657",
+    "budget": 1
   },
   {
     "id": 59,
-    "name": "Victoria Rodríguez",
-    "budget": 2,
+    "name": "Victoria Rodr\u00c3\u00adguez",
     "pace": 2,
     "interests": [
       "Cooking Experiences",
@@ -1418,12 +1475,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 22
+    "age": 22,
+    "contact": "victoria.rodr\u00e3guez238@gmail.com",
+    "budget": 2
   },
   {
     "id": 60,
     "name": "Lily Nguyen",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -1440,12 +1498,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "lily.nguyen@yahoo.com",
+    "budget": 2
   },
   {
     "id": 61,
     "name": "Liam Ueda",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Cooking Experiences",
@@ -1465,12 +1524,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "+6582334214",
+    "budget": 3
   },
   {
     "id": 62,
     "name": "Noah Song",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -1492,12 +1552,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+4423316375271",
+    "budget": 1
   },
   {
     "id": 63,
     "name": "Olivia Bell",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -1517,12 +1578,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "olivia.bell742@hotmail.com",
+    "budget": 2
   },
   {
     "id": 64,
     "name": "Oliver Bennett",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -1541,12 +1603,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+61472568765",
+    "budget": 1
   },
   {
     "id": 65,
     "name": "Emma Ibrahim",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Beaches & Coast"
@@ -1564,12 +1627,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "+6594769354",
+    "budget": 2
   },
   {
     "id": 66,
     "name": "Ava Naqvi",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -1589,12 +1653,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "contact": "ava.naqvi769@outlook.com",
+    "budget": 2
   },
   {
     "id": 67,
     "name": "Elijah Ren",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -1614,12 +1679,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "+601923999090",
+    "budget": 1
   },
   {
     "id": 68,
     "name": "James Jensen",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -1636,12 +1702,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
-    "age": 44
+    "age": 44,
+    "contact": "james.jensen@outlook.com",
+    "budget": 2
   },
   {
     "id": 69,
     "name": "Charlotte Reed",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Camping & Outdoors",
@@ -1659,12 +1726,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "contact": "charlotte.reed250@outlook.com",
+    "budget": 2
   },
   {
     "id": 70,
     "name": "William Diaz",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Adventure Sports",
@@ -1683,12 +1751,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "contact": "william.diaz915@icloud.com",
+    "budget": 2
   },
   {
     "id": 71,
     "name": "Sophia Khan",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Fine Dining",
@@ -1708,12 +1777,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "sophia.khan@yahoo.com",
+    "budget": 2
   },
   {
     "id": 72,
     "name": "Amelia Rossi",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -1732,12 +1802,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 37
+    "age": 37,
+    "contact": "amelia.rossi@yahoo.com",
+    "budget": 2
   },
   {
     "id": 73,
     "name": "Benjamin Young",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -1756,12 +1827,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "benjamin.young@yahoo.com",
+    "budget": 3
   },
   {
     "id": 74,
     "name": "Lucas Gomez",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -1781,12 +1853,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "contact": "lucas.gomez769@gmail.com",
+    "budget": 2
   },
   {
     "id": 75,
     "name": "Isabella Cook",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Religious Sites",
@@ -1807,12 +1880,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "+12309995400",
+    "budget": 3
   },
   {
     "id": 76,
     "name": "Henry Foster",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -1829,12 +1903,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "henry.foster@icloud.com",
+    "budget": 1
   },
   {
     "id": 77,
     "name": "Mia Moreau",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Live Music & Concerts",
@@ -1853,12 +1928,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "mia.moreau158@yahoo.com",
+    "budget": 2
   },
   {
     "id": 78,
     "name": "Evelyn Taylor",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Museums & Art",
@@ -1879,12 +1955,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+6597193001",
+    "budget": 2
   },
   {
     "id": 79,
     "name": "Alexander Peng",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Nightlife & Bars",
@@ -1905,12 +1982,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+4460249693954",
+    "budget": 2
   },
   {
     "id": 80,
     "name": "Mason Costa",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Coffee Culture",
@@ -1929,12 +2007,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "+601025565952",
+    "budget": 2
   },
   {
     "id": 81,
     "name": "Amelia Adams",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Historical Sites",
@@ -1952,12 +2031,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "amelia.adams155@gmail.com",
+    "budget": 2
   },
   {
     "id": 82,
     "name": "Michael Hassan",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -1974,12 +2054,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "michael.hassan@outlook.com",
+    "budget": 2
   },
   {
     "id": 83,
     "name": "Camila Olsen",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Local Culture",
@@ -1999,12 +2080,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "contact": "camila.olsen@yahoo.com",
+    "budget": 2
   },
   {
     "id": 84,
     "name": "Gianna Vasquez",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Street Food",
@@ -2020,12 +2102,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "contact": "gianna.vasquez@hotmail.com",
+    "budget": 1
   },
   {
     "id": 85,
     "name": "Ethan Martinez",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -2046,12 +2129,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "+61433228561",
+    "budget": 2
   },
   {
     "id": 86,
     "name": "Daniel Clark",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Festivals & Events",
@@ -2072,12 +2156,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 38
+    "age": 38,
+    "contact": "daniel.clark802@icloud.com",
+    "budget": 2
   },
   {
     "id": 87,
     "name": "Abigail Chen",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Fine Dining",
@@ -2095,12 +2180,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "abigail.chen@icloud.com",
+    "budget": 3
   },
   {
     "id": 88,
     "name": "Jacob Jones",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Fine Dining",
@@ -2121,12 +2207,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+12445203932",
+    "budget": 1
   },
   {
     "id": 89,
     "name": "Luna Quinn",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wellness & Spa",
@@ -2147,12 +2234,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 39
+    "age": 39,
+    "contact": "luna.quinn@outlook.com",
+    "budget": 2
   },
   {
     "id": 90,
     "name": "Ella Xu",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Coffee Culture",
@@ -2171,12 +2259,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "ella.xu@outlook.com",
+    "budget": 2
   },
   {
     "id": 91,
     "name": "Logan Lopez",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Street Food"
@@ -2193,12 +2282,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "+61468117193",
+    "budget": 2
   },
   {
     "id": 92,
     "name": "Jackson Ward",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -2217,12 +2307,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+85284832998",
+    "budget": 3
   },
   {
     "id": 93,
     "name": "Elizabeth Evans",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Adventure Sports",
@@ -2243,12 +2334,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "elizabeth.evans@outlook.com",
+    "budget": 2
   },
   {
     "id": 94,
     "name": "Levi Lee",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks"
@@ -2265,12 +2357,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "levi.lee@yahoo.com",
+    "budget": 3
   },
   {
     "id": 95,
     "name": "Sofia Singh",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Museums & Art",
@@ -2286,12 +2379,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "sofia.singh@gmail.com",
+    "budget": 2
   },
   {
     "id": 96,
     "name": "Emily Zimmer",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Camping & Outdoors"
@@ -2309,12 +2403,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "+8616498802690",
+    "budget": 2
   },
   {
     "id": 97,
     "name": "Sebastian Silva",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -2333,12 +2428,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "contact": "+85297862904",
+    "budget": 2
   },
   {
     "id": 98,
     "name": "Mateo Murray",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -2357,12 +2453,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "mateo.murray503@yahoo.com",
+    "budget": 2
   },
   {
     "id": 99,
     "name": "Avery Garcia",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Adventure Sports",
@@ -2380,12 +2477,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "avery.garcia@gmail.com",
+    "budget": 3
   },
   {
     "id": 100,
     "name": "Jack Nguyen",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Museums & Art",
@@ -2407,12 +2505,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "contact": "jack.nguyen@outlook.com",
+    "budget": 2
   },
   {
     "id": 101,
     "name": "Mila Ueda",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -2429,12 +2528,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "+601921177865",
+    "budget": 3
   },
   {
     "id": 102,
     "name": "Scarlett Park",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Adventure Sports",
@@ -2453,12 +2553,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 48
+    "age": 48,
+    "contact": "scarlett.park@hotmail.com",
+    "budget": 1
   },
   {
     "id": 103,
     "name": "Owen Bell",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Fine Dining",
@@ -2476,12 +2577,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "+4439201827211",
+    "budget": 2
   },
   {
     "id": 104,
     "name": "Samuel Bennett",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -2501,12 +2603,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "contact": "samuel.bennett@hotmail.com",
+    "budget": 2
   },
   {
     "id": 105,
     "name": "Eleanor Ibrahim",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -2525,12 +2628,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "eleanor.ibrahim@outlook.com",
+    "budget": 3
   },
   {
     "id": 106,
     "name": "Matthew Patel",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -2552,12 +2656,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "matthew.patel6@yahoo.com",
+    "budget": 2
   },
   {
     "id": 107,
     "name": "Hannah Wang",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Street Food"
@@ -2575,12 +2680,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "hannah.wang@outlook.com",
+    "budget": 2
   },
   {
     "id": 108,
     "name": "Grace Brown",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -2601,12 +2707,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "grace.brown@outlook.com",
+    "budget": 1
   },
   {
     "id": 109,
     "name": "Joseph Reed",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Water Sports",
@@ -2624,12 +2731,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "joseph.reed@gmail.com",
+    "budget": 1
   },
   {
     "id": 110,
     "name": "David Diaz",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -2648,12 +2756,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "david.diaz@gmail.com",
+    "budget": 2
   },
   {
     "id": 111,
     "name": "Zoey Khan",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Historical Sites",
@@ -2672,12 +2781,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "zoey.khan@icloud.com",
+    "budget": 2
   },
   {
     "id": 112,
     "name": "Wyatt Rossi",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
@@ -2697,12 +2807,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 41
+    "age": 41,
+    "contact": "wyatt.rossi@yahoo.com",
+    "budget": 2
   },
   {
     "id": 113,
     "name": "Penelope Young",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Street Food",
@@ -2721,12 +2832,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "penelope.young@hotmail.com",
+    "budget": 2
   },
   {
     "id": 114,
     "name": "Nora Gomez",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -2745,12 +2857,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "nora.gomez@gmail.com",
+    "budget": 1
   },
   {
     "id": 115,
     "name": "Carter Cook",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Religious Sites",
@@ -2768,12 +2881,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "contact": "+818235528330",
+    "budget": 2
   },
   {
     "id": 116,
     "name": "Jayden Foster",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
@@ -2790,12 +2904,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "contact": "jayden.foster797@hotmail.com",
+    "budget": 1
   },
   {
     "id": 117,
     "name": "Riley Moreau",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -2814,12 +2929,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "riley.moreau@icloud.com",
+    "budget": 3
   },
   {
     "id": 118,
     "name": "Luke Taylor",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Adventure Sports",
@@ -2838,12 +2954,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "luke.taylor49@icloud.com",
+    "budget": 3
   },
   {
     "id": 119,
     "name": "Victoria Zhang",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Photography",
@@ -2859,12 +2976,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "victoria.zhang@outlook.com",
+    "budget": 1
   },
   {
     "id": 120,
     "name": "Lily Costa",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Adventure Sports",
@@ -2886,12 +3004,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "+61495634368",
+    "budget": 3
   },
   {
     "id": 121,
     "name": "Liam Park",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "National Parks",
@@ -2912,12 +3031,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "liam.park186@outlook.com",
+    "budget": 2
   },
   {
     "id": 122,
     "name": "Noah Abdul",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Photography",
@@ -2935,12 +3055,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+61417306501",
+    "budget": 2
   },
   {
     "id": 123,
     "name": "Olivia Zhang",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Street Food"
@@ -2957,12 +3078,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "olivia.zhang@gmail.com",
+    "budget": 3
   },
   {
     "id": 124,
     "name": "Oliver Wan",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wildlife & Animals",
@@ -2983,12 +3105,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+8614141477693",
+    "budget": 2
   },
   {
     "id": 125,
     "name": "Emma Wei",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Street Food",
@@ -3007,12 +3130,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "+4437067657054",
+    "budget": 2
   },
   {
     "id": 126,
     "name": "Ava Naqvi",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Fine Dining",
@@ -3028,12 +3152,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "ava.naqvi@gmail.com",
+    "budget": 2
   },
   {
     "id": 127,
     "name": "Elijah Zeng",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -3054,12 +3179,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "elijah.zeng@hotmail.com",
+    "budget": 2
   },
   {
     "id": 128,
-    "name": "James Díaz",
-    "budget": 2,
+    "name": "James D\u00c3\u00adaz",
     "pace": 2,
     "interests": [
       "Museums & Art"
@@ -3077,12 +3203,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "james.d\u00e3az331@outlook.com",
+    "budget": 1
   },
   {
     "id": 129,
     "name": "Charlotte Ortiz",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Adventure Sports",
@@ -3103,12 +3230,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
-    "age": 47
+    "age": 47,
+    "contact": "charlotte.ortiz@yahoo.com",
+    "budget": 3
   },
   {
     "id": 130,
     "name": "William Cheng",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Festivals & Events"
@@ -3126,12 +3254,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "william.cheng@outlook.com",
+    "budget": 2
   },
   {
     "id": 131,
     "name": "Sophia Singh",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -3151,12 +3280,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 24
+    "age": 24,
+    "contact": "+6586196565",
+    "budget": 3
   },
   {
     "id": 132,
     "name": "Yue Cheng",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Museums & Art",
@@ -3177,12 +3307,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 48
+    "age": 48,
+    "contact": "yue.cheng@gmail.com",
+    "budget": 3
   },
   {
     "id": 133,
     "name": "Benjamin Park",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -3201,12 +3332,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 45
+    "age": 45,
+    "contact": "benjamin.park@icloud.com",
+    "budget": 1
   },
   {
     "id": 134,
     "name": "Lucas Jiang",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Beaches & Coast",
@@ -3223,12 +3355,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "lucas.jiang@gmail.com",
+    "budget": 3
   },
   {
     "id": 135,
     "name": "Isabella Luo",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Live Music & Concerts",
@@ -3248,12 +3381,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "isabella.luo@hotmail.com",
+    "budget": 1
   },
   {
     "id": 136,
     "name": "Henry Chen",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Museums & Art",
@@ -3272,12 +3406,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "henry.chen@gmail.com",
+    "budget": 2
   },
   {
     "id": 137,
     "name": "Mia Mohamad",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Beaches & Coast"
@@ -3292,12 +3427,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "mia.mohamad@yahoo.com",
+    "budget": 2
   },
   {
     "id": 138,
     "name": "Evelyn Yu",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Fine Dining",
@@ -3315,12 +3451,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "evelyn.yu@gmail.com",
+    "budget": 2
   },
   {
     "id": 139,
     "name": "Alexander Chan",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Adventure Sports",
@@ -3341,12 +3478,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "alexander.chan720@gmail.com",
+    "budget": 1
   },
   {
     "id": 140,
     "name": "Mason Takahashi",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -3365,12 +3503,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "mason.takahashi@outlook.com",
+    "budget": 2
   },
   {
     "id": 141,
     "name": "Harper He",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks"
@@ -3388,12 +3527,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "harper.he@gmail.com",
+    "budget": 2
   },
   {
     "id": 142,
     "name": "Michael Yan",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -3413,12 +3553,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 41
+    "age": 41,
+    "contact": "michael.yan319@hotmail.com",
+    "budget": 3
   },
   {
     "id": 143,
     "name": "Camila Park",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Street Food",
@@ -3440,12 +3581,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "+13429146004",
+    "budget": 3
   },
   {
     "id": 144,
     "name": "Gianna Zhang",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Water Sports",
@@ -3461,12 +3603,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "gianna.zhang105@outlook.com",
+    "budget": 3
   },
   {
     "id": 145,
     "name": "Ethan Song",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -3487,12 +3630,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "ethan.song@gmail.com",
+    "budget": 2
   },
   {
     "id": 146,
     "name": "Daniel Kim",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Museums & Art",
@@ -3513,12 +3657,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "contact": "daniel.kim665@outlook.com",
+    "budget": 2
   },
   {
     "id": 147,
     "name": "Abigail Huang",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -3536,12 +3681,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "contact": "abigail.huang@yahoo.com",
+    "budget": 3
   },
   {
     "id": 148,
     "name": "Jacob Hassan",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Beaches & Coast"
@@ -3556,12 +3702,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 41
+    "age": 41,
+    "contact": "jacob.hassan@hotmail.com",
+    "budget": 2
   },
   {
     "id": 149,
     "name": "Luna Li",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Museums & Art"
@@ -3576,12 +3723,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "contact": "+8618093983980",
+    "budget": 2
   },
   {
     "id": 150,
     "name": "Ella Huang",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Fine Dining",
@@ -3597,12 +3745,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "+6581908392",
+    "budget": 2
   },
   {
     "id": 151,
     "name": "Logan Yap",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -3622,12 +3771,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "+4418372344300",
+    "budget": 1
   },
   {
     "id": 152,
     "name": "Jackson Goh",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -3646,12 +3796,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+61409647195",
+    "budget": 2
   },
   {
     "id": 153,
     "name": "Elizabeth Teo",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -3667,12 +3818,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "elizabeth.teo@yahoo.com",
+    "budget": 3
   },
   {
     "id": 154,
     "name": "Levi Vargas",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Live Music & Concerts",
@@ -3693,12 +3845,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+18325416203",
+    "budget": 1
   },
   {
     "id": 155,
     "name": "Sofia Wang",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Beaches & Coast",
@@ -3717,12 +3870,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "sofia.wang@gmail.com",
+    "budget": 1
   },
   {
     "id": 156,
     "name": "Emily Chen",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -3742,12 +3896,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "emily.chen@icloud.com",
+    "budget": 2
   },
   {
     "id": 157,
     "name": "Sebastian Lee",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wellness & Spa",
@@ -3765,12 +3920,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 41
+    "age": 41,
+    "contact": "+4437650304617",
+    "budget": 1
   },
   {
     "id": 158,
-    "name": "Mateo Hernández",
-    "budget": 2,
+    "name": "Mateo Hern\u00c3\u00a1ndez",
     "pace": 3,
     "interests": [
       "Shopping",
@@ -3790,12 +3946,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 44
+    "age": 44,
+    "contact": "+4424568162273",
+    "budget": 2
   },
   {
     "id": 159,
     "name": "Avery Sasaki",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Camping & Outdoors",
@@ -3817,12 +3974,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "+8613556445032",
+    "budget": 3
   },
   {
     "id": 160,
     "name": "Jack Zhao",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Hiking & Nature"
@@ -3839,12 +3997,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
-    "age": 50
+    "age": 50,
+    "contact": "jack.zhao221@hotmail.com",
+    "budget": 3
   },
   {
     "id": 161,
     "name": "Mila Li",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -3863,12 +4022,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 53
+    "age": 53,
+    "contact": "mila.li@outlook.com",
+    "budget": 3
   },
   {
     "id": 162,
     "name": "Scarlett Teo",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "National Parks",
@@ -3885,12 +4045,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "+6597239359",
+    "budget": 2
   },
   {
     "id": 163,
     "name": "Owen Chen",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Fine Dining"
@@ -3908,12 +4069,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
-    "age": 37
+    "age": 37,
+    "contact": "+819275637136",
+    "budget": 2
   },
   {
     "id": 164,
     "name": "Samuel Park",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Museums & Art",
@@ -3935,12 +4097,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "samuel.park11@gmail.com",
+    "budget": 2
   },
   {
     "id": 165,
     "name": "Eleanor Yao",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Beaches & Coast",
@@ -3961,12 +4124,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "+4469237933418",
+    "budget": 1
   },
   {
     "id": 166,
     "name": "Matthew Singh",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Coffee Culture"
@@ -3983,12 +4147,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "matthew.singh700@hotmail.com",
+    "budget": 1
   },
   {
     "id": 167,
     "name": "Hannah Chakraborty",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -4007,12 +4172,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "hannah.chakraborty@gmail.com",
+    "budget": 2
   },
   {
     "id": 168,
     "name": "Grace Ismail",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Street Food",
@@ -4031,12 +4197,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+8618577418600",
+    "budget": 2
   },
   {
     "id": 169,
     "name": "Joseph Tao",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Street Food",
@@ -4055,12 +4222,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+6582986951",
+    "budget": 3
   },
   {
     "id": 170,
     "name": "David Wang",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -4079,12 +4247,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "+8615257258361",
+    "budget": 2
   },
   {
     "id": 171,
     "name": "Zoey Wong",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Camping & Outdoors",
@@ -4104,12 +4273,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "zoey.wong@icloud.com",
+    "budget": 2
   },
   {
     "id": 172,
     "name": "Muhammad Aiman",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Festivals & Events",
@@ -4129,12 +4299,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "muhammad.aiman319@gmail.com",
+    "budget": 2
   },
   {
     "id": 173,
     "name": "Penelope Chen",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -4152,12 +4323,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "contact": "penelope.chen77@outlook.com",
+    "budget": 3
   },
   {
     "id": 174,
     "name": "Siti Khadijah",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Coffee Culture"
@@ -4174,12 +4346,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 36
+    "age": 36,
+    "contact": "siti.khadijah@gmail.com",
+    "budget": 2
   },
   {
     "id": 175,
     "name": "Carter Goh",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Adventure Sports",
@@ -4201,12 +4374,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "+6588303706",
+    "budget": 2
   },
   {
     "id": 176,
     "name": "Jayden Kim",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Coffee Culture",
@@ -4225,12 +4399,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "jayden.kim680@outlook.com",
+    "budget": 2
   },
   {
     "id": 177,
     "name": "Riley Ibrahim",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Street Food",
@@ -4246,12 +4421,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "+601718102393",
+    "budget": 2
   },
   {
     "id": 178,
     "name": "Luke Wong",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -4273,12 +4449,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "contact": "luke.wong@hotmail.com",
+    "budget": 2
   },
   {
     "id": 179,
     "name": "Victoria Yap",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Photography",
@@ -4297,12 +4474,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "victoria.yap@gmail.com",
+    "budget": 2
   },
   {
     "id": 180,
     "name": "Nurul Hana",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -4318,12 +4496,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "+12078008496",
+    "budget": 2
   },
   {
     "id": 181,
     "name": "Liam Hansen",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -4343,12 +4522,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "liam.hansen@yahoo.com",
+    "budget": 2
   },
   {
     "id": 182,
     "name": "Noah Yap",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -4365,12 +4545,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+14286401582",
+    "budget": 2
   },
   {
     "id": 183,
     "name": "Olivia Ismail",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -4391,12 +4572,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+85255534884",
+    "budget": 2
   },
   {
     "id": 184,
     "name": "Oliver Wong",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -4415,12 +4597,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+17935505174",
+    "budget": 1
   },
   {
     "id": 185,
     "name": "Emma Teo",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -4439,12 +4622,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "emma.teo686@yahoo.com",
+    "budget": 1
   },
   {
     "id": 186,
     "name": "Ava Kumar",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "National Parks"
@@ -4459,12 +4643,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "ava.kumar@gmail.com",
+    "budget": 3
   },
   {
     "id": 187,
     "name": "Elijah Li",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Beaches & Coast",
@@ -4480,12 +4665,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "contact": "elijah.li@yahoo.com",
+    "budget": 2
   },
   {
     "id": 188,
-    "name": "James Hernández",
-    "budget": 2,
+    "name": "James Hern\u00c3\u00a1ndez",
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -4502,12 +4688,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "+4461150821103",
+    "budget": 2
   },
   {
     "id": 189,
     "name": "Charlotte Kim",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -4526,12 +4713,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+8615998864881",
+    "budget": 2
   },
   {
     "id": 190,
     "name": "William Hassan",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Local Culture",
@@ -4550,12 +4738,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "+61421624399",
+    "budget": 1
   },
   {
     "id": 191,
     "name": "Sophia Lim",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -4575,12 +4764,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "contact": "sophia.lim@yahoo.com",
+    "budget": 2
   },
   {
     "id": 192,
     "name": "Amelia Yap",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -4600,12 +4790,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "contact": "+819877988111",
+    "budget": 3
   },
   {
     "id": 193,
     "name": "Ahmad Fikri",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Coffee Culture",
@@ -4625,12 +4816,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "contact": "+85270868042",
+    "budget": 1
   },
   {
     "id": 194,
     "name": "Lucas Ismail",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
@@ -4649,12 +4841,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "contact": "lucas.ismail@icloud.com",
+    "budget": 1
   },
   {
     "id": 195,
     "name": "Isabella Ahmad",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Nightlife & Bars",
@@ -4672,12 +4865,13 @@
     "smoking": "yes",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "isabella.ahmad@gmail.com",
+    "budget": 2
   },
   {
     "id": 196,
     "name": "Henry Goh",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -4697,12 +4891,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "henry.goh@hotmail.com",
+    "budget": 1
   },
   {
     "id": 197,
     "name": "Mia Kim",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Religious Sites",
@@ -4722,12 +4917,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+819982907752",
+    "budget": 2
   },
   {
     "id": 198,
     "name": "Evelyn Lim",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -4745,12 +4941,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "evelyn.lim@outlook.com",
+    "budget": 2
   },
   {
     "id": 199,
     "name": "Alexander Yap",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
@@ -4766,12 +4963,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+85262602079",
+    "budget": 3
   },
   {
     "id": 200,
     "name": "Mason Lim",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Cooking Experiences"
@@ -4788,12 +4986,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "+601350280581",
+    "budget": 2
   },
   {
     "id": 201,
     "name": "Harper Chan",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Nightlife & Bars",
@@ -4811,12 +5010,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+4493248562447",
+    "budget": 3
   },
   {
     "id": 202,
     "name": "Michael Koh",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -4836,12 +5036,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+4414810801813",
+    "budget": 2
   },
   {
     "id": 203,
     "name": "Camila Kim",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Local Culture",
@@ -4859,12 +5060,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "contact": "camila.kim@hotmail.com",
+    "budget": 1
   },
   {
     "id": 204,
-    "name": "Gianna Díaz",
-    "budget": 2,
+    "name": "Gianna D\u00c3\u00adaz",
     "pace": 2,
     "interests": [
       "Local Culture",
@@ -4880,12 +5082,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "gianna.d\u00e3az619@yahoo.com",
+    "budget": 2
   },
   {
     "id": 205,
     "name": "Ethan Tan",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Cooking Experiences",
@@ -4903,12 +5106,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "ethan.tan@gmail.com",
+    "budget": 1
   },
   {
     "id": 206,
     "name": "Daniel Chen",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Local Culture"
@@ -4923,12 +5127,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "contact": "+6583192416",
+    "budget": 1
   },
   {
     "id": 207,
     "name": "Abigail Kim",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Coffee Culture",
@@ -4945,12 +5150,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+601247463854",
+    "budget": 2
   },
   {
     "id": 208,
     "name": "Jacob Chen",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks"
@@ -4967,12 +5173,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+61420797739",
+    "budget": 2
   },
   {
     "id": 209,
     "name": "Luna Goh",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Street Food",
@@ -4989,12 +5196,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 24
+    "age": 24,
+    "contact": "luna.goh@yahoo.com",
+    "budget": 1
   },
   {
     "id": 210,
     "name": "Siti Aishah",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Local Culture"
@@ -5009,12 +5217,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "siti.aishah@outlook.com",
+    "budget": 2
   },
   {
     "id": 211,
     "name": "Logan Lim",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Historical Sites",
@@ -5034,12 +5243,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "+4458042771509",
+    "budget": 3
   },
   {
     "id": 212,
     "name": "Jackson Chen",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -5060,12 +5270,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "jackson.chen@icloud.com",
+    "budget": 2
   },
   {
     "id": 213,
     "name": "Elizabeth Zhang",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -5084,12 +5295,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "elizabeth.zhang@yahoo.com",
+    "budget": 2
   },
   {
     "id": 214,
     "name": "Levi Huang",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -5107,12 +5319,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+85286163120",
+    "budget": 1
   },
   {
     "id": 215,
     "name": "Sofia Dong",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Fine Dining",
@@ -5128,12 +5341,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "sofia.dong@gmail.com",
+    "budget": 2
   },
   {
     "id": 216,
     "name": "Emily Teo",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Wellness & Spa"
@@ -5148,12 +5362,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "+819826431328",
+    "budget": 3
   },
   {
     "id": 217,
     "name": "Sebastian Wong",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Photography",
@@ -5173,12 +5388,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "contact": "sebastian.wong71@yahoo.com",
+    "budget": 2
   },
   {
     "id": 218,
     "name": "Mateo Chan",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -5199,12 +5415,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "mateo.chan623@outlook.com",
+    "budget": 2
   },
   {
     "id": 219,
     "name": "Avery Ho",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -5224,12 +5441,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "contact": "+601929243121",
+    "budget": 2
   },
   {
     "id": 220,
     "name": "Jack Singh",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Cooking Experiences"
@@ -5244,12 +5462,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "contact": "jack.singh@yahoo.com",
+    "budget": 3
   },
   {
     "id": 221,
     "name": "Mila Park",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Fine Dining",
@@ -5267,12 +5486,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "contact": "mila.park@icloud.com",
+    "budget": 2
   },
   {
     "id": 222,
     "name": "Scarlett Ismail",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Hiking & Nature",
@@ -5294,12 +5514,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "contact": "scarlett.ismail@outlook.com",
+    "budget": 2
   },
   {
     "id": 223,
     "name": "Owen Ismail",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -5315,12 +5536,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "+4465936276456",
+    "budget": 2
   },
   {
     "id": 224,
     "name": "Samuel Ng",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Beaches & Coast",
@@ -5339,12 +5561,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "contact": "samuel.ng@hotmail.com",
+    "budget": 2
   },
   {
     "id": 225,
     "name": "Eleanor Ahmad",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Live Music & Concerts",
@@ -5365,12 +5588,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "+61408398276",
+    "budget": 2
   },
   {
     "id": 226,
     "name": "Matthew Ahmad",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Local Culture",
@@ -5388,12 +5612,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "matthew.ahmad@hotmail.com",
+    "budget": 2
   },
   {
     "id": 227,
     "name": "Hannah Ahmad",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Nightlife & Bars",
@@ -5413,12 +5638,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+601621785843",
+    "budget": 2
   },
   {
     "id": 228,
     "name": "Grace Wong",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Local Culture",
@@ -5435,12 +5661,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+8617880065818",
+    "budget": 2
   },
   {
     "id": 229,
     "name": "Joseph Park",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Live Music & Concerts",
@@ -5460,12 +5687,13 @@
     "smoking": "yes",
     "fitness": "walk",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+6599624612",
+    "budget": 2
   },
   {
     "id": 230,
     "name": "Muhammad Razif",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Coffee Culture",
@@ -5485,12 +5713,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "muhammad.razif@icloud.com",
+    "budget": 3
   },
   {
     "id": 231,
     "name": "Zoey Sharif",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Street Food"
@@ -5507,12 +5736,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "zoey.sharif337@icloud.com",
+    "budget": 2
   },
   {
     "id": 232,
     "name": "Wyatt Chen",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Beaches & Coast",
@@ -5532,12 +5762,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 41
+    "age": 41,
+    "contact": "wyatt.chen796@hotmail.com",
+    "budget": 2
   },
   {
     "id": 233,
     "name": "Penelope Chan",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -5559,12 +5790,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "penelope.chan192@outlook.com",
+    "budget": 1
   },
   {
     "id": 234,
     "name": "Nora Omar",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Beaches & Coast",
@@ -5585,12 +5817,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 47
+    "age": 47,
+    "contact": "nora.omar661@hotmail.com",
+    "budget": 2
   },
   {
     "id": 235,
     "name": "Carter Pan",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -5611,12 +5844,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "contact": "carter.pan@yahoo.com",
+    "budget": 1
   },
   {
     "id": 236,
     "name": "Jayden Lim",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Nightlife & Bars",
@@ -5632,12 +5866,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "contact": "jayden.lim912@hotmail.com",
+    "budget": 3
   },
   {
     "id": 237,
     "name": "Riley Silva",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Wellness & Spa"
@@ -5654,12 +5889,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 41
+    "age": 41,
+    "contact": "riley.silva@outlook.com",
+    "budget": 2
   },
   {
     "id": 238,
     "name": "Luke Kim",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -5679,12 +5915,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "contact": "luke.kim922@gmail.com",
+    "budget": 3
   },
   {
     "id": 239,
     "name": "Victoria Chan",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "National Parks",
@@ -5704,12 +5941,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "contact": "+61464940255",
+    "budget": 2
   },
   {
     "id": 240,
     "name": "Lily Yap",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Coffee Culture",
@@ -5725,12 +5963,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "lily.yap@icloud.com",
+    "budget": 2
   },
   {
     "id": 241,
     "name": "Liam Yap",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Museums & Art",
@@ -5752,12 +5991,13 @@
     "smoking": "yes",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "liam.yap@outlook.com",
+    "budget": 2
   },
   {
     "id": 242,
     "name": "Noah Kim",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Street Food",
@@ -5775,12 +6015,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+818137611301",
+    "budget": 3
   },
   {
     "id": 243,
     "name": "Olivia Tan",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Fine Dining",
@@ -5800,12 +6041,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+8618775951772",
+    "budget": 1
   },
   {
     "id": 244,
     "name": "Oliver Yamamoto",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Camping & Outdoors",
@@ -5824,12 +6066,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "oliver.yamamoto@hotmail.com",
+    "budget": 3
   },
   {
     "id": 245,
     "name": "Emma Chong",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -5849,12 +6092,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "emma.chong@yahoo.com",
+    "budget": 2
   },
   {
     "id": 246,
     "name": "Ava Huang",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "National Parks",
@@ -5872,12 +6116,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "contact": "ava.huang118@hotmail.com",
+    "budget": 2
   },
   {
     "id": 247,
     "name": "Elijah Foo",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Camping & Outdoors",
@@ -5895,12 +6140,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "contact": "elijah.foo@hotmail.com",
+    "budget": 2
   },
   {
     "id": 248,
     "name": "James Singh",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -5917,12 +6163,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 44
+    "age": 44,
+    "contact": "+4457775768362",
+    "budget": 2
   },
   {
     "id": 249,
     "name": "Charlotte Chong",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -5942,12 +6189,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "contact": "charlotte.chong@icloud.com",
+    "budget": 2
   },
   {
     "id": 250,
     "name": "William Goh",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Camping & Outdoors"
@@ -5962,12 +6210,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "contact": "+601622567037",
+    "budget": 3
   },
   {
     "id": 251,
     "name": "Sophia Zhang",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Religious Sites",
@@ -5986,12 +6235,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 53
+    "age": 53,
+    "contact": "sophia.zhang@icloud.com",
+    "budget": 1
   },
   {
     "id": 252,
     "name": "Amelia Kim",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Camping & Outdoors",
@@ -6008,12 +6258,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 42
+    "age": 42,
+    "contact": "+85253627869",
+    "budget": 2
   },
   {
     "id": 253,
     "name": "Benjamin Huang",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -6031,12 +6282,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "benjamin.huang268@outlook.com",
+    "budget": 2
   },
   {
     "id": 254,
     "name": "Lucas Ho",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Nightlife & Bars",
@@ -6055,12 +6307,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "contact": "lucas.ho@yahoo.com",
+    "budget": 2
   },
   {
     "id": 255,
     "name": "Isabella Liu",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -6079,12 +6332,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "isabella.liu@gmail.com",
+    "budget": 1
   },
   {
     "id": 256,
     "name": "Muhammad Amin",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Wellness & Spa"
@@ -6102,12 +6356,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "+6586018318",
+    "budget": 3
   },
   {
     "id": 257,
     "name": "Mia Chua",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Museums & Art",
@@ -6126,12 +6381,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "mia.chua@icloud.com",
+    "budget": 2
   },
   {
     "id": 258,
     "name": "Evelyn Wang",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Shopping"
@@ -6146,12 +6402,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "evelyn.wang@gmail.com",
+    "budget": 3
   },
   {
     "id": 259,
     "name": "Alexander Lee",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Cooking Experiences"
@@ -6169,12 +6426,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "alexander.lee@outlook.com",
+    "budget": 1
   },
   {
     "id": 260,
     "name": "Mason Singh",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -6192,12 +6450,13 @@
     "smoking": "yes",
     "fitness": "walk",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "mason.singh@outlook.com",
+    "budget": 2
   },
   {
     "id": 261,
     "name": "Harper Ismail",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -6213,12 +6472,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "+19208082896",
+    "budget": 2
   },
   {
     "id": 262,
     "name": "Michael Chen",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Religious Sites",
@@ -6235,12 +6495,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "michael.chen@yahoo.com",
+    "budget": 2
   },
   {
     "id": 263,
     "name": "Camila Zafar",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Fine Dining",
@@ -6259,12 +6520,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "contact": "camila.zafar534@hotmail.com",
+    "budget": 2
   },
   {
     "id": 264,
     "name": "Gianna Yap",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -6285,12 +6547,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+4495570168342",
+    "budget": 1
   },
   {
     "id": 265,
     "name": "Ethan Kumar",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -6307,12 +6570,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "contact": "ethan.kumar@yahoo.com",
+    "budget": 3
   },
   {
     "id": 266,
     "name": "Daniel Chua",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Street Food",
@@ -6331,12 +6595,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "+13985465246",
+    "budget": 2
   },
   {
     "id": 267,
     "name": "Abigail Foo",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -6356,12 +6621,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "contact": "abigail.foo129@gmail.com",
+    "budget": 3
   },
   {
     "id": 268,
     "name": "Jacob Ho",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Local Culture",
@@ -6381,12 +6647,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 38
+    "age": 38,
+    "contact": "jacob.ho@gmail.com",
+    "budget": 2
   },
   {
     "id": 269,
     "name": "Luna Yap",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -6407,12 +6674,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "contact": "luna.yap20@icloud.com",
+    "budget": 2
   },
   {
     "id": 270,
     "name": "Ella Lee",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Street Food",
@@ -6432,12 +6700,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "ella.lee33@hotmail.com",
+    "budget": 2
   },
   {
     "id": 271,
     "name": "Logan Wang",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Local Culture",
@@ -6456,12 +6725,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "+61488267232",
+    "budget": 2
   },
   {
     "id": 272,
     "name": "Muhammad Afiq",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Museums & Art",
@@ -6483,12 +6753,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "muhammad.afiq@hotmail.com",
+    "budget": 2
   },
   {
     "id": 273,
     "name": "Elizabeth Kumar",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "National Parks",
@@ -6507,12 +6778,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+85292657632",
+    "budget": 2
   },
   {
     "id": 274,
     "name": "Levi Kim",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Water Sports",
@@ -6531,12 +6803,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "levi.kim@gmail.com",
+    "budget": 1
   },
   {
     "id": 275,
     "name": "Sofia Rahman",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -6555,12 +6828,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "sofia.rahman@gmail.com",
+    "budget": 2
   },
   {
     "id": 276,
     "name": "Emily Foo",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Hiking & Nature"
@@ -6575,12 +6849,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "emily.foo13@outlook.com",
+    "budget": 2
   },
   {
     "id": 277,
     "name": "Sebastian Lim",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Festivals & Events",
@@ -6600,12 +6875,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "contact": "+819631541980",
+    "budget": 3
   },
   {
     "id": 278,
     "name": "Mateo Hassan",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -6625,12 +6901,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "contact": "mateo.hassan@icloud.com",
+    "budget": 2
   },
   {
     "id": 279,
     "name": "Avery Omar",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks",
@@ -6646,12 +6923,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "contact": "avery.omar@icloud.com",
+    "budget": 1
   },
   {
     "id": 280,
     "name": "Jack Ismail",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Photography",
@@ -6668,12 +6946,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "+18894265861",
+    "budget": 2
   },
   {
     "id": 281,
     "name": "Mila Ahmad",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Water Sports",
@@ -6691,12 +6970,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 24
+    "age": 24,
+    "contact": "+819524239692",
+    "budget": 2
   },
   {
     "id": 282,
     "name": "Scarlett Yap",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Historical Sites",
@@ -6716,12 +6996,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "+8619690995605",
+    "budget": 2
   },
   {
     "id": 283,
     "name": "Owen Wang",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -6743,12 +7024,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "contact": "owen.wang@hotmail.com",
+    "budget": 2
   },
   {
     "id": 284,
     "name": "Samuel Huang",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Local Culture",
@@ -6767,12 +7049,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "contact": "samuel.huang719@yahoo.com",
+    "budget": 2
   },
   {
     "id": 285,
     "name": "Eleanor Rahman",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Water Sports",
@@ -6788,12 +7071,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "eleanor.rahman@outlook.com",
+    "budget": 2
   },
   {
     "id": 286,
     "name": "Matthew Foo",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Wellness & Spa",
@@ -6812,12 +7096,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "matthew.foo@hotmail.com",
+    "budget": 1
   },
   {
     "id": 287,
     "name": "Hannah Rahman",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Museums & Art",
@@ -6838,12 +7123,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+8616092211221",
+    "budget": 2
   },
   {
     "id": 288,
     "name": "Grace Chua",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Live Music & Concerts",
@@ -6866,12 +7152,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "grace.chua@icloud.com",
+    "budget": 2
   },
   {
     "id": 289,
     "name": "Joseph Kim",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Beaches & Coast",
@@ -6892,12 +7179,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "joseph.kim@gmail.com",
+    "budget": 2
   },
   {
     "id": 290,
     "name": "David Park",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Museums & Art",
@@ -6918,12 +7206,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "david.park@hotmail.com",
+    "budget": 3
   },
   {
     "id": 291,
     "name": "Zoey Zhang",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Beaches & Coast",
@@ -6941,12 +7230,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "+85268267761",
+    "budget": 3
   },
   {
     "id": 292,
     "name": "Wyatt Wong",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Coffee Culture",
@@ -6966,12 +7256,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "contact": "wyatt.wong@gmail.com",
+    "budget": 2
   },
   {
     "id": 293,
     "name": "Penelope Huang",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Beaches & Coast",
@@ -6987,12 +7278,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "contact": "+819921275943",
+    "budget": 3
   },
   {
     "id": 294,
     "name": "Nora Liu",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Local Culture"
@@ -7010,12 +7302,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "+4462652546718",
+    "budget": 3
   },
   {
     "id": 295,
     "name": "Carter Omar",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Fine Dining",
@@ -7031,12 +7324,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "carter.omar@outlook.com",
+    "budget": 1
   },
   {
     "id": 296,
     "name": "Jayden Chong",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -7053,12 +7347,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "contact": "+8613493757280",
+    "budget": 1
   },
   {
     "id": 297,
     "name": "Riley Wong",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wildlife & Animals"
@@ -7073,12 +7368,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+61485140194",
+    "budget": 2
   },
   {
     "id": 298,
     "name": "Luke Foo",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Museums & Art",
@@ -7097,12 +7393,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "contact": "+4440971235608",
+    "budget": 2
   },
   {
     "id": 299,
     "name": "Victoria Liu",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Adventure Sports",
@@ -7123,12 +7420,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "victoria.liu@gmail.com",
+    "budget": 1
   },
   {
     "id": 300,
     "name": "Lily Ismail",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Adventure Sports"
@@ -7145,12 +7443,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "contact": "lily.ismail@gmail.com",
+    "budget": 2
   },
   {
     "id": 301,
     "name": "Remy Brown",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -7168,12 +7467,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "contact": "remy.brown@icloud.com",
+    "budget": 2
   },
   {
     "id": 302,
     "name": "Ahmad Hafiz",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Nightlife & Bars",
@@ -7194,12 +7494,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 43
+    "age": 43,
+    "contact": "ahmad.hafiz@gmail.com",
+    "budget": 1
   },
   {
     "id": 303,
     "name": "Finley Patel",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Religious Sites",
@@ -7219,12 +7520,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "contact": "+61434116798",
+    "budget": 2
   },
   {
     "id": 304,
     "name": "Payton Zhang",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Local Culture"
@@ -7242,12 +7544,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "contact": "payton.zhang877@icloud.com",
+    "budget": 3
   },
   {
     "id": 305,
     "name": "Quinn Garcia",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Volunteer Work"
@@ -7265,12 +7568,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "+61437598907",
+    "budget": 3
   },
   {
     "id": 306,
     "name": "Logan Yeo",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Photography",
@@ -7288,12 +7592,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "logan.yeo682@outlook.com",
+    "budget": 2
   },
   {
     "id": 307,
     "name": "Drew Anderson",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Road Trips",
@@ -7312,12 +7617,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "drew.anderson@gmail.com",
+    "budget": 2
   },
   {
     "id": 308,
     "name": "Elliot Kong",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -7338,12 +7644,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 39
+    "age": 39,
+    "contact": "elliot.kong@icloud.com",
+    "budget": 2
   },
   {
     "id": 309,
     "name": "Nurul Aini",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -7365,12 +7672,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 46
+    "age": 46,
+    "contact": "nurul.aini@icloud.com",
+    "budget": 2
   },
   {
     "id": 310,
     "name": "Reese Chua",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Beaches & Coast",
@@ -7391,12 +7699,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "contact": "+6580629659",
+    "budget": 3
   },
   {
     "id": 311,
     "name": "Lydia Martinez",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Museums & Art",
@@ -7416,12 +7725,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "lydia.martinez969@outlook.com",
+    "budget": 1
   },
   {
     "id": 312,
     "name": "Mohammad Faris",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Local Markets",
@@ -7443,12 +7753,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "contact": "mohammad.faris@yahoo.com",
+    "budget": 1
   },
   {
     "id": 313,
     "name": "Lucy Gan",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Festivals & Events",
@@ -7467,12 +7778,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "contact": "+8619418399276",
+    "budget": 2
   },
   {
     "id": 314,
     "name": "Alex Goh",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wellness & Spa",
@@ -7489,12 +7801,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "contact": "alex.goh@yahoo.com",
+    "budget": 2
   },
   {
     "id": 315,
     "name": "Jordan Wu",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Historical Sites",
@@ -7513,12 +7826,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 53
+    "age": 53,
+    "contact": "jordan.wu@icloud.com",
+    "budget": 3
   },
   {
     "id": 316,
     "name": "Rowan Lee",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Road Trips",
@@ -7536,12 +7850,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 37
+    "age": 37,
+    "contact": "+16182489010",
+    "budget": 2
   },
   {
     "id": 317,
     "name": "Remy Han",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Museums & Art",
@@ -7559,12 +7874,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "remy.han564@yahoo.com",
+    "budget": 1
   },
   {
     "id": 318,
     "name": "Remy Chew",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Fine Dining",
@@ -7585,12 +7901,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 42
+    "age": 42,
+    "contact": "remy.chew157@outlook.com",
+    "budget": 1
   },
   {
     "id": 319,
     "name": "Taylor Kim",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Volunteer Work",
@@ -7606,12 +7923,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "taylor.kim596@gmail.com",
+    "budget": 2
   },
   {
     "id": 320,
     "name": "Taylor Park",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Mountains & Scenery",
@@ -7632,12 +7950,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "contact": "taylor.park@outlook.com",
+    "budget": 1
   },
   {
     "id": 321,
     "name": "Jordan Ng",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -7656,12 +7975,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 49
+    "age": 49,
+    "contact": "+8614243668437",
+    "budget": 1
   },
   {
     "id": 322,
     "name": "Sage Lim",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Nightlife & Bars",
@@ -7683,12 +8003,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "sage.lim@outlook.com",
+    "budget": 3
   },
   {
     "id": 323,
     "name": "Dakota Miller",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Digital Nomad",
@@ -7707,12 +8028,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 37
+    "age": 37,
+    "contact": "dakota.miller@icloud.com",
+    "budget": 2
   },
   {
     "id": 324,
     "name": "Sage Koh",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "City Exploration",
@@ -7731,12 +8053,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "sage.koh@outlook.com",
+    "budget": 2
   },
   {
     "id": 325,
     "name": "Quinn Zhang",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Camping & Outdoors",
@@ -7756,12 +8079,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "contact": "quinn.zhang@yahoo.com",
+    "budget": 3
   },
   {
     "id": 326,
     "name": "Elliot Lee",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Shopping",
@@ -7781,12 +8105,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "+4415444298237",
+    "budget": 2
   },
   {
     "id": 327,
     "name": "Charlie Tan",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "National Parks",
@@ -7805,12 +8130,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 22
+    "age": 22,
+    "contact": "charlie.tan558@icloud.com",
+    "budget": 1
   },
   {
     "id": 328,
     "name": "Jordan Park",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Adventure Sports",
@@ -7828,12 +8154,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "contact": "jordan.park@yahoo.com",
+    "budget": 2
   },
   {
     "id": 329,
     "name": "Cameron Ng",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Nightlife & Bars",
@@ -7851,12 +8178,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "contact": "+601769426921",
+    "budget": 1
   },
   {
     "id": 330,
     "name": "Emerson Toh",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Beaches & Coast",
@@ -7877,12 +8205,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+85267202935",
+    "budget": 3
   },
   {
     "id": 331,
     "name": "Harper Chua",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -7902,12 +8231,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 48
+    "age": 48,
+    "contact": "+15535656063",
+    "budget": 2
   },
   {
     "id": 332,
     "name": "Casey Goh",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -7927,12 +8257,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 50
+    "age": 50,
+    "contact": "casey.goh401@hotmail.com",
+    "budget": 2
   },
   {
     "id": 333,
     "name": "June Garcia",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Local Culture"
@@ -7947,12 +8278,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "contact": "+819190394898",
+    "budget": 2
   },
   {
     "id": 334,
     "name": "Morgan Zhang",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Historical Sites",
@@ -7971,12 +8303,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "morgan.zhang@outlook.com",
+    "budget": 1
   },
   {
     "id": 335,
     "name": "Jordan Brown",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -7995,12 +8328,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 55
+    "age": 55,
+    "contact": "+85263613050",
+    "budget": 2
   },
   {
     "id": 336,
     "name": "Elliot Chan",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Hiking & Nature",
@@ -8019,12 +8353,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 39
+    "age": 39,
+    "contact": "elliot.chan@outlook.com",
+    "budget": 2
   },
   {
     "id": 337,
     "name": "Jamie Zhang",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -8043,12 +8378,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "contact": "+601464667118",
+    "budget": 2
   },
   {
     "id": 338,
     "name": "Payton Brown",
-    "budget": 3,
     "pace": 1,
     "interests": [
       "Architecture",
@@ -8066,12 +8402,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "contact": "payton.brown@yahoo.com",
+    "budget": 3
   },
   {
     "id": 339,
     "name": "Siti Nurul",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Digital Nomad",
@@ -8090,12 +8427,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "contact": "+6593517844",
+    "budget": 2
   },
   {
     "id": 340,
     "name": "Finley Chua",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "National Parks",
@@ -8114,12 +8452,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "contact": "+818752533468",
+    "budget": 2
   },
   {
     "id": 341,
     "name": "Remy Yeo",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Festivals & Events",
@@ -8138,12 +8477,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "+85275848431",
+    "budget": 1
   },
   {
     "id": 342,
     "name": "Dakota Toh",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Beaches & Coast"
@@ -8161,12 +8501,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "dakota.toh@hotmail.com",
+    "budget": 3
   },
   {
     "id": 343,
     "name": "Jamie Clark",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Road Trips",
@@ -8185,12 +8526,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "jamie.clark788@gmail.com",
+    "budget": 2
   },
   {
     "id": 344,
     "name": "Blake Patel",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Architecture",
@@ -8207,12 +8549,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "contact": "blake.patel@gmail.com",
+    "budget": 2
   },
   {
     "id": 345,
     "name": "Jamie Goh",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Cooking Experiences",
@@ -8230,12 +8573,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "contact": "jamie.goh@hotmail.com",
+    "budget": 2
   },
   {
     "id": 346,
     "name": "Reese Singh",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -8253,12 +8597,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "contact": "reese.singh@outlook.com",
+    "budget": 3
   },
   {
     "id": 347,
     "name": "Sage Goh",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Winter Sports",
@@ -8274,12 +8619,13 @@
     "smoking": "yes",
     "fitness": "walk",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "contact": "sage.goh@gmail.com",
+    "budget": 2
   },
   {
     "id": 348,
     "name": "Ahmad Danial",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Street Food",
@@ -8297,12 +8643,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 51
+    "age": 51,
+    "contact": "+8616833484073",
+    "budget": 2
   },
   {
     "id": 349,
     "name": "Bailey Gan",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Cooking Experiences",
@@ -8319,12 +8666,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 52
+    "age": 52,
+    "contact": "bailey.gan403@outlook.com",
+    "budget": 3
   },
   {
     "id": 350,
     "name": "Alex Ng",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Mountains & Scenery",
@@ -8343,12 +8691,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "alex.ng@hotmail.com",
+    "budget": 1
   },
   {
     "id": 351,
     "name": "Harper Ng",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Festivals & Events",
@@ -8367,12 +8716,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 46
+    "age": 46,
+    "contact": "harper.ng@yahoo.com",
+    "budget": 1
   },
   {
     "id": 352,
     "name": "Reese Brown",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Mountains & Scenery",
@@ -8391,12 +8741,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "contact": "reese.brown918@gmail.com",
+    "budget": 1
   },
   {
     "id": 353,
     "name": "Jesse Miller",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Hiking & Nature",
@@ -8414,12 +8765,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "contact": "jesse.miller800@yahoo.com",
+    "budget": 1
   },
   {
     "id": 354,
     "name": "Quinn Han",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -8439,12 +8791,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "contact": "quinn.han@yahoo.com",
+    "budget": 2
   },
   {
     "id": 355,
     "name": "Charlie Chew",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Hiking & Nature"
@@ -8461,12 +8814,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 36
+    "age": 36,
+    "contact": "+8619695643651",
+    "budget": 2
   },
   {
     "id": 356,
     "name": "Morgan Tan",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Volunteer Work",
@@ -8485,12 +8839,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 43
+    "age": 43,
+    "contact": "morgan.tan@gmail.com",
+    "budget": 1
   },
   {
     "id": 357,
     "name": "Micah Wang",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Local Culture",
@@ -8509,12 +8864,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "+8616429278225",
+    "budget": 2
   },
   {
     "id": 358,
     "name": "Quinn Toh",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -8535,12 +8891,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "+85267119842",
+    "budget": 2
   },
   {
     "id": 359,
     "name": "Nur Amira",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Fine Dining",
@@ -8556,12 +8913,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "contact": "+8614520065932",
+    "budget": 2
   },
   {
     "id": 360,
     "name": "Charlie Patel",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Mountains & Scenery",
@@ -8582,12 +8940,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "+19277786769",
+    "budget": 1
   },
   {
     "id": 361,
     "name": "Payton Chua",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Water Sports",
@@ -8606,12 +8965,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
-    "age": 42
+    "age": 42,
+    "contact": "+4492918876207",
+    "budget": 2
   },
   {
     "id": 362,
     "name": "Casey Han",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Shopping",
@@ -8631,12 +8991,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 46
+    "age": 46,
+    "contact": "+6593074747",
+    "budget": 3
   },
   {
     "id": 363,
     "name": "Taylor Martinez",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wine & Drinks",
@@ -8654,12 +9015,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 55
+    "age": 55,
+    "contact": "+8613539451822",
+    "budget": 2
   },
   {
     "id": 364,
     "name": "Morgan Gan",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Digital Nomad",
@@ -8677,12 +9039,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "+818280917133",
+    "budget": 2
   },
   {
     "id": 365,
     "name": "Morgan Singh",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Local Culture",
@@ -8699,12 +9062,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "contact": "+13816697570",
+    "budget": 2
   },
   {
     "id": 366,
     "name": "Blake Garcia",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Beaches & Coast",
@@ -8721,12 +9085,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "male",
-    "age": 47
+    "age": 47,
+    "contact": "blake.garcia@yahoo.com",
+    "budget": 2
   },
   {
     "id": 367,
     "name": "Rowan Kim",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Hiking & Nature",
@@ -8743,12 +9108,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+4431768468579",
+    "budget": 1
   },
   {
     "id": 368,
     "name": "Micah Ng",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
@@ -8765,12 +9131,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "contact": "micah.ng@gmail.com",
+    "budget": 2
   },
   {
     "id": 369,
     "name": "Casey Chan",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "National Parks",
@@ -8788,12 +9155,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "female",
-    "age": 37
+    "age": 37,
+    "contact": "casey.chan@hotmail.com",
+    "budget": 2
   },
   {
     "id": 370,
     "name": "Charlie Miller",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Shopping",
@@ -8815,12 +9183,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 52
+    "age": 52,
+    "contact": "charlie.miller@yahoo.com",
+    "budget": 2
   },
   {
     "id": 371,
     "name": "Sage Martinez",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Hiking & Nature",
@@ -8841,12 +9210,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 48
+    "age": 48,
+    "contact": "sage.martinez@outlook.com",
+    "budget": 3
   },
   {
     "id": 372,
     "name": "Parker Chua",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Hiking & Nature",
@@ -8866,12 +9236,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 50
+    "age": 50,
+    "contact": "+61444192908",
+    "budget": 1
   },
   {
     "id": 373,
     "name": "Cameron Chew",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Historical Sites",
@@ -8888,12 +9259,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "+19685077356",
+    "budget": 1
   },
   {
     "id": 374,
     "name": "Muhammad Irfan",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Adventure Sports",
@@ -8912,12 +9284,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 52
+    "age": 52,
+    "contact": "muhammad.irfan@gmail.com",
+    "budget": 2
   },
   {
     "id": 375,
     "name": "Siti Fatimah",
-    "budget": 1,
     "pace": 3,
     "interests": [
       "Winter Sports",
@@ -8936,12 +9309,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 36
+    "age": 36,
+    "contact": "+61417516936",
+    "budget": 1
   },
   {
     "id": 376,
     "name": "Ahmad Syukri",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Wine & Drinks",
@@ -8961,12 +9335,13 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "contact": "ahmad.syukri@gmail.com",
+    "budget": 2
   },
   {
     "id": 377,
     "name": "Payton Garcia",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Local Markets",
@@ -8983,12 +9358,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "payton.garcia@gmail.com",
+    "budget": 2
   },
   {
     "id": 378,
     "name": "Elliot Wang",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Wildlife & Animals",
@@ -9009,12 +9385,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "contact": "elliot.wang180@gmail.com",
+    "budget": 1
   },
   {
     "id": 379,
     "name": "Jordan Zhang",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Religious Sites",
@@ -9032,12 +9409,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 36
+    "age": 36,
+    "contact": "+601579745166",
+    "budget": 2
   },
   {
     "id": 380,
     "name": "Remy Kim",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Historical Sites",
@@ -9055,12 +9433,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 53
+    "age": 53,
+    "contact": "remy.kim@icloud.com",
+    "budget": 2
   },
   {
     "id": 381,
     "name": "Nurul Huda",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Adventure Sports",
@@ -9077,12 +9456,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 37
+    "age": 37,
+    "contact": "+4439426792452",
+    "budget": 1
   },
   {
     "id": 382,
     "name": "Bailey Wang",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Festivals & Events",
@@ -9101,12 +9481,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "+85272366520",
+    "budget": 2
   },
   {
     "id": 383,
     "name": "Finley Singh",
-    "budget": 2,
     "pace": 2,
     "interests": [
       "Wellness & Spa",
@@ -9123,12 +9504,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "contact": "finley.singh484@outlook.com",
+    "budget": 2
   },
   {
     "id": 384,
     "name": "Charlie Brown",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Photography",
@@ -9145,12 +9527,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "contact": "charlie.brown@gmail.com",
+    "budget": 2
   },
   {
     "id": 385,
     "name": "Elliot Koh",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Winter Sports",
@@ -9169,12 +9552,13 @@
     "smoking": "yes",
     "fitness": "walk",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "contact": "+85282149209",
+    "budget": 2
   },
   {
     "id": 386,
     "name": "Dakota Zhang",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Wine & Drinks"
@@ -9191,12 +9575,13 @@
     "smoking": "social",
     "fitness": "walk",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "contact": "dakota.zhang@hotmail.com",
+    "budget": 2
   },
   {
     "id": 387,
     "name": "Skyler Goh",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Religious Sites",
@@ -9218,12 +9603,13 @@
     "smoking": "social",
     "fitness": "mixed",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "contact": "skyler.goh400@outlook.com",
+    "budget": 2
   },
   {
     "id": 388,
     "name": "Cameron Park",
-    "budget": 1,
     "pace": 1,
     "interests": [
       "Street Food",
@@ -9242,12 +9628,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "contact": "cameron.park@gmail.com",
+    "budget": 1
   },
   {
     "id": 389,
     "name": "Siti Aisyah",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Local Markets",
@@ -9267,12 +9654,13 @@
     "smoking": "yes",
     "fitness": "mixed",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "contact": "siti.aisyah@icloud.com",
+    "budget": 2
   },
   {
     "id": 390,
     "name": "Aiden Park",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Digital Nomad",
@@ -9290,12 +9678,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "contact": "+85275823336",
+    "budget": 1
   },
   {
     "id": 391,
     "name": "Nurul Fatihah",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Architecture"
@@ -9310,12 +9699,13 @@
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "contact": "+8613897268052",
+    "budget": 2
   },
   {
     "id": 392,
     "name": "Parker Tan",
-    "budget": 1,
     "pace": 2,
     "interests": [
       "Fine Dining",
@@ -9331,12 +9721,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 55
+    "age": 55,
+    "contact": "+85261393125",
+    "budget": 1
   },
   {
     "id": 393,
     "name": "Jamie Park",
-    "budget": 2,
     "pace": 1,
     "interests": [
       "Beaches & Coast",
@@ -9352,12 +9743,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 43
+    "age": 43,
+    "contact": "jamie.park@outlook.com",
+    "budget": 2
   },
   {
     "id": 394,
     "name": "Ryan Martinez",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Live Music & Concerts",
@@ -9378,12 +9770,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "contact": "ryan.martinez@gmail.com",
+    "budget": 2
   },
   {
     "id": 395,
     "name": "Morgan Wang",
-    "budget": 3,
     "pace": 3,
     "interests": [
       "Local Culture",
@@ -9399,12 +9792,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "contact": "+85270651070",
+    "budget": 3
   },
   {
     "id": 396,
     "name": "Marcus Chua",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Religious Sites",
@@ -9422,12 +9816,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "contact": "+85291454140",
+    "budget": 3
   },
   {
     "id": 397,
     "name": "Bella Ng",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "City Exploration",
@@ -9446,12 +9841,13 @@
     "smoking": "no",
     "fitness": "mixed",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "contact": "bella.ng@hotmail.com",
+    "budget": 2
   },
   {
     "id": 398,
     "name": "Emerson Teo",
-    "budget": 3,
     "pace": 2,
     "interests": [
       "Road Trips",
@@ -9469,12 +9865,13 @@
     "smoking": "yes",
     "fitness": "transport",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "contact": "emerson.teo@outlook.com",
+    "budget": 3
   },
   {
     "id": 399,
     "name": "Finley Kim",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "Architecture",
@@ -9492,12 +9889,13 @@
     "smoking": "no",
     "fitness": "transport",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "contact": "finley.kim@icloud.com",
+    "budget": 2
   },
   {
     "id": 400,
     "name": "Avery Patel",
-    "budget": 2,
     "pace": 3,
     "interests": [
       "City Exploration",
@@ -9518,6 +9916,8 @@
     "smoking": "social",
     "fitness": "transport",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "contact": "avery.patel@icloud.com",
+    "budget": 2
   }
 ]

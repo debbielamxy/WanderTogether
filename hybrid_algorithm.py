@@ -166,7 +166,7 @@ def safety_enhanced_empirical_hybrid(user, weights, profiles):
     
     # Safety-Enhanced Empirical Hybrid Algorithm
     W_hybrid = {
-        # Safety-First Components (60% total) - prioritized based on evaluation results
+        # Safety-First Components (58% total) - prioritized based on evaluation results
         'demographics': 0.35,      # Strict same-gender + age proximity (35%)
         'bio_safety': 0.05,        # Safety keyword detection (5%)
         'sleep': 0.03,             # Sleep compatibility (3%)
@@ -175,8 +175,9 @@ def safety_enhanced_empirical_hybrid(user, weights, profiles):
         'alcohol': 0.03,           # Habit matching (3%)
         'dietary': 0.02,           # Dietary compatibility (2%)
         'cleanliness': 0.02,       # Cleanliness preferences (2%)
+        'fitness': 0.03,            # Fitness compatibility (3%)
         
-        # Empirical Components (40% total) - maintaining survey foundation
+        # Empirical Components (42% total) - maintaining survey foundation
         'budget': 0.25,            # Budget compatibility (25%)
         'pace': 0.20,              # Travel pace matching (20%)
         'interests': 0.10,         # Shared interests (10%)
@@ -200,6 +201,7 @@ def safety_enhanced_empirical_hybrid(user, weights, profiles):
         alcohol_c = habit_match(user.get('alcohol'), p.get('alcohol'))
         dietary_c = categorical_similarity(user.get('dietary'), p.get('dietary'))
         cleanliness_c = categorical_similarity(user.get('cleanliness'), p.get('cleanliness'))
+        fitness_c = categorical_similarity(user.get('fitness'), p.get('fitness'))
         
         # Empirical Components
         budget_c = budget_similarity(user, p)
@@ -216,6 +218,7 @@ def safety_enhanced_empirical_hybrid(user, weights, profiles):
             W_hybrid.get('alcohol', 0) * alcohol_c +
             W_hybrid.get('dietary', 0) * dietary_c +
             W_hybrid.get('cleanliness', 0) * cleanliness_c +
+            W_hybrid.get('fitness', 0) * fitness_c +
             W_hybrid.get('budget', 0) * budget_c +
             W_hybrid.get('pace', 0) * pace_c +
             W_hybrid.get('interests', 0) * interests_c

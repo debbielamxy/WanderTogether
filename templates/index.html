@@ -28,7 +28,9 @@
     </head>
     <body>
         <div class="container">
-            <h1>Enter your travel profile</h1>
+            <div style="text-align:center;margin-bottom:24px">
+                <img src="/static/app_logo.png" alt="WanderTogether Logo" style="max-width:350px;height:auto;border-radius:8px" />
+            </div>
                         {% if message %}
                             <div style="margin-bottom:12px;background:#eef6ff;border-left:4px solid #2b6cb0;padding:10px;border-radius:6px;color:#0b4a6f">{{ message }}</div>
                         {% endif %}
@@ -42,7 +44,7 @@
                     <div class="row" style="margin-top:8px;align-items:center">
                         <div class="col age">
                             <label for="age">Age</label>
-                            <input id="age" type="number" name="age" min="18" max="100" value="30" />
+                            <input id="age" type="number" name="age" min="18" max="100" required />
                         </div>
                         <div class="col">
                             <label>Gender</label>

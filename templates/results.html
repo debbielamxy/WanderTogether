@@ -39,57 +39,23 @@
     </style>
   </head>
   <body>
-    <h1>🌍 WanderTogether - Travel Companion Recommendations</h1>
-    <div class="subtitle">Safety-Enhanced Empirical Hybrid Algorithm</div>
-    
-    <div class="msg" style="background:#f0f9ff;border-left:4px solid #0ea5e9;color:#0c4a6e">
-      <strong>🎯 Top 8 Recommendations</strong> - Ranked by compatibility and trust scores
-      <br>Feel free to select <span style="color:var(--high)">1</span> - <span style="color:var(--high)">8</span> travel companions you'd like to journey with.
+    <div style="text-align:center;margin-bottom:24px">
+      <img src="/static/app_logo.png" alt="WanderTogether Logo" style="max-width:350px;height:auto;border-radius:8px" />
     </div>
-    
     {% if message %}
       <div class="msg">{{ message }}</div>
     {% endif %}
     
     <div class="container">
-      {# maps to display friendly labels for budget, pace and style #}
-      {% set budget_map = {1:'Economical',2:'Average',3:'Luxury', 'economical':'Economical','average':'Average','luxury':'Luxury'} %}
-      {% set pace_map = {1:'Relaxed itinerary',2:'Spontaneous/No itinerary',3:'Packed itinerary', 'relaxed_itinerary':'Relaxed itinerary','spontaneous':'Spontaneous/No itinerary','packed_itinerary':'Packed itinerary'} %}
+      {# maps to display friendly labels for pace and style #}
+      {% set pace_map = {1:'Relaxed itinerary',2:'Spontaneous/No itinerary',3:'Packed itinerary'} %}
       {% set style_map = {'economical':'Economical','average':'Average','luxury':'Luxury'} %}
       
-      <div style="margin-bottom:10px" class="small">Trust Score: Reliability and rating based on past interactions.</div>
-      <div class="msg small" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
-        <div style="display:flex;gap:8px;align-items:center">
-          <div class="badge trust-low">&lt;0.4</div>
-          <div style="font-size:13px;color:var(--muted)">Match with caution</div>
-        </div>
-        <div style="display:flex;gap:8px;align-items:center">
-          <div class="badge trust-mid">0.4–0.7</div>
-          <div style="font-size:13px;color:var(--muted)">Moderate reliability</div>
-        </div>
-        <div style="display:flex;gap:8px;align-items:center">
-          <div class="badge trust-high">≥0.7</div>
-          <div style="font-size:13px;color:var(--muted)">High reliability</div>
-        </div>
-      </div>
-      
-      <div style="font-size:13px;color:var(--muted);margin-top:8px">Compatibility Score: How well the profile matches your preferences (excluding trust).</div>
-      <div class="msg small" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:8px">
-        <div style="display:flex;gap:8px;align-items:center">
-          <div class="badge compat-low">&lt;0.4</div>
-          <div style="font-size:13px;color:var(--muted)">Low compatibility</div>
-        </div>
-        <div style="display:flex;gap:8px;align-items:center">
-          <div class="badge compat-mid">0.4–0.7</div>
-          <div style="font-size:13px;color:var(--muted)">Moderate compatibility</div>
-        </div>
-        <div style="display:flex;gap:8px;align-items:center">
-          <div class="badge compat-high">≥0.7</div>
-          <div style="font-size:13px;color:var(--muted)">High compatibility</div>
-        </div>
+      <div style="margin-bottom:16px;text-align:center" class="small">
+        <strong>Trust Score:</strong> Reliability based on past interactions and verification status. &nbsp;&nbsp;&nbsp;&nbsp; <strong>Compatibility Score:</strong> How well travel preferences align with yours.
       </div>
 
-    <form id="matchesForm" action="/submit_matches" method="post">
+    <form id="matchesForm">
       <!-- user hidden fields -->
       <input type="hidden" name="name" value="{{ user.name }}" />
       <input type="hidden" name="age" value="{{ user.age }}" />
@@ -127,45 +93,71 @@
               
               <div class="bio">{{ profile.bio }}</div>
               
-              <div class="meta-row">
-                <div class="meta">💰 {{ budget_map[profile.budget] if profile.budget in budget_map else profile.budget }}</div>
-                <div class="meta">⏱️ {{ pace_map[profile.pace] if profile.pace in pace_map else profile.pace }}</div>
-                <div class="meta">🎯 {{ style_map[profile.style] if profile.style in style_map else profile.style }}</div>
-              </div>
-              
-              {% if profile.interests and profile.interests|length > 0 %}
+              <!-- Travel Preferences Section -->
+              <div class="travel-preferences" id="travel-{{ profile.id }}">
                 <div class="meta-row">
-                  <div class="meta">🎨 {{ profile.interests[:3]|join(', ') }}{% if profile.interests|length > 3 %}...{% endif %}</div>
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Pace:</span> {{ pace_map[profile.pace] if profile.pace in pace_map else profile.pace }}</div>
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Style:</span> {{ style_map[profile.style] if profile.style in style_map else profile.style }}</div>
                 </div>
-              {% endif %}
-              
-              <div class="score-display">
-                <div class="score-label">Final Score:</div>
-                <div class="badge compat-high">{{ '%.3f'|format(final_score) }}</div>
+                
+                {% if profile.interests and profile.interests|length > 0 %}
+                  <div class="meta-row">
+                    <div class="meta"><span style="color:var(--field);font-weight:600">Interests:</span> {{ profile.interests[:3]|join(', ') }}{% if profile.interests|length > 3 %}...{% endif %}</div>
+                  </div>
+                {% endif %}
+                
+                <div class="meta-row">
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Sleeping:</span> {% if profile.sleep and profile.sleep|length > 0 %}{{ profile.sleep | join(', ') }}{% else %}—{% endif %}</div>
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Cleanliness:</span> {% if profile.cleanliness and profile.cleanliness not in ['none', 'no'] %}{{ profile.cleanliness }}{% else %}—{% endif %}</div>
+                </div>
+                
+                <div class="meta-row">
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Dietary:</span> {% if profile.dietary and profile.dietary not in ['none', 'no'] %}{{ profile.dietary }}{% else %}—{% endif %}</div>
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Alcohol:</span> {% if profile.alcohol and profile.alcohol not in ['none', 'no'] %}{{ profile.alcohol }}{% else %}—{% endif %}</div>
+                </div>
+                
+                <div class="meta-row">
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Smoking:</span> {% if profile.smoking and profile.smoking not in ['none', 'no'] %}{{ profile.smoking }}{% else %}—{% endif %}</div>
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Fitness:</span> {% if profile.fitness and profile.fitness not in ['none', 'no'] %}{{ profile.fitness }}{% else %}—{% endif %}</div>
+                </div>
               </div>
               
-              <div class="score-display">
-                <div class="score-label">Compatibility:</div>
-                {% set compat_val = compatibility_score if compatibility_score is defined else 0.0 %}
-                {% if compat_val >= 0.7 %}
-                  <div class="badge compat-high">{{ '%.3f'|format(compat_val) }}</div>
-                {% elif compat_val >= 0.4 %}
-                  <div class="badge compat-mid">{{ '%.3f'|format(compat_val) }}</div>
-                {% else %}
-                  <div class="badge compat-low">{{ '%.3f'|format(compat_val) }}</div>
-                {% endif %}
+              <!-- Contact Information Section (Initially Hidden) -->
+              <div class="contact-info" id="contact-{{ profile.id }}" style="display: none;">
+                <div class="meta-row" style="background:#f0f9ff;padding:8px;border-radius:6px;border-left:3px solid #0ea5e9;">
+                  <div class="meta" style="font-weight:600;color:#0c4a6e;">📞 Contact:</div>
+                  <div class="meta" style="color:#0c4a6e;">{{ profile.contact }}</div>
+                </div>
               </div>
               
-              <div class="score-display">
-                <div class="score-label">Trust:</div>
-                {% set trust_val = (profile.trust if profile.trust is defined else 0.5) %}
-                {% if trust_val >= 0.7 %}
-                  <div class="badge trust-high">{{ '%.3f'|format(trust_val) }}</div>
-                {% elif trust_val >= 0.4 %}
-                  <div class="badge trust-mid">{{ '%.3f'|format(trust_val) }}</div>
-                {% else %}
-                  <div class="badge trust-low">{{ '%.3f'|format(trust_val) }}</div>
-                {% endif %}
+              <div class="score-display" style="display:flex;gap:16px;align-items:center;justify-content:space-between">
+                <div style="display:flex;gap:8px;align-items:center">
+                  <div class="score-label">Trust:</div>
+                  {% set trust_val = (profile.trust if profile.trust is defined else 0.5) %}
+                  {% if trust_val >= 0.85 %}
+                    <div class="badge trust-high" title="Verified profile with strong reliability indicators and positive travel history">High Trust</div>
+                  {% elif trust_val >= 0.65 %}
+                    <div class="badge trust-mid" title="Profile shows reasonable reliability; some trust indicators still developing">Moderate Trust</div>
+                  {% elif trust_val >= 0.40 %}
+                    <div class="badge trust-low" title="Limited trust signals available; proceed with standard precautions">Basic Trust</div>
+                  {% else %}
+                    <div class="badge trust-low" style="background:#6b7280" title="Insufficient or concerning trust indicators; caution strongly advised">Low Trust</div>
+                  {% endif %}
+                </div>
+                
+                <div style="display:flex;gap:8px;align-items:center">
+                  <div class="score-label">Compatibility:</div>
+                  {% set compat_val = compatibility_score if compatibility_score is defined else 0.0 %}
+                  {% if compat_val >= 0.80 %}
+                    <div class="badge compat-high" title="Strong alignment in travel style, interests, and preferences">Excellent Match</div>
+                  {% elif compat_val >= 0.60 %}
+                    <div class="badge compat-mid" style="background:#14b8a6" title="Good overall alignment with minor differences">Good Match</div>
+                  {% elif compat_val >= 0.40 %}
+                    <div class="badge compat-low" title="Some shared interests, but notable differences in travel preferences">Fair Match</div>
+                  {% else %}
+                    <div class="badge compat-low" style="background:#6b7280" title="Limited alignment; travel expectations may differ significantly">Low Match</div>
+                  {% endif %}
+                </div>
               </div>
             </div>
           </label>
@@ -174,23 +166,94 @@
       </div>
 
       <div style="margin-top:20px;text-align:center">
-        <button type="submit">Submit Selected Companions</button>
-        <div class="small" style="margin-top:8px">Select 1-8 travel companions you'd like to journey with</div>
+        <button type="button">Match!</button>
+        <div class="small" style="margin-top:8px">Select one or more travel companions you'd like to journey with</div>
       </div>
     </form>
     </div>
 
     <script>
-      // Limit checkbox selections to 8
+      // Limit checkbox selections to 6
       document.querySelectorAll('input[name="selected"]').forEach(checkbox => {
         checkbox.addEventListener('change', function() {
           const checked = document.querySelectorAll('input[name="selected"]:checked');
-          if (checked.length > 8) {
+          if (checked.length > 6) {
             this.checked = false;
-            alert('You can select up to 8 companions only.');
+            alert('You can select up to 6 companions only.');
           }
         });
       });
+
+      // Handle Match! button click
+      const matchButton = document.querySelector('button[type="button"]');
+      if (matchButton) {
+        matchButton.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent form submission
+        
+        const checked = document.querySelectorAll('input[name="selected"]:checked');
+        
+        if (checked.length === 0) {
+          alert('Please select at least one travel companion.');
+          return;
+        }
+        
+        // Toggle contact info for selected companions
+        checked.forEach(checkbox => {
+          const value = checkbox.value;
+          const profileId = value.split('::')[0];
+          
+          // Hide travel preferences
+          const travelSection = document.getElementById('travel-' + profileId);
+          if (travelSection) {
+            travelSection.style.display = 'none';
+          }
+          
+          // Hide bio description
+          const bioSection = checkbox.closest('.card').querySelector('.bio');
+          if (bioSection) {
+            bioSection.style.display = 'none';
+          }
+          
+          // Show contact information
+          const contactSection = document.getElementById('contact-' + profileId);
+          if (contactSection) {
+            contactSection.style.display = 'block';
+          }
+        });
+        
+        // Grey out unselected candidates
+        const allCheckboxes = document.querySelectorAll('input[name="selected"]');
+        allCheckboxes.forEach(checkbox => {
+          if (!checkbox.checked) {
+            const card = checkbox.closest('.card');
+            if (card) {
+              card.style.opacity = '0.3';
+              card.style.pointerEvents = 'none';
+              checkbox.disabled = true;
+            }
+          }
+        });
+        
+        // Hide the button and helper text
+        const buttonContainer = document.querySelector('div[style*="margin-top:20px;text-align:center"]');
+        if (buttonContainer) {
+          buttonContainer.style.display = 'none';
+        }
+        
+        // Show completion message
+        const completionDiv = document.createElement('div');
+        completionDiv.style.marginTop = '20px';
+        completionDiv.style.textAlign = 'center';
+        completionDiv.style.padding = '16px';
+        completionDiv.style.background = '#f0fdf4';
+        completionDiv.style.borderRadius = '8px';
+        completionDiv.style.borderLeft = '4px solid #16a34a';
+        completionDiv.innerHTML = '<div style="color:#166534;font-weight:600;font-size:16px">Matched! Contact and connect with your travel buddy now!</div>';
+        
+        const form = document.getElementById('matchesForm');
+        form.appendChild(completionDiv);
+        });
+      }
     </script>
   </body>
 </html>
