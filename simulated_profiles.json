@@ -4,7 +4,6 @@
     "name": "Liam Adams",
     "pace": 1,
     "interests": [
-      "Live Music & Concerts",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -27,7 +26,7 @@
     "pace": 3,
     "interests": [
       "Festivals & Events",
-      "Adventure Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.76,
@@ -51,8 +50,8 @@
     "name": "Olivia Olsen",
     "pace": 1,
     "interests": [
-      "Religious Sites",
-      "Hiking & Nature"
+      "Religious & Spiritual Sites",
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.59,
@@ -77,7 +76,7 @@
     "interests": [
       "Camping & Outdoors",
       "Beaches & Coast",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Historical Sites"
     ],
     "style": "luxury",
@@ -99,7 +98,6 @@
     "name": "Emma Gonz\u00c3\u00a1lez",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
       "Camping & Outdoors",
       "Street Food"
     ],
@@ -124,11 +122,10 @@
     "name": "Ava Peterson",
     "pace": 2,
     "interests": [
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Camping & Outdoors",
-      "Nightlife & Bars",
-      "National Parks",
-      "Local Culture"
+      "Nature & Scenic Landscapes",
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.88,
@@ -149,11 +146,9 @@
     "name": "Elijah Gao",
     "pace": 1,
     "interests": [
-      "Hiking & Nature",
-      "Nightlife & Bars",
-      "Cooking Experiences",
+      "Hiking & Trekking",
       "Camping & Outdoors",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.52,
@@ -174,8 +169,8 @@
     "name": "James Jones",
     "pace": 1,
     "interests": [
-      "Religious Sites",
-      "Adventure Sports",
+      "Religious & Spiritual Sites",
+      "Adventure Sports & Water Sports",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -197,10 +192,9 @@
     "name": "Charlotte Quinn",
     "pace": 3,
     "interests": [
-      "Water Sports",
-      "Adventure Sports",
-      "Local Culture",
-      "National Parks"
+      "Adventure Sports & Water Sports",
+      "Local Culture & Traditions",
+      "Nature & Scenic Landscapes"
     ],
     "style": "average",
     "trust": 0.56,
@@ -223,8 +217,8 @@
     "name": "William Xu",
     "pace": 1,
     "interests": [
-      "Local Culture",
-      "Adventure Sports"
+      "Local Culture & Traditions",
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.59,
@@ -271,9 +265,8 @@
     "pace": 2,
     "interests": [
       "Festivals & Events",
-      "Hiking & Nature",
-      "Coffee Culture",
-      "Water Sports"
+      "Hiking & Trekking",
+      "Adventure Sports & Water Sports"
     ],
     "style": "economical",
     "trust": 0.6,
@@ -297,11 +290,10 @@
     "name": "Benjamin Evans",
     "pace": 1,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Wildlife & Animals",
       "Historical Sites",
-      "Wellness & Spa",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.92,
@@ -324,11 +316,8 @@
     "name": "Lucas Hou",
     "pace": 3,
     "interests": [
-      "Hiking & Nature",
-      "Wildlife & Animals",
-      "Cooking Experiences",
-      "Coffee Culture",
-      "Wellness & Spa"
+      "Hiking & Trekking",
+      "Wildlife & Animals"
     ],
     "style": "average",
     "trust": 0.62,
@@ -351,8 +340,7 @@
     "name": "Isabella Haq",
     "pace": 3,
     "interests": [
-      "Live Music & Concerts",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Wildlife & Animals"
     ],
     "style": "economical",
@@ -379,7 +367,7 @@
       "Wildlife & Animals",
       "Photography",
       "Historical Sites",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.48,
@@ -403,10 +391,8 @@
     "pace": 1,
     "interests": [
       "Shopping",
-      "Hiking & Nature",
-      "Nightlife & Bars",
-      "Cooking Experiences",
-      "Religious Sites"
+      "Hiking & Trekking",
+      "Religious & Spiritual Sites"
     ],
     "style": "average",
     "trust": 0.71,
@@ -458,10 +444,9 @@
     "name": "Alexander Cruz",
     "pace": 3,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Fine Dining",
-      "Wildlife & Animals",
-      "Coffee Culture"
+      "Wildlife & Animals"
     ],
     "style": "economical",
     "trust": 0.54,
@@ -484,11 +469,11 @@
     "name": "Mason Nguyen",
     "pace": 1,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Street Food",
       "Wildlife & Animals",
       "Historical Sites",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "average",
     "trust": 0.63,
@@ -513,9 +498,9 @@
     "pace": 3,
     "interests": [
       "Festivals & Events",
-      "National Parks",
-      "Religious Sites",
-      "Hiking & Nature",
+      "Nature & Scenic Landscapes",
+      "Religious & Spiritual Sites",
+      "Hiking & Trekking",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -539,7 +524,7 @@
     "name": "Michael Xiong",
     "pace": 3,
     "interests": [
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.97,
@@ -560,7 +545,7 @@
     "name": "Camila Bell",
     "pace": 2,
     "interests": [
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Museums & Art"
     ],
     "style": "average",
@@ -585,10 +570,8 @@
     "pace": 2,
     "interests": [
       "Festivals & Events",
-      "Live Music & Concerts",
       "Wildlife & Animals",
-      "Coffee Culture",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "economical",
     "trust": 0.37,
@@ -612,8 +595,7 @@
     "name": "Ethan Karim",
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.49,
@@ -638,8 +620,8 @@
     "pace": 1,
     "interests": [
       "Shopping",
-      "Water Sports",
-      "Local Culture"
+      "Adventure Sports & Water Sports",
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.72,
@@ -662,11 +644,10 @@
     "name": "Abigail Yu",
     "pace": 1,
     "interests": [
-      "Wellness & Spa",
-      "National Parks",
-      "Hiking & Nature",
+      "Nature & Scenic Landscapes",
+      "Hiking & Trekking",
       "Fine Dining",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.68,
@@ -692,7 +673,7 @@
     "interests": [
       "Shopping",
       "Beaches & Coast",
-      "Adventure Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.79,
@@ -716,9 +697,9 @@
     "name": "Luna Reed",
     "pace": 1,
     "interests": [
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Fine Dining",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.62,
@@ -765,7 +746,6 @@
     "name": "Anas Khan",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
       "Festivals & Events",
       "Historical Sites",
       "Beaches & Coast"
@@ -792,7 +772,6 @@
     "pace": 1,
     "interests": [
       "Photography",
-      "Nightlife & Bars",
       "Street Food"
     ],
     "style": "luxury",
@@ -814,7 +793,6 @@
     "name": "Elizabeth Young",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
       "Festivals & Events",
       "City Exploration"
     ],
@@ -837,10 +815,8 @@
     "name": "Levi Gomez",
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Wildlife & Animals",
-      "Cooking Experiences",
       "Camping & Outdoors"
     ],
     "style": "average",
@@ -864,7 +840,6 @@
     "name": "Sofia Cook",
     "pace": 3,
     "interests": [
-      "Coffee Culture",
       "Historical Sites"
     ],
     "style": "average",
@@ -886,9 +861,8 @@
     "name": "Emily Foster",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
       "Street Food",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -913,10 +887,8 @@
     "name": "Sebastian Moreau",
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
-      "Live Music & Concerts",
       "Photography",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "luxury",
     "trust": 0.92,
@@ -940,9 +912,8 @@
     "name": "Mateo Taylor",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
-      "Local Culture",
-      "Hiking & Nature"
+      "Local Culture & Traditions",
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.51,
@@ -963,7 +934,6 @@
     "name": "Asuka Hou",
     "pace": 1,
     "interests": [
-      "Volunteer Work",
       "Camping & Outdoors"
     ],
     "style": "average",
@@ -985,8 +955,6 @@
     "name": "Jack Costa",
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
-      "Nightlife & Bars",
       "Street Food"
     ],
     "style": "average",
@@ -1011,9 +979,7 @@
     "name": "Mila Adams",
     "pace": 3,
     "interests": [
-      "Wellness & Spa",
-      "Nightlife & Bars",
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Historical Sites"
     ],
     "style": "economical",
@@ -1039,9 +1005,7 @@
     "pace": 2,
     "interests": [
       "Camping & Outdoors",
-      "Cooking Experiences",
-      "Coffee Culture",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.75,
@@ -1063,12 +1027,7 @@
     "id": 43,
     "name": "Owen Olsen",
     "pace": 1,
-    "interests": [
-      "Wine & Drinks",
-      "Coffee Culture",
-      "Live Music & Concerts",
-      "Wellness & Spa"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.87,
     "bio": "Seek balance through spa treatments and wellness activities. Music lover who seeks live performances and local concerts.",
@@ -1088,8 +1047,7 @@
     "name": "Samuel Vasquez",
     "pace": 1,
     "interests": [
-      "Cooking Experiences",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.57,
@@ -1136,8 +1094,7 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Street Food",
-      "Wellness & Spa"
+      "Street Food"
     ],
     "style": "average",
     "trust": 0.98,
@@ -1161,9 +1118,8 @@
     "name": "Hannah Yao",
     "pace": 1,
     "interests": [
-      "Local Culture",
-      "Live Music & Concerts",
-      "Water Sports"
+      "Local Culture & Traditions",
+      "Adventure Sports & Water Sports"
     ],
     "style": "economical",
     "trust": 0.82,
@@ -1187,7 +1143,7 @@
     "pace": 2,
     "interests": [
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.38,
@@ -1208,11 +1164,9 @@
     "name": "Joseph Quinn",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
       "Photography",
-      "Cooking Experiences",
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.42,
@@ -1233,8 +1187,7 @@
     "name": "David Xu",
     "pace": 1,
     "interests": [
-      "Beaches & Coast",
-      "Wellness & Spa"
+      "Beaches & Coast"
     ],
     "style": "average",
     "trust": 0.7,
@@ -1259,8 +1212,6 @@
     "interests": [
       "Festivals & Events",
       "Museums & Art",
-      "Wellness & Spa",
-      "Coffee Culture",
       "Beaches & Coast"
     ],
     "style": "luxury",
@@ -1305,7 +1256,7 @@
     "name": "Penelope Evans",
     "pace": 1,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Camping & Outdoors"
     ],
     "style": "luxury",
@@ -1330,11 +1281,9 @@
     "name": "Nora Kwon",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
       "Fine Dining",
-      "Nightlife & Bars",
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.4,
@@ -1356,9 +1305,8 @@
     "pace": 1,
     "interests": [
       "Shopping",
-      "National Parks",
-      "Wellness & Spa",
-      "Local Culture"
+      "Nature & Scenic Landscapes",
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.65,
@@ -1384,7 +1332,7 @@
     "interests": [
       "Shopping",
       "Photography",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -1410,10 +1358,8 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Wine & Drinks",
-      "Local Culture",
-      "Coffee Culture",
-      "Water Sports"
+      "Local Culture & Traditions",
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.58,
@@ -1438,7 +1384,7 @@
     "interests": [
       "Festivals & Events",
       "Camping & Outdoors",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.55,
@@ -1459,8 +1405,6 @@
     "name": "Victoria Rodr\u00c3\u00adguez",
     "pace": 2,
     "interests": [
-      "Cooking Experiences",
-      "Nightlife & Bars",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -1484,7 +1428,7 @@
     "name": "Lily Nguyen",
     "pace": 3,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Historical Sites",
       "Beaches & Coast"
     ],
@@ -1507,10 +1451,9 @@
     "name": "Liam Ueda",
     "pace": 2,
     "interests": [
-      "Cooking Experiences",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Street Food",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "luxury",
     "trust": 0.64,
@@ -1536,8 +1479,7 @@
       "Shopping",
       "Camping & Outdoors",
       "Fine Dining",
-      "Nightlife & Bars",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "economical",
     "trust": 0.43,
@@ -1561,7 +1503,6 @@
     "name": "Olivia Bell",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
       "Historical Sites",
       "City Exploration"
     ],
@@ -1636,9 +1577,7 @@
     "name": "Ava Naqvi",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
-      "Wellness & Spa",
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -1662,10 +1601,8 @@
     "name": "Elijah Ren",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
-      "National Parks",
-      "Beaches & Coast",
-      "Nightlife & Bars"
+      "Nature & Scenic Landscapes",
+      "Beaches & Coast"
     ],
     "style": "economical",
     "trust": 0.42,
@@ -1689,8 +1626,7 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Wellness & Spa",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.84,
@@ -1712,7 +1648,7 @@
     "pace": 2,
     "interests": [
       "Camping & Outdoors",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.37,
@@ -1722,7 +1658,7 @@
     ],
     "cleanliness": "neat",
     "dietary": "halal",
-    "alcohol": "yes",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -1735,11 +1671,10 @@
     "name": "William Diaz",
     "pace": 1,
     "interests": [
-      "Adventure Sports",
-      "National Parks",
+      "Adventure Sports & Water Sports",
+      "Nature & Scenic Landscapes",
       "Street Food",
-      "Photography",
-      "Cooking Experiences"
+      "Photography"
     ],
     "style": "average",
     "trust": 0.65,
@@ -1761,7 +1696,7 @@
     "pace": 2,
     "interests": [
       "Fine Dining",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Historical Sites"
     ],
     "style": "average",
@@ -1812,9 +1747,8 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Wine & Drinks",
       "Street Food",
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Fine Dining"
     ],
     "style": "luxury",
@@ -1836,8 +1770,7 @@
     "name": "Lucas Gomez",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -1862,8 +1795,8 @@
     "name": "Isabella Cook",
     "pace": 1,
     "interests": [
-      "Religious Sites",
-      "Local Culture",
+      "Religious & Spiritual Sites",
+      "Local Culture & Traditions",
       "Museums & Art",
       "Wildlife & Animals"
     ],
@@ -1889,8 +1822,8 @@
     "name": "Henry Foster",
     "pace": 3,
     "interests": [
-      "National Parks",
-      "Water Sports",
+      "Nature & Scenic Landscapes",
+      "Adventure Sports & Water Sports",
       "Street Food"
     ],
     "style": "economical",
@@ -1912,8 +1845,7 @@
     "name": "Mia Moreau",
     "pace": 3,
     "interests": [
-      "Live Music & Concerts",
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Museums & Art"
     ],
     "style": "average",
@@ -1938,10 +1870,9 @@
     "pace": 2,
     "interests": [
       "Museums & Art",
-      "Wine & Drinks",
       "Camping & Outdoors",
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.78,
@@ -1964,11 +1895,9 @@
     "name": "Alexander Peng",
     "pace": 2,
     "interests": [
-      "Nightlife & Bars",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Camping & Outdoors",
-      "Wellness & Spa",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.67,
@@ -1991,8 +1920,7 @@
     "name": "Mason Costa",
     "pace": 2,
     "interests": [
-      "Coffee Culture",
-      "Local Culture",
+      "Local Culture & Traditions",
       "City Exploration"
     ],
     "style": "average",
@@ -2017,7 +1945,7 @@
     "pace": 1,
     "interests": [
       "Historical Sites",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.82,
@@ -2041,7 +1969,6 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Coffee Culture",
       "Street Food"
     ],
     "style": "average",
@@ -2063,9 +1990,9 @@
     "name": "Camila Olsen",
     "pace": 2,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Street Food",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.88,
@@ -2090,7 +2017,7 @@
     "pace": 3,
     "interests": [
       "Street Food",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.76,
@@ -2111,10 +2038,8 @@
     "name": "Ethan Martinez",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
-      "Coffee Culture",
       "Photography",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.55,
@@ -2125,7 +2050,7 @@
     ],
     "cleanliness": "average",
     "dietary": "halal",
-    "alcohol": "yes",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "transport",
     "gender": "male",
@@ -2139,9 +2064,7 @@
     "pace": 2,
     "interests": [
       "Festivals & Events",
-      "Shopping",
-      "Coffee Culture",
-      "Cooking Experiences"
+      "Shopping"
     ],
     "style": "average",
     "trust": 0.49,
@@ -2191,8 +2114,8 @@
     "interests": [
       "Fine Dining",
       "Photography",
-      "Water Sports",
-      "Religious Sites",
+      "Adventure Sports & Water Sports",
+      "Religious & Spiritual Sites",
       "City Exploration"
     ],
     "style": "economical",
@@ -2216,9 +2139,6 @@
     "name": "Luna Quinn",
     "pace": 1,
     "interests": [
-      "Wellness & Spa",
-      "Coffee Culture",
-      "Nightlife & Bars",
       "Camping & Outdoors",
       "Fine Dining"
     ],
@@ -2242,10 +2162,7 @@
     "id": 90,
     "name": "Ella Xu",
     "pace": 2,
-    "interests": [
-      "Coffee Culture",
-      "Wellness & Spa"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.9,
     "bio": "Seek balance through spa treatments and wellness activities.",
@@ -2291,9 +2208,7 @@
     "name": "Jackson Ward",
     "pace": 3,
     "interests": [
-      "Shopping",
-      "Wine & Drinks",
-      "Wellness & Spa"
+      "Shopping"
     ],
     "style": "luxury",
     "trust": 0.97,
@@ -2316,7 +2231,7 @@
     "name": "Elizabeth Evans",
     "pace": 1,
     "interests": [
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Museums & Art",
       "Street Food",
       "Historical Sites",
@@ -2342,9 +2257,7 @@
     "id": 94,
     "name": "Levi Lee",
     "pace": 1,
-    "interests": [
-      "Wine & Drinks"
-    ],
+    "interests": [],
     "style": "luxury",
     "trust": 0.55,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -2414,7 +2327,7 @@
     "interests": [
       "Shopping",
       "Street Food",
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Camping & Outdoors",
       "Beaches & Coast"
     ],
@@ -2438,8 +2351,7 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Adventure Sports",
-      "Coffee Culture",
+      "Adventure Sports & Water Sports",
       "Historical Sites",
       "Camping & Outdoors"
     ],
@@ -2462,8 +2374,8 @@
     "name": "Avery Garcia",
     "pace": 3,
     "interests": [
-      "Adventure Sports",
-      "Local Culture"
+      "Adventure Sports & Water Sports",
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.37,
@@ -2487,10 +2399,7 @@
     "pace": 2,
     "interests": [
       "Museums & Art",
-      "Wine & Drinks",
-      "Live Music & Concerts",
-      "Photography",
-      "Coffee Culture"
+      "Photography"
     ],
     "style": "average",
     "trust": 0.73,
@@ -2514,7 +2423,6 @@
     "name": "Mila Ueda",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
       "Beaches & Coast",
       "Fine Dining"
     ],
@@ -2537,11 +2445,10 @@
     "name": "Scarlett Park",
     "pace": 2,
     "interests": [
-      "Adventure Sports",
-      "Nightlife & Bars",
+      "Adventure Sports & Water Sports",
       "Historical Sites",
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.92,
@@ -2564,7 +2471,7 @@
     "interests": [
       "Fine Dining",
       "Street Food",
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -2587,8 +2494,7 @@
     "pace": 1,
     "interests": [
       "Festivals & Events",
-      "Wine & Drinks",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Historical Sites"
     ],
     "style": "average",
@@ -2613,10 +2519,8 @@
     "pace": 3,
     "interests": [
       "Festivals & Events",
-      "Wine & Drinks",
-      "Cooking Experiences",
       "Historical Sites",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.67,
@@ -2639,9 +2543,8 @@
     "interests": [
       "Shopping",
       "Photography",
-      "Adventure Sports",
-      "Historical Sites",
-      "Coffee Culture"
+      "Adventure Sports & Water Sports",
+      "Historical Sites"
     ],
     "style": "average",
     "trust": 0.69,
@@ -2689,11 +2592,9 @@
     "name": "Grace Brown",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
       "Camping & Outdoors",
       "Photography",
-      "Nightlife & Bars",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.84,
@@ -2716,10 +2617,9 @@
     "name": "Joseph Reed",
     "pace": 2,
     "interests": [
-      "Water Sports",
-      "Cooking Experiences",
+      "Adventure Sports & Water Sports",
       "Museums & Art",
-      "National Parks"
+      "Nature & Scenic Landscapes"
     ],
     "style": "economical",
     "trust": 0.89,
@@ -2740,10 +2640,8 @@
     "name": "David Diaz",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Photography",
-      "Nightlife & Bars",
       "City Exploration"
     ],
     "style": "average",
@@ -2817,7 +2715,6 @@
     "pace": 3,
     "interests": [
       "Street Food",
-      "Wellness & Spa",
       "Fine Dining"
     ],
     "style": "average",
@@ -2841,7 +2738,7 @@
     "name": "Nora Gomez",
     "pace": 3,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Wildlife & Animals"
     ],
     "style": "economical",
@@ -2866,8 +2763,8 @@
     "name": "Carter Cook",
     "pace": 1,
     "interests": [
-      "Religious Sites",
-      "Local Culture"
+      "Religious & Spiritual Sites",
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.92,
@@ -2891,8 +2788,7 @@
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
-      "Photography",
-      "Nightlife & Bars"
+      "Photography"
     ],
     "style": "economical",
     "trust": 0.49,
@@ -2913,9 +2809,8 @@
     "name": "Riley Moreau",
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
-      "Religious Sites",
-      "Water Sports"
+      "Religious & Spiritual Sites",
+      "Adventure Sports & Water Sports"
     ],
     "style": "luxury",
     "trust": 0.54,
@@ -2938,11 +2833,11 @@
     "name": "Luke Taylor",
     "pace": 3,
     "interests": [
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Shopping",
       "Street Food",
-      "Religious Sites",
-      "Local Culture"
+      "Religious & Spiritual Sites",
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.46,
@@ -2964,7 +2859,7 @@
     "pace": 3,
     "interests": [
       "Photography",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.91,
@@ -2985,11 +2880,10 @@
     "name": "Lily Costa",
     "pace": 1,
     "interests": [
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Photography",
       "Historical Sites",
-      "Camping & Outdoors",
-      "Water Sports"
+      "Camping & Outdoors"
     ],
     "style": "luxury",
     "trust": 0.46,
@@ -3013,10 +2907,9 @@
     "name": "Liam Park",
     "pace": 2,
     "interests": [
-      "National Parks",
-      "Hiking & Nature",
-      "Camping & Outdoors",
-      "Wellness & Spa"
+      "Nature & Scenic Landscapes",
+      "Hiking & Trekking",
+      "Camping & Outdoors"
     ],
     "style": "average",
     "trust": 0.91,
@@ -3041,7 +2934,7 @@
     "pace": 2,
     "interests": [
       "Photography",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.64,
@@ -3089,9 +2982,7 @@
     "interests": [
       "Wildlife & Animals",
       "Photography",
-      "Coffee Culture",
-      "Wellness & Spa",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.66,
@@ -3114,8 +3005,7 @@
     "name": "Emma Wei",
     "pace": 2,
     "interests": [
-      "Street Food",
-      "Wellness & Spa"
+      "Street Food"
     ],
     "style": "average",
     "trust": 0.66,
@@ -3163,9 +3053,9 @@
     "interests": [
       "Shopping",
       "Festivals & Events",
-      "National Parks",
-      "Religious Sites",
-      "Local Culture"
+      "Nature & Scenic Landscapes",
+      "Religious & Spiritual Sites",
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.85,
@@ -3212,11 +3102,9 @@
     "name": "Charlotte Ortiz",
     "pace": 2,
     "interests": [
-      "Adventure Sports",
-      "Wellness & Spa",
-      "Live Music & Concerts",
+      "Adventure Sports & Water Sports",
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.8,
@@ -3264,7 +3152,7 @@
     "pace": 1,
     "interests": [
       "Shopping",
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Museums & Art",
       "Wildlife & Animals"
     ],
@@ -3290,10 +3178,7 @@
     "pace": 3,
     "interests": [
       "Museums & Art",
-      "Live Music & Concerts",
-      "Nightlife & Bars",
-      "Cooking Experiences",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "luxury",
     "trust": 0.55,
@@ -3317,8 +3202,7 @@
     "pace": 3,
     "interests": [
       "Festivals & Events",
-      "Cooking Experiences",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "economical",
     "trust": 0.54,
@@ -3342,8 +3226,7 @@
     "pace": 2,
     "interests": [
       "Beaches & Coast",
-      "Wellness & Spa",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.87,
@@ -3364,9 +3247,7 @@
     "name": "Isabella Luo",
     "pace": 2,
     "interests": [
-      "Live Music & Concerts",
-      "Cooking Experiences",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "economical",
     "trust": 0.94,
@@ -3391,10 +3272,9 @@
     "pace": 1,
     "interests": [
       "Museums & Art",
-      "Coffee Culture",
       "Wildlife & Animals",
       "Camping & Outdoors",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.78,
@@ -3460,11 +3340,9 @@
     "name": "Alexander Chan",
     "pace": 2,
     "interests": [
-      "Adventure Sports",
-      "Wine & Drinks",
-      "National Parks",
-      "Cooking Experiences",
-      "Religious Sites"
+      "Adventure Sports & Water Sports",
+      "Nature & Scenic Landscapes",
+      "Religious & Spiritual Sites"
     ],
     "style": "economical",
     "trust": 0.45,
@@ -3511,9 +3389,7 @@
     "id": 141,
     "name": "Harper He",
     "pace": 2,
-    "interests": [
-      "Wine & Drinks"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.72,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -3537,8 +3413,7 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Fine Dining",
-      "Coffee Culture"
+      "Fine Dining"
     ],
     "style": "luxury",
     "trust": 0.78,
@@ -3563,10 +3438,7 @@
     "pace": 1,
     "interests": [
       "Street Food",
-      "Cooking Experiences",
-      "Nightlife & Bars",
-      "Coffee Culture",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "luxury",
     "trust": 0.83,
@@ -3590,8 +3462,8 @@
     "name": "Gianna Zhang",
     "pace": 3,
     "interests": [
-      "Water Sports",
-      "Local Culture"
+      "Adventure Sports & Water Sports",
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.69,
@@ -3612,8 +3484,7 @@
     "name": "Ethan Song",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Museums & Art",
       "Historical Sites"
     ],
@@ -3641,9 +3512,7 @@
     "interests": [
       "Museums & Art",
       "Street Food",
-      "Nightlife & Bars",
-      "Historical Sites",
-      "Coffee Culture"
+      "Historical Sites"
     ],
     "style": "average",
     "trust": 0.97,
@@ -3666,7 +3535,6 @@
     "name": "Abigail Huang",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
       "Fine Dining",
       "Historical Sites",
       "Beaches & Coast"
@@ -3757,7 +3625,7 @@
       "Shopping",
       "Wildlife & Animals",
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.49,
@@ -3783,7 +3651,6 @@
       "Shopping",
       "Museums & Art",
       "Street Food",
-      "Cooking Experiences",
       "Camping & Outdoors"
     ],
     "style": "average",
@@ -3805,7 +3672,6 @@
     "name": "Elizabeth Teo",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
       "Museums & Art"
     ],
     "style": "luxury",
@@ -3827,8 +3693,7 @@
     "name": "Levi Vargas",
     "pace": 2,
     "interests": [
-      "Live Music & Concerts",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Historical Sites",
       "City Exploration"
     ],
@@ -3855,8 +3720,8 @@
     "pace": 3,
     "interests": [
       "Beaches & Coast",
-      "Local Culture",
-      "Hiking & Nature"
+      "Local Culture & Traditions",
+      "Hiking & Trekking"
     ],
     "style": "economical",
     "trust": 0.42,
@@ -3879,9 +3744,8 @@
     "name": "Emily Chen",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
       "Fine Dining",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Street Food"
     ],
     "style": "average",
@@ -3904,10 +3768,7 @@
     "id": 157,
     "name": "Sebastian Lee",
     "pace": 1,
-    "interests": [
-      "Wellness & Spa",
-      "Coffee Culture"
-    ],
+    "interests": [],
     "style": "economical",
     "trust": 0.36,
     "bio": "Love incorporating wellness into travel experiences.",
@@ -3931,8 +3792,8 @@
     "interests": [
       "Shopping",
       "Camping & Outdoors",
-      "Local Culture",
-      "Water Sports"
+      "Local Culture & Traditions",
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.75,
@@ -3957,7 +3818,7 @@
     "interests": [
       "Camping & Outdoors",
       "Photography",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Museums & Art",
       "City Exploration"
     ],
@@ -3983,7 +3844,7 @@
     "name": "Jack Zhao",
     "pace": 2,
     "interests": [
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "luxury",
     "trust": 0.39,
@@ -4006,11 +3867,10 @@
     "name": "Mila Li",
     "pace": 3,
     "interests": [
-      "National Parks",
-      "Live Music & Concerts",
-      "Local Culture",
+      "Nature & Scenic Landscapes",
+      "Local Culture & Traditions",
       "Beaches & Coast",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "luxury",
     "trust": 0.62,
@@ -4031,7 +3891,7 @@
     "name": "Scarlett Teo",
     "pace": 2,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Fine Dining",
       "Street Food"
     ],
@@ -4079,10 +3939,8 @@
     "pace": 1,
     "interests": [
       "Museums & Art",
-      "Hiking & Nature",
-      "Wildlife & Animals",
-      "Nightlife & Bars",
-      "Wellness & Spa"
+      "Hiking & Trekking",
+      "Wildlife & Animals"
     ],
     "style": "average",
     "trust": 0.93,
@@ -4108,8 +3966,7 @@
     "interests": [
       "Beaches & Coast",
       "Historical Sites",
-      "Photography",
-      "Wellness & Spa"
+      "Photography"
     ],
     "style": "economical",
     "trust": 0.78,
@@ -4132,9 +3989,7 @@
     "id": 166,
     "name": "Matthew Singh",
     "pace": 2,
-    "interests": [
-      "Coffee Culture"
-    ],
+    "interests": [],
     "style": "economical",
     "trust": 0.73,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -4157,9 +4012,7 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Wellness & Spa",
       "Photography",
-      "Coffee Culture",
       "Fine Dining"
     ],
     "style": "average",
@@ -4182,7 +4035,7 @@
     "pace": 2,
     "interests": [
       "Street Food",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Historical Sites"
     ],
     "style": "average",
@@ -4207,7 +4060,7 @@
     "pace": 3,
     "interests": [
       "Street Food",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Historical Sites"
     ],
     "style": "luxury",
@@ -4232,8 +4085,8 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Adventure Sports",
-      "Religious Sites",
+      "Adventure Sports & Water Sports",
+      "Religious & Spiritual Sites",
       "Photography",
       "Fine Dining"
     ],
@@ -4257,7 +4110,6 @@
     "pace": 2,
     "interests": [
       "Camping & Outdoors",
-      "Live Music & Concerts",
       "Wildlife & Animals",
       "Street Food"
     ],
@@ -4285,7 +4137,7 @@
       "Festivals & Events",
       "Beaches & Coast",
       "Camping & Outdoors",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "average",
     "trust": 0.55,
@@ -4308,10 +4160,10 @@
     "name": "Penelope Chen",
     "pace": 3,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Fine Dining",
       "Street Food",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.98,
@@ -4331,9 +4183,7 @@
     "id": 174,
     "name": "Siti Khadijah",
     "pace": 3,
-    "interests": [
-      "Coffee Culture"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.54,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -4355,11 +4205,8 @@
     "name": "Carter Goh",
     "pace": 1,
     "interests": [
-      "Adventure Sports",
-      "Museums & Art",
-      "Nightlife & Bars",
-      "Coffee Culture",
-      "Water Sports"
+      "Adventure Sports & Water Sports",
+      "Museums & Art"
     ],
     "style": "average",
     "trust": 0.83,
@@ -4383,8 +4230,7 @@
     "name": "Jayden Kim",
     "pace": 1,
     "interests": [
-      "Coffee Culture",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.67,
@@ -4409,7 +4255,7 @@
     "pace": 2,
     "interests": [
       "Street Food",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.61,
@@ -4430,11 +4276,8 @@
     "name": "Luke Wong",
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
-      "Live Music & Concerts",
       "Street Food",
-      "Cooking Experiences",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.54,
@@ -4459,7 +4302,7 @@
     "pace": 2,
     "interests": [
       "Photography",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -4482,10 +4325,7 @@
     "id": 180,
     "name": "Nurul Hana",
     "pace": 1,
-    "interests": [
-      "Wine & Drinks",
-      "Wellness & Spa"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.79,
     "bio": "Seek balance through spa treatments and wellness activities.",
@@ -4505,9 +4345,8 @@
     "name": "Liam Hansen",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
-      "Local Culture",
-      "Hiking & Nature"
+      "Local Culture & Traditions",
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.89,
@@ -4532,7 +4371,6 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Nightlife & Bars",
       "City Exploration"
     ],
     "style": "average",
@@ -4555,9 +4393,7 @@
     "pace": 1,
     "interests": [
       "Festivals & Events",
-      "Coffee Culture",
-      "Wellness & Spa",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "average",
     "trust": 0.66,
@@ -4581,9 +4417,8 @@
     "name": "Oliver Wong",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
-      "Religious Sites",
-      "Local Culture"
+      "Religious & Spiritual Sites",
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.67,
@@ -4606,8 +4441,7 @@
     "name": "Emma Teo",
     "pace": 1,
     "interests": [
-      "Shopping",
-      "Nightlife & Bars"
+      "Shopping"
     ],
     "style": "economical",
     "trust": 0.52,
@@ -4631,7 +4465,7 @@
     "name": "Ava Kumar",
     "pace": 3,
     "interests": [
-      "National Parks"
+      "Nature & Scenic Landscapes"
     ],
     "style": "luxury",
     "trust": 0.87,
@@ -4675,8 +4509,7 @@
     "pace": 3,
     "interests": [
       "Festivals & Events",
-      "Camping & Outdoors",
-      "Nightlife & Bars"
+      "Camping & Outdoors"
     ],
     "style": "average",
     "trust": 0.44,
@@ -4697,8 +4530,7 @@
     "name": "Charlotte Kim",
     "pace": 3,
     "interests": [
-      "Local Culture",
-      "Nightlife & Bars"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.52,
@@ -4722,8 +4554,7 @@
     "name": "William Hassan",
     "pace": 2,
     "interests": [
-      "Local Culture",
-      "Nightlife & Bars"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.66,
@@ -4747,9 +4578,7 @@
     "name": "Sophia Lim",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
-      "Street Food",
-      "Nightlife & Bars"
+      "Street Food"
     ],
     "style": "average",
     "trust": 0.35,
@@ -4773,10 +4602,10 @@
     "name": "Amelia Yap",
     "pace": 3,
     "interests": [
-      "National Parks",
-      "Local Culture",
+      "Nature & Scenic Landscapes",
+      "Local Culture & Traditions",
       "Beaches & Coast",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "luxury",
     "trust": 0.89,
@@ -4799,10 +4628,8 @@
     "name": "Ahmad Fikri",
     "pace": 2,
     "interests": [
-      "Coffee Culture",
-      "Nightlife & Bars",
-      "Local Culture",
-      "Hiking & Nature"
+      "Local Culture & Traditions",
+      "Hiking & Trekking"
     ],
     "style": "economical",
     "trust": 0.45,
@@ -4826,9 +4653,7 @@
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
-      "Live Music & Concerts",
       "Beaches & Coast",
-      "Nightlife & Bars",
       "Street Food"
     ],
     "style": "economical",
@@ -4850,8 +4675,7 @@
     "name": "Isabella Ahmad",
     "pace": 2,
     "interests": [
-      "Nightlife & Bars",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.39,
@@ -4900,9 +4724,9 @@
     "name": "Mia Kim",
     "pace": 2,
     "interests": [
-      "Religious Sites",
-      "Local Culture",
-      "Hiking & Nature",
+      "Religious & Spiritual Sites",
+      "Local Culture & Traditions",
+      "Hiking & Trekking",
       "Historical Sites"
     ],
     "style": "average",
@@ -4927,9 +4751,8 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Nightlife & Bars",
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.73,
@@ -4950,8 +4773,7 @@
     "name": "Alexander Yap",
     "pace": 3,
     "interests": [
-      "Camping & Outdoors",
-      "Cooking Experiences"
+      "Camping & Outdoors"
     ],
     "style": "luxury",
     "trust": 0.91,
@@ -4971,9 +4793,7 @@
     "id": 200,
     "name": "Mason Lim",
     "pace": 3,
-    "interests": [
-      "Cooking Experiences"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.39,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -4995,9 +4815,7 @@
     "name": "Harper Chan",
     "pace": 3,
     "interests": [
-      "Nightlife & Bars",
       "Historical Sites",
-      "Coffee Culture",
       "Fine Dining"
     ],
     "style": "luxury",
@@ -5045,7 +4863,7 @@
     "name": "Camila Kim",
     "pace": 1,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Street Food"
     ],
     "style": "economical",
@@ -5069,8 +4887,7 @@
     "name": "Gianna D\u00c3\u00adaz",
     "pace": 2,
     "interests": [
-      "Local Culture",
-      "Live Music & Concerts"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.52,
@@ -5091,8 +4908,6 @@
     "name": "Ethan Tan",
     "pace": 1,
     "interests": [
-      "Cooking Experiences",
-      "Wellness & Spa",
       "Museums & Art",
       "Beaches & Coast"
     ],
@@ -5115,7 +4930,7 @@
     "name": "Daniel Chen",
     "pace": 2,
     "interests": [
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.58,
@@ -5136,8 +4951,6 @@
     "name": "Abigail Kim",
     "pace": 1,
     "interests": [
-      "Coffee Culture",
-      "Live Music & Concerts",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -5158,9 +4971,7 @@
     "id": 208,
     "name": "Jacob Chen",
     "pace": 2,
-    "interests": [
-      "Wine & Drinks"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.4,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -5182,9 +4993,7 @@
     "name": "Luna Goh",
     "pace": 3,
     "interests": [
-      "Street Food",
-      "Wellness & Spa",
-      "Cooking Experiences"
+      "Street Food"
     ],
     "style": "economical",
     "trust": 0.83,
@@ -5205,7 +5014,7 @@
     "name": "Siti Aishah",
     "pace": 3,
     "interests": [
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.81,
@@ -5229,7 +5038,7 @@
       "Historical Sites",
       "Museums & Art",
       "Wildlife & Animals",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.91,
@@ -5255,8 +5064,7 @@
       "Shopping",
       "Museums & Art",
       "Wildlife & Animals",
-      "Coffee Culture",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "average",
     "trust": 0.93,
@@ -5279,10 +5087,9 @@
     "name": "Elizabeth Zhang",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
       "Photography",
-      "Religious Sites",
-      "Local Culture",
+      "Religious & Spiritual Sites",
+      "Local Culture & Traditions",
       "Street Food"
     ],
     "style": "average",
@@ -5305,7 +5112,6 @@
     "pace": 1,
     "interests": [
       "Festivals & Events",
-      "Nightlife & Bars",
       "Museums & Art",
       "Beaches & Coast"
     ],
@@ -5328,8 +5134,7 @@
     "name": "Sofia Dong",
     "pace": 1,
     "interests": [
-      "Fine Dining",
-      "Coffee Culture"
+      "Fine Dining"
     ],
     "style": "average",
     "trust": 0.64,
@@ -5349,9 +5154,7 @@
     "id": 216,
     "name": "Emily Teo",
     "pace": 1,
-    "interests": [
-      "Wellness & Spa"
-    ],
+    "interests": [],
     "style": "luxury",
     "trust": 0.36,
     "bio": "Wellness traveler who loves spa experiences and relaxation.",
@@ -5372,8 +5175,6 @@
     "pace": 1,
     "interests": [
       "Photography",
-      "Coffee Culture",
-      "Wellness & Spa",
       "Museums & Art"
     ],
     "style": "average",
@@ -5399,7 +5200,6 @@
     "interests": [
       "Festivals & Events",
       "Wildlife & Animals",
-      "Cooking Experiences",
       "Camping & Outdoors",
       "Beaches & Coast"
     ],
@@ -5424,10 +5224,8 @@
     "name": "Avery Ho",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
-      "Water Sports",
-      "Street Food",
-      "Nightlife & Bars"
+      "Adventure Sports & Water Sports",
+      "Street Food"
     ],
     "style": "average",
     "trust": 0.67,
@@ -5449,9 +5247,7 @@
     "id": 220,
     "name": "Jack Singh",
     "pace": 3,
-    "interests": [
-      "Cooking Experiences"
-    ],
+    "interests": [],
     "style": "luxury",
     "trust": 0.98,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -5471,8 +5267,7 @@
     "name": "Mila Park",
     "pace": 1,
     "interests": [
-      "Fine Dining",
-      "Wellness & Spa"
+      "Fine Dining"
     ],
     "style": "average",
     "trust": 0.5,
@@ -5495,11 +5290,10 @@
     "name": "Scarlett Ismail",
     "pace": 1,
     "interests": [
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Photography",
-      "Cooking Experiences",
       "Beaches & Coast",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.39,
@@ -5523,7 +5317,7 @@
     "name": "Owen Ismail",
     "pace": 3,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Museums & Art"
     ],
     "style": "average",
@@ -5546,8 +5340,7 @@
     "pace": 1,
     "interests": [
       "Beaches & Coast",
-      "Wellness & Spa",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.81,
@@ -5570,10 +5363,8 @@
     "name": "Eleanor Ahmad",
     "pace": 1,
     "interests": [
-      "Live Music & Concerts",
       "Fine Dining",
       "Photography",
-      "Nightlife & Bars",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -5597,10 +5388,8 @@
     "name": "Matthew Ahmad",
     "pace": 2,
     "interests": [
-      "Local Culture",
-      "Live Music & Concerts",
-      "Religious Sites",
-      "Cooking Experiences"
+      "Local Culture & Traditions",
+      "Religious & Spiritual Sites"
     ],
     "style": "average",
     "trust": 0.97,
@@ -5621,8 +5410,7 @@
     "name": "Hannah Ahmad",
     "pace": 2,
     "interests": [
-      "Nightlife & Bars",
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -5647,9 +5435,9 @@
     "name": "Grace Wong",
     "pace": 1,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Fine Dining",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.63,
@@ -5670,9 +5458,8 @@
     "name": "Joseph Park",
     "pace": 3,
     "interests": [
-      "Live Music & Concerts",
       "Photography",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Historical Sites"
     ],
     "style": "average",
@@ -5696,9 +5483,7 @@
     "name": "Muhammad Razif",
     "pace": 3,
     "interests": [
-      "Coffee Culture",
-      "Nightlife & Bars",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "luxury",
     "trust": 0.69,
@@ -5746,9 +5531,8 @@
     "pace": 1,
     "interests": [
       "Beaches & Coast",
-      "Local Culture",
-      "Fine Dining",
-      "Cooking Experiences"
+      "Local Culture & Traditions",
+      "Fine Dining"
     ],
     "style": "average",
     "trust": 0.75,
@@ -5771,11 +5555,9 @@
     "name": "Penelope Chan",
     "pace": 3,
     "interests": [
-      "National Parks",
-      "Wellness & Spa",
+      "Nature & Scenic Landscapes",
       "Museums & Art",
-      "Wildlife & Animals",
-      "Coffee Culture"
+      "Wildlife & Animals"
     ],
     "style": "economical",
     "trust": 0.41,
@@ -5800,8 +5582,6 @@
     "pace": 3,
     "interests": [
       "Beaches & Coast",
-      "Wellness & Spa",
-      "Cooking Experiences",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -5827,9 +5607,8 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Coffee Culture",
       "Historical Sites",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "economical",
     "trust": 0.55,
@@ -5853,7 +5632,6 @@
     "name": "Jayden Lim",
     "pace": 3,
     "interests": [
-      "Nightlife & Bars",
       "Street Food"
     ],
     "style": "luxury",
@@ -5874,9 +5652,7 @@
     "id": 237,
     "name": "Riley Silva",
     "pace": 3,
-    "interests": [
-      "Wellness & Spa"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.9,
     "bio": "Love incorporating wellness into travel experiences.",
@@ -5900,7 +5676,7 @@
     "interests": [
       "Festivals & Events",
       "Fine Dining",
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Beaches & Coast"
     ],
     "style": "luxury",
@@ -5924,9 +5700,8 @@
     "name": "Victoria Chan",
     "pace": 1,
     "interests": [
-      "National Parks",
-      "Beaches & Coast",
-      "Cooking Experiences"
+      "Nature & Scenic Landscapes",
+      "Beaches & Coast"
     ],
     "style": "average",
     "trust": 0.54,
@@ -5937,7 +5712,7 @@
     ],
     "cleanliness": "messy",
     "dietary": "halal",
-    "alcohol": "yes",
+    "alcohol": "no",
     "smoking": "no",
     "fitness": "walk",
     "gender": "female",
@@ -5949,10 +5724,7 @@
     "id": 240,
     "name": "Lily Yap",
     "pace": 1,
-    "interests": [
-      "Coffee Culture",
-      "Live Music & Concerts"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.67,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -5973,10 +5745,10 @@
     "pace": 1,
     "interests": [
       "Museums & Art",
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Wildlife & Animals",
       "Photography",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.93,
@@ -6000,8 +5772,7 @@
     "name": "Noah Kim",
     "pace": 1,
     "interests": [
-      "Street Food",
-      "Cooking Experiences"
+      "Street Food"
     ],
     "style": "luxury",
     "trust": 0.96,
@@ -6025,7 +5796,7 @@
     "pace": 1,
     "interests": [
       "Fine Dining",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Museums & Art"
     ],
     "style": "economical",
@@ -6051,8 +5822,7 @@
     "pace": 1,
     "interests": [
       "Camping & Outdoors",
-      "Photography",
-      "Coffee Culture"
+      "Photography"
     ],
     "style": "luxury",
     "trust": 0.51,
@@ -6077,7 +5847,7 @@
     "interests": [
       "Festivals & Events",
       "Shopping",
-      "Adventure Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.67,
@@ -6101,9 +5871,8 @@
     "name": "Ava Huang",
     "pace": 1,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Camping & Outdoors",
-      "Nightlife & Bars",
       "Street Food"
     ],
     "style": "average",
@@ -6150,7 +5919,7 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -6175,7 +5944,7 @@
       "Shopping",
       "Photography",
       "Camping & Outdoors",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.49,
@@ -6219,7 +5988,7 @@
     "name": "Sophia Zhang",
     "pace": 2,
     "interests": [
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "City Exploration"
     ],
     "style": "economical",
@@ -6245,7 +6014,7 @@
     "pace": 1,
     "interests": [
       "Camping & Outdoors",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Museums & Art"
     ],
     "style": "average",
@@ -6267,10 +6036,8 @@
     "name": "Benjamin Huang",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
-      "Coffee Culture",
       "Fine Dining",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.59,
@@ -6291,7 +6058,6 @@
     "name": "Lucas Ho",
     "pace": 1,
     "interests": [
-      "Nightlife & Bars",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -6318,9 +6084,8 @@
     "interests": [
       "Shopping",
       "Festivals & Events",
-      "Adventure Sports",
-      "Coffee Culture",
-      "Local Culture"
+      "Adventure Sports & Water Sports",
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.58,
@@ -6340,9 +6105,7 @@
     "id": 256,
     "name": "Muhammad Amin",
     "pace": 1,
-    "interests": [
-      "Wellness & Spa"
-    ],
+    "interests": [],
     "style": "luxury",
     "trust": 0.58,
     "bio": "Love incorporating wellness into travel experiences.",
@@ -6366,7 +6129,7 @@
     "pace": 2,
     "interests": [
       "Museums & Art",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.59,
@@ -6410,9 +6173,7 @@
     "id": 259,
     "name": "Alexander Lee",
     "pace": 1,
-    "interests": [
-      "Cooking Experiences"
-    ],
+    "interests": [],
     "style": "economical",
     "trust": 0.84,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -6436,9 +6197,9 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Wildlife & Animals",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.77,
@@ -6459,7 +6220,6 @@
     "name": "Harper Ismail",
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -6481,9 +6241,8 @@
     "name": "Michael Chen",
     "pace": 1,
     "interests": [
-      "Religious Sites",
-      "Nightlife & Bars",
-      "Local Culture"
+      "Religious & Spiritual Sites",
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.77,
@@ -6506,7 +6265,7 @@
     "interests": [
       "Fine Dining",
       "Photography",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.88,
@@ -6529,10 +6288,7 @@
     "name": "Gianna Yap",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
-      "Shopping",
-      "Wellness & Spa",
-      "Cooking Experiences"
+      "Shopping"
     ],
     "style": "economical",
     "trust": 0.84,
@@ -6557,8 +6313,7 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "Nightlife & Bars",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.81,
@@ -6579,8 +6334,7 @@
     "name": "Daniel Chua",
     "pace": 3,
     "interests": [
-      "Street Food",
-      "Cooking Experiences"
+      "Street Food"
     ],
     "style": "average",
     "trust": 0.91,
@@ -6604,8 +6358,8 @@
     "name": "Abigail Foo",
     "pace": 3,
     "interests": [
-      "National Parks",
-      "Local Culture",
+      "Nature & Scenic Landscapes",
+      "Local Culture & Traditions",
       "Museums & Art",
       "Wildlife & Animals"
     ],
@@ -6630,9 +6384,7 @@
     "name": "Jacob Ho",
     "pace": 2,
     "interests": [
-      "Local Culture",
-      "Live Music & Concerts",
-      "Cooking Experiences"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.61,
@@ -6656,7 +6408,7 @@
     "name": "Luna Yap",
     "pace": 3,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Street Food",
       "Museums & Art",
       "Wildlife & Animals"
@@ -6684,8 +6436,7 @@
     "pace": 1,
     "interests": [
       "Street Food",
-      "Adventure Sports",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.66,
@@ -6709,8 +6460,7 @@
     "name": "Logan Wang",
     "pace": 1,
     "interests": [
-      "Local Culture",
-      "Nightlife & Bars"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.93,
@@ -6735,10 +6485,7 @@
     "pace": 3,
     "interests": [
       "Museums & Art",
-      "Live Music & Concerts",
-      "Coffee Culture",
-      "Wellness & Spa",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.71,
@@ -6762,9 +6509,8 @@
     "name": "Elizabeth Kumar",
     "pace": 2,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Wildlife & Animals",
-      "Nightlife & Bars",
       "Fine Dining",
       "Beaches & Coast"
     ],
@@ -6787,9 +6533,7 @@
     "name": "Levi Kim",
     "pace": 1,
     "interests": [
-      "Water Sports",
-      "Live Music & Concerts",
-      "Nightlife & Bars"
+      "Adventure Sports & Water Sports"
     ],
     "style": "economical",
     "trust": 0.74,
@@ -6812,8 +6556,7 @@
     "name": "Sofia Rahman",
     "pace": 3,
     "interests": [
-      "Local Culture",
-      "Nightlife & Bars"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.71,
@@ -6837,7 +6580,7 @@
     "name": "Emily Foo",
     "pace": 2,
     "interests": [
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.78,
@@ -6860,8 +6603,7 @@
     "interests": [
       "Festivals & Events",
       "Shopping",
-      "Live Music & Concerts",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.76,
@@ -6885,8 +6627,8 @@
     "pace": 1,
     "interests": [
       "Shopping",
-      "Water Sports",
-      "Local Culture",
+      "Adventure Sports & Water Sports",
+      "Local Culture & Traditions",
       "Museums & Art"
     ],
     "style": "average",
@@ -6910,7 +6652,6 @@
     "name": "Avery Omar",
     "pace": 1,
     "interests": [
-      "Wine & Drinks",
       "Beaches & Coast"
     ],
     "style": "economical",
@@ -6933,7 +6674,6 @@
     "pace": 2,
     "interests": [
       "Photography",
-      "Wellness & Spa",
       "Street Food"
     ],
     "style": "average",
@@ -6955,9 +6695,7 @@
     "name": "Mila Ahmad",
     "pace": 3,
     "interests": [
-      "Water Sports",
-      "Wellness & Spa",
-      "Cooking Experiences",
+      "Adventure Sports & Water Sports",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -6981,7 +6719,7 @@
     "interests": [
       "Historical Sites",
       "Street Food",
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -7009,7 +6747,7 @@
       "Festivals & Events",
       "Museums & Art",
       "Wildlife & Animals",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.51,
@@ -7033,8 +6771,8 @@
     "name": "Samuel Huang",
     "pace": 1,
     "interests": [
-      "Local Culture",
-      "Adventure Sports"
+      "Local Culture & Traditions",
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.96,
@@ -7058,8 +6796,7 @@
     "name": "Eleanor Rahman",
     "pace": 3,
     "interests": [
-      "Water Sports",
-      "Nightlife & Bars"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.78,
@@ -7080,8 +6817,7 @@
     "name": "Matthew Foo",
     "pace": 2,
     "interests": [
-      "Wellness & Spa",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Historical Sites"
     ],
     "style": "economical",
@@ -7106,9 +6842,7 @@
     "pace": 3,
     "interests": [
       "Museums & Art",
-      "Live Music & Concerts",
-      "Historical Sites",
-      "Wellness & Spa"
+      "Historical Sites"
     ],
     "style": "average",
     "trust": 0.42,
@@ -7132,12 +6866,10 @@
     "name": "Grace Chua",
     "pace": 2,
     "interests": [
-      "Live Music & Concerts",
       "Wildlife & Animals",
       "Fine Dining",
-      "Religious Sites",
-      "Water Sports",
-      "Coffee Culture"
+      "Religious & Spiritual Sites",
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.78,
@@ -7162,8 +6894,8 @@
     "pace": 2,
     "interests": [
       "Beaches & Coast",
-      "Water Sports",
-      "Hiking & Nature",
+      "Adventure Sports & Water Sports",
+      "Hiking & Trekking",
       "Historical Sites"
     ],
     "style": "average",
@@ -7189,9 +6921,8 @@
     "pace": 2,
     "interests": [
       "Museums & Art",
-      "Wine & Drinks",
       "Camping & Outdoors",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Street Food"
     ],
     "style": "luxury",
@@ -7216,7 +6947,7 @@
     "pace": 1,
     "interests": [
       "Beaches & Coast",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.55,
@@ -7239,9 +6970,8 @@
     "name": "Wyatt Wong",
     "pace": 1,
     "interests": [
-      "Coffee Culture",
       "Photography",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.84,
@@ -7265,8 +6995,7 @@
     "name": "Penelope Huang",
     "pace": 1,
     "interests": [
-      "Beaches & Coast",
-      "Cooking Experiences"
+      "Beaches & Coast"
     ],
     "style": "luxury",
     "trust": 0.76,
@@ -7287,7 +7016,7 @@
     "name": "Nora Liu",
     "pace": 1,
     "interests": [
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.86,
@@ -7335,7 +7064,7 @@
     "interests": [
       "Festivals & Events",
       "Shopping",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "economical",
     "trust": 0.63,
@@ -7402,8 +7131,8 @@
     "name": "Victoria Liu",
     "pace": 2,
     "interests": [
-      "Adventure Sports",
-      "National Parks",
+      "Adventure Sports & Water Sports",
+      "Nature & Scenic Landscapes",
       "Historical Sites",
       "Camping & Outdoors",
       "Fine Dining"
@@ -7429,7 +7158,7 @@
     "name": "Lily Ismail",
     "pace": 1,
     "interests": [
-      "Adventure Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.47,
@@ -7452,8 +7181,7 @@
     "name": "Remy Brown",
     "pace": 3,
     "interests": [
-      "Shopping",
-      "Wellness & Spa"
+      "Shopping"
     ],
     "style": "average",
     "trust": 0.7,
@@ -7476,8 +7204,7 @@
     "name": "Ahmad Hafiz",
     "pace": 3,
     "interests": [
-      "Nightlife & Bars",
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Museums & Art",
       "Photography"
     ],
@@ -7503,8 +7230,7 @@
     "name": "Finley Patel",
     "pace": 3,
     "interests": [
-      "Religious Sites",
-      "Live Music & Concerts",
+      "Religious & Spiritual Sites",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -7529,7 +7255,7 @@
     "name": "Payton Zhang",
     "pace": 2,
     "interests": [
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "luxury",
     "trust": 0.36,
@@ -7552,9 +7278,7 @@
     "id": 305,
     "name": "Quinn Garcia",
     "pace": 2,
-    "interests": [
-      "Volunteer Work"
-    ],
+    "interests": [],
     "style": "luxury",
     "trust": 0.93,
     "bio": "Love connecting with communities through volunteer opportunities.",
@@ -7578,9 +7302,9 @@
     "pace": 1,
     "interests": [
       "Photography",
-      "Local Culture",
-      "Water Sports",
-      "National Parks"
+      "Local Culture & Traditions",
+      "Adventure Sports & Water Sports",
+      "Nature & Scenic Landscapes"
     ],
     "style": "average",
     "trust": 0.68,
@@ -7601,8 +7325,7 @@
     "name": "Drew Anderson",
     "pace": 3,
     "interests": [
-      "Road Trips",
-      "Nightlife & Bars"
+      "Road Trips"
     ],
     "style": "average",
     "trust": 0.48,
@@ -7626,7 +7349,7 @@
     "name": "Elliot Kong",
     "pace": 3,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Museums & Art",
       "Photography",
       "Street Food"
@@ -7653,11 +7376,10 @@
     "name": "Nurul Aini",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
       "Shopping",
       "Festivals & Events",
       "Local Markets",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.58,
@@ -7682,8 +7404,7 @@
     "pace": 2,
     "interests": [
       "Beaches & Coast",
-      "Cooking Experiences",
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Architecture"
     ],
     "style": "luxury",
@@ -7709,7 +7430,7 @@
     "pace": 3,
     "interests": [
       "Museums & Art",
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Local Markets",
       "Festivals & Events"
     ],
@@ -7735,8 +7456,7 @@
     "pace": 3,
     "interests": [
       "Local Markets",
-      "Nightlife & Bars",
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Museums & Art",
       "Street Food"
     ],
@@ -7763,7 +7483,7 @@
     "pace": 1,
     "interests": [
       "Festivals & Events",
-      "Mountains & Scenery"
+      "Nature & Scenic Landscapes"
     ],
     "style": "average",
     "trust": 0.76,
@@ -7787,8 +7507,6 @@
     "name": "Alex Goh",
     "pace": 1,
     "interests": [
-      "Wellness & Spa",
-      "Coffee Culture",
       "Shopping"
     ],
     "style": "average",
@@ -7811,8 +7529,7 @@
     "pace": 3,
     "interests": [
       "Historical Sites",
-      "Live Music & Concerts",
-      "Adventure Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "luxury",
     "trust": 0.9,
@@ -7860,9 +7577,8 @@
     "pace": 1,
     "interests": [
       "Museums & Art",
-      "Volunteer Work",
       "Photography",
-      "Adventure Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "economical",
     "trust": 0.65,
@@ -7884,7 +7600,7 @@
     "pace": 2,
     "interests": [
       "Fine Dining",
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Photography",
       "Museums & Art"
     ],
@@ -7910,7 +7626,6 @@
     "name": "Taylor Kim",
     "pace": 3,
     "interests": [
-      "Volunteer Work",
       "City Exploration"
     ],
     "style": "average",
@@ -7932,10 +7647,9 @@
     "name": "Taylor Park",
     "pace": 1,
     "interests": [
-      "Mountains & Scenery",
+      "Nature & Scenic Landscapes",
       "Wildlife & Animals",
       "Street Food",
-      "Wine & Drinks",
       "Shopping"
     ],
     "style": "economical",
@@ -7959,11 +7673,9 @@
     "name": "Jordan Ng",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
-      "National Parks",
-      "Hiking & Nature",
-      "Fine Dining",
-      "Mountains & Scenery"
+      "Nature & Scenic Landscapes",
+      "Hiking & Trekking",
+      "Fine Dining"
     ],
     "style": "economical",
     "trust": 0.91,
@@ -7984,11 +7696,9 @@
     "name": "Sage Lim",
     "pace": 2,
     "interests": [
-      "Nightlife & Bars",
       "Festivals & Events",
       "Street Food",
-      "Camping & Outdoors",
-      "Wellness & Spa"
+      "Camping & Outdoors"
     ],
     "style": "luxury",
     "trust": 0.72,
@@ -8012,8 +7722,7 @@
     "name": "Dakota Miller",
     "pace": 2,
     "interests": [
-      "Photography",
-      "Coffee Culture"
+      "Photography"
     ],
     "style": "average",
     "trust": 0.54,
@@ -8038,7 +7747,7 @@
     "pace": 1,
     "interests": [
       "City Exploration",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "average",
     "trust": 0.71,
@@ -8063,8 +7772,7 @@
     "pace": 1,
     "interests": [
       "Camping & Outdoors",
-      "Religious Sites",
-      "Wine & Drinks",
+      "Religious & Spiritual Sites",
       "Wildlife & Animals"
     ],
     "style": "luxury",
@@ -8090,7 +7798,7 @@
     "interests": [
       "Shopping",
       "Photography",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.66,
@@ -8114,8 +7822,8 @@
     "name": "Charlie Tan",
     "pace": 1,
     "interests": [
-      "National Parks",
-      "Religious Sites"
+      "Nature & Scenic Landscapes",
+      "Religious & Spiritual Sites"
     ],
     "style": "economical",
     "trust": 0.91,
@@ -8139,8 +7847,7 @@
     "name": "Jordan Park",
     "pace": 3,
     "interests": [
-      "Adventure Sports",
-      "Nightlife & Bars"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.84,
@@ -8162,10 +7869,7 @@
     "id": 329,
     "name": "Cameron Ng",
     "pace": 1,
-    "interests": [
-      "Nightlife & Bars",
-      "Coffee Culture"
-    ],
+    "interests": [],
     "style": "economical",
     "trust": 0.35,
     "bio": "Love experiencing cities through their vibrant nightlife.",
@@ -8214,9 +7918,8 @@
     "name": "Harper Chua",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
       "Road Trips",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.63,
@@ -8240,9 +7943,9 @@
     "name": "Casey Goh",
     "pace": 3,
     "interests": [
-      "Local Culture",
-      "National Parks",
-      "Hiking & Nature"
+      "Local Culture & Traditions",
+      "Nature & Scenic Landscapes",
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.63,
@@ -8266,7 +7969,7 @@
     "name": "June Garcia",
     "pace": 1,
     "interests": [
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "average",
     "trust": 0.65,
@@ -8312,10 +8015,9 @@
     "name": "Jordan Brown",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "City Exploration",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -8337,8 +8039,7 @@
     "name": "Elliot Chan",
     "pace": 1,
     "interests": [
-      "Hiking & Nature",
-      "Volunteer Work",
+      "Hiking & Trekking",
       "Wildlife & Animals"
     ],
     "style": "average",
@@ -8363,8 +8064,7 @@
     "pace": 2,
     "interests": [
       "Shopping",
-      "Beaches & Coast",
-      "Volunteer Work"
+      "Beaches & Coast"
     ],
     "style": "average",
     "trust": 0.65,
@@ -8388,7 +8088,7 @@
     "pace": 1,
     "interests": [
       "Architecture",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "luxury",
     "trust": 0.66,
@@ -8412,8 +8112,7 @@
     "pace": 3,
     "interests": [
       "Photography",
-      "Historical Sites",
-      "Wellness & Spa"
+      "Historical Sites"
     ],
     "style": "average",
     "trust": 0.55,
@@ -8436,9 +8135,9 @@
     "name": "Finley Chua",
     "pace": 2,
     "interests": [
-      "National Parks",
-      "Adventure Sports",
-      "Hiking & Nature"
+      "Nature & Scenic Landscapes",
+      "Adventure Sports & Water Sports",
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.5,
@@ -8511,7 +8210,7 @@
     "pace": 3,
     "interests": [
       "Road Trips",
-      "Adventure Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.48,
@@ -8536,8 +8235,7 @@
     "pace": 1,
     "interests": [
       "Architecture",
-      "City Exploration",
-      "Live Music & Concerts"
+      "City Exploration"
     ],
     "style": "average",
     "trust": 0.64,
@@ -8558,9 +8256,7 @@
     "name": "Jamie Goh",
     "pace": 3,
     "interests": [
-      "Cooking Experiences",
-      "Winter Sports",
-      "Water Sports",
+      "Adventure Sports & Water Sports",
       "City Exploration"
     ],
     "style": "average",
@@ -8582,8 +8278,6 @@
     "name": "Reese Singh",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
-      "Nightlife & Bars",
       "Photography",
       "Beaches & Coast"
     ],
@@ -8606,7 +8300,6 @@
     "name": "Sage Goh",
     "pace": 2,
     "interests": [
-      "Winter Sports",
       "Street Food"
     ],
     "style": "average",
@@ -8628,8 +8321,7 @@
     "name": "Ahmad Danial",
     "pace": 1,
     "interests": [
-      "Street Food",
-      "Cooking Experiences"
+      "Street Food"
     ],
     "style": "average",
     "trust": 0.54,
@@ -8652,7 +8344,6 @@
     "name": "Bailey Gan",
     "pace": 2,
     "interests": [
-      "Cooking Experiences",
       "Road Trips",
       "Festivals & Events"
     ],
@@ -8675,7 +8366,7 @@
     "name": "Alex Ng",
     "pace": 3,
     "interests": [
-      "Mountains & Scenery",
+      "Nature & Scenic Landscapes",
       "City Exploration",
       "Local Markets"
     ],
@@ -8701,8 +8392,8 @@
     "pace": 2,
     "interests": [
       "Festivals & Events",
-      "National Parks",
-      "Adventure Sports"
+      "Nature & Scenic Landscapes",
+      "Adventure Sports & Water Sports"
     ],
     "style": "economical",
     "trust": 0.43,
@@ -8725,9 +8416,7 @@
     "name": "Reese Brown",
     "pace": 1,
     "interests": [
-      "Mountains & Scenery",
-      "Cooking Experiences",
-      "Coffee Culture"
+      "Nature & Scenic Landscapes"
     ],
     "style": "economical",
     "trust": 0.77,
@@ -8750,10 +8439,9 @@
     "name": "Jesse Miller",
     "pace": 3,
     "interests": [
-      "Hiking & Nature",
-      "Wine & Drinks",
-      "Water Sports",
-      "Religious Sites"
+      "Hiking & Trekking",
+      "Adventure Sports & Water Sports",
+      "Religious & Spiritual Sites"
     ],
     "style": "economical",
     "trust": 0.71,
@@ -8774,9 +8462,8 @@
     "name": "Quinn Han",
     "pace": 3,
     "interests": [
-      "Local Culture",
-      "Beaches & Coast",
-      "Cooking Experiences"
+      "Local Culture & Traditions",
+      "Beaches & Coast"
     ],
     "style": "average",
     "trust": 0.94,
@@ -8800,7 +8487,7 @@
     "name": "Charlie Chew",
     "pace": 1,
     "interests": [
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.4,
@@ -8822,10 +8509,7 @@
     "id": 356,
     "name": "Morgan Tan",
     "pace": 2,
-    "interests": [
-      "Volunteer Work",
-      "Wine & Drinks"
-    ],
+    "interests": [],
     "style": "economical",
     "trust": 0.7,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -8848,7 +8532,7 @@
     "name": "Micah Wang",
     "pace": 1,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Camping & Outdoors"
     ],
     "style": "average",
@@ -8875,8 +8559,7 @@
     "interests": [
       "Shopping",
       "Camping & Outdoors",
-      "Cooking Experiences",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.79,
@@ -8900,8 +8583,7 @@
     "name": "Nur Amira",
     "pace": 2,
     "interests": [
-      "Fine Dining",
-      "Coffee Culture"
+      "Fine Dining"
     ],
     "style": "average",
     "trust": 0.81,
@@ -8922,7 +8604,7 @@
     "name": "Charlie Patel",
     "pace": 2,
     "interests": [
-      "Mountains & Scenery",
+      "Nature & Scenic Landscapes",
       "Local Markets",
       "Architecture",
       "Historical Sites",
@@ -8949,8 +8631,7 @@
     "name": "Payton Chua",
     "pace": 3,
     "interests": [
-      "Water Sports",
-      "Wellness & Spa",
+      "Adventure Sports & Water Sports",
       "Photography"
     ],
     "style": "average",
@@ -8975,7 +8656,7 @@
     "pace": 3,
     "interests": [
       "Shopping",
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Wildlife & Animals"
     ],
     "style": "luxury",
@@ -9000,9 +8681,8 @@
     "name": "Taylor Martinez",
     "pace": 2,
     "interests": [
-      "Wine & Drinks",
       "Road Trips",
-      "Local Culture",
+      "Local Culture & Traditions",
       "Photography"
     ],
     "style": "average",
@@ -9048,8 +8728,7 @@
     "name": "Morgan Singh",
     "pace": 2,
     "interests": [
-      "Local Culture",
-      "Cooking Experiences",
+      "Local Culture & Traditions",
       "Photography"
     ],
     "style": "average",
@@ -9094,9 +8773,8 @@
     "name": "Rowan Kim",
     "pace": 3,
     "interests": [
-      "Hiking & Nature",
-      "Street Food",
-      "Coffee Culture"
+      "Hiking & Trekking",
+      "Street Food"
     ],
     "style": "economical",
     "trust": 0.53,
@@ -9118,8 +8796,7 @@
     "pace": 3,
     "interests": [
       "Camping & Outdoors",
-      "Nightlife & Bars",
-      "Religious Sites"
+      "Religious & Spiritual Sites"
     ],
     "style": "average",
     "trust": 0.41,
@@ -9140,10 +8817,9 @@
     "name": "Casey Chan",
     "pace": 3,
     "interests": [
-      "National Parks",
+      "Nature & Scenic Landscapes",
       "Camping & Outdoors",
-      "Wildlife & Animals",
-      "Coffee Culture"
+      "Wildlife & Animals"
     ],
     "style": "average",
     "trust": 0.52,
@@ -9166,8 +8842,7 @@
     "interests": [
       "Shopping",
       "Street Food",
-      "National Parks",
-      "Winter Sports",
+      "Nature & Scenic Landscapes",
       "Historical Sites"
     ],
     "style": "average",
@@ -9192,10 +8867,9 @@
     "name": "Sage Martinez",
     "pace": 2,
     "interests": [
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Museums & Art",
-      "Coffee Culture",
-      "Water Sports"
+      "Adventure Sports & Water Sports"
     ],
     "style": "luxury",
     "trust": 0.66,
@@ -9219,7 +8893,7 @@
     "name": "Parker Chua",
     "pace": 1,
     "interests": [
-      "Hiking & Nature",
+      "Hiking & Trekking",
       "Festivals & Events",
       "Architecture"
     ],
@@ -9246,8 +8920,7 @@
     "pace": 1,
     "interests": [
       "Historical Sites",
-      "Photography",
-      "Wine & Drinks"
+      "Photography"
     ],
     "style": "economical",
     "trust": 0.61,
@@ -9268,9 +8941,8 @@
     "name": "Muhammad Irfan",
     "pace": 1,
     "interests": [
-      "Adventure Sports",
-      "Mountains & Scenery",
-      "Coffee Culture"
+      "Adventure Sports & Water Sports",
+      "Nature & Scenic Landscapes"
     ],
     "style": "average",
     "trust": 0.53,
@@ -9293,9 +8965,7 @@
     "name": "Siti Fatimah",
     "pace": 3,
     "interests": [
-      "Winter Sports",
-      "Beaches & Coast",
-      "Coffee Culture"
+      "Beaches & Coast"
     ],
     "style": "economical",
     "trust": 0.5,
@@ -9318,9 +8988,8 @@
     "name": "Ahmad Syukri",
     "pace": 3,
     "interests": [
-      "Wine & Drinks",
-      "Adventure Sports",
-      "National Parks"
+      "Adventure Sports & Water Sports",
+      "Nature & Scenic Landscapes"
     ],
     "style": "average",
     "trust": 0.68,
@@ -9344,9 +9013,7 @@
     "name": "Payton Garcia",
     "pace": 3,
     "interests": [
-      "Local Markets",
-      "Coffee Culture",
-      "Cooking Experiences"
+      "Local Markets"
     ],
     "style": "average",
     "trust": 0.82,
@@ -9368,9 +9035,9 @@
     "pace": 2,
     "interests": [
       "Wildlife & Animals",
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Photography",
-      "Local Culture"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.68,
@@ -9394,7 +9061,7 @@
     "name": "Jordan Zhang",
     "pace": 3,
     "interests": [
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Shopping"
     ],
     "style": "average",
@@ -9419,8 +9086,7 @@
     "pace": 3,
     "interests": [
       "Historical Sites",
-      "Wellness & Spa",
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Street Food"
     ],
     "style": "average",
@@ -9442,7 +9108,7 @@
     "name": "Nurul Huda",
     "pace": 2,
     "interests": [
-      "Adventure Sports",
+      "Adventure Sports & Water Sports",
       "Historical Sites",
       "Beaches & Coast"
     ],
@@ -9466,7 +9132,7 @@
     "pace": 2,
     "interests": [
       "Festivals & Events",
-      "Mountains & Scenery",
+      "Nature & Scenic Landscapes",
       "Street Food",
       "Museums & Art",
       "Photography"
@@ -9490,7 +9156,6 @@
     "name": "Finley Singh",
     "pace": 2,
     "interests": [
-      "Wellness & Spa",
       "Historical Sites",
       "Road Trips"
     ],
@@ -9514,7 +9179,6 @@
     "pace": 3,
     "interests": [
       "Photography",
-      "Photography",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -9536,8 +9200,6 @@
     "name": "Elliot Koh",
     "pace": 1,
     "interests": [
-      "Winter Sports",
-      "Coffee Culture",
       "Beaches & Coast"
     ],
     "style": "average",
@@ -9560,9 +9222,7 @@
     "id": 386,
     "name": "Dakota Zhang",
     "pace": 1,
-    "interests": [
-      "Wine & Drinks"
-    ],
+    "interests": [],
     "style": "average",
     "trust": 0.46,
     "bio": "Curious traveler seeking new experiences and adventures.",
@@ -9584,11 +9244,10 @@
     "name": "Skyler Goh",
     "pace": 1,
     "interests": [
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Road Trips",
-      "Local Culture",
-      "Beaches & Coast",
-      "Coffee Culture"
+      "Local Culture & Traditions",
+      "Beaches & Coast"
     ],
     "style": "average",
     "trust": 0.86,
@@ -9612,9 +9271,7 @@
     "name": "Cameron Park",
     "pace": 1,
     "interests": [
-      "Street Food",
-      "Volunteer Work",
-      "Wine & Drinks"
+      "Street Food"
     ],
     "style": "economical",
     "trust": 0.41,
@@ -9639,8 +9296,7 @@
     "interests": [
       "Local Markets",
       "Photography",
-      "Museums & Art",
-      "Wine & Drinks"
+      "Museums & Art"
     ],
     "style": "average",
     "trust": 0.64,
@@ -9664,9 +9320,7 @@
     "pace": 2,
     "interests": [
       "Photography",
-      "Local Culture",
-      "Wine & Drinks",
-      "Volunteer Work"
+      "Local Culture & Traditions"
     ],
     "style": "economical",
     "trust": 0.56,
@@ -9730,8 +9384,7 @@
     "name": "Jamie Park",
     "pace": 1,
     "interests": [
-      "Beaches & Coast",
-      "Nightlife & Bars"
+      "Beaches & Coast"
     ],
     "style": "average",
     "trust": 0.56,
@@ -9752,10 +9405,8 @@
     "name": "Ryan Martinez",
     "pace": 3,
     "interests": [
-      "Live Music & Concerts",
       "Photography",
       "Beaches & Coast",
-      "Wine & Drinks",
       "Historical Sites"
     ],
     "style": "average",
@@ -9779,7 +9430,7 @@
     "name": "Morgan Wang",
     "pace": 3,
     "interests": [
-      "Local Culture",
+      "Local Culture & Traditions",
       "Historical Sites"
     ],
     "style": "luxury",
@@ -9801,7 +9452,7 @@
     "name": "Marcus Chua",
     "pace": 2,
     "interests": [
-      "Religious Sites",
+      "Religious & Spiritual Sites",
       "Camping & Outdoors",
       "Beaches & Coast",
       "City Exploration"
@@ -9827,9 +9478,8 @@
     "interests": [
       "City Exploration",
       "Historical Sites",
-      "Wine & Drinks",
-      "National Parks",
-      "Adventure Sports"
+      "Nature & Scenic Landscapes",
+      "Adventure Sports & Water Sports"
     ],
     "style": "average",
     "trust": 0.66,
@@ -9875,7 +9525,7 @@
     "pace": 3,
     "interests": [
       "Architecture",
-      "Hiking & Nature"
+      "Hiking & Trekking"
     ],
     "style": "average",
     "trust": 0.58,
@@ -9899,8 +9549,7 @@
     "pace": 3,
     "interests": [
       "City Exploration",
-      "National Parks",
-      "Live Music & Concerts",
+      "Nature & Scenic Landscapes",
       "Historical Sites"
     ],
     "style": "average",

@@ -13,57 +13,43 @@ app = Flask(__name__)
 # Database connection
 DATABASE_URL = os.getenv('DATABASE_URL', "postgresql://wandertogetherdb_user:94Wr3w5tONCj72N6D9oGnlUU87b2AiNs@dpg-d58fuimr433s73f8dndg-a.oregon-postgres.render.com/wandertogetherdb")
 
-# Canonical interest choices shown on the form
+# Canonical interest choices shown on form
 INTEREST_CHOICES = [
     # Culture & Exploration
     'Historical Sites',
     'Museums & Art',
-    'Local Culture',
+    'Local Culture & Traditions',
     'Architecture',
-    'Religious Sites',
+    'Religious & Spiritual Sites',
     'Festivals & Events',
 
     # Nature & Adventure
-    'Hiking & Nature',
+    'Nature & Scenic Landscapes',
     'Beaches & Coast',
     'Wildlife & Animals',
-    'National Parks',
-    'Mountains & Scenery',
+    'Hiking & Trekking',
     'Camping & Outdoors',
 
     # Food & Cuisine
     'Local Cuisine',
-    'Food Tours',
-    'Cooking Classes',
-    'Wine & Brewery',
     'Street Food',
+    'Food & Drink Experiences',
     'Fine Dining',
 
     # Activities & Entertainment
-    'Nightlife',
-    'Shopping',
+    'Adventure Sports & Water Sports',
     'Photography',
-    'Adventure Sports',
-    'Water Sports',
-    'Wildlife & Animals',
-
-    # Relaxation & Wellness
     'Spa & Wellness',
-    'Beaches & Coast',
-    'Parks & Gardens',
-    'Meditation & Yoga',
-    'Retreats',
-
-    # Urban & City Life
     'City Exploration',
     'Local Markets',
-    'Architecture',
+
+    # Nightlife & Shopping
     'Nightlife',
+    'Drinks, Cocktails & Bars',
     'Shopping',
 
     # Travel Styles
-    'Road Trips',
-    'Volunteer Work'
+    'Road Trips'
 ]
 
 
