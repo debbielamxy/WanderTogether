@@ -136,13 +136,13 @@
                   <div class="score-label">Trust:</div>
                   {% set trust_val = (profile.trust if profile.trust is defined else 0.5) %}
                   {% if trust_val >= 0.85 %}
-                    <div class="badge trust-high" title="Verified profile with strong reliability indicators and positive travel history">High Trust</div>
+                    <div class="badge trust-high" title="Verified profile with strong reliability indicators and positive travel history">High</div>
                   {% elif trust_val >= 0.65 %}
-                    <div class="badge trust-mid" title="Profile shows reasonable reliability; some trust indicators still developing">Moderate Trust</div>
+                    <div class="badge trust-mid" title="Profile shows reasonable reliability; some trust indicators still developing">Moderate</div>
                   {% elif trust_val >= 0.40 %}
-                    <div class="badge trust-low" title="Limited trust signals available; proceed with standard precautions">Basic Trust</div>
+                    <div class="badge trust-low" title="Limited trust signals available; proceed with standard precautions">Basic</div>
                   {% else %}
-                    <div class="badge trust-low" style="background:#6b7280" title="Insufficient or concerning trust indicators; caution strongly advised">Low Trust</div>
+                    <div class="badge trust-low" style="background:#6b7280" title="Insufficient or concerning trust indicators; caution strongly advised">Low</div>
                   {% endif %}
                 </div>
                 
@@ -150,13 +150,13 @@
                   <div class="score-label">Compatibility:</div>
                   {% set compat_val = compatibility_score if compatibility_score is defined else 0.0 %}
                   {% if compat_val >= 0.80 %}
-                    <div class="badge compat-high" title="Strong alignment in travel style, interests, and preferences">Excellent Match</div>
+                    <div class="badge compat-high" title="Strong alignment in travel style, interests, and preferences">Excellent</div>
                   {% elif compat_val >= 0.60 %}
-                    <div class="badge compat-mid" style="background:#14b8a6" title="Good overall alignment with minor differences">Good Match</div>
+                    <div class="badge compat-mid" style="background:#14b8a6" title="Good overall alignment with minor differences">Good</div>
                   {% elif compat_val >= 0.40 %}
-                    <div class="badge compat-low" title="Some shared interests, but notable differences in travel preferences">Fair Match</div>
+                    <div class="badge compat-low" title="Some shared interests, but notable differences in travel preferences">Fair</div>
                   {% else %}
-                    <div class="badge compat-low" style="background:#6b7280" title="Limited alignment; travel expectations may differ significantly">Low Match</div>
+                    <div class="badge compat-low" style="background:#6b7280" title="Limited alignment; travel expectations may differ significantly">Low</div>
                   {% endif %}
                 </div>
               </div>
