@@ -63,8 +63,7 @@ INTEREST_CHOICES = [
 
     # Travel Styles
     'Road Trips',
-    'Volunteer Work',
-    'Digital Nomad'
+    'Volunteer Work'
 ]
 
 
