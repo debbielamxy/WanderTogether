@@ -98,7 +98,7 @@
               <div class="travel-preferences" id="travel-{{ profile.id }}">
                 <div class="meta-row">
                   <div class="meta"><span style="color:var(--field);font-weight:600">Pace:</span> {{ pace_map[profile.pace] if profile.pace in pace_map else profile.pace }}</div>
-                  <div class="meta"><span style="color:var(--field);font-weight:600">Style:</span> {{ style_map[profile.style] if profile.style in style_map else profile.style }}</div>
+                  <div class="meta"><span style="color:var(--field);font-weight:600">Budget:</span> {{ style_map[profile.style] if profile.style in style_map else profile.style }}</div>
                 </div>
                 
                 {% if profile.interests and profile.interests|length > 0 %}
