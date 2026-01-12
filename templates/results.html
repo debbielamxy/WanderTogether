@@ -89,7 +89,7 @@
             <div class="content">
               <div class="name">
                 {{ profile.name }}
-                <span style="font-weight:400;font-size:13px;color:var(--muted);margin-left:8px">· Age: {{ profile.age if profile.age is defined else '—' }}</span>
+                <span style="font-weight:400;font-size:13px;color:var(--muted);margin-left:8px">· Age: {{ profile.age if profile.age is defined else '—' }} · Gender: {{ profile.gender if profile.gender is defined else '—' }}</span>
               </div>
               
               <div class="bio">{{ profile.bio }}</div>
@@ -238,7 +238,7 @@
             noMatchDiv.style.border = '1px solid #6b7280';
             noMatchDiv.style.borderRadius = '8px';
             noMatchDiv.style.borderLeft = '4px solid #6b7280';
-            noMatchDiv.innerHTML = '<div style="color:#374151;font-weight:600;font-size:16px">Found nobody? Try again some time later.</div>';
+            noMatchDiv.innerHTML = '<div style="color:#374151;font-weight:600;font-size:16px">No matches found? Try adjusting your preferences or wait for new travelers to join!</div>';
             
             const form = document.querySelector('form');
             form.parentNode.insertBefore(noMatchDiv, form.nextSibling);
