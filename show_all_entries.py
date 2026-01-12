@@ -117,11 +117,7 @@ def show_all_entries():
                                     print(f"         {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
                             except Exception as e:
                                 print(f"      ⚠️  Could not parse selected profiles data: {e}")
-                                print(f"      📄 Raw data type: {type(entry['selected_profiles'])}")
-                                print(f"      📄 Raw data: {str(entry['selected_profiles'])[:200]}...")
                         else:
-                            print(f"\n   ✅ User Selections: NONE")
-                            print(f"      Selections made at: {entry['selections_made_at']}")
                             print(f"      📋 Selected profiles: 0")
                             print(f"         💡 User clicked 'No match found!' - no suitable companions selected")
                             
@@ -148,6 +144,17 @@ def show_all_entries():
                 
                 print("   " + "-" * 60)
             
+            # Database health check
+            print(f"\n🏥 Database Health:")
+            with_form = sum(1 for entry in entries if entry['form_submitted_at'])
+            with_recommendations = sum(1 for entry in entries if entry['recommendations_generated_at'])
+            with_selections = sum(1 for entry in entries if entry['selections_made_at'])
+            
+            print(f"   Entries with form submission: {with_form}")
+            print(f"   Entries with recommendations: {with_recommendations}")
+            print(f"   Entries with selections: {with_selections}")
+            print(f"   Conversion rate: {(with_selections/with_recommendations)*100:.1f}%" if with_recommendations > 0 else "N/A")
+            
             # Summary statistics
             print(f"\n📈 Summary Statistics:")
             print(f"   Total journeys: {len(entries)}")
@@ -166,17 +173,6 @@ def show_all_entries():
                     print(f"   Avg selections per completed journey: {avg_selections:.1f}")
             
             print(f"\n🎯 Database Size: {len(entries)} user journeys stored")
-            
-            # Database health check
-            print(f"\n🏥 Database Health:")
-            with_form = sum(1 for entry in entries if entry['form_submitted_at'])
-            with_recommendations = sum(1 for entry in entries if entry['recommendations_generated_at'])
-            with_selections = sum(1 for entry in entries if entry['selections_made_at'])
-            
-            print(f"   Entries with form submission: {with_form}")
-            print(f"   Entries with recommendations: {with_recommendations}")
-            print(f"   Entries with selections: {with_selections}")
-            print(f"   Conversion rate: {(with_selections/with_recommendations)*100:.1f}%" if with_recommendations > 0 else "N/A")
     
     except Exception as e:
         print(f"❌ Database error: {e}")
