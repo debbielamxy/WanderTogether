@@ -369,48 +369,9 @@ def submit_matches():
     if len(selections) < 1 or len(selections) > 6:
         return "Select between 1 and 6 candidates", 400
 
-    # Check if user clicked "No match found"
-    no_match_found = request.form.get('no_match_found') == 'true'
-    
     # reconstruct user from hidden fields
     user = parse_user_form(request.form)
     
-    if no_match_found:
-        # User clicked "No match found" - log this without selections
-        journey_id = log_form_submission(user, str(uuid.uuid4()))
-        
-        # Log recommendations for this journey
-        weights = load_survey_weights()
-        recommendations = compute_hybrid_recommendations(user, weights)
-        log_recommendations(journey_id, recommendations)
-        
-        # Log no match found
-        conn = get_db_connection()
-        if conn:
-            try:
-                with conn.cursor() as cur:
-                    cur.execute("""
-                        UPDATE user_journey 
-                        SET 
-                            no_match_found = TRUE,
-                            recommendations_generated_at = NOW()
-                        WHERE id = %s
-                    """, (journey_id,))
-                    conn.commit()
-                    print(f"Logged no match found for journey {journey_id}")
-            except Exception as e:
-                print(f"No match logging error: {e}")
-            finally:
-                conn.close()
-        
-        # Return JSON response for AJAX handling
-        return {
-            'success': True,
-            'message': 'No suitable matches found. Try adjusting your preferences or check back later.',
-            'selected_count': 0
-        }
-    
-    # Normal flow - user made selections
     # Step 1: Create database entry only when user clicks "Match!"
     journey_id = log_form_submission(user, str(uuid.uuid4()))
     

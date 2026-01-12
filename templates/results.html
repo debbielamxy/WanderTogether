@@ -166,8 +166,7 @@
       </div>
 
       <div style="margin-top:20px;text-align:center">
-        <button type="button" id="matchButton">Match!</button>
-        <button type="button" id="noMatchButton" style="margin-left:10px;background:#6b7280;color:white;">No match found</button>
+        <button type="button" id="matchButton">No match found!</button>
       </div>
     </form>
     </div>
@@ -177,9 +176,21 @@
       document.querySelectorAll('input[name="selected"]').forEach(checkbox => {
         checkbox.addEventListener('change', function() {
           const checked = document.querySelectorAll('input[name="selected"]:checked');
+          const matchButton = document.getElementById('matchButton');
+          
           if (checked.length > 6) {
             this.checked = false;
             alert('You can select up to 6 companions only.');
+          } else if (checked.length >= 1) {
+            // Change button text to "Match!" when at least one is selected
+            matchButton.textContent = 'Match!';
+            matchButton.style.background = '#16a34a';
+            matchButton.style.color = 'white';
+          } else {
+            // Change button text back to "No match found!" when none are selected
+            matchButton.textContent = 'No match found!';
+            matchButton.style.background = '#6b7280';
+            matchButton.style.color = 'white';
           }
         });
       });
@@ -188,52 +199,108 @@
       const matchButton = document.getElementById('matchButton');
       if (matchButton) {
         matchButton.addEventListener('click', function(e) {
-        e.preventDefault(); // Prevent normal form submission
-        console.log('Match! button clicked');
+          e.preventDefault(); // Prevent normal form submission
+          console.log('Match! button clicked');
         
-        const checked = document.querySelectorAll('input[name="selected"]:checked');
-        console.log('Selected checkboxes:', checked.length);
-        
-        if (checked.length === 0) {
-          alert('Please select at least one travel companion.');
-          return;
-        }
-        
-        // Submit form via AJAX
-        console.log('Submitting form via AJAX...');
-        const form = document.querySelector('form');
-        const formData = new FormData(form);
-        
-        fetch('/submit_matches', {
-          method: 'POST',
-          body: formData
-        })
-        .then(response => response.json())
-        .then(data => {
-          console.log('Response:', data);
-          if (data.success) {
-            // Reveal contact information for selected profiles
-            checked.forEach(checkbox => {
-              const profileId = checkbox.value.split('::')[0];
-              const card = checkbox.closest('.card');
-              
-              // Hide travel preferences section
-              const travelSection = document.getElementById('travel-' + profileId);
-              if (travelSection) {
-                travelSection.style.display = 'none';
-              }
-              
-              // Hide bio
-              const bioSection = card.querySelector('.bio');
-              if (bioSection) {
-                bioSection.style.display = 'none';
-              }
-              
-              // Show contact information
-              const contactSection = document.getElementById('contact-' + profileId);
-              if (contactSection) {
-                contactSection.style.display = 'block';
-              }
+          const checked = document.querySelectorAll('input[name="selected"]:checked');
+          console.log('Selected checkboxes:', checked.length);
+          
+          if (checked.length === 0) {
+            // Handle "No match found!" case
+            // Grey out all profiles
+            const allCards = document.querySelectorAll('.card');
+            allCards.forEach(card => {
+              card.style.opacity = '0.3';
+              card.style.pointerEvents = 'none';
+            });
+            
+            // Disable all checkboxes
+            const allCheckboxes = document.querySelectorAll('input[name="selected"]');
+            allCheckboxes.forEach(checkbox => {
+              checkbox.disabled = true;
+            });
+            
+            // Disable the button
+            matchButton.disabled = true;
+            
+            // Hide the button container
+            const buttonContainer = document.querySelector('div[style*="margin-top:20px;text-align:center"]');
+            if (buttonContainer) {
+              buttonContainer.style.display = 'none';
+            }
+            
+            // Show no match found message
+            const noMatchDiv = document.createElement('div');
+            noMatchDiv.style.marginTop = '20px';
+            noMatchDiv.style.textAlign = 'center';
+            noMatchDiv.style.padding = '16px';
+            noMatchDiv.style.background = '#f5f5f5';
+            noMatchDiv.style.border = '1px solid #6b7280';
+            noMatchDiv.style.borderRadius = '8px';
+            noMatchDiv.style.borderLeft = '4px solid #6b7280';
+            noMatchDiv.innerHTML = '<div style="color:#374151;font-weight:600;font-size:16px">Found nobody? Try again some time later.</div>';
+            
+            const form = document.querySelector('form');
+            form.parentNode.insertBefore(noMatchDiv, form.nextSibling);
+            
+            return;
+          }
+          
+          // Show success message banner immediately
+          const successDiv = document.createElement('div');
+          successDiv.style.marginTop = '20px';
+          successDiv.style.textAlign = 'center';
+          successDiv.style.padding = '16px';
+          successDiv.style.background = '#f0fdf4';
+          successDiv.style.border = '1px solid #16a34a';
+          successDiv.style.borderRadius = '8px';
+          successDiv.style.borderLeft = '4px solid #16a34a';
+          successDiv.innerHTML = '<div style="color:#166534;font-weight:600;font-size:16px">Revealing contact... Connect and start planning your trip now!</div>';
+          
+          const form = document.querySelector('form');
+          form.parentNode.insertBefore(successDiv, form.nextSibling);
+          
+          // Hide the button container
+          const buttonContainer = document.querySelector('div[style*="margin-top:20px;text-align:center"]');
+          if (buttonContainer) {
+            buttonContainer.style.display = 'none';
+          }
+          
+          // Submit form via AJAX
+          console.log('Submitting form via AJAX...');
+          const formData = new FormData(form);
+          
+          fetch('/submit_matches', {
+            method: 'POST',
+            body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+            console.log('Response:', data);
+            if (data.success) {
+              // Reveal contact information for selected profiles
+              checked.forEach(checkbox => {
+                const profileId = checkbox.value.split('::')[0];
+                const card = checkbox.closest('.card');
+                
+                // Hide travel preferences section
+                const travelSection = document.getElementById('travel-' + profileId);
+                if (travelSection) {
+                  travelSection.style.display = 'none';
+                }
+                
+                // Hide bio
+                const bioSection = card.querySelector('.bio');
+                if (bioSection) {
+                  bioSection.style.display = 'none';
+                }
+                
+                // Show contact information
+                const contactSection = document.getElementById('contact-' + profileId);
+                if (contactSection) {
+                  contactSection.style.display = 'block';
+                }
+              });
               
               // Grey out unselected profiles
               const allCheckboxes = document.querySelectorAll('input[name="selected"]');
@@ -247,90 +314,15 @@
                   }
                 }
               });
-            });
-            
-            // Hide buttons and show success message
-            const buttonContainer = document.querySelector('div[style*="margin-top:20px;text-align:center"]');
-            if (buttonContainer) {
-              buttonContainer.style.display = 'none';
+            } 
+            else {
+              alert('Error: ' + (data.message || 'Unknown error occurred'));
             }
-            
-            // Show success message
-            const successDiv = document.createElement('div');
-            successDiv.style.marginTop = '20px';
-            successDiv.style.textAlign = 'center';
-            successDiv.style.padding = '16px';
-            successDiv.style.background = '#f0fdf4';
-            successDiv.style.border = '1px solid #16a34a';
-            successDiv.style.borderRadius = '8px';
-            successDiv.style.borderLeft = '4px solid #16a34a';
-            successDiv.innerHTML = '<div style="color:#166534;font-weight:600;font-size:16px">Matched! Contact and connect with your travel buddy now!</div>';
-            
-            form.parentNode.insertBefore(successDiv, form.nextSibling);
-            
-            console.log('Contact information revealed successfully');
-          } else {
-            alert('Error: ' + (data.message || 'Unknown error occurred'));
-          }
-        })
-        .catch(error => {
-          console.error('Error:', error);
-          alert('An error occurred while processing your request. Please try again.');
-        });
-      });
-      }
-
-      // Handle No match found button click
-      const noMatchButton = document.getElementById('noMatchButton');
-      if (noMatchButton) {
-        noMatchButton.addEventListener('click', function(e) {
-          e.preventDefault();
-          
-          // Set no_match_found flag in hidden field
-          const noMatchField = document.createElement('input');
-          noMatchField.type = 'hidden';
-          noMatchField.name = 'no_match_found';
-          noMatchField.value = 'true';
-          const form = document.querySelector('form');
-          if (form) {
-            form.appendChild(noMatchField);
-          }
-          
-          // Grey out all profiles
-          const allCards = document.querySelectorAll('.card');
-          allCards.forEach(card => {
-            card.style.opacity = '0.3';
-            card.style.pointerEvents = 'none';
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred while processing your request. Please try again.');
           });
-          
-          // Disable all checkboxes
-          const allCheckboxes = document.querySelectorAll('input[name="selected"]');
-          allCheckboxes.forEach(checkbox => {
-            checkbox.disabled = true;
-          });
-          
-          // Disable both buttons
-          matchButton.disabled = true;
-          noMatchButton.disabled = true;
-          
-          // Hide the button container
-          const buttonContainer = document.querySelector('div[style*="margin-top:20px;text-align:center"]');
-          if (buttonContainer) {
-            buttonContainer.style.display = 'none';
-          }
-          
-          // Show no match message
-          const noMatchDiv = document.createElement('div');
-          noMatchDiv.style.marginTop = '20px';
-          noMatchDiv.style.textAlign = 'center';
-          noMatchDiv.style.padding = '16px';
-          noMatchDiv.style.background = '#f5f5f5';
-          noMatchDiv.style.border = '1px solid #6b7280';
-          noMatchDiv.style.borderRadius = '8px';
-          noMatchDiv.style.borderLeft = '4px solid #6b7280';
-          noMatchDiv.innerHTML = '<div style="color:#374151;font-weight:600;font-size:16px">No suitable matches? Try adjusting your preferences or check back later.</div>';
-          
-          form.parentNode.insertBefore(noMatchDiv, form.nextSibling);
         });
       }
     </script>
