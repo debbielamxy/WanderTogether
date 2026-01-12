@@ -364,10 +364,9 @@ def recommend():
 def submit_matches():
     selections = request.form.getlist('selected')
     
-    if not selections:
-        return "No selections made", 400
-    if len(selections) < 1 or len(selections) > 6:
-        return "Select between 1 and 6 candidates", 400
+    # Allow empty selections (user clicked "No match found!")
+    if len(selections) > 6:
+        return "Select between 0 and 6 candidates", 400
 
     # reconstruct user from hidden fields
     user = parse_user_form(request.form)
@@ -380,36 +379,51 @@ def submit_matches():
     recommendations = compute_hybrid_recommendations(user, weights)
     log_recommendations(journey_id, recommendations)
     
-    # Parse selected profiles
-    selected_profiles = []
-    for selection in selections:
-        parts = selection.split('::')
-        if len(parts) >= 4:
-            profile_id = int(parts[0])
-            final_score = float(parts[1])
-            compatibility_score = float(parts[2])
-            trust_score = float(parts[3]) if len(parts) > 3 else 0.0
-            
-            # Find profile in SIMULATED_PROFILES
-            for profile in SIMULATED_PROFILES:
-                if profile['id'] == profile_id:
-                    selected_profiles.append((profile, final_score, compatibility_score))
-                    break
-    
     # Step 3: Log selections (FINAL STEP - CONTACT REVEALED)
-    log_selections(journey_id, selected_profiles)
-    
-    # Console logging
-    print(f"User {user.get('name', 'Unknown')} revealed contact for {len(selections)} matches")
-    for profile, final_score, compatibility_score in selected_profiles:
-        print(f"  - {profile['name']}: Score {final_score:.3f}, Compatibility {compatibility_score:.3f}")
-    
-    # Return JSON response for AJAX handling
-    return {
-        'success': True,
-        'message': f'Contact information revealed for {len(selected_profiles)} travel companion(s)',
-        'selected_count': len(selected_profiles)
-    }
+    if selections:
+        # Parse selected profiles
+        selected_profiles = []
+        for selection in selections:
+            parts = selection.split('::')
+            if len(parts) >= 4:
+                profile_id = int(parts[0])
+                final_score = float(parts[1])
+                compatibility_score = float(parts[2])
+                trust_score = float(parts[3]) if len(parts) > 3 else 0.0
+                
+                # Find profile in SIMULATED_PROFILES
+                for profile in SIMULATED_PROFILES:
+                    if profile['id'] == profile_id:
+                        selected_profiles.append((profile, final_score, compatibility_score))
+                        break
+        
+        # Log selections with profiles
+        log_selections(journey_id, selected_profiles)
+        
+        # Console logging
+        print(f"User {user.get('name', 'Unknown')} revealed contact for {len(selections)} matches")
+        for profile, final_score, compatibility_score in selected_profiles:
+            print(f"  - {profile['name']}: Score {final_score:.3f}, Compatibility {compatibility_score:.3f}")
+        
+        # Return JSON response for AJAX handling
+        return {
+            'success': True,
+            'message': f'Contact information revealed for {len(selected_profiles)} travel companion(s)',
+            'selected_count': len(selected_profiles)
+        }
+    else:
+        # Log empty selections (user clicked "No match found!")
+        log_selections(journey_id, [])
+        
+        # Console logging
+        print(f"User {user.get('name', 'Unknown')} clicked 'No match found!' - no selections made")
+        
+        # Return JSON response for AJAX handling
+        return {
+            'success': True,
+            'message': 'No selections made - user indicated no suitable matches',
+            'selected_count': 0
+        }
 
 
 @app.route('/status', methods=['GET'])

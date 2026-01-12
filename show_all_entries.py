@@ -120,8 +120,31 @@ def show_all_entries():
                                 print(f"      📄 Raw data type: {type(entry['selected_profiles'])}")
                                 print(f"      📄 Raw data: {str(entry['selected_profiles'])[:200]}...")
                         else:
-                            print(f"\n   ❌ No selections made")
-                            print(f"      💡 User viewed recommendations but didn't click 'Match!' button")
+                            print(f"\n   ✅ User Selections: NONE")
+                            print(f"      Selections made at: {entry['selections_made_at']}")
+                            print(f"      📋 Selected profiles: 0")
+                            print(f"         💡 User clicked 'No match found!' - no suitable companions selected")
+                            
+                            # Show suggested profiles even when no selections made
+                            if entry['suggested_profiles']:
+                                try:
+                                    # Handle both string and object types
+                                    if isinstance(entry['suggested_profiles'], str):
+                                        suggested = json.loads(entry['suggested_profiles'])
+                                    else:
+                                        suggested = entry['suggested_profiles']
+                                    
+                                    print(f"\n   📋 Suggested profiles that were available: {len(suggested)}")
+                                    
+                                    # Show all suggested profiles with scores
+                                    for j, profile in enumerate(suggested, 1):
+                                        trust = profile.get('trust', 0)
+                                        compat = profile.get('compatibility_score', 0)
+                                        print(f"      {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
+                                except Exception as e:
+                                    print(f"   ⚠️  Could not parse suggested profiles data: {e}")
+                                    print(f"   📄 Raw data type: {type(entry['suggested_profiles'])}")
+                                    print(f"   📄 Raw data: {entry['suggested_profiles'][:100]}...")
                 
                 print("   " + "-" * 60)
             

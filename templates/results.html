@@ -206,12 +206,12 @@
           console.log('Selected checkboxes:', checked.length);
           
           if (checked.length === 0) {
-            // Handle "No match found!" case
+            // Handle "No match found!" case - still submit to backend for logging
             // Grey out all profiles
             const allCards = document.querySelectorAll('.card');
             allCards.forEach(card => {
               card.style.opacity = '0.3';
-              card.style.pointerEvents = 'none';
+              card.pointerEvents = 'none';
             });
             
             // Disable all checkboxes
@@ -242,6 +242,22 @@
             
             const form = document.querySelector('form');
             form.parentNode.insertBefore(noMatchDiv, form.nextSibling);
+            
+            // Submit form via AJAX for logging (empty selections)
+            console.log('Submitting form via AJAX for no selections...');
+            const formData = new FormData(form);
+            
+            fetch('/submit_matches', {
+              method: 'POST',
+              body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+              console.log('No selections response:', data);
+            })
+            .catch(error => {
+              console.error('Error:', error);
+            });
             
             return;
           }
