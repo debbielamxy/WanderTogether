@@ -130,49 +130,12 @@ def show_all_entries():
                                     else:
                                         suggested = entry['suggested_profiles']
                                     
-                                    print(f"\n   📋 Suggested profiles that were available: {len(suggested)}")
-                                    
-                                    # Show all suggested profiles with scores
-                                    for j, profile in enumerate(suggested, 1):
-                                        trust = profile.get('trust', 0)
-                                        compat = profile.get('compatibility_score', 0)
-                                        print(f"      {j}. {profile['name']} - Trust: {trust:.3f}, Compatibility: {compat:.3f}")
                                 except Exception as e:
                                     print(f"   ⚠️  Could not parse suggested profiles data: {e}")
                                     print(f"   📄 Raw data type: {type(entry['suggested_profiles'])}")
                                     print(f"   📄 Raw data: {entry['suggested_profiles'][:100]}...")
                 
                 print("   " + "-" * 60)
-            
-            # Database health check
-            print(f"\n🏥 Database Health:")
-            with_form = sum(1 for entry in entries if entry['form_submitted_at'])
-            with_recommendations = sum(1 for entry in entries if entry['recommendations_generated_at'])
-            with_selections = sum(1 for entry in entries if entry['selections_made_at'])
-            
-            print(f"   Entries with form submission: {with_form}")
-            print(f"   Entries with recommendations: {with_recommendations}")
-            print(f"   Entries with selections: {with_selections}")
-            print(f"   Conversion rate: {(with_selections/with_recommendations)*100:.1f}%" if with_recommendations > 0 else "N/A")
-            
-            # Summary statistics
-            print(f"\n📈 Summary Statistics:")
-            print(f"   Total journeys: {len(entries)}")
-            
-            completed = sum(1 for entry in entries if entry['selections_made_at'])
-            print(f"   Completed journeys (with selections): {completed}")
-            
-            if len(entries) > 0:
-                completion_rate = (completed / len(entries)) * 100
-                print(f"   Completion rate: {completion_rate:.1f}%")
-                
-                # Calculate average selections
-                completed_entries = [entry for entry in entries if entry['total_selected_count']]
-                if completed_entries:
-                    avg_selections = sum(entry['total_selected_count'] for entry in completed_entries) / len(completed_entries)
-                    print(f"   Avg selections per completed journey: {avg_selections:.1f}")
-            
-            print(f"\n🎯 Database Size: {len(entries)} user journeys stored")
     
     except Exception as e:
         print(f"❌ Database error: {e}")
